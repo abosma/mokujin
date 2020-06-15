@@ -1,1 +1,1 @@
-service: python mokujin.py
+worker: python mokujin.py
