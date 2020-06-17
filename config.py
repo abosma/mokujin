@@ -1,5 +1,7 @@
 CHANNELS = ["tekken", "raamikysely", "tekken-frames", "live3d", "3d"]
 
+EXTRA_DATA = {'timeout_normal': 20, 'timeout_error': 10}
+
 CHARACTER_NAMES = [
     {
         "name": "armor_king",

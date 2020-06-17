@@ -14,3 +14,4 @@ venv
 # Eclipse
 .project
 .settings
+.vscode/settings.json
