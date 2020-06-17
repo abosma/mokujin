@@ -87,12 +87,12 @@ async def test(ctx):
 
 @bot.command()
 async def setErrorTimeout(ctx, arg):
-    if(isinstance(arg, float))
+    if(isinstance(arg, float)):
         config.EXTRA_DATA['timeout_error'] = arg
 
 @bot.command()
 async def setTimeout(ctx, arg):
-    if(isinstance(arg, float))
+    if(isinstance(arg, float)):
         config.EXTRA_DATA['timeout_normal'] = arg
 
 @bot.event
