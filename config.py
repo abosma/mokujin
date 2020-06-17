@@ -1,4 +1,4 @@
-CHANNELS = ["tekken", "raamikysely", "tekken-frames", 'live3d']
+CHANNELS = ["tekken", "raamikysely", "tekken-frames", "live3d", "3d"]
 
 CHARACTER_NAMES = [
     {
