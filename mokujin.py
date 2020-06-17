@@ -90,15 +90,24 @@ async def test(ctx):
 
 @bot.command()
 async def settimeout(ctx, arg):
-    if(isinstance(arg, float)):
-        normal_timeout = arg
+    try:
+        timeout = float(arg)
+        normal_timeout = timeout
         ctx.send('Set the timeout of normal messages to:' + arg, delete_after=10)
+    except Exception as e:
+        ctx.send(e, delete_after=10)
 
 @bot.command()
 async def seterrortimeout(ctx, arg):
-    if(isinstance(arg, float)):
-        error_timeout = arg
+    try:
+        timeout = float(arg)
+        error_timeout = timeout
         ctx.send('Set the timeout of error messages to:' + arg, delete_after=10)
+    except Exception as e:
+        ctx.send(e, delete_after=10)
+
+    if(isinstance(arg, float)):
+        
 
 @bot.event
 async def on_message(message):
