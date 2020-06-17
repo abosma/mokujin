@@ -55,7 +55,7 @@ CHARACTER_NAMES = [
     },
     {
         "name": "kuma",
-        "alias": ["panda", "karhu"]
+        "alias": ["panda", "karhu", "olly"]
     },
     {
         "name": "marduk",
@@ -67,7 +67,7 @@ CHARACTER_NAMES = [
     },
     {
         "name": "noctis",
-        "alias": ["nocto"]
+        "alias": ["nocto", "bobby", "obama"]
     },
     {
         "name": "paul",
