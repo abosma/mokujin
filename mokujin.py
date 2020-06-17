@@ -106,9 +106,6 @@ async def seterrortimeout(ctx, arg):
     except Exception as e:
         ctx.send(e, delete_after=10)
 
-    if(isinstance(arg, float)):
-        
-
 @bot.event
 async def on_message(message):
     '''This has the main functionality of the bot. It has a lot of
