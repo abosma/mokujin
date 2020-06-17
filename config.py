@@ -79,7 +79,7 @@ CHARACTER_NAMES = [
     },
     {
         "name": "yoshimitsu",
-        "alias": ["yoshi"]
+        "alias": ["yoshi", "ramification"]
     },
     {
         "name": "xiaoyu",
