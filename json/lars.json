@@ -538,7 +538,7 @@
   "Damage" : "12,15",
   "Startup" : ""
 }, {
-  "Command" : "db2, 3Hold ",
+  "Command" : "db2, 3 Hold ",
   "Hit" : "KDN",
   "Block" : "+8",
   "Notes" : "",
@@ -692,7 +692,7 @@
   "Damage" : "45",
   "Startup" : "84F"
 }, {
-  "Command" : "ubor u1",
+  "Command" : "ub or u1",
   "Hit" : "-1",
   "Block" : "-12",
   "Notes" : "TJ 9F",
@@ -714,7 +714,7 @@
   "Damage" : "12",
   "Startup" : "13F"
 }, {
-  "Command" : "ubor uor uf2",
+  "Command" : "ub or u or uf2",
   "Hit" : "+9",
   "Block" : "-12",
   "Notes" : "",
@@ -725,7 +725,7 @@
   "Damage" : "17",
   "Startup" : "15F"
 }, {
-  "Command" : "ubor uor uf3",
+  "Command" : "ub or u or uf3",
   "Hit" : "LNC",
   "Block" : "-26",
   "Notes" : "TJ 12F\nTo crouching after hit\nAir Status -13F after block\nTo Standing after block\nMeaty 1F",
@@ -747,7 +747,7 @@
   "Damage" : "20",
   "Startup" : "25F"
 }, {
-  "Command" : "uor uf4",
+  "Command" : "u or uf4",
   "Hit" : "LNC",
   "Block" : "-9",
   "Notes" : "TJ 9F",
@@ -758,7 +758,7 @@
   "Damage" : "20",
   "Startup" : "25F"
 }, {
-  "Command" : "uf☆ 4",
+  "Command" : "uf,n,4",
   "Hit" : "LNC",
   "Block" : "-11",
   "Notes" : "TJ 9F",
@@ -791,7 +791,7 @@
   "Damage" : "20",
   "Startup" : "21F"
 }, {
-  "Command" : "ff2f(must hit) ",
+  "Command" : "ff2f (must hit) ",
   "Hit" : "LNC",
   "Block" : "",
   "Notes" : "Reverse Position",
@@ -890,7 +890,7 @@
   "Damage" : "30",
   "Startup" : "20F"
 }, {
-  "Command" : "FC 1",
+  "Command" : " FC 1",
   "Hit" : "+6",
   "Block" : "-5",
   "Notes" : "TC \nReturns to crouching.\nInput<img src=\"../6'.bmp\" class=\"c\">to standing",
@@ -901,7 +901,7 @@
   "Damage" : "5",
   "Startup" : "10F"
 }, {
-  "Command" : "FC 2",
+  "Command" : " FC 2",
   "Hit" : "+7",
   "Block" : "-4",
   "Notes" : "TC \nReturns to crouching.",
@@ -912,7 +912,7 @@
   "Damage" : "8",
   "Startup" : "11F"
 }, {
-  "Command" : "FC 3",
+  "Command" : " FC 3",
   "Hit" : "-3",
   "Block" : "-17",
   "Notes" : "TC \nReturns to crouching.",
@@ -923,7 +923,7 @@
   "Damage" : "12",
   "Startup" : "16F"
 }, {
-  "Command" : "FC 4",
+  "Command" : " FC 4",
   "Hit" : "-4",
   "Block" : "-15",
   "Notes" : "TC \nReturns to crouching.",
@@ -934,7 +934,7 @@
   "Damage" : "10",
   "Startup" : "12F"
 }, {
-  "Command" : "WS 1",
+  "Command" : " WS 1",
   "Hit" : "LNC",
   "Block" : "-12",
   "Notes" : "",
@@ -945,7 +945,7 @@
   "Damage" : "16",
   "Startup" : "15F"
 }, {
-  "Command" : "WS 1f(must hit) ",
+  "Command" : " WS 1f (must hit) ",
   "Hit" : "LNC",
   "Block" : "",
   "Notes" : "Reverse Position",
@@ -956,7 +956,7 @@
   "Damage" : "16",
   "Startup" : ""
 }, {
-  "Command" : "WS 2",
+  "Command" : " WS 2",
   "Hit" : "+3",
   "Block" : "-8",
   "Notes" : "",
@@ -967,7 +967,7 @@
   "Damage" : "13",
   "Startup" : "13F"
 }, {
-  "Command" : "WS 2f",
+  "Command" : " WS 2f",
   "Hit" : "+6",
   "Block" : "-5",
   "Notes" : "",
@@ -978,7 +978,7 @@
   "Damage" : "13",
   "Startup" : ""
 }, {
-  "Command" : "WS 2d",
+  "Command" : " WS 2d",
   "Hit" : "-1",
   "Block" : "-12",
   "Notes" : "",
@@ -989,7 +989,7 @@
   "Damage" : "13",
   "Startup" : ""
 }, {
-  "Command" : "WS 2, 1",
+  "Command" : " WS 2, 1",
   "Hit" : "+5C",
   "Block" : "-12C",
   "Notes" : "Combo from 1st NH\nBlock or NH force to crouching\n",
@@ -1000,7 +1000,7 @@
   "Damage" : "13,17",
   "Startup" : ""
 }, {
-  "Command" : "WS 3",
+  "Command" : " WS 3",
   "Hit" : "KDN",
   "Block" : "+7",
   "Notes" : "",
@@ -1011,7 +1011,7 @@
   "Damage" : "30",
   "Startup" : "20F"
 }, {
-  "Command" : "WS 4",
+  "Command" : " WS 4",
   "Hit" : "+5",
   "Block" : "-6",
   "Notes" : "Meaty 1F",
@@ -1022,7 +1022,7 @@
   "Damage" : "16",
   "Startup" : "11F"
 }, {
-  "Command" : "FC df2",
+  "Command" : " FC df2",
   "Hit" : "+5",
   "Block" : "-8",
   "Notes" : "",
@@ -1033,7 +1033,7 @@
   "Damage" : "19",
   "Startup" : "15F"
 }, {
-  "Command" : "FC df1+2",
+  "Command" : " FC df1+2",
   "Hit" : "+1",
   "Block" : "-12",
   "Notes" : "TC ",
@@ -1044,7 +1044,7 @@
   "Damage" : "10,14",
   "Startup" : "18F"
 }, {
-  "Command" : "SS 2",
+  "Command" : " SS 2",
   "Hit" : "KDN",
   "Block" : "-7C",
   "Notes" : "",
@@ -1055,7 +1055,7 @@
   "Damage" : "20",
   "Startup" : "16F"
 }, {
-  "Command" : "While enemy is down d3+4",
+  "Command" : " While enemy is down d3+4",
   "Hit" : "-3",
   "Block" : "-14",
   "Notes" : "",
@@ -1066,7 +1066,7 @@
   "Damage" : "25",
   "Startup" : "22F"
 }, {
-  "Command" : "While enemy is down d3+4Hold f",
+  "Command" : " While enemy is down d3+4 Hold f",
   "Hit" : "-12",
   "Block" : "-23",
   "Notes" : "",
@@ -1099,7 +1099,7 @@
   "Damage" : "20",
   "Startup" : "16F"
 }, {
-  "Command" : "bbubwith back against wall ",
+  "Command" : "bbub with back against wall ",
   "Hit" : "KDN",
   "Block" : "-1",
   "Notes" : "Advance Input is unavailable\nAir Status 5F\nInvinciblity during 8 to 13F",
@@ -1110,7 +1110,7 @@
   "Damage" : "25",
   "Startup" : "29F"
 }, {
-  "Command" : "BT 1or 2",
+  "Command" : " BT 1 or 2",
   "Hit" : "+3",
   "Block" : "-8",
   "Notes" : "",
@@ -1121,7 +1121,7 @@
   "Damage" : "15",
   "Startup" : "8F"
 }, {
-  "Command" : "BT 3or 4",
+  "Command" : " BT 3 or 4",
   "Hit" : "KDN",
   "Block" : "-8",
   "Notes" : "",
@@ -1132,7 +1132,7 @@
   "Damage" : "18",
   "Startup" : "10F"
 }, {
-  "Command" : "BT d1or d2",
+  "Command" : " BT d1 or d2",
   "Hit" : "+9",
   "Block" : "-2",
   "Notes" : "TC 1F\nReturns to crouching.",
@@ -1143,7 +1143,7 @@
   "Damage" : "10",
   "Startup" : "10F"
 }, {
-  "Command" : "BT d3or d4",
+  "Command" : " BT d3 or d4",
   "Hit" : "+3",
   "Block" : "-11",
   "Notes" : "TC 1F\nReturns to crouching.",
@@ -1154,7 +1154,7 @@
   "Damage" : "12",
   "Startup" : "10F"
 }, {
-  "Command" : "Combination ",
+  "Command" : " Combination ",
   "Hit" : "",
   "Block" : "",
   "Notes" : "",
@@ -1165,7 +1165,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "SE 1",
+  "Command" : " SE 1",
   "Hit" : "KDN",
   "Block" : "-10",
   "Notes" : "WB \n",
@@ -1176,7 +1176,7 @@
   "Damage" : "27",
   "Startup" : "12F"
 }, {
-  "Command" : "SE df1",
+  "Command" : " SE df1",
   "Hit" : "+8C",
   "Block" : "±0C",
   "Notes" : "Block or Hit force to crouching\n",
@@ -1187,7 +1187,7 @@
   "Damage" : "20",
   "Startup" : "14F"
 }, {
-  "Command" : "SE 2",
+  "Command" : " SE 2",
   "Hit" : "+5C",
   "Block" : "-13",
   "Notes" : "TC 12F\nReturns to crouching.\nNH force to crouching\n",
@@ -1198,7 +1198,7 @@
   "Damage" : "20",
   "Startup" : "19F"
 }, {
-  "Command" : "SE 3",
+  "Command" : " SE 3",
   "Hit" : "LNC",
   "Block" : "-14",
   "Notes" : "TJ 14F\n",
@@ -1209,7 +1209,7 @@
   "Damage" : "20",
   "Startup" : "14F"
 }, {
-  "Command" : "SE 4",
+  "Command" : " SE 4",
   "Hit" : "KDN",
   "Block" : "-9",
   "Notes" : "H TS PC 6F\n",
@@ -1231,7 +1231,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "DE f",
+  "Command" : " DE f",
   "Hit" : "",
   "Block" : "",
   "Notes" : "",
@@ -1242,7 +1242,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "DE 1",
+  "Command" : " DE 1",
   "Hit" : "+8",
   "Block" : "-1",
   "Notes" : "",
@@ -1253,7 +1253,7 @@
   "Damage" : "14",
   "Startup" : "11F"
 }, {
-  "Command" : "DE 1f",
+  "Command" : " DE 1f",
   "Hit" : "+4",
   "Block" : "-5",
   "Notes" : "",
@@ -1264,7 +1264,7 @@
   "Damage" : "14",
   "Startup" : ""
 }, {
-  "Command" : "DE 1, 2",
+  "Command" : " DE 1, 2",
   "Hit" : "KDN",
   "Block" : "-6",
   "Notes" : "Combo from 1st NH",
@@ -1275,7 +1275,7 @@
   "Damage" : "14,20",
   "Startup" : ""
 }, {
-  "Command" : "DE 2",
+  "Command" : " DE 2",
   "Hit" : "+7",
   "Block" : "-7",
   "Notes" : "",
@@ -1286,7 +1286,7 @@
   "Damage" : "19",
   "Startup" : "17F"
 }, {
-  "Command" : "DE 3",
+  "Command" : " DE 3",
   "Hit" : "KDN",
   "Block" : "+4",
   "Notes" : "WB \n",
@@ -1297,7 +1297,7 @@
   "Damage" : "25",
   "Startup" : "27F"
 }, {
-  "Command" : "DE 4, 3",
+  "Command" : " DE 4, 3",
   "Hit" : "+3",
   "Block" : "-16",
   "Notes" : "Equivalent to<img src=\"../6.bmp\" class=\"c\"><img src=\"../6'.bmp\" class=\"c\"><img src=\"../rk.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../lk.bmp\" class=\"c\">\n",
@@ -1308,7 +1308,7 @@
   "Damage" : "14,20",
   "Startup" : "21F"
 }, {
-  "Command" : "DE 1+2",
+  "Command" : " DE 1+2",
   "Hit" : "KDN",
   "Block" : "-10",
   "Notes" : "TS \nReturns to crouching.",
@@ -1319,7 +1319,7 @@
   "Damage" : "20",
   "Startup" : "12F"
 }, {
-  "Command" : "ubor uor uf3+4",
+  "Command" : "ub or u or uf3+4",
   "Hit" : "",
   "Block" : "",
   "Notes" : "TJ 11F",
@@ -1352,7 +1352,7 @@
   "Damage" : "20(,20)",
   "Startup" : "39F"
 }, {
-  "Command" : "During Rage 1+2",
+  "Command" : " During Rage 1+2",
   "Hit" : "Th",
   "Block" : "-22",
   "Notes" : "Guard Point 8F\n",
@@ -1363,7 +1363,7 @@
   "Damage" : "55",
   "Startup" : "20F"
 }, {
-  "Command" : "During Rage ＆ SE 1+2",
+  "Command" : " During Rage ＆ SE 1+2",
   "Hit" : "KDN",
   "Block" : "+9",
   "Notes" : "",
@@ -1374,7 +1374,7 @@
   "Damage" : "27",
   "Startup" : "12F"
 }, {
-  "Command" : "During Rage Drive b2+3",
+  "Command" : " During Rage Drive b2+3",
   "Hit" : "LNC",
   "Block" : "LNC",
   "Notes" : "",
@@ -1407,7 +1407,7 @@
   "Damage" : "35",
   "Startup" : "12F"
 }, {
-  "Command" : "Approach from left side ",
+  "Command" : " Approach from left side ",
   "Hit" : "",
   "Block" : "Foot-sd Fac-Up",
   "Notes" : "Damage () is wall bonus",
@@ -1418,7 +1418,7 @@
   "Damage" : "40(45)",
   "Startup" : ""
 }, {
-  "Command" : "Approach from right side ",
+  "Command" : " Approach from right side ",
   "Hit" : "",
   "Block" : "Head-sd Fac-Up",
   "Notes" : "",
@@ -1429,7 +1429,7 @@
   "Damage" : "40",
   "Startup" : ""
 }, {
-  "Command" : "Approach from behind ",
+  "Command" : " Approach from behind ",
   "Hit" : "disable",
   "Block" : "Foot-sd Fac-Dwn",
   "Notes" : "",
@@ -1451,7 +1451,7 @@
   "Damage" : "40(45)",
   "Startup" : "12F"
 }, {
-  "Command" : "uf3+4Hold ",
+  "Command" : "uf3+4 Hold ",
   "Hit" : "or or or -7F RP",
   "Block" : "Foot-sd Fac-Up",
   "Notes" : "Break Throw 23F\nDamage () is Approach from behind (can break throw)",
@@ -1462,7 +1462,7 @@
   "Damage" : "40(50)",
   "Startup" : "25F"
 }, {
-  "Command" : "fff2+4or DE 2+3",
+  "Command" : "fff2+4 or DE 2+3",
   "Hit" : "-3F RP",
   "Block" : "Head-sd Fac-Dwn",
   "Notes" : "Disable Preciding Input\nStart-up 12F From DE",
@@ -1473,7 +1473,7 @@
   "Damage" : "40",
   "Startup" : "11F"
 }, {
-  "Command" : "Approach mid-air enemy fff2+4or DE 2+3",
+  "Command" : " Approach mid-air enemy fff2+4 or DE 2+3",
   "Hit" : "disable",
   "Block" : "Foot-sd Fac-Up",
   "Notes" : "Disable Preciding Input\nDamage () is wall bonus\nWall Stun",

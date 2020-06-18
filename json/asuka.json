@@ -186,7 +186,7 @@
   "Damage" : "18",
   "Startup" : "11F"
 }, {
-  "Command" : "【 3, 4】 ",
+  "Command" : "3~4",
   "Hit" : "KDN",
   "Block" : "-26",
   "Notes" : "H TC 6F\nAdvance Input is unavailable\nStart-up 27F in actualy\nReturns to crouching.\nInput<img src=\"../1'.bmp\" class=\"c\">Cancel　(total 39F)\n",
@@ -351,7 +351,7 @@
   "Damage" : "24",
   "Startup" : "31F"
 }, {
-  "Command" : "f3Hold ",
+  "Command" : "f3 Hold ",
   "Hit" : "KDN",
   "Block" : "+6",
   "Notes" : "TS \nInput<img src=\"../4'.bmp\" class=\"c\">cancel",
@@ -362,7 +362,7 @@
   "Damage" : "26",
   "Startup" : "52F"
 }, {
-  "Command" : "f3Hold-Max ",
+  "Command" : "f3 Hold-Max ",
   "Hit" : "KDN",
   "Block" : "KDN",
   "Notes" : "Input<img src=\"../4'.bmp\" class=\"c\">cancel",
@@ -505,7 +505,7 @@
   "Damage" : "7",
   "Startup" : "12F"
 }, {
-  "Command" : "d1+2or FC d1+2",
+  "Command" : "d1+2 or FC d1+2",
   "Hit" : "KDN",
   "Block" : "-18",
   "Notes" : "TC 10F\n",
@@ -780,7 +780,7 @@
   "Damage" : "15,8,23",
   "Startup" : ""
 }, {
-  "Command" : "ubor uor uf1",
+  "Command" : "ub or u or uf1",
   "Hit" : "-1",
   "Block" : "-12",
   "Notes" : "TJ 9F",
@@ -791,7 +791,7 @@
   "Damage" : "12",
   "Startup" : "18F"
 }, {
-  "Command" : "ubor u2",
+  "Command" : "ub or u2",
   "Hit" : "+9",
   "Block" : "-12",
   "Notes" : "",
@@ -813,7 +813,7 @@
   "Damage" : "20(,20)",
   "Startup" : "14F"
 }, {
-  "Command" : "ubor uor uf3",
+  "Command" : "ub or u or uf3",
   "Hit" : "+8",
   "Block" : "-3",
   "Notes" : "TJ 11F\nMeaty 1F",
@@ -835,7 +835,7 @@
   "Damage" : "25",
   "Startup" : "20F"
 }, {
-  "Command" : "uor uf4",
+  "Command" : "u or uf4",
   "Hit" : "LNC",
   "Block" : "-13",
   "Notes" : "TJ 9F",
@@ -846,7 +846,7 @@
   "Damage" : "25",
   "Startup" : "20F"
 }, {
-  "Command" : "uf☆ 4",
+  "Command" : "uf,n,4",
   "Hit" : "KDN",
   "Block" : "-9",
   "Notes" : "",
@@ -967,7 +967,7 @@
   "Damage" : "32",
   "Startup" : "24F"
 }, {
-  "Command" : "FC 1",
+  "Command" : " FC 1",
   "Hit" : "+6",
   "Block" : "-5",
   "Notes" : "TC \nReturns to crouching.\nInput<img src=\"../6'.bmp\" class=\"c\">to standing",
@@ -978,7 +978,7 @@
   "Damage" : "5",
   "Startup" : "10F"
 }, {
-  "Command" : "FC dbor d2",
+  "Command" : " FC db or d2",
   "Hit" : "+7",
   "Block" : "-4",
   "Notes" : "TC \nReturns to crouching.",
@@ -989,7 +989,7 @@
   "Damage" : "8",
   "Startup" : "11F"
 }, {
-  "Command" : "FC dbor d3",
+  "Command" : " FC db or d3",
   "Hit" : "-3",
   "Block" : "-17",
   "Notes" : "TC \nReturns to crouching.",
@@ -1000,7 +1000,7 @@
   "Damage" : "12",
   "Startup" : "16F"
 }, {
-  "Command" : "FC 4",
+  "Command" : " FC 4",
   "Hit" : "-4",
   "Block" : "-15",
   "Notes" : "TC \nReturns to crouching.",
@@ -1011,7 +1011,7 @@
   "Damage" : "10",
   "Startup" : "12F"
 }, {
-  "Command" : "FC 3+4",
+  "Command" : " FC 3+4",
   "Hit" : "+5C",
   "Block" : "-6",
   "Notes" : "TJ 13F\nHit force to crouching",
@@ -1022,7 +1022,7 @@
   "Damage" : "10,10",
   "Startup" : "21F"
 }, {
-  "Command" : "FC 3+4d",
+  "Command" : " FC 3+4d",
   "Hit" : "+5C",
   "Block" : "-6",
   "Notes" : "TJ 13F\nReturns to crouching.\nHit force to crouching",
@@ -1033,7 +1033,7 @@
   "Damage" : "10,10",
   "Startup" : ""
 }, {
-  "Command" : "FC 3+4, 3",
+  "Command" : " FC 3+4, 3",
   "Hit" : "KDN",
   "Block" : "±0C",
   "Notes" : "TJ \nBlock force to crouching\nInterruption 11F after 2nd block",
@@ -1044,7 +1044,7 @@
   "Damage" : "10,10,10,10",
   "Startup" : ""
 }, {
-  "Command" : "FC 3+4, 3d",
+  "Command" : " FC 3+4, 3d",
   "Hit" : "KDN",
   "Block" : "±0C",
   "Notes" : "TJ \nReturns to crouching.\nBlock force to crouching",
@@ -1055,7 +1055,7 @@
   "Damage" : "10,10,10,10",
   "Startup" : ""
 }, {
-  "Command" : "WS 1",
+  "Command" : " WS 1",
   "Hit" : "+4",
   "Block" : "-7",
   "Notes" : "",
@@ -1066,7 +1066,7 @@
   "Damage" : "12",
   "Startup" : "14F"
 }, {
-  "Command" : "WS 1, 4",
+  "Command" : " WS 1, 4",
   "Hit" : "KDN",
   "Block" : "-12",
   "Notes" : "Combo from 1st NH",
@@ -1077,7 +1077,7 @@
   "Damage" : "12,20",
   "Startup" : ""
 }, {
-  "Command" : "WS 2",
+  "Command" : " WS 2",
   "Hit" : "+8",
   "Block" : "-8",
   "Notes" : "",
@@ -1088,7 +1088,7 @@
   "Damage" : "18",
   "Startup" : "13F"
 }, {
-  "Command" : "WS 2, 1",
+  "Command" : " WS 2, 1",
   "Hit" : "+9",
   "Block" : "-2",
   "Notes" : "Combo from 1st NH",
@@ -1099,7 +1099,7 @@
   "Damage" : "18,10",
   "Startup" : ""
 }, {
-  "Command" : "WS 3",
+  "Command" : " WS 3",
   "Hit" : "LNC",
   "Block" : "-16",
   "Notes" : "TJ 18F\n",
@@ -1110,7 +1110,7 @@
   "Damage" : "20",
   "Startup" : "18F"
 }, {
-  "Command" : "WS 4",
+  "Command" : " WS 4",
   "Hit" : "+8",
   "Block" : "-3",
   "Notes" : "",
@@ -1121,7 +1121,7 @@
   "Damage" : "15",
   "Startup" : "11F"
 }, {
-  "Command" : "WS 1+2",
+  "Command" : " WS 1+2",
   "Hit" : "+5",
   "Block" : "-2",
   "Notes" : "Crumble State 17F after CH",
@@ -1132,7 +1132,7 @@
   "Damage" : "20",
   "Startup" : "21F"
 }, {
-  "Command" : "WS 1+2d",
+  "Command" : " WS 1+2d",
   "Hit" : "",
   "Block" : "",
   "Notes" : "Returns to crouching.",
@@ -1143,7 +1143,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "FC df2",
+  "Command" : " FC df2",
   "Hit" : "±0",
   "Block" : "-11",
   "Notes" : "TC \nTo crouching after move\nCrumble State 17F after CH\n",
@@ -1154,7 +1154,7 @@
   "Damage" : "10",
   "Startup" : "16F"
 }, {
-  "Command" : "FC df3",
+  "Command" : " FC df3",
   "Hit" : "KDN",
   "Block" : "-9",
   "Notes" : "WB \n",
@@ -1176,7 +1176,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "SS 2",
+  "Command" : " SS 2",
   "Hit" : "KDN",
   "Block" : "-9",
   "Notes" : "",
@@ -1187,7 +1187,7 @@
   "Damage" : "23",
   "Startup" : "13F"
 }, {
-  "Command" : "SS 4",
+  "Command" : " SS 4",
   "Hit" : "+7",
   "Block" : "-6",
   "Notes" : "Meaty 2F in actualy",
@@ -1198,7 +1198,7 @@
   "Damage" : "18",
   "Startup" : "17F"
 }, {
-  "Command" : "bbubwith back against wall ",
+  "Command" : "bbub with back against wall ",
   "Hit" : "KDN",
   "Block" : "+4C",
   "Notes" : "\nAir Status 5F\nInvincibility during 8 to13F",
@@ -1209,7 +1209,7 @@
   "Damage" : "21",
   "Startup" : "39F"
 }, {
-  "Command" : "BT 1or 2",
+  "Command" : " BT 1 or 2",
   "Hit" : "+3",
   "Block" : "-8",
   "Notes" : "",
@@ -1220,7 +1220,7 @@
   "Damage" : "15",
   "Startup" : "8F"
 }, {
-  "Command" : "BT 3or 4",
+  "Command" : " BT 3 or 4",
   "Hit" : "KDN",
   "Block" : "-8",
   "Notes" : "",
@@ -1231,7 +1231,7 @@
   "Damage" : "18",
   "Startup" : "10F"
 }, {
-  "Command" : "BT d1or d2",
+  "Command" : " BT d1 or d2",
   "Hit" : "+9",
   "Block" : "-2",
   "Notes" : "Returns to crouching.",
@@ -1242,7 +1242,7 @@
   "Damage" : "10",
   "Startup" : "10F"
 }, {
-  "Command" : "BT d3or d4",
+  "Command" : " BT d3 or d4",
   "Hit" : "+3",
   "Block" : "-11",
   "Notes" : "Returns to crouching.",
@@ -1385,7 +1385,7 @@
   "Damage" : "14,15,16",
   "Startup" : ""
 }, {
-  "Command" : "During Leg Cutter 3",
+  "Command" : " During Leg Cutter 3",
   "Hit" : "LNC",
   "Block" : "-3",
   "Notes" : "CH combo from Leg Cutter",
@@ -1396,7 +1396,7 @@
   "Damage" : "21",
   "Startup" : ""
 }, {
-  "Command" : "During Leg Cutter 1+4",
+  "Command" : " During Leg Cutter 1+4",
   "Hit" : "+9",
   "Block" : "-19",
   "Notes" : "Connect to White Heron （<img src=\"../lpk.bmp\" class=\"c\">）\nBlock frame is blocked 1st attack\n2nd attack block -3F",
@@ -1407,7 +1407,7 @@
   "Damage" : "5,8",
   "Startup" : ""
 }, {
-  "Command" : "During Rage df1+2",
+  "Command" : " During Rage df1+2",
   "Hit" : "Th",
   "Block" : "-22",
   "Notes" : "Guard Point 8F\n",
@@ -1418,7 +1418,7 @@
   "Damage" : "55",
   "Startup" : "20F"
 }, {
-  "Command" : "During Rage ff1+2",
+  "Command" : " During Rage ff1+2",
   "Hit" : "LNC",
   "Block" : "+11G",
   "Notes" : "Special effect when approach mid-air enemy\nBlock force to crouching\n",
@@ -1451,7 +1451,7 @@
   "Damage" : "35",
   "Startup" : "12F"
 }, {
-  "Command" : "Approach from left side ",
+  "Command" : " Approach from left side ",
   "Hit" : "-3F",
   "Block" : "Foot Side Face Down",
   "Notes" : "",
@@ -1462,7 +1462,7 @@
   "Damage" : "40",
   "Startup" : ""
 }, {
-  "Command" : "Approach from right side ",
+  "Command" : " Approach from right side ",
   "Hit" : "-3F",
   "Block" : "Head Side Face Up",
   "Notes" : "",
@@ -1473,7 +1473,7 @@
   "Damage" : "40",
   "Startup" : ""
 }, {
-  "Command" : "Approach from behind ",
+  "Command" : " Approach from behind ",
   "Hit" : "disable",
   "Block" : "Head Side Face Down",
   "Notes" : "",
@@ -1517,7 +1517,7 @@
   "Damage" : "40",
   "Startup" : "12F"
 }, {
-  "Command" : "FC dfddf1+2",
+  "Command" : " FC dfddf1+2",
   "Hit" : "-6F",
   "Block" : "Launch RP Foot Side Face Down",
   "Notes" : "2nd damege is on landing\n3rd damege is non-ukemi bonus",
@@ -1539,7 +1539,7 @@
   "Damage" : "5,5",
   "Startup" : "61F"
 }, {
-  "Command" : "After Naniwa Ultimate Tuckle 2, 1, 2, 1",
+  "Command" : " After Naniwa Ultimate Tuckle 2, 1, 2, 1",
   "Hit" : "disable",
   "Block" : "Foot-sd Fac-Up",
   "Notes" : "",
@@ -1550,7 +1550,7 @@
   "Damage" : "5,5,5,10",
   "Startup" : ""
 }, {
-  "Command" : "After Naniwa Ultimate Tuckle 2, 1, 1, 2",
+  "Command" : " After Naniwa Ultimate Tuckle 2, 1, 1, 2",
   "Hit" : "disable",
   "Block" : "Foot-sd Fac-Up",
   "Notes" : "",
@@ -1561,7 +1561,7 @@
   "Damage" : "5,5,12,10",
   "Startup" : ""
 }, {
-  "Command" : "b1+3or b2+4",
+  "Command" : "b1+3 or b2+4",
   "Hit" : "-6F",
   "Block" : "RP Foot-sd Fac-Up",
   "Notes" : "Reversal against attack(H/M) during 3 to 12F\nDamage 25 + 50% of enemy attack\nReversal to Reversal command<img src=\"../6.bmp\" class=\"c\"><img src=\"../l.bmp\" class=\"c\">or<img src=\"../6.bmp\" class=\"c\"><img src=\"../r.bmp\" class=\"c\">\nduring 7F damage 15",
@@ -1572,7 +1572,7 @@
   "Damage" : "25+α",
   "Startup" : ""
 }, {
-  "Command" : "b1+3or b2+4Hold ",
+  "Command" : "b1+3 or b2+4 Hold ",
   "Hit" : "-6F",
   "Block" : "RP Foot-sd Fac-Up",
   "Notes" : "Reversal against attack(H/M) during 3 to 54F\nDamage 25 + 50% of enemy atack\nReversal to Reversal command<img src=\"../6.bmp\" class=\"c\"><img src=\"../l.bmp\" class=\"c\">or<img src=\"../6.bmp\" class=\"c\"><img src=\"../r.bmp\" class=\"c\">\nduring 7F damage 15",

@@ -109,7 +109,7 @@
   "Damage" : "20",
   "Startup" : "17F"
 }, {
-  "Command" : "1+2J 1+2",
+  "Command" : "1+2 J 1+2",
   "Hit" : "±0",
   "Block" : "",
   "Notes" : "",
@@ -120,7 +120,7 @@
   "Damage" : "20,20",
   "Startup" : ""
 }, {
-  "Command" : "1+2J 1+2J f2",
+  "Command" : "1+2 J 1+2 J f2",
   "Hit" : "Th",
   "Block" : "",
   "Notes" : "To Starburst after hit.\nCombo from 1st NH.\nFoot-side &amp; Face-up &amp; -5F from Not Starburst.\nHead-side &amp; Face-up &amp; ±0F during Stardust.",
@@ -131,7 +131,7 @@
   "Damage" : "20,20,18",
   "Startup" : ""
 }, {
-  "Command" : "1+2J 1+2J bf2",
+  "Command" : "1+2 J 1+2 J bf2",
   "Hit" : "Th",
   "Block" : "",
   "Notes" : "Secret Move.",
@@ -395,7 +395,7 @@
   "Damage" : "7",
   "Startup" : "12F"
 }, {
-  "Command" : "d1+2or BT 1+2",
+  "Command" : "d1+2 or BT 1+2",
   "Hit" : "KDN",
   "Block" : "-18",
   "Notes" : "Meaty 1F",
@@ -428,7 +428,7 @@
   "Damage" : "8",
   "Startup" : "11F"
 }, {
-  "Command" : "db2, 1or FC 2, 1",
+  "Command" : "db2, 1 or FC 2, 1",
   "Hit" : "+3",
   "Block" : "-13",
   "Notes" : "TC \nReturns to crouching.\nCombo from 1st CH\n",
@@ -615,7 +615,7 @@
   "Damage" : "60",
   "Startup" : "72F"
 }, {
-  "Command" : "ubor uor uf1",
+  "Command" : "ub or u or uf1",
   "Hit" : "-1",
   "Block" : "-12",
   "Notes" : "TJ 9F",
@@ -626,7 +626,7 @@
   "Damage" : "12",
   "Startup" : "18F"
 }, {
-  "Command" : "ubor uor uf2",
+  "Command" : "ub or u or uf2",
   "Hit" : "KDN",
   "Block" : "-9",
   "Notes" : "TJ 9F\n",
@@ -670,7 +670,7 @@
   "Damage" : "22",
   "Startup" : "23F"
 }, {
-  "Command" : "ubor uor uf4",
+  "Command" : "ub or u or uf4",
   "Hit" : "LNC",
   "Block" : "-13",
   "Notes" : "TJ 9F\n",
@@ -692,7 +692,7 @@
   "Damage" : "10,14",
   "Startup" : "20F"
 }, {
-  "Command" : "uf☆ 4",
+  "Command" : "uf,n,4",
   "Hit" : "LNC",
   "Block" : "-11",
   "Notes" : "TJ 9F",
@@ -703,7 +703,7 @@
   "Damage" : "25",
   "Startup" : "23F"
 }, {
-  "Command" : "ff2or FC df2",
+  "Command" : "ff2 or FC df2",
   "Hit" : "-7",
   "Block" : "-18",
   "Notes" : "Advance Input is unavailable<img src=\"../6.bmp\" class=\"c\"><img src=\"../6'.bmp\" class=\"c\">\nand Start-up 15Ｆ in actualy\nMeaty 2F",
@@ -714,7 +714,7 @@
   "Damage" : "14",
   "Startup" : "14F"
 }, {
-  "Command" : "ff2, 2or FC df2, 2",
+  "Command" : "ff2, 2 or FC df2, 2",
   "Hit" : "KDN",
   "Block" : "-2C",
   "Notes" : "To Starburst after hit\nHit force to crouching\nCombo from 1st NH\nCan be delayed\nCombo can be delayed 15Ｆ from 1st NH\n",
@@ -725,7 +725,7 @@
   "Damage" : "14,20",
   "Startup" : ""
 }, {
-  "Command" : "ff2, 1+2or FC df2, 1+2",
+  "Command" : "ff2, 1+2 or FC df2, 1+2",
   "Hit" : "KDN",
   "Block" : "-13",
   "Notes" : "WB \nCombo from 1st NH\nCan be delayed\nCombo can be delayed 13Ｆ from 1st NH\n",
@@ -758,7 +758,7 @@
   "Damage" : "40",
   "Startup" : "13F"
 }, {
-  "Command" : "FC 1",
+  "Command" : " FC 1",
   "Hit" : "+6",
   "Block" : "-5",
   "Notes" : "TC \nReturns to crouching.\nInput<img src=\"../6'.bmp\" class=\"c\">to standing",
@@ -769,7 +769,7 @@
   "Damage" : "5",
   "Startup" : "10F"
 }, {
-  "Command" : "FC dbor d2",
+  "Command" : " FC db or d2",
   "Hit" : "+7",
   "Block" : "-4",
   "Notes" : "TC \nReturns to crouching.",
@@ -780,7 +780,7 @@
   "Damage" : "8",
   "Startup" : "11F"
 }, {
-  "Command" : "FC 3",
+  "Command" : " FC 3",
   "Hit" : "-3",
   "Block" : "-17",
   "Notes" : "TC \nReturns to crouching.",
@@ -791,7 +791,7 @@
   "Damage" : "12",
   "Startup" : "16F"
 }, {
-  "Command" : "FC 4",
+  "Command" : " FC 4",
   "Hit" : "-4",
   "Block" : "-15",
   "Notes" : "TC \nReturns to crouching.",
@@ -802,7 +802,7 @@
   "Damage" : "10",
   "Startup" : "12F"
 }, {
-  "Command" : "WS 1",
+  "Command" : " WS 1",
   "Hit" : "+7",
   "Block" : "-4",
   "Notes" : "",
@@ -813,7 +813,7 @@
   "Damage" : "12",
   "Startup" : "12F"
 }, {
-  "Command" : "WS 1, 1",
+  "Command" : " WS 1, 1",
   "Hit" : "+9",
   "Block" : "-12",
   "Notes" : "Combo from 1st NH\n",
@@ -824,7 +824,7 @@
   "Damage" : "12,15",
   "Startup" : ""
 }, {
-  "Command" : "WS 2",
+  "Command" : " WS 2",
   "Hit" : "LNC",
   "Block" : "-14",
   "Notes" : "To Starburst after hit\n",
@@ -835,7 +835,7 @@
   "Damage" : "20",
   "Startup" : "15F"
 }, {
-  "Command" : "WS 3",
+  "Command" : " WS 3",
   "Hit" : "KDN",
   "Block" : "-8",
   "Notes" : "",
@@ -846,7 +846,7 @@
   "Damage" : "20",
   "Startup" : "16F"
 }, {
-  "Command" : "WS 4",
+  "Command" : " WS 4",
   "Hit" : "+5",
   "Block" : "-6",
   "Notes" : "",
@@ -857,7 +857,7 @@
   "Damage" : "18",
   "Startup" : "11F"
 }, {
-  "Command" : "SS 4",
+  "Command" : " SS 4",
   "Hit" : "+6C",
   "Block" : "-12",
   "Notes" : "Returns to crouching.\nNH force to crouching.\n",
@@ -868,7 +868,7 @@
   "Damage" : "20",
   "Startup" : "20F"
 }, {
-  "Command" : "bbubwith back against wall ",
+  "Command" : "bbub with back against wall ",
   "Hit" : "KDN",
   "Block" : "±0C",
   "Notes" : "Advance Input is unavailable\nAir Status 5F\nInvinciblity during 8 to 13F",
@@ -879,7 +879,7 @@
   "Damage" : "21",
   "Startup" : "36F"
 }, {
-  "Command" : "BT 1or 2",
+  "Command" : " BT 1 or 2",
   "Hit" : "+3",
   "Block" : "-8",
   "Notes" : "",
@@ -890,7 +890,7 @@
   "Damage" : "15",
   "Startup" : "8F"
 }, {
-  "Command" : "BT 3or 4",
+  "Command" : " BT 3 or 4",
   "Hit" : "KDN",
   "Block" : "-8",
   "Notes" : "",
@@ -901,7 +901,7 @@
   "Damage" : "18",
   "Startup" : "10F"
 }, {
-  "Command" : "BT d1or d2",
+  "Command" : " BT d1 or d2",
   "Hit" : "+9",
   "Block" : "-2",
   "Notes" : "Returns to crouching.",
@@ -912,7 +912,7 @@
   "Damage" : "10",
   "Startup" : "10F"
 }, {
-  "Command" : "BT d3or d4",
+  "Command" : " BT d3 or d4",
   "Hit" : "+3",
   "Block" : "-11",
   "Notes" : "Returns to crouching.",
@@ -934,7 +934,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "During Starburst f1+2, 1+2",
+  "Command" : " During Starburst f1+2, 1+2",
   "Hit" : "KDN",
   "Block" : "-9",
   "Notes" : "Combo from 1st NH\nCan be delayed\nCombo can be delayed 11Ｆ from 1st NH\n",
@@ -945,7 +945,7 @@
   "Damage" : "10,20",
   "Startup" : "16F"
 }, {
-  "Command" : "During Starburst d1, 2",
+  "Command" : " During Starburst d1, 2",
   "Hit" : "KDN",
   "Block" : "+8",
   "Notes" : "TS \nCombo from 1st NH\n",
@@ -956,7 +956,7 @@
   "Damage" : "16,23",
   "Startup" : "17F"
 }, {
-  "Command" : "During Starburst d2, 2",
+  "Command" : " During Starburst d2, 2",
   "Hit" : "KDN",
   "Block" : "-12",
   "Notes" : "TC \nCombo from 1st CH\n",
@@ -967,7 +967,7 @@
   "Damage" : "11,15",
   "Startup" : "20F"
 }, {
-  "Command" : "During Starburst db1+2",
+  "Command" : " During Starburst db1+2",
   "Hit" : "KDN",
   "Block" : "KDN",
   "Notes" : "able to evade 2nd from 1st block",
@@ -978,7 +978,7 @@
   "Damage" : "20,20",
   "Startup" : "21F"
 }, {
-  "Command" : "During Starburst b4, 3, 2",
+  "Command" : " During Starburst b4, 3, 2",
   "Hit" : "LNC",
   "Block" : "-1",
   "Notes" : "TJ \nCombo from 2nd CH\n",
@@ -989,7 +989,7 @@
   "Damage" : "10,14,35",
   "Startup" : "17F"
 }, {
-  "Command" : "During Rage df1+2",
+  "Command" : " During Rage df1+2",
   "Hit" : "Th",
   "Block" : "-22",
   "Notes" : "Guard Point 8Ｆ",
@@ -1000,7 +1000,7 @@
   "Damage" : "55",
   "Startup" : "20F"
 }, {
-  "Command" : "During Rage b4, 2f",
+  "Command" : " During Rage b4, 2f",
   "Hit" : "KDN",
   "Block" : "+7",
   "Notes" : "To Starburst after moving\n",
@@ -1033,7 +1033,7 @@
   "Damage" : "35",
   "Startup" : "12F"
 }, {
-  "Command" : "Approach from left side ",
+  "Command" : " Approach from left side ",
   "Hit" : "-3F",
   "Block" : "Right-sd Fac-Up",
   "Notes" : "",
@@ -1044,7 +1044,7 @@
   "Damage" : "45",
   "Startup" : ""
 }, {
-  "Command" : "Approach from right side ",
+  "Command" : " Approach from right side ",
   "Hit" : "-3F",
   "Block" : "Foot-sd Fac-Up",
   "Notes" : "",
@@ -1055,7 +1055,7 @@
   "Damage" : "40",
   "Startup" : ""
 }, {
-  "Command" : "Approach from behind ",
+  "Command" : " Approach from behind ",
   "Hit" : "disable",
   "Block" : "Foot-sd Fac-Dwn",
   "Notes" : "",

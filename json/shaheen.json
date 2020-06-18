@@ -131,7 +131,7 @@
   "Damage" : "10,18",
   "Startup" : ""
 }, {
-  "Command" : "3or 3+4",
+  "Command" : "3 or 3+4",
   "Hit" : "+3",
   "Block" : "-8",
   "Notes" : "",
@@ -571,7 +571,7 @@
   "Damage" : "20",
   "Startup" : "17F"
 }, {
-  "Command" : "ubor uor uf1",
+  "Command" : "ub or u or uf1",
   "Hit" : "-1",
   "Block" : "-12",
   "Notes" : "TJ 9F",
@@ -582,7 +582,7 @@
   "Damage" : "12",
   "Startup" : "18F"
 }, {
-  "Command" : "ubor uor uf2",
+  "Command" : "ub or u or uf2",
   "Hit" : "+9",
   "Block" : "-12",
   "Notes" : "",
@@ -626,7 +626,7 @@
   "Damage" : "22",
   "Startup" : "25F"
 }, {
-  "Command" : "ubor uor uf4",
+  "Command" : "ub or u or uf4",
   "Hit" : "LNC",
   "Block" : "-13",
   "Notes" : "TJ 9F\nMeaty 1F in actualy\n",
@@ -637,7 +637,7 @@
   "Damage" : "13",
   "Startup" : "15F"
 }, {
-  "Command" : "uf☆ 4",
+  "Command" : "uf,n,4",
   "Hit" : "LNC",
   "Block" : "-11",
   "Notes" : "TJ 9F",
@@ -648,7 +648,7 @@
   "Damage" : "25",
   "Startup" : "23F"
 }, {
-  "Command" : "ff3or fff3",
+  "Command" : "ff3 or fff3",
   "Hit" : "Th",
   "Block" : "-12",
   "Notes" : "TJ 13F\nAdvance Input is unavailable.\nStart-up 18F in actualy.\nDamage () is throw &amp; landing bonus.",
@@ -692,7 +692,7 @@
   "Damage" : "20(,35)",
   "Startup" : "14F"
 }, {
-  "Command" : "FC 1",
+  "Command" : " FC 1",
   "Hit" : "+6",
   "Block" : "-5",
   "Notes" : "TC \nReturns to crouching.\nInput<img src=\"../6'.bmp\" class=\"c\">to standing",
@@ -703,7 +703,7 @@
   "Damage" : "5",
   "Startup" : "10F"
 }, {
-  "Command" : "FC 2",
+  "Command" : " FC 2",
   "Hit" : "+7",
   "Block" : "-4",
   "Notes" : "TC \nReturns to crouching.",
@@ -714,7 +714,7 @@
   "Damage" : "8",
   "Startup" : "11F"
 }, {
-  "Command" : "FC 3",
+  "Command" : " FC 3",
   "Hit" : "-3",
   "Block" : "-17",
   "Notes" : "TC \nReturns to crouching.",
@@ -725,7 +725,7 @@
   "Damage" : "12",
   "Startup" : "16F"
 }, {
-  "Command" : "FC 4",
+  "Command" : " FC 4",
   "Hit" : "-4",
   "Block" : "-15",
   "Notes" : "TC \nReturns to crouching.",
@@ -736,7 +736,7 @@
   "Damage" : "10",
   "Startup" : "12F"
 }, {
-  "Command" : "WS 1",
+  "Command" : " WS 1",
   "Hit" : "+4",
   "Block" : "-2",
   "Notes" : "",
@@ -747,7 +747,7 @@
   "Damage" : "17",
   "Startup" : "14F"
 }, {
-  "Command" : "WS 2",
+  "Command" : " WS 2",
   "Hit" : "KDN",
   "Block" : "-17",
   "Notes" : "",
@@ -758,7 +758,7 @@
   "Damage" : "21",
   "Startup" : "16F"
 }, {
-  "Command" : "WS 3",
+  "Command" : " WS 3",
   "Hit" : "±0",
   "Block" : "-11",
   "Notes" : "",
@@ -769,7 +769,7 @@
   "Damage" : "16",
   "Startup" : "13F"
 }, {
-  "Command" : "WS 3, 3",
+  "Command" : " WS 3, 3",
   "Hit" : "KDN",
   "Block" : "-13",
   "Notes" : "",
@@ -780,7 +780,7 @@
   "Damage" : "16,20",
   "Startup" : ""
 }, {
-  "Command" : "WS 4",
+  "Command" : " WS 4",
   "Hit" : "+5",
   "Block" : "-6",
   "Notes" : "",
@@ -791,7 +791,7 @@
   "Damage" : "16",
   "Startup" : "11F"
 }, {
-  "Command" : "FC dfddf3",
+  "Command" : " FC dfddf3",
   "Hit" : "KDN",
   "Block" : "-23",
   "Notes" : "TC TJ 7F\nMeaty 4F.\nConnect to Stealth Step on hit.\nTo down on block or whiff.\n",
@@ -802,7 +802,7 @@
   "Damage" : "21",
   "Startup" : "16F"
 }, {
-  "Command" : "bbubwith back against wall ",
+  "Command" : "bbub with back against wall ",
   "Hit" : "KDN",
   "Block" : "+1",
   "Notes" : "Advance Input is unavailable.\nAir Status 5F.\nInvinciblity during 8 to 24F.",
@@ -813,7 +813,7 @@
   "Damage" : "21",
   "Startup" : "35F"
 }, {
-  "Command" : "BT 1",
+  "Command" : " BT 1",
   "Hit" : "+3",
   "Block" : "-8",
   "Notes" : "Conncect to Left JAb(<img src=\"../lp.bmp\" class=\"c\">) Combinations.",
@@ -824,7 +824,7 @@
   "Damage" : "15",
   "Startup" : "8F"
 }, {
-  "Command" : "BT 2",
+  "Command" : " BT 2",
   "Hit" : "KDN",
   "Block" : "-3",
   "Notes" : "",
@@ -835,7 +835,7 @@
   "Damage" : "15",
   "Startup" : "14F"
 }, {
-  "Command" : "BT 3or 4",
+  "Command" : " BT 3 or 4",
   "Hit" : "KDN",
   "Block" : "-8",
   "Notes" : "",
@@ -846,7 +846,7 @@
   "Damage" : "18",
   "Startup" : "10F"
 }, {
-  "Command" : "BT d1or d2",
+  "Command" : " BT d1 or d2",
   "Hit" : "+9",
   "Block" : "-2",
   "Notes" : "TC 1F\nReturns to crouching.",
@@ -857,7 +857,7 @@
   "Damage" : "10",
   "Startup" : "10F"
 }, {
-  "Command" : "BT d3or d4",
+  "Command" : " BT d3 or d4",
   "Hit" : "+3",
   "Block" : "-11",
   "Notes" : "TC 1F\nReturns to crouching.",
@@ -890,7 +890,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "During Stealth Step 1",
+  "Command" : " During Stealth Step 1",
   "Hit" : "+5",
   "Block" : "-1",
   "Notes" : "",
@@ -901,7 +901,7 @@
   "Damage" : "10",
   "Startup" : "12F"
 }, {
-  "Command" : "During Stealth Step 2",
+  "Command" : " During Stealth Step 2",
   "Hit" : "+7",
   "Block" : "-9",
   "Notes" : "",
@@ -912,7 +912,7 @@
   "Damage" : "20",
   "Startup" : "15F"
 }, {
-  "Command" : "During Stealth Step 3",
+  "Command" : " During Stealth Step 3",
   "Hit" : "Th",
   "Block" : "-12",
   "Notes" : "TJ 14F\nConnect to throw on air-mid hit.",
@@ -923,7 +923,7 @@
   "Damage" : "13(,5,5)",
   "Startup" : "20F"
 }, {
-  "Command" : "During Stealth Step 4",
+  "Command" : " During Stealth Step 4",
   "Hit" : "±0",
   "Block" : "-15",
   "Notes" : "",
@@ -934,7 +934,7 @@
   "Damage" : "14",
   "Startup" : "18F"
 }, {
-  "Command" : "During Stealth Step 4, 1",
+  "Command" : " During Stealth Step 4, 1",
   "Hit" : "KDN",
   "Block" : "-2",
   "Notes" : "TS \n",
@@ -945,7 +945,7 @@
   "Damage" : "14,20",
   "Startup" : ""
 }, {
-  "Command" : "During Stealth Step 3+4",
+  "Command" : " During Stealth Step 3+4",
   "Hit" : "KDN",
   "Block" : "-19",
   "Notes" : "TC 6F\nReturns to crouching.\n",
@@ -956,7 +956,7 @@
   "Damage" : "23",
   "Startup" : "26F"
 }, {
-  "Command" : "During Rage 1+2",
+  "Command" : " During Rage 1+2",
   "Hit" : "Th",
   "Block" : "-22",
   "Notes" : "Guard Point 8F.",
@@ -967,7 +967,7 @@
   "Damage" : "55",
   "Startup" : "20F"
 }, {
-  "Command" : "During Rage db2, 4",
+  "Command" : " During Rage db2, 4",
   "Hit" : "KDN",
   "Block" : "+6",
   "Notes" : "TS \nCombo from 1st NH.\nCan be delayed.\nCombo can be delayed 10F from 1st hit.\nNot consumed in the count of Tail Spin.",
@@ -978,7 +978,7 @@
   "Damage" : "12,12",
   "Startup" : ""
 }, {
-  "Command" : "During Rage db2, 4df",
+  "Command" : " During Rage db2, 4df",
   "Hit" : "KDN",
   "Block" : "+12G",
   "Notes" : "TS \nCombo from 1st NH.\nCan be delayed.\nCombo can be delayed 10F from 1st hit.\nNot consumed in the count of Tail Spin.",
@@ -989,7 +989,7 @@
   "Damage" : "12,12",
   "Startup" : ""
 }, {
-  "Command" : "During Rage db2, 4dfdb",
+  "Command" : " During Rage db2, 4dfdb",
   "Hit" : "KDN",
   "Block" : "+1",
   "Notes" : "TS \nCombo from 1st NH.\nCan be delayed.\nCombo can be delayed 10F from 1st hit.\nNot consumed in the count of Tail Spin.\nReturns to crouching.\n",
@@ -1055,7 +1055,7 @@
   "Damage" : "35",
   "Startup" : "12F"
 }, {
-  "Command" : "Approach from left side ",
+  "Command" : " Approach from left side ",
   "Hit" : "-3F",
   "Block" : "Foot-sd Fac-Up",
   "Notes" : "",
@@ -1066,7 +1066,7 @@
   "Damage" : "40",
   "Startup" : ""
 }, {
-  "Command" : "Approach from right side ",
+  "Command" : " Approach from right side ",
   "Hit" : "-3F",
   "Block" : "Head-sd Fac-Up",
   "Notes" : "",
@@ -1077,7 +1077,7 @@
   "Damage" : "40",
   "Startup" : ""
 }, {
-  "Command" : "Approach from behind ",
+  "Command" : " Approach from behind ",
   "Hit" : "disable",
   "Block" : "Head-sd Fac-Up",
   "Notes" : "",
@@ -1110,7 +1110,7 @@
   "Damage" : "0",
   "Startup" : ""
 }, {
-  "Command" : "After Falcon Shield succeeds 1",
+  "Command" : " After Falcon Shield succeeds 1",
   "Hit" : "",
   "Block" : "",
   "Notes" : "-7F on blcok.",
@@ -1121,7 +1121,7 @@
   "Damage" : "30",
   "Startup" : "14F"
 }, {
-  "Command" : "Druing Stealth Step 1+2",
+  "Command" : " Druing Stealth Step 1+2",
   "Hit" : "-5F CW",
   "Block" : "RP Head-sd Fac-Up",
   "Notes" : "Break Throw 7F.\nTo BT afet Break Throw.",

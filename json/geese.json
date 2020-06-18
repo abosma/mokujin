@@ -186,7 +186,7 @@
   "Damage" : "5,10",
   "Startup" : ""
 }, {
-  "Command" : "f2during hit 1",
+  "Command" : "f2 during hit 1",
   "Hit" : "KDN",
   "Block" : "-9",
   "Notes" : "Input Timing is during 2nd hit.\nDisable from 2nd whiff.",
@@ -285,7 +285,7 @@
   "Damage" : "11,14",
   "Startup" : ""
 }, {
-  "Command" : "df3【 4, 2】 ",
+  "Command" : "4~2",
   "Hit" : "KDN",
   "Block" : "+2",
   "Notes" : "WB \n",
@@ -296,7 +296,7 @@
   "Damage" : "11,25",
   "Startup" : ""
 }, {
-  "Command" : "df3【 4, 3】 ",
+  "Command" : "4~3",
   "Hit" : "+20Sp",
   "Block" : "+1",
   "Notes" : "",
@@ -307,7 +307,7 @@
   "Damage" : "11,15",
   "Startup" : ""
 }, {
-  "Command" : "df3【 4, 3】 1+2",
+  "Command" : "4~3",
   "Hit" : "+24Sp",
   "Block" : "+5",
   "Notes" : "Power Gauge Cost 1.\nDisable from whiff.",
@@ -329,7 +329,7 @@
   "Damage" : "15",
   "Startup" : "14F"
 }, {
-  "Command" : "d1or FC 1",
+  "Command" : "d1 or FC 1",
   "Hit" : "+6G",
   "Block" : "-5",
   "Notes" : "TC 4FC \nReturns to crouching.\nInput<img src=\"../6'.bmp\" class=\"c\">to standing\n",
@@ -340,7 +340,7 @@
   "Damage" : "5",
   "Startup" : "10F"
 }, {
-  "Command" : "d1or FC 1, 1+2",
+  "Command" : "d1 or FC 1, 1+2",
   "Hit" : "+10G",
   "Block" : "-1",
   "Notes" : "Power Gauge Cost 1.\nDisable from whiff.",
@@ -351,7 +351,7 @@
   "Damage" : "5",
   "Startup" : ""
 }, {
-  "Command" : "d2or FC 2",
+  "Command" : "d2 or FC 2",
   "Hit" : "-3",
   "Block" : "-14",
   "Notes" : "TC 6F\nReturns to crouching.",
@@ -362,7 +362,7 @@
   "Damage" : "13",
   "Startup" : "14F"
 }, {
-  "Command" : "d3or FC 3",
+  "Command" : "d3 or FC 3",
   "Hit" : "-5",
   "Block" : "-15",
   "Notes" : "TC 6F\n",
@@ -395,7 +395,7 @@
   "Damage" : "12,5",
   "Startup" : ""
 }, {
-  "Command" : "d4or FC 4",
+  "Command" : "d4 or FC 4",
   "Hit" : "-6",
   "Block" : "-31",
   "Notes" : "TC 6FC \n",
@@ -406,7 +406,7 @@
   "Damage" : "15",
   "Startup" : "17F"
 }, {
-  "Command" : "d4or FC 4, 1+2",
+  "Command" : "d4 or FC 4, 1+2",
   "Hit" : "+15G",
   "Block" : "-",
   "Notes" : "TC 6F\nPower Gauge Cost 1.\nDisable from whiff or block.",
@@ -527,7 +527,7 @@
   "Damage" : "26",
   "Startup" : "15F"
 }, {
-  "Command" : "WS 1",
+  "Command" : " WS 1",
   "Hit" : "+3",
   "Block" : "-8",
   "Notes" : "C \n",
@@ -538,7 +538,7 @@
   "Damage" : "12",
   "Startup" : "13F"
 }, {
-  "Command" : "WS 1, 1+2",
+  "Command" : " WS 1, 1+2",
   "Hit" : "+8",
   "Block" : "-3",
   "Notes" : "Power Gauge Cost 1.\nDisable from whiff.",
@@ -549,7 +549,7 @@
   "Damage" : "12",
   "Startup" : ""
 }, {
-  "Command" : "WS 2",
+  "Command" : " WS 2",
   "Hit" : "-3",
   "Block" : "-14",
   "Notes" : "",
@@ -560,7 +560,7 @@
   "Damage" : "10",
   "Startup" : "18F"
 }, {
-  "Command" : "WS 2before hit f2",
+  "Command" : " WS 2 before hit f2",
   "Hit" : "-",
   "Block" : "-",
   "Notes" : "Damage () is on landing damage.\n",
@@ -571,7 +571,7 @@
   "Damage" : "10,10(,10)",
   "Startup" : ""
 }, {
-  "Command" : "WS 3",
+  "Command" : " WS 3",
   "Hit" : "KDN",
   "Block" : "-8",
   "Notes" : "TS \n",
@@ -582,7 +582,7 @@
   "Damage" : "14",
   "Startup" : "15F"
 }, {
-  "Command" : "WS 4",
+  "Command" : " WS 4",
   "Hit" : "+6",
   "Block" : "-5",
   "Notes" : "",
@@ -593,7 +593,7 @@
   "Damage" : "18",
   "Startup" : "11F"
 }, {
-  "Command" : "FC df1",
+  "Command" : " FC df1",
   "Hit" : "LNC",
   "Block" : "-14",
   "Notes" : "",
@@ -604,7 +604,7 @@
   "Damage" : "20",
   "Startup" : "15F"
 }, {
-  "Command" : "SS 3",
+  "Command" : " SS 3",
   "Hit" : "+6",
   "Block" : "-12",
   "Notes" : "",
@@ -615,7 +615,7 @@
   "Damage" : "18",
   "Startup" : "19F"
 }, {
-  "Command" : "bbubwith back against wall ",
+  "Command" : "bbub with back against wall ",
   "Hit" : "KDN",
   "Block" : "-12",
   "Notes" : "Advance Input is unavailable.\nAir Status 5F.\nInvinciblity during 8 to 18F.\nMeaty 16F in actualy.",
@@ -637,7 +637,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "BT 1or 2",
+  "Command" : " BT 1 or 2",
   "Hit" : "",
   "Block" : "",
   "Notes" : "Equivalent to<img src=\"../lp.bmp\" class=\"c\">.",
@@ -648,7 +648,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "BT 3or 4",
+  "Command" : " BT 3 or 4",
   "Hit" : "",
   "Block" : "",
   "Notes" : "Equivalent to<img src=\"../rk.bmp\" class=\"c\">.",
@@ -659,7 +659,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "BT d1or d2",
+  "Command" : " BT d1 or d2",
   "Hit" : "",
   "Block" : "",
   "Notes" : "Equivalent to<img src=\"../2.bmp\" class=\"c\"><img src=\"../lp.bmp\" class=\"c\">.",
@@ -670,7 +670,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "BT d3or d4",
+  "Command" : " BT d3 or d4",
   "Hit" : "",
   "Block" : "",
   "Notes" : "Equivalent to<img src=\"../2.bmp\" class=\"c\"><img src=\"../rk.bmp\" class=\"c\">.\n",
@@ -714,7 +714,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "During Jump 1",
+  "Command" : " During Jump 1",
   "Hit" : "-11",
   "Block" : "-21",
   "Notes" : "Fast Start-up 14F (Cost 5F).\nLatest Start-up 37F in actualy.\nBlock or Hit Frame are when fast.",
@@ -725,7 +725,7 @@
   "Damage" : "10",
   "Startup" : "9F"
 }, {
-  "Command" : "During Jump 2",
+  "Command" : " During Jump 2",
   "Hit" : "±0",
   "Block" : "-12",
   "Notes" : "Fast Start-up 14F (Cost 5F).\nLatest Start-up 30F with 2nd.\nLatest frame equivalent to start-up 29F.",
@@ -736,7 +736,7 @@
   "Damage" : "10,10",
   "Startup" : "9F"
 }, {
-  "Command" : "During Jump 3",
+  "Command" : " During Jump 3",
   "Hit" : "-13",
   "Block" : "-23",
   "Notes" : "Fast Start-up 12F (Cost 5F).\nLatest Start-up 37F in actualy.\nBlock or Hit Frame are when fast.",
@@ -747,7 +747,7 @@
   "Damage" : "10",
   "Startup" : "7F"
 }, {
-  "Command" : "During Jump 4",
+  "Command" : " During Jump 4",
   "Hit" : "-4",
   "Block" : "-14",
   "Notes" : "Fast Start-up 16F (Cost 5F).\nLatest Start-up 37F in actualy.\nBlock or Hit Frame are when fast.",
@@ -923,7 +923,7 @@
   "Damage" : "10,5,15",
   "Startup" : "22F"
 }, {
-  "Command" : "During Jump ddbb1or 2",
+  "Command" : " During Jump ddbb1 or 2",
   "Hit" : "-19",
   "Block" : "-31",
   "Notes" : "Damage 1 on block.",
@@ -934,7 +934,7 @@
   "Damage" : "14",
   "Startup" : "17F"
 }, {
-  "Command" : "f1+2ddbb1or 2",
+  "Command" : "f1+2ddbb1 or 2",
   "Hit" : "-",
   "Block" : "-30",
   "Notes" : "Block strings from 1st.\nDamage 1 on block.\nDisable 2nd on 1st whiff.",
@@ -945,7 +945,7 @@
   "Damage" : "15.14",
   "Startup" : ""
 }, {
-  "Command" : "When keep １ power gauge 1+2+3",
+  "Command" : " When keep １ power gauge 1+2+3",
   "Hit" : "",
   "Block" : "",
   "Notes" : "Power Gauge Cost 1.\nRelease after 12 sec. or using Super Special Move.\n",
@@ -956,7 +956,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "During MAX mode ddff1+2",
+  "Command" : " During MAX mode ddff1+2",
   "Hit" : "KDN",
   "Block" : "+1",
   "Notes" : "Damage total 2 on block.\n",
@@ -967,7 +967,7 @@
   "Damage" : "10,10",
   "Startup" : "19F"
 }, {
-  "Command" : "During MAX mode fddf1+2",
+  "Command" : " During MAX mode fddf1+2",
   "Hit" : "KDN",
   "Block" : "-2",
   "Notes" : "TS TJ \n",
@@ -978,7 +978,7 @@
   "Damage" : "10,17",
   "Startup" : "23F"
 }, {
-  "Command" : "During MAX mode ddbb1+2",
+  "Command" : " During MAX mode ddbb1+2",
   "Hit" : "-2",
   "Block" : "-12",
   "Notes" : "Damage 1 on block.",
@@ -989,7 +989,7 @@
   "Damage" : "10",
   "Startup" : "20F"
 }, {
-  "Command" : "During MAX mode ddbb1+2, 1",
+  "Command" : " During MAX mode ddbb1+2, 1",
   "Hit" : "KDN",
   "Block" : "-2",
   "Notes" : "WB \nCombo from 1st NH\nDamage total 2 on block.\n",
@@ -1000,7 +1000,7 @@
   "Damage" : "10,10",
   "Startup" : ""
 }, {
-  "Command" : "During MAX mode ddbb1+2, 3",
+  "Command" : " During MAX mode ddbb1+2, 3",
   "Hit" : "LNC",
   "Block" : "-8C",
   "Notes" : "Damage total 2 on block.\n",
@@ -1011,7 +1011,7 @@
   "Damage" : "10,20",
   "Startup" : ""
 }, {
-  "Command" : "During MAX mode ddbb1+2, 4",
+  "Command" : " During MAX mode ddbb1+2, 4",
   "Hit" : "KDN",
   "Block" : "-18",
   "Notes" : "Damage total 2 on block.\n",
@@ -1022,7 +1022,7 @@
   "Damage" : "10,15",
   "Startup" : ""
 }, {
-  "Command" : "During MAX mode fdfddbb3+4",
+  "Command" : " During MAX mode fdfddbb3+4",
   "Hit" : "KDN",
   "Block" : "-2",
   "Notes" : "PC 8F\nEasy command<img src=\"../6.bmp\" class=\"c\"><img src=\"../2.bmp\" class=\"c\"><img src=\"../4.bmp\" class=\"c\"><img src=\"../k.bmp\" class=\"c\">.\nTotal damage 27 by combo scaling.\nDamage total 3 on block.\nDisable 2nd on 1st whiff.",
@@ -1033,7 +1033,7 @@
   "Damage" : "10,5,15",
   "Startup" : "22F"
 }, {
-  "Command" : "During jump in MAX mode ddbb1+2",
+  "Command" : " During jump in MAX mode ddbb1+2",
   "Hit" : "+15",
   "Block" : "+4",
   "Notes" : "Frame is at low altitude.\nDamage 1 on block.",
@@ -1044,7 +1044,7 @@
   "Damage" : "14",
   "Startup" : "17F"
 }, {
-  "Command" : "During MAX mode f1+2ddbb1+2",
+  "Command" : " During MAX mode f1+2ddbb1+2",
   "Hit" : "-",
   "Block" : "+4",
   "Notes" : "Block strings from 1st.\nDamage 1 on block.\nDisable 2nd on 1st whiff.",
@@ -1055,7 +1055,7 @@
   "Damage" : "15,14",
   "Startup" : ""
 }, {
-  "Command" : "When keep ２ power gauges ddffddff1+2",
+  "Command" : " When keep ２ power gauges ddffddff1+2",
   "Hit" : "KDN",
   "Block" : "+1",
   "Notes" : "Power Gauge Cost 2.\nTotal damage 39 by combo scaling.\nDamage total 5 on block.\n",
@@ -1066,7 +1066,7 @@
   "Damage" : "13*5",
   "Startup" : "10F"
 }, {
-  "Command" : "When keep ２ power gauges dbfdfddbbdf1+2",
+  "Command" : " When keep ２ power gauges dbfdfddbbdf1+2",
   "Hit" : "LNC",
   "Block" : "-18",
   "Notes" : "Power Gauge Cost 2.\nEasy command<img src=\"../1.bmp\" class=\"c\"><img src=\"../6.bmp\" class=\"c\"><img src=\"../2.bmp\" class=\"c\"><img src=\"../4.bmp\" class=\"c\"><img src=\"../3.bmp\" class=\"c\"><img src=\"../p.bmp\" class=\"c\">.\nDamage total 5 on block.\n",
@@ -1077,7 +1077,7 @@
   "Damage" : "43",
   "Startup" : "9F"
 }, {
-  "Command" : "When keep ２ power gauges 1, 2, 1, 2",
+  "Command" : " When keep ２ power gauges 1, 2, 1, 2",
   "Hit" : "KDN",
   "Block" : "+1",
   "Notes" : "Power Gauge Cost 2.\nDamage total 5 on block.\n",
@@ -1088,7 +1088,7 @@
   "Damage" : "7,10,15,13*5",
   "Startup" : ""
 }, {
-  "Command" : "During Rage db1+2",
+  "Command" : " During Rage db1+2",
   "Hit" : "Th",
   "Block" : "Th",
   "Notes" : "Guard Point 8F",
@@ -1099,7 +1099,7 @@
   "Damage" : "55",
   "Startup" : "20F"
 }, {
-  "Command" : "During Rage fdfddbbf3+4",
+  "Command" : " During Rage fdfddbbf3+4",
   "Hit" : "-16",
   "Block" : "-22",
   "Notes" : "Guard Point 8F",
@@ -1110,7 +1110,7 @@
   "Damage" : "10",
   "Startup" : "20F"
 }, {
-  "Command" : "During Rage fdfddbbf3+4during hit 1",
+  "Command" : " During Rage fdfddbbf3+4 during hit 1",
   "Hit" : "+5",
   "Block" : "-",
   "Notes" : "Combo from 1st NH",
@@ -1121,7 +1121,7 @@
   "Damage" : "10,4",
   "Startup" : ""
 }, {
-  "Command" : "During Rage fdfddbbf3+4during hit 1, 2",
+  "Command" : " During Rage fdfddbbf3+4 during hit 1, 2",
   "Hit" : "-8",
   "Block" : "-",
   "Notes" : "Combo from 1st NH",
@@ -1132,7 +1132,7 @@
   "Damage" : "10,4*2",
   "Startup" : ""
 }, {
-  "Command" : "During Rage fdfddbbf3+4during hit 1, 2, 4",
+  "Command" : " During Rage fdfddbbf3+4 during hit 1, 2, 4",
   "Hit" : "-9",
   "Block" : "-",
   "Notes" : "Combo from 1st NH",
@@ -1143,7 +1143,7 @@
   "Damage" : "10,4*3",
   "Startup" : ""
 }, {
-  "Command" : "During Rage fdfddbbf3+4during hit 1, 2, 4, 1",
+  "Command" : " During Rage fdfddbbf3+4 during hit 1, 2, 4, 1",
   "Hit" : "-8",
   "Block" : "-",
   "Notes" : "Combo from 1st NH",
@@ -1154,7 +1154,7 @@
   "Damage" : "10,4*4",
   "Startup" : ""
 }, {
-  "Command" : "During Rage fdfddbbf3+4during hit 1, 2, 4, 1, 4",
+  "Command" : " During Rage fdfddbbf3+4 during hit 1, 2, 4, 1, 4",
   "Hit" : "-13",
   "Block" : "-",
   "Notes" : "Combo from 1st NH\nReturns to crouching.",
@@ -1165,7 +1165,7 @@
   "Damage" : "10,4*5",
   "Startup" : ""
 }, {
-  "Command" : "During Rage fdfddbbf3+4during hit 1, 2, 4, 1, 4, 1",
+  "Command" : " During Rage fdfddbbf3+4 during hit 1, 2, 4, 1, 4, 1",
   "Hit" : "-9",
   "Block" : "-",
   "Notes" : "Combo from 1st NH",
@@ -1176,7 +1176,7 @@
   "Damage" : "10,4*6",
   "Startup" : ""
 }, {
-  "Command" : "During Rage fdfddbbf3+4during hit 1, 2, 4, 1, 4, 1, 3",
+  "Command" : " During Rage fdfddbbf3+4 during hit 1, 2, 4, 1, 4, 1, 3",
   "Hit" : "-1",
   "Block" : "-",
   "Notes" : "Combo from 1st NH",
@@ -1187,7 +1187,7 @@
   "Damage" : "10,4*7",
   "Startup" : ""
 }, {
-  "Command" : "During Rage fdfddbbf3+4during hit 1, 2, 4, 1, 4, 1, 3, 2",
+  "Command" : " During Rage fdfddbbf3+4 during hit 1, 2, 4, 1, 4, 1, 3, 2",
   "Hit" : "+19G",
   "Block" : "-",
   "Notes" : "Combo from 1st NH",
@@ -1198,7 +1198,7 @@
   "Damage" : "10,4*8",
   "Startup" : ""
 }, {
-  "Command" : "During Rage fdfddbbf3+4during hit 1, 2, 4, 1, 4, 1, 3, 2, 1+2",
+  "Command" : " During Rage fdfddbbf3+4 during hit 1, 2, 4, 1, 4, 1, 3, 2, 1+2",
   "Hit" : "KDN",
   "Block" : "-",
   "Notes" : "Combo from 1st NH\n",

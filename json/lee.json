@@ -21,7 +21,7 @@
   "Damage" : "7,9",
   "Startup" : ""
 }, {
-  "Command" : "1, 2f☆ ",
+  "Command" : "1, 2f,n,",
   "Hit" : "+4",
   "Block" : "-2",
   "Notes" : "TC \nCombo from 1st NH.",
@@ -87,7 +87,7 @@
   "Damage" : "7,9,10",
   "Startup" : ""
 }, {
-  "Command" : "1, 2, 4Hold ",
+  "Command" : "1, 2, 4 Hold ",
   "Hit" : "±0",
   "Block" : "-7",
   "Notes" : "",
@@ -109,7 +109,7 @@
   "Damage" : "7,5",
   "Startup" : ""
 }, {
-  "Command" : "1, 3, 3(just) ",
+  "Command" : "1, 3, 3 (just) ",
   "Hit" : "+1",
   "Block" : "-10",
   "Notes" : "Combo from 1st NH",
@@ -120,7 +120,7 @@
   "Damage" : "7,5,4",
   "Startup" : ""
 }, {
-  "Command" : "1, 3, 3(just) , 3(just) ",
+  "Command" : "1, 3, 3 (just) , 3 (just) ",
   "Hit" : "KDN",
   "Block" : "-18",
   "Notes" : "Combo from 1st NH\n",
@@ -263,7 +263,7 @@
   "Damage" : "16,18",
   "Startup" : ""
 }, {
-  "Command" : "【 3, 3】 ",
+  "Command" : "3~3",
   "Hit" : "+1",
   "Block" : "-10",
   "Notes" : "",
@@ -274,7 +274,7 @@
   "Damage" : "18",
   "Startup" : "30F"
 }, {
-  "Command" : "【 3, 3】 (when hit or guarded) 4",
+  "Command" : "3~3",
   "Hit" : "Th",
   "Block" : "上投",
   "Notes" : "Input timing is 1F after hit.\nEnable on mid-air hit.\nDamage () is throw bonus.",
@@ -329,7 +329,7 @@
   "Damage" : "16,14,25",
   "Startup" : ""
 }, {
-  "Command" : "4uor uf3",
+  "Command" : "4u or uf3",
   "Hit" : "KDN",
   "Block" : "-1",
   "Notes" : "TJ \nCan be delayed 4F.\nMeaty 1F in actualy.\n",
@@ -340,7 +340,7 @@
   "Damage" : "16,25",
   "Startup" : ""
 }, {
-  "Command" : "4uor uf3f☆ ",
+  "Command" : "4u or uf3f,n,",
   "Hit" : "KDN",
   "Block" : "-9",
   "Notes" : "",
@@ -692,7 +692,7 @@
   "Damage" : "18,23",
   "Startup" : ""
 }, {
-  "Command" : "dbor d1",
+  "Command" : "db or d1",
   "Hit" : "+6",
   "Block" : "-5",
   "Notes" : "TC 4F\nReturns to crouching.\nInput<img src=\"../6'.bmp\" class=\"c\">to standing",
@@ -747,7 +747,7 @@
   "Damage" : "7",
   "Startup" : "12F"
 }, {
-  "Command" : "d4☆ 4",
+  "Command" : "d4,n,4",
   "Hit" : "+2",
   "Block" : "-9",
   "Notes" : "Connect to<img src=\"../rk.bmp\" class=\"c\">combination.\nCombo from 1st CH.\nCan be delayed.",
@@ -758,7 +758,7 @@
   "Damage" : "7,16",
   "Startup" : ""
 }, {
-  "Command" : "d4☆【 4, 3】 (just) ",
+  "Command" : "4~3",
   "Hit" : "KDN",
   "Block" : "KDN",
   "Notes" : "TC TJ \nSecret Move.",
@@ -879,7 +879,7 @@
   "Damage" : "20,30",
   "Startup" : "76F"
 }, {
-  "Command" : "db3+4or ddb3+4",
+  "Command" : "db3+4 or ddb3+4",
   "Hit" : "+4",
   "Block" : "-13",
   "Notes" : "Meaty 2F",
@@ -934,7 +934,7 @@
   "Damage" : "8,6",
   "Startup" : ""
 }, {
-  "Command" : "b1【 1f☆】 ",
+  "Command" : "1f ☆",
   "Hit" : "+1",
   "Block" : "-5",
   "Notes" : "",
@@ -945,7 +945,7 @@
   "Damage" : "8",
   "Startup" : ""
 }, {
-  "Command" : "b1, 1( just) ",
+  "Command" : "b1, 1 ( just) ",
   "Hit" : "+6",
   "Block" : "-5",
   "Notes" : "Secret Move.\nCombo from 1st NH.",
@@ -956,7 +956,7 @@
   "Damage" : "12,6",
   "Startup" : ""
 }, {
-  "Command" : "b1, 1(just) , 2",
+  "Command" : "b1, 1 (just) , 2",
   "Hit" : "KDN",
   "Block" : "-6",
   "Notes" : "Secret Move.\nCombo from 1st NH.",
@@ -967,7 +967,7 @@
   "Damage" : "12,6,23",
   "Startup" : ""
 }, {
-  "Command" : "b1, 1(just) , 3+4",
+  "Command" : "b1, 1 (just) , 3+4",
   "Hit" : "+10",
   "Block" : "-1",
   "Notes" : "Secret Move.\nCombo from 1st NH.",
@@ -978,7 +978,7 @@
   "Damage" : "12,6",
   "Startup" : ""
 }, {
-  "Command" : "b1【 1(just) f☆】 ",
+  "Command" : "1 (just) f ☆",
   "Hit" : "+1",
   "Block" : "-5",
   "Notes" : "Secret Move.",
@@ -1000,7 +1000,7 @@
   "Damage" : "13",
   "Startup" : "14F"
 }, {
-  "Command" : "b2f☆ ",
+  "Command" : "b2f,n,",
   "Hit" : "+5",
   "Block" : "-1",
   "Notes" : "",
@@ -1066,7 +1066,7 @@
   "Damage" : "9,15",
   "Startup" : ""
 }, {
-  "Command" : "b3, 3f☆ ",
+  "Command" : "b3, 3f,n,",
   "Hit" : "+2",
   "Block" : "-7",
   "Notes" : "Combo from 1st CH",
@@ -1110,7 +1110,7 @@
   "Damage" : "25",
   "Startup" : "20F"
 }, {
-  "Command" : "ubor uor uf1",
+  "Command" : "ub or u or uf1",
   "Hit" : "-1",
   "Block" : "-12",
   "Notes" : "TJ 9F",
@@ -1121,7 +1121,7 @@
   "Damage" : "12",
   "Startup" : "18F"
 }, {
-  "Command" : "ubor uor uf2",
+  "Command" : "ub or u or uf2",
   "Hit" : "+9",
   "Block" : "-12",
   "Notes" : "",
@@ -1242,7 +1242,7 @@
   "Damage" : "13",
   "Startup" : "15F"
 }, {
-  "Command" : "ubor u3+4",
+  "Command" : "ub or u3+4",
   "Hit" : "KDN",
   "Block" : "-17",
   "Notes" : "TJ 9F",
@@ -1275,7 +1275,7 @@
   "Damage" : "27",
   "Startup" : ""
 }, {
-  "Command" : "uf☆ 4",
+  "Command" : "uf,n,4",
   "Hit" : "LNC",
   "Block" : "-11",
   "Notes" : "TJ 9F",
@@ -1385,7 +1385,7 @@
   "Damage" : "14,26",
   "Startup" : ""
 }, {
-  "Command" : "FC 1",
+  "Command" : " FC 1",
   "Hit" : "+6",
   "Block" : "-5",
   "Notes" : "TC \nReturns to crouching.\nInput<img src=\"../6'.bmp\" class=\"c\">to standing",
@@ -1396,7 +1396,7 @@
   "Damage" : "5",
   "Startup" : "10F"
 }, {
-  "Command" : "FC 2",
+  "Command" : " FC 2",
   "Hit" : "+7",
   "Block" : "-4",
   "Notes" : "TC \nReturns to crouching.",
@@ -1407,7 +1407,7 @@
   "Damage" : "8",
   "Startup" : "11F"
 }, {
-  "Command" : "FC dbor d3",
+  "Command" : " FC db or d3",
   "Hit" : "-3",
   "Block" : "-17",
   "Notes" : "TC \nReturns to crouching.",
@@ -1418,7 +1418,7 @@
   "Damage" : "12",
   "Startup" : "13F"
 }, {
-  "Command" : "FC df3",
+  "Command" : " FC df3",
   "Hit" : "-3",
   "Block" : "-17",
   "Notes" : "TC \nReturns to crouching.",
@@ -1429,7 +1429,7 @@
   "Damage" : "12",
   "Startup" : "16F"
 }, {
-  "Command" : "FC dbor d4",
+  "Command" : " FC db or d4",
   "Hit" : "-4",
   "Block" : "-15",
   "Notes" : "TC \nReturns to crouching.",
@@ -1440,7 +1440,7 @@
   "Damage" : "10",
   "Startup" : "12F"
 }, {
-  "Command" : "WS 1",
+  "Command" : " WS 1",
   "Hit" : "+9",
   "Block" : "-2",
   "Notes" : "",
@@ -1451,7 +1451,7 @@
   "Damage" : "12",
   "Startup" : "12F"
 }, {
-  "Command" : "WS 2",
+  "Command" : " WS 2",
   "Hit" : "+3",
   "Block" : "-8",
   "Notes" : "",
@@ -1462,7 +1462,7 @@
   "Damage" : "12",
   "Startup" : "14F"
 }, {
-  "Command" : "WS 2, 3",
+  "Command" : " WS 2, 3",
   "Hit" : "LNC",
   "Block" : "-13",
   "Notes" : "Combo from 1st NH\n",
@@ -1473,7 +1473,7 @@
   "Damage" : "12,24",
   "Startup" : ""
 }, {
-  "Command" : "WS 2, 4",
+  "Command" : " WS 2, 4",
   "Hit" : "+18Sp",
   "Block" : "-4",
   "Notes" : "TS \nCombo from 1st NH",
@@ -1484,7 +1484,7 @@
   "Damage" : "12,23",
   "Startup" : ""
 }, {
-  "Command" : "WS 3",
+  "Command" : " WS 3",
   "Hit" : "-10",
   "Block" : "-21",
   "Notes" : "Meaty 1F in actualy",
@@ -1495,7 +1495,7 @@
   "Damage" : "16",
   "Startup" : "10F"
 }, {
-  "Command" : "WS 3, 3",
+  "Command" : " WS 3, 3",
   "Hit" : "-4C",
   "Block" : "-15",
   "Notes" : "Combo from 1st NH.\nHit force to crouching.\nMeaty 2F.\n",
@@ -1506,7 +1506,7 @@
   "Damage" : "16,11",
   "Startup" : ""
 }, {
-  "Command" : "WS 3, 3d3",
+  "Command" : " WS 3, 3d3",
   "Hit" : "-8",
   "Block" : "-19",
   "Notes" : "Combo from 2nd CH",
@@ -1517,7 +1517,7 @@
   "Damage" : "16,11,8",
   "Startup" : ""
 }, {
-  "Command" : "WS 3, 3d3☆ 3",
+  "Command" : " WS 3, 3d3,n,3",
   "Hit" : "-8",
   "Block" : "-19",
   "Notes" : "Combo from 3rd NH",
@@ -1528,7 +1528,7 @@
   "Damage" : "16,11,8,10",
   "Startup" : ""
 }, {
-  "Command" : "WS 3, 3d3☆ 3, 3",
+  "Command" : " WS 3, 3d3,n,3, 3",
   "Hit" : "-5",
   "Block" : "-16",
   "Notes" : "",
@@ -1539,7 +1539,7 @@
   "Damage" : "16,11,8,10,10",
   "Startup" : ""
 }, {
-  "Command" : "WS 3, 3df3",
+  "Command" : " WS 3, 3df3",
   "Hit" : "-8",
   "Block" : "-19",
   "Notes" : "Combo from 2nd CH",
@@ -1550,7 +1550,7 @@
   "Damage" : "16,11,10",
   "Startup" : ""
 }, {
-  "Command" : "WS 3, 3df3☆ 3",
+  "Command" : " WS 3, 3df3,n,3",
   "Hit" : "-5",
   "Block" : "-16",
   "Notes" : "Combo from 3rd NH",
@@ -1561,7 +1561,7 @@
   "Damage" : "16,11,10,10",
   "Startup" : ""
 }, {
-  "Command" : "WS 3, 3df3☆ 3, 3",
+  "Command" : " WS 3, 3df3,n,3, 3",
   "Hit" : "-8",
   "Block" : "-19",
   "Notes" : "",
@@ -1572,7 +1572,7 @@
   "Damage" : "16,11,10,10,10",
   "Startup" : ""
 }, {
-  "Command" : "During Infinite Kick Chain d3… ",
+  "Command" : " During Infinite Kick Chain d3 … ",
   "Hit" : "-8",
   "Block" : "-19",
   "Notes" : "After Infinite Kick Chain 5th.",
@@ -1583,7 +1583,7 @@
   "Damage" : "8",
   "Startup" : ""
 }, {
-  "Command" : "During Infinite Kick Chain u3… ",
+  "Command" : " During Infinite Kick Chain u3 … ",
   "Hit" : "KDN",
   "Block" : "-20",
   "Notes" : "After Infinite Kick Chain 5th.",
@@ -1594,7 +1594,7 @@
   "Damage" : "15",
   "Startup" : ""
 }, {
-  "Command" : "WS 3, 3, 4",
+  "Command" : " WS 3, 3, 4",
   "Hit" : "-4C",
   "Block" : "-15",
   "Notes" : "Combo from 1st NH.\nHit force to crouching.\nMeaty 2F.\n",
@@ -1605,7 +1605,7 @@
   "Damage" : "16,11",
   "Startup" : ""
 }, {
-  "Command" : "WS 4",
+  "Command" : " WS 4",
   "Hit" : "+5",
   "Block" : "-6",
   "Notes" : "",
@@ -1616,7 +1616,7 @@
   "Damage" : "16",
   "Startup" : "11F"
 }, {
-  "Command" : "WS 4, 3",
+  "Command" : " WS 4, 3",
   "Hit" : "+2",
   "Block" : "-9",
   "Notes" : "",
@@ -1627,7 +1627,7 @@
   "Damage" : "16",
   "Startup" : ""
 }, {
-  "Command" : "FC df4",
+  "Command" : " FC df4",
   "Hit" : "-3C",
   "Block" : "-14",
   "Notes" : "TC \nReturns to crouching.\n",
@@ -1638,7 +1638,7 @@
   "Damage" : "17",
   "Startup" : "16F"
 }, {
-  "Command" : "FC df4, 3",
+  "Command" : " FC df4, 3",
   "Hit" : "-1C",
   "Block" : "-12",
   "Notes" : "TC \nReturns to crouching.\n",
@@ -1649,7 +1649,7 @@
   "Damage" : "17",
   "Startup" : ""
 }, {
-  "Command" : "FC ub4",
+  "Command" : " FC ub4",
   "Hit" : "-6",
   "Block" : "-17",
   "Notes" : "TJ 9F\n<img src=\"../8.bmp\" class=\"c\">2F.\nReturns to crouching.",
@@ -1660,7 +1660,7 @@
   "Damage" : "15",
   "Startup" : "18F"
 }, {
-  "Command" : "FC u4",
+  "Command" : " FC u4",
   "Hit" : "LNC",
   "Block" : "-17",
   "Notes" : "TJ 9F\n<img src=\"../8.bmp\" class=\"c\">2F.\nReturns to crouching.",
@@ -1671,7 +1671,7 @@
   "Damage" : "22",
   "Startup" : "18F"
 }, {
-  "Command" : "FC uf4",
+  "Command" : " FC uf4",
   "Hit" : "LNC",
   "Block" : "-17",
   "Notes" : "TJ 9F\n<img src=\"../8.bmp\" class=\"c\">2F.\nReturns to crouching.",
@@ -1682,7 +1682,7 @@
   "Damage" : "25",
   "Startup" : "18F"
 }, {
-  "Command" : "FC ubor uor uf4, 3",
+  "Command" : " FC ub or u or uf4, 3",
   "Hit" : "LNC",
   "Block" : "-17",
   "Notes" : "TJ 9F\n<img src=\"../8.bmp\" class=\"c\">2F.\nReturns to crouching.",
@@ -1693,7 +1693,7 @@
   "Damage" : "15 or 22 or 25",
   "Startup" : "18F"
 }, {
-  "Command" : "FC ub4",
+  "Command" : " FC ub4",
   "Hit" : "-20",
   "Block" : "-31",
   "Notes" : "TJ 9F",
@@ -1704,7 +1704,7 @@
   "Damage" : "25",
   "Startup" : "14F"
 }, {
-  "Command" : "FC uor uf4",
+  "Command" : " FC u or uf4",
   "Hit" : "KDN",
   "Block" : "-32",
   "Notes" : "TJ 9F",
@@ -1715,7 +1715,7 @@
   "Damage" : "28 or 30",
   "Startup" : "14F"
 }, {
-  "Command" : "FC ubor uor uf4d",
+  "Command" : " FC ub or u or uf4d",
   "Hit" : "KDN",
   "Block" : "-32",
   "Notes" : "TJ 9F\nReturns to crouching.",
@@ -1726,7 +1726,7 @@
   "Damage" : "25 or 28 or 30",
   "Startup" : "14F"
 }, {
-  "Command" : "FC ubor uor uf3+4",
+  "Command" : " FC ub or u or uf3+4",
   "Hit" : "KDN",
   "Block" : "-4",
   "Notes" : "TJ 9F\nTo Down.",
@@ -1737,7 +1737,7 @@
   "Damage" : "30,20",
   "Startup" : "46F"
 }, {
-  "Command" : "FC dfddf3",
+  "Command" : " FC dfddf3",
   "Hit" : "KDN",
   "Block" : "-23",
   "Notes" : "TC \nTo Down.\nMeaty 2F in actualy.\n",
@@ -1748,7 +1748,7 @@
   "Damage" : "22",
   "Startup" : "16F"
 }, {
-  "Command" : "SS (right) 3+4",
+  "Command" : " SS (right) 3+4",
   "Hit" : "KDN",
   "Block" : "-11",
   "Notes" : "TS ",
@@ -1759,7 +1759,7 @@
   "Damage" : "28",
   "Startup" : "20F"
 }, {
-  "Command" : "SS (right) 3+4, 4",
+  "Command" : " SS (right) 3+4, 4",
   "Hit" : "KDN",
   "Block" : "-14",
   "Notes" : "TS ",
@@ -1770,7 +1770,7 @@
   "Damage" : "28",
   "Startup" : ""
 }, {
-  "Command" : "SS (left) 3+4",
+  "Command" : " SS (left) 3+4",
   "Hit" : "KDN",
   "Block" : "-2",
   "Notes" : "TS ",
@@ -1781,7 +1781,7 @@
   "Damage" : "25",
   "Startup" : "17F"
 }, {
-  "Command" : "SS (right) 3+4, 3",
+  "Command" : " SS (right) 3+4, 3",
   "Hit" : "KDN",
   "Block" : "-5",
   "Notes" : "TS ",
@@ -1792,7 +1792,7 @@
   "Damage" : "25",
   "Startup" : ""
 }, {
-  "Command" : "bbubwith back against wall ",
+  "Command" : "bbub with back against wall ",
   "Hit" : "KDN",
   "Block" : "+2",
   "Notes" : "Advance Input is unavailable\nAir Status 5F\nInvinciblity during 8 to 24F",
@@ -1803,7 +1803,7 @@
   "Damage" : "21",
   "Startup" : "36F"
 }, {
-  "Command" : "BT 1or 2",
+  "Command" : " BT 1 or 2",
   "Hit" : "+3",
   "Block" : "-8",
   "Notes" : "",
@@ -1814,7 +1814,7 @@
   "Damage" : "15",
   "Startup" : "8F"
 }, {
-  "Command" : "BT 3or 4",
+  "Command" : " BT 3 or 4",
   "Hit" : "KDN",
   "Block" : "-8",
   "Notes" : "",
@@ -1825,7 +1825,7 @@
   "Damage" : "18",
   "Startup" : "10F"
 }, {
-  "Command" : "BT d1or d2",
+  "Command" : " BT d1 or d2",
   "Hit" : "+9",
   "Block" : "-2",
   "Notes" : "TC 1F\nReturns to crouching.",
@@ -1836,7 +1836,7 @@
   "Damage" : "10",
   "Startup" : "10F"
 }, {
-  "Command" : "BT d3or d4",
+  "Command" : " BT d3 or d4",
   "Hit" : "+3",
   "Block" : "-11",
   "Notes" : "TC 1F\nReturns to crouching.",
@@ -1858,7 +1858,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "During Hitman dor u",
+  "Command" : " During Hitman d or u",
   "Hit" : "",
   "Block" : "",
   "Notes" : "",
@@ -1869,7 +1869,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "During Hitman f☆ ",
+  "Command" : " During Hitman f,n,",
   "Hit" : "",
   "Block" : "",
   "Notes" : "",
@@ -1880,7 +1880,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "During Hitman dbor d",
+  "Command" : " During Hitman db or d",
   "Hit" : "",
   "Block" : "",
   "Notes" : "Returns to crouching.\nRemove style time is vary in shift moves.",
@@ -1891,7 +1891,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "During Hitman b",
+  "Command" : " During Hitman b",
   "Hit" : "",
   "Block" : "",
   "Notes" : "Cost 1F after Hitman 17F.",
@@ -1902,7 +1902,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "During Hitman 1",
+  "Command" : " During Hitman 1",
   "Hit" : "+7",
   "Block" : "±0",
   "Notes" : "Scatter Kick (During Hitman<img src=\"../lk.bmp\" class=\"c\">) to Cancel.",
@@ -1913,7 +1913,7 @@
   "Damage" : "10",
   "Startup" : "12F"
 }, {
-  "Command" : "During Hitman 1f☆ ",
+  "Command" : " During Hitman 1f,n,",
   "Hit" : "",
   "Block" : "",
   "Notes" : "",
@@ -1924,7 +1924,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "During Hitman 1, 1, 1, 1",
+  "Command" : " During Hitman 1, 1, 1, 1",
   "Hit" : "+7",
   "Block" : "-1",
   "Notes" : "Combo from 1st NH",
@@ -1935,7 +1935,7 @@
   "Damage" : "10,10,,",
   "Startup" : ""
 }, {
-  "Command" : "During Freaker Jab Rush f☆ ",
+  "Command" : " During Freaker Jab Rush f,n,",
   "Hit" : "+6",
   "Block" : "-2",
   "Notes" : "",
@@ -1946,7 +1946,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "During Hitman 1, 4",
+  "Command" : " During Hitman 1, 4",
   "Hit" : "±0",
   "Block" : "-8",
   "Notes" : "Combo from 1st NH\n",
@@ -1957,7 +1957,7 @@
   "Damage" : "10,17",
   "Startup" : ""
 }, {
-  "Command" : "During Hitman 1, 4, 3",
+  "Command" : " During Hitman 1, 4, 3",
   "Hit" : "±0",
   "Block" : "-8",
   "Notes" : "Combo from 1st NH",
@@ -1968,7 +1968,7 @@
   "Damage" : "10,17",
   "Startup" : ""
 }, {
-  "Command" : "During Hitman 2",
+  "Command" : " During Hitman 2",
   "Hit" : "LNC",
   "Block" : "-13",
   "Notes" : "",
@@ -1979,7 +1979,7 @@
   "Damage" : "23",
   "Startup" : "19F"
 }, {
-  "Command" : "During Hitman 3",
+  "Command" : " During Hitman 3",
   "Hit" : "Th",
   "Block" : "-4",
   "Notes" : "H TS PC 8F\nTo Scatter Kick Throw on hit.\nDamage() is throw bonus.\nMeaty 1F in actualy.\n",
@@ -1990,7 +1990,7 @@
   "Damage" : "21(,20)",
   "Startup" : "17F"
 }, {
-  "Command" : "During Hitman 4",
+  "Command" : " During Hitman 4",
   "Hit" : "KDN",
   "Block" : "-26",
   "Notes" : "TC 6F\nReturns to crouching.\n",
@@ -2001,7 +2001,7 @@
   "Damage" : "20",
   "Startup" : "24F"
 }, {
-  "Command" : "During Hitman 1+2",
+  "Command" : " During Hitman 1+2",
   "Hit" : "+6",
   "Block" : "-7",
   "Notes" : "",
@@ -2012,7 +2012,7 @@
   "Damage" : "10,15",
   "Startup" : "15F"
 }, {
-  "Command" : "During Hitman uf3",
+  "Command" : " During Hitman uf3",
   "Hit" : "KDN",
   "Block" : "-9",
   "Notes" : "WB TJ 9F\nDisable Jump Cancel.\nMeaty 1F in actualy\n",
@@ -2023,7 +2023,7 @@
   "Damage" : "24",
   "Startup" : "20F"
 }, {
-  "Command" : "During Hitman uf3d",
+  "Command" : " During Hitman uf3d",
   "Hit" : "KDN",
   "Block" : "-9",
   "Notes" : "WB TJ 9F\nDisable Jump Cancel.\nReturns to crouching.\n",
@@ -2034,7 +2034,7 @@
   "Damage" : "24",
   "Startup" : "20F"
 }, {
-  "Command" : "During Hitman uf4",
+  "Command" : " During Hitman uf4",
   "Hit" : "KDN",
   "Block" : "-8C",
   "Notes" : "TJ 16F\nDisable Jump Cancel.\nBlock force to crouching.\nMeaty 2F in actualy.",
@@ -2045,7 +2045,7 @@
   "Damage" : "20",
   "Startup" : "25F"
 }, {
-  "Command" : "f☆ or During Hitman f",
+  "Command" : "f,n,or During Hitman f",
   "Hit" : "",
   "Block" : "",
   "Notes" : "TC 7F\nCost 2F.\nEnable Stand Moves during MS.",
@@ -2056,7 +2056,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "MS 3",
+  "Command" : " MS 3",
   "Hit" : "-1",
   "Block" : "-12",
   "Notes" : "TJ 9F",
@@ -2067,7 +2067,7 @@
   "Damage" : "10",
   "Startup" : "15F"
 }, {
-  "Command" : "MS 3, 4",
+  "Command" : " MS 3, 4",
   "Hit" : "LNC",
   "Block" : "-13",
   "Notes" : "TJ ",
@@ -2078,7 +2078,7 @@
   "Damage" : "10,10",
   "Startup" : ""
 }, {
-  "Command" : "MS 3+4",
+  "Command" : " MS 3+4",
   "Hit" : "KDN",
   "Block" : "-36",
   "Notes" : "TJ 6F",
@@ -2089,7 +2089,7 @@
   "Damage" : "17",
   "Startup" : "29F"
 }, {
-  "Command" : "MS b☆ ",
+  "Command" : " MS b,n,",
   "Hit" : "",
   "Block" : "",
   "Notes" : "Returns to crouching.\nEnable Stand Moves during Sway.",
@@ -2100,7 +2100,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "During Sway 4",
+  "Command" : " During Sway 4",
   "Hit" : "+3",
   "Block" : "-13",
   "Notes" : "TC 1F",
@@ -2111,7 +2111,7 @@
   "Damage" : "18",
   "Startup" : "21F"
 }, {
-  "Command" : "During Rage d1+2",
+  "Command" : " During Rage d1+2",
   "Hit" : "Th",
   "Block" : "-22",
   "Notes" : "Guard Point 8F\n",
@@ -2122,7 +2122,7 @@
   "Damage" : "55",
   "Startup" : "20F"
 }, {
-  "Command" : "During Rage df3+4",
+  "Command" : " During Rage df3+4",
   "Hit" : "KDN",
   "Block" : "-1",
   "Notes" : "TS \nnot consumed in the count of Tail Spin.\n",
@@ -2133,7 +2133,7 @@
   "Damage" : "25",
   "Startup" : "16F"
 }, {
-  "Command" : "During Rage df3+4f☆ ",
+  "Command" : " During Rage df3+4f,n,",
   "Hit" : "KDN",
   "Block" : "-2",
   "Notes" : "TS \nnot consumed in the count of Tail Spin.",
@@ -2166,7 +2166,7 @@
   "Damage" : "35",
   "Startup" : "12F"
 }, {
-  "Command" : "Approach from left side ",
+  "Command" : " Approach from left side ",
   "Hit" : "-3F",
   "Block" : "Left Side Fac-Dwn",
   "Notes" : "",
@@ -2177,7 +2177,7 @@
   "Damage" : "40",
   "Startup" : ""
 }, {
-  "Command" : "Approach from right side ",
+  "Command" : " Approach from right side ",
   "Hit" : "-3F",
   "Block" : "Head-sd Fac-Dwn",
   "Notes" : "Floor Break",
@@ -2188,7 +2188,7 @@
   "Damage" : "40",
   "Startup" : ""
 }, {
-  "Command" : "Approach from behind ",
+  "Command" : " Approach from behind ",
   "Hit" : "disable",
   "Block" : "Head-sd Fac-Dwn",
   "Notes" : "BT after throw.",
@@ -2210,7 +2210,7 @@
   "Damage" : "30(21)",
   "Startup" : "12F"
 }, {
-  "Command" : "b1+2or FC b1+2or During Hitman b1+2",
+  "Command" : "b1+2 or FC b1+2 or During Hitman b1+2",
   "Hit" : "disable",
   "Block" : "RP +7BF",
   "Notes" : "Absorbs Punch(H/M) during 2 to 10F.\n",
@@ -2221,7 +2221,7 @@
   "Damage" : "0",
   "Startup" : ""
 }, {
-  "Command" : "After Mist Illusion succeeds 4",
+  "Command" : " After Mist Illusion succeeds 4",
   "Hit" : "",
   "Block" : "",
   "Notes" : "Tail Spin on CH or air-mid hit.\n",

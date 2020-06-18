@@ -1,5 +1,5 @@
 [ {
-  "Command" : "1or f1",
+  "Command" : "1 or f1",
   "Hit" : "+8",
   "Block" : "+1",
   "Notes" : "",
@@ -109,7 +109,7 @@
   "Damage" : "7,10,10,10,10",
   "Startup" : ""
 }, {
-  "Command" : "1【 3, 3】 ",
+  "Command" : "3~3",
   "Hit" : "KDN",
   "Block" : "+6",
   "Notes" : "",
@@ -120,7 +120,7 @@
   "Damage" : "7,20",
   "Startup" : ""
 }, {
-  "Command" : "1【 3, 3】 df3",
+  "Command" : "3~3",
   "Hit" : "KDN",
   "Block" : "-14",
   "Notes" : "Can be delayed",
@@ -186,7 +186,7 @@
   "Damage" : "9,9,18",
   "Startup" : ""
 }, {
-  "Command" : "2, 1【 4, 4】 ",
+  "Command" : "4~4",
   "Hit" : "KDN",
   "Block" : "-31",
   "Notes" : "Interruption 16F after 2nd block",
@@ -263,7 +263,7 @@
   "Damage" : "18",
   "Startup" : "13F"
 }, {
-  "Command" : "【 4, 3】 or 【WS 4, 3】 ",
+  "Command" : "4~3",
   "Hit" : "KDN",
   "Block" : "-15",
   "Notes" : "TJ 12F\nAdvance Input is unavailable\nStart-up 25F in actualy\nMeaty 6F in actualy\nStart-up 23F (Verh short)",
@@ -318,7 +318,7 @@
   "Damage" : "16",
   "Startup" : "12F"
 }, {
-  "Command" : "【 f3, 3】 ",
+  "Command" : "f3~3",
   "Hit" : "KDN",
   "Block" : "+6",
   "Notes" : "Advance Input is unavailable\nStart-up 24F in actualy",
@@ -329,7 +329,7 @@
   "Damage" : "20",
   "Startup" : "23F"
 }, {
-  "Command" : "【 f3, 3】 df3",
+  "Command" : "f3~3",
   "Hit" : "KDN",
   "Block" : "-14",
   "Notes" : "Can be delayed",
@@ -395,7 +395,7 @@
   "Damage" : "10,18",
   "Startup" : ""
 }, {
-  "Command" : "df1【 4, 4】 ",
+  "Command" : "4~4",
   "Hit" : "KDN",
   "Block" : "-12",
   "Notes" : "",
@@ -692,7 +692,7 @@
   "Damage" : "21",
   "Startup" : "17F"
 }, {
-  "Command" : "ubor uor uf1",
+  "Command" : "ub or u or uf1",
   "Hit" : "-1",
   "Block" : "-12",
   "Notes" : "TJ 9F",
@@ -703,7 +703,7 @@
   "Damage" : "12",
   "Startup" : "18F"
 }, {
-  "Command" : "ubor u2",
+  "Command" : "ub or u2",
   "Hit" : "+9",
   "Block" : "-12",
   "Notes" : "",
@@ -736,7 +736,7 @@
   "Damage" : "13",
   "Startup" : "22F"
 }, {
-  "Command" : "uor uf3",
+  "Command" : "u or uf3",
   "Hit" : "+6",
   "Block" : "-9",
   "Notes" : "TJ 9F\nCrumble stun +10F after CH",
@@ -791,7 +791,7 @@
   "Damage" : "70",
   "Startup" : "75F"
 }, {
-  "Command" : "uf☆ 4",
+  "Command" : "uf,n,4",
   "Hit" : "LNC",
   "Block" : "-11",
   "Notes" : "TJ 9F",
@@ -923,7 +923,7 @@
   "Damage" : "30",
   "Startup" : "22F"
 }, {
-  "Command" : "FC 1",
+  "Command" : " FC 1",
   "Hit" : "+6",
   "Block" : "-5",
   "Notes" : "TC \nInput<img src=\"../6'.bmp\" class=\"c\">to standing\nReturns to crouching.",
@@ -934,7 +934,7 @@
   "Damage" : "5",
   "Startup" : "10F"
 }, {
-  "Command" : "FC 2",
+  "Command" : " FC 2",
   "Hit" : "+7",
   "Block" : "-4",
   "Notes" : "TC \nReturns to crouching.",
@@ -945,7 +945,7 @@
   "Damage" : "8",
   "Startup" : "11F"
 }, {
-  "Command" : "FC 3",
+  "Command" : " FC 3",
   "Hit" : "-3",
   "Block" : "-17",
   "Notes" : "TC \nReturns to crouching.",
@@ -956,7 +956,7 @@
   "Damage" : "12",
   "Startup" : "16F"
 }, {
-  "Command" : "FC 4",
+  "Command" : " FC 4",
   "Hit" : "-4",
   "Block" : "-15",
   "Notes" : "TC \nReturns to crouching.",
@@ -967,7 +967,7 @@
   "Damage" : "10",
   "Startup" : "12F"
 }, {
-  "Command" : "WS 1",
+  "Command" : " WS 1",
   "Hit" : "+5",
   "Block" : "-6",
   "Notes" : "",
@@ -978,7 +978,7 @@
   "Damage" : "10",
   "Startup" : "13F"
 }, {
-  "Command" : "WS 1, 2",
+  "Command" : " WS 1, 2",
   "Hit" : "+3C",
   "Block" : "-8",
   "Notes" : "Combo from 1st NH\nCan be delayed\nCombo can be delayed 2F from 1st NH\nCombo can be delayed 11F from 1st CH\nHit force to crouching\nMeaty 1F",
@@ -989,7 +989,7 @@
   "Damage" : "10,16",
   "Startup" : ""
 }, {
-  "Command" : "WS 1, 2f",
+  "Command" : " WS 1, 2f",
   "Hit" : "+2C",
   "Block" : "-9",
   "Notes" : "To Zenshin (<img src=\"../2.bmp\" class=\"c\"><img src=\"../p.bmp\" class=\"c\">)\nHit force to crouching",
@@ -1000,7 +1000,7 @@
   "Damage" : "10,16",
   "Startup" : ""
 }, {
-  "Command" : "WS 2",
+  "Command" : " WS 2",
   "Hit" : "LNC",
   "Block" : "-12",
   "Notes" : "Total 35F after hit",
@@ -1011,7 +1011,7 @@
   "Damage" : "14",
   "Startup" : "14F"
 }, {
-  "Command" : "WS 3",
+  "Command" : " WS 3",
   "Hit" : "+10Sp",
   "Block" : "-9",
   "Notes" : "H TS ",
@@ -1022,7 +1022,7 @@
   "Damage" : "20",
   "Startup" : "16F"
 }, {
-  "Command" : "WS 4",
+  "Command" : " WS 4",
   "Hit" : "+8",
   "Block" : "-3",
   "Notes" : "Meaty 1F",
@@ -1033,7 +1033,7 @@
   "Damage" : "16",
   "Startup" : "11F"
 }, {
-  "Command" : "While enemy is down d2",
+  "Command" : " While enemy is down d2",
   "Hit" : "+3",
   "Block" : "-13",
   "Notes" : "",
@@ -1055,7 +1055,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "bbubwith back against wall ",
+  "Command" : "bbub with back against wall ",
   "Hit" : "KDN",
   "Block" : "±0C",
   "Notes" : "Advance Input is unavailable\nAir Status 5F\nInvinciblity during 8 to 13F",
@@ -1066,7 +1066,7 @@
   "Damage" : "21",
   "Startup" : "36F"
 }, {
-  "Command" : "BT 1or 2",
+  "Command" : " BT 1 or 2",
   "Hit" : "+3",
   "Block" : "-8",
   "Notes" : "",
@@ -1077,7 +1077,7 @@
   "Damage" : "15",
   "Startup" : "8F"
 }, {
-  "Command" : "BT 3or 4",
+  "Command" : " BT 3 or 4",
   "Hit" : "KDN",
   "Block" : "-8",
   "Notes" : "",
@@ -1088,7 +1088,7 @@
   "Damage" : "18",
   "Startup" : "10F"
 }, {
-  "Command" : "BT d1or d2",
+  "Command" : " BT d1 or d2",
   "Hit" : "+9",
   "Block" : "-2",
   "Notes" : "TC 1F\nReturns to crouching.",
@@ -1099,7 +1099,7 @@
   "Damage" : "10",
   "Startup" : "10F"
 }, {
-  "Command" : "BT d3or d4",
+  "Command" : " BT d3 or d4",
   "Hit" : "+3",
   "Block" : "-11",
   "Notes" : "TC 1F\nReturns to crouching.",
@@ -1121,7 +1121,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "During Zenshin df",
+  "Command" : " During Zenshin df",
   "Hit" : "",
   "Block" : "",
   "Notes" : "To Crouch Dash (<img src=\"../6.bmp\" class=\"c\">☆<img src=\"../2.bmp\" class=\"c\"><img src=\"../3.bmp\" class=\"c\">)\n<img src=\"../2.bmp\" class=\"c\"><img src=\"../p.bmp\" class=\"c\"><img src=\"../3'.bmp\" class=\"c\">cost 23F\nAdvance Input is unavailable\nInput<img src=\"../4.bmp\" class=\"c\">to Cancel",
@@ -1165,7 +1165,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "During Zenshin 1",
+  "Command" : " During Zenshin 1",
   "Hit" : "+8",
   "Block" : "-3",
   "Notes" : "",
@@ -1176,7 +1176,7 @@
   "Damage" : "14",
   "Startup" : "16F"
 }, {
-  "Command" : "During Zenshin 1, 2",
+  "Command" : " During Zenshin 1, 2",
   "Hit" : "KDN",
   "Block" : "-14",
   "Notes" : "Combo from 1st NH\nCan be delayed\nCombo can be delayed 11F",
@@ -1187,7 +1187,7 @@
   "Damage" : "14,21",
   "Startup" : ""
 }, {
-  "Command" : "During Zenshin 1, 3",
+  "Command" : " During Zenshin 1, 3",
   "Hit" : "KDN",
   "Block" : "-9",
   "Notes" : "Combo from 1st hit.\n",
@@ -1198,7 +1198,7 @@
   "Damage" : "14,18",
   "Startup" : ""
 }, {
-  "Command" : "During Zenshin 2",
+  "Command" : " During Zenshin 2",
   "Hit" : "KDN",
   "Block" : "-14",
   "Notes" : "",
@@ -1209,7 +1209,7 @@
   "Damage" : "27",
   "Startup" : "22F"
 }, {
-  "Command" : "During Zenshin 3",
+  "Command" : " During Zenshin 3",
   "Hit" : "+10Sp",
   "Block" : "-9",
   "Notes" : "H TS ",
@@ -1220,7 +1220,7 @@
   "Damage" : "20",
   "Startup" : "17F"
 }, {
-  "Command" : "During Zenshin 4",
+  "Command" : " During Zenshin 4",
   "Hit" : "KDN",
   "Block" : "-26",
   "Notes" : "TC \nReturns to crouching.",
@@ -1231,7 +1231,7 @@
   "Damage" : "20",
   "Startup" : "25F"
 }, {
-  "Command" : "During Zenshin 1+2",
+  "Command" : " During Zenshin 1+2",
   "Hit" : "LNC",
   "Block" : "-13",
   "Notes" : "",
@@ -1242,7 +1242,7 @@
   "Damage" : "8,20",
   "Startup" : "13F"
 }, {
-  "Command" : "During Zenshin 3+4",
+  "Command" : " During Zenshin 3+4",
   "Hit" : "KDN",
   "Block" : "+8G",
   "Notes" : "TJ 10F\nMeaty 5F in actualy",
@@ -1253,7 +1253,7 @@
   "Damage" : "25",
   "Startup" : "22F"
 }, {
-  "Command" : "f☆ ddf",
+  "Command" : "f,n,ddf",
   "Hit" : "",
   "Block" : "",
   "Notes" : "Advance Input is unavailable\nCost 3F",
@@ -1264,7 +1264,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "f☆ ddfJ 1",
+  "Command" : "f,n,ddf J 1",
   "Hit" : "LNC",
   "Block" : "-13",
   "Notes" : "Advance Input is unavailable\nStart-up 19F in actualy",
@@ -1275,7 +1275,7 @@
   "Damage" : "22",
   "Startup" : "16F"
 }, {
-  "Command" : "f☆ ddf1",
+  "Command" : "f,n,ddf1",
   "Hit" : "LNC",
   "Block" : "-13",
   "Notes" : "Advance Input is unavailable\nStart-up 20F in actualy",
@@ -1286,7 +1286,7 @@
   "Damage" : "20",
   "Startup" : "16F"
 }, {
-  "Command" : "f☆ ddfJ 2",
+  "Command" : "f,n,ddf J 2",
   "Hit" : "KDN",
   "Block" : "+5",
   "Notes" : "Advance Input is unavailable\nStart-up 14F in actualy\nTotal 36F after block or hit\nMeaty 1F",
@@ -1297,7 +1297,7 @@
   "Damage" : "25",
   "Startup" : "11F"
 }, {
-  "Command" : "f☆ ddf2",
+  "Command" : "f,n,ddf2",
   "Hit" : "KDN",
   "Block" : "-10",
   "Notes" : "Advance Input is unavailable\nStart-up 15F in actualy\nMeaty 1F\n",
@@ -1308,7 +1308,7 @@
   "Damage" : "20",
   "Startup" : "11F"
 }, {
-  "Command" : "f☆ ddf3",
+  "Command" : "f,n,ddf3",
   "Hit" : "+10Sp",
   "Block" : "-9",
   "Notes" : "H TS \nAdvance Input is unavailable\nStart-up 19F in actualy",
@@ -1319,7 +1319,7 @@
   "Damage" : "20",
   "Startup" : "16F"
 }, {
-  "Command" : "f☆ ddf4",
+  "Command" : "f,n,ddf4",
   "Hit" : "KDN",
   "Block" : "-31",
   "Notes" : "Advance Input is unavailable\nStart-up 23F in actualy\n",
@@ -1330,7 +1330,7 @@
   "Damage" : "10",
   "Startup" : "20F"
 }, {
-  "Command" : "f☆ ddf4, 3+4",
+  "Command" : "f,n,ddf4, 3+4",
   "Hit" : "KDN",
   "Block" : "-15",
   "Notes" : "TJ \nDisable 2nd after 1st block",
@@ -1341,7 +1341,7 @@
   "Damage" : "10,27",
   "Startup" : ""
 }, {
-  "Command" : "f☆ ddfuf",
+  "Command" : "f,n,ddfuf",
   "Hit" : "",
   "Block" : "",
   "Notes" : "TJ ",
@@ -1352,7 +1352,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "f☆ ddfuf3",
+  "Command" : "f,n,ddfuf3",
   "Hit" : "KDN",
   "Block" : "+9G",
   "Notes" : "TJ ",
@@ -1363,7 +1363,7 @@
   "Damage" : "30",
   "Startup" : "22F"
 }, {
-  "Command" : "During Rage b1+2",
+  "Command" : " During Rage b1+2",
   "Hit" : "Th",
   "Block" : "-9",
   "Notes" : "Guard Point 8F",
@@ -1374,7 +1374,7 @@
   "Damage" : "55",
   "Startup" : "13F"
 }, {
-  "Command" : "During Rage f☆ ddf1+2",
+  "Command" : " During Rage f,n,ddf1+2",
   "Hit" : "LNC",
   "Block" : "-7",
   "Notes" : "Advance Input is unavailable\nStart-up 14F in actualy\nEnable during Zenshin to Crouch Dash\n",
@@ -1385,7 +1385,7 @@
   "Damage" : "25,35",
   "Startup" : "11F"
 }, {
-  "Command" : "During Rage f☆ ddf1+2df",
+  "Command" : " During Rage f,n,ddf1+2df",
   "Hit" : "LNC",
   "Block" : "+17G",
   "Notes" : "Advance Input is unavailable",
@@ -1396,7 +1396,7 @@
   "Damage" : "24,35",
   "Startup" : ""
 }, {
-  "Command" : "During Rage f☆ ddf1+2, 3",
+  "Command" : " During Rage f,n,ddf1+2, 3",
   "Hit" : "KDN",
   "Block" : "+8G",
   "Notes" : "TJ \nMeaty 5F",
@@ -1407,7 +1407,7 @@
   "Damage" : "24,35,25",
   "Startup" : ""
 }, {
-  "Command" : "During Rage f☆ ddf1+2, 3, 1",
+  "Command" : " During Rage f,n,ddf1+2, 3, 1",
   "Hit" : "KDN",
   "Block" : "+9",
   "Notes" : "TC \nUnblokable damage 5 close to Wall\n&amp; +15<sup>G</sup>F",
@@ -1440,7 +1440,7 @@
   "Damage" : "35",
   "Startup" : "12F"
 }, {
-  "Command" : "Approach from left side ",
+  "Command" : " Approach from left side ",
   "Hit" : "-3F",
   "Block" : "Head-sd Fac-Up",
   "Notes" : "",
@@ -1451,7 +1451,7 @@
   "Damage" : "43",
   "Startup" : ""
 }, {
-  "Command" : "Approach from right side ",
+  "Command" : " Approach from right side ",
   "Hit" : "-3F",
   "Block" : "Head-sd Fac-Dwn",
   "Notes" : "",
@@ -1462,7 +1462,7 @@
   "Damage" : "40",
   "Startup" : ""
 }, {
-  "Command" : "Approach from behind ",
+  "Command" : " Approach from behind ",
   "Hit" : "disable",
   "Block" : "Right-sd Fac-Up",
   "Notes" : "",
@@ -1506,7 +1506,7 @@
   "Damage" : "40",
   "Startup" : "12F"
 }, {
-  "Command" : "b1+3or b2+4",
+  "Command" : "b1+3 or b2+4",
   "Hit" : "disable",
   "Block" : "",
   "Notes" : "Parry(H/M) during 2 to 8F\nAuto block 1 or 9 to 18Ｆ",

@@ -120,7 +120,7 @@
   "Damage" : "10,20",
   "Startup" : ""
 }, {
-  "Command" : "3or WS 3",
+  "Command" : "3 or WS 3",
   "Hit" : "+6",
   "Block" : "-5",
   "Notes" : "Damage () is from WS<img src=\"../lk.bmp\" class=\"c\">\n",
@@ -659,7 +659,7 @@
   "Damage" : "10,20",
   "Startup" : "23F"
 }, {
-  "Command" : "ubor uor uf1",
+  "Command" : "ub or u or uf1",
   "Hit" : "-1",
   "Block" : "-12",
   "Notes" : "TJ 9F",
@@ -670,7 +670,7 @@
   "Damage" : "12",
   "Startup" : "18F"
 }, {
-  "Command" : "ubor uor uf2",
+  "Command" : "ub or u or uf2",
   "Hit" : "+9",
   "Block" : "-12",
   "Notes" : "",
@@ -681,7 +681,7 @@
   "Damage" : "17",
   "Startup" : "15F"
 }, {
-  "Command" : "ubor uor uf3",
+  "Command" : "ub or u or uf3",
   "Hit" : "LNC",
   "Block" : "-15",
   "Notes" : "",
@@ -703,7 +703,7 @@
   "Damage" : "23",
   "Startup" : "16F"
 }, {
-  "Command" : "uor uf4",
+  "Command" : "u or uf4",
   "Hit" : "-4",
   "Block" : "-15",
   "Notes" : "TJ 9F\n",
@@ -791,7 +791,7 @@
   "Damage" : "10,20",
   "Startup" : "17F"
 }, {
-  "Command" : "uf☆ 4",
+  "Command" : "uf,n,4",
   "Hit" : "KDN",
   "Block" : "-9",
   "Notes" : "TJ 9F",
@@ -857,7 +857,7 @@
   "Damage" : "30",
   "Startup" : "26F"
 }, {
-  "Command" : "FC 1",
+  "Command" : " FC 1",
   "Hit" : "+6",
   "Block" : "-5",
   "Notes" : "TC \nReturns to crouching.\nInput<img src=\"../6'.bmp\" class=\"c\">to standing",
@@ -868,7 +868,7 @@
   "Damage" : "5",
   "Startup" : "10F"
 }, {
-  "Command" : "FC 2",
+  "Command" : " FC 2",
   "Hit" : "+7",
   "Block" : "-4",
   "Notes" : "TC \nReturns to crouching.",
@@ -879,7 +879,7 @@
   "Damage" : "8",
   "Startup" : "11F"
 }, {
-  "Command" : "FC 3",
+  "Command" : " FC 3",
   "Hit" : "-3",
   "Block" : "-14",
   "Notes" : "TC \nReturns to crouching.",
@@ -890,7 +890,7 @@
   "Damage" : "12",
   "Startup" : "16F"
 }, {
-  "Command" : "FC dbor d4",
+  "Command" : " FC db or d4",
   "Hit" : "-4",
   "Block" : "-15",
   "Notes" : "TC \nReturns to crouching.",
@@ -901,7 +901,7 @@
   "Damage" : "10",
   "Startup" : "12F"
 }, {
-  "Command" : "WS 1",
+  "Command" : " WS 1",
   "Hit" : "+5",
   "Block" : "-6",
   "Notes" : "",
@@ -912,7 +912,7 @@
   "Damage" : "15",
   "Startup" : "13F"
 }, {
-  "Command" : "WS 1, 1",
+  "Command" : " WS 1, 1",
   "Hit" : "+6",
   "Block" : "-5",
   "Notes" : "Combo from 1st NH\n",
@@ -923,7 +923,7 @@
   "Damage" : "15,10",
   "Startup" : ""
 }, {
-  "Command" : "WS 1, 1f",
+  "Command" : " WS 1, 1f",
   "Hit" : "+10",
   "Block" : "-1",
   "Notes" : "",
@@ -934,7 +934,7 @@
   "Damage" : "15,10",
   "Startup" : ""
 }, {
-  "Command" : "WS 2",
+  "Command" : " WS 2",
   "Hit" : "LNC",
   "Block" : "-13",
   "Notes" : "",
@@ -945,7 +945,7 @@
   "Damage" : "20",
   "Startup" : "15F"
 }, {
-  "Command" : "WS 4",
+  "Command" : " WS 4",
   "Hit" : "+8",
   "Block" : "-3",
   "Notes" : "",
@@ -956,7 +956,7 @@
   "Damage" : "15",
   "Startup" : "11F"
 }, {
-  "Command" : "FC df4",
+  "Command" : " FC df4",
   "Hit" : "+1C",
   "Block" : "-16",
   "Notes" : "TC \nReturns to crouching.\nHit force to crouching\n",
@@ -967,7 +967,7 @@
   "Damage" : "24",
   "Startup" : "17F"
 }, {
-  "Command" : "While enemy is down d3+4",
+  "Command" : " While enemy is down d3+4",
   "Hit" : "-9",
   "Block" : "-20",
   "Notes" : "",
@@ -989,7 +989,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "bbubwith back against wall ",
+  "Command" : "bbub with back against wall ",
   "Hit" : "KDN",
   "Block" : "+2",
   "Notes" : "To back toward\nAdvance Input is unavailable\nAir Status 5F\nInvinciblity during 8 to 24F",
@@ -1000,7 +1000,7 @@
   "Damage" : "21",
   "Startup" : "36F"
 }, {
-  "Command" : "BT 1or 2",
+  "Command" : " BT 1 or 2",
   "Hit" : "+3",
   "Block" : "-8",
   "Notes" : "",
@@ -1011,7 +1011,7 @@
   "Damage" : "15",
   "Startup" : "8F"
 }, {
-  "Command" : "BT 3or 4",
+  "Command" : " BT 3 or 4",
   "Hit" : "KDN",
   "Block" : "-8",
   "Notes" : "",
@@ -1022,7 +1022,7 @@
   "Damage" : "18",
   "Startup" : "10F"
 }, {
-  "Command" : "BT d1or d2",
+  "Command" : " BT d1 or d2",
   "Hit" : "+9",
   "Block" : "-2",
   "Notes" : "Returns to crouching.",
@@ -1033,7 +1033,7 @@
   "Damage" : "10",
   "Startup" : "10F"
 }, {
-  "Command" : "BT d3or d4",
+  "Command" : " BT d3 or d4",
   "Hit" : "+3",
   "Block" : "-11",
   "Notes" : "Returns to crouching.",
@@ -1066,7 +1066,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "During Harrier 1",
+  "Command" : " During Harrier 1",
   "Hit" : "+17Sp",
   "Block" : "-3",
   "Notes" : "TC \n",
@@ -1077,7 +1077,7 @@
   "Damage" : "12",
   "Startup" : "12F"
 }, {
-  "Command" : "During Harrier 2",
+  "Command" : " During Harrier 2",
   "Hit" : "-2C",
   "Block" : "-6C",
   "Notes" : "Block or NH force to crouching\n",
@@ -1088,7 +1088,7 @@
   "Damage" : "20",
   "Startup" : "18F"
 }, {
-  "Command" : "During Harrier 3",
+  "Command" : " During Harrier 3",
   "Hit" : "KDN",
   "Block" : "-25",
   "Notes" : "TJ 6F\n",
@@ -1099,7 +1099,7 @@
   "Damage" : "20",
   "Startup" : "26F"
 }, {
-  "Command" : "During Harrier 4",
+  "Command" : " During Harrier 4",
   "Hit" : "KDN",
   "Block" : "-9",
   "Notes" : "WB \n",
@@ -1110,7 +1110,7 @@
   "Damage" : "27",
   "Startup" : "15F"
 }, {
-  "Command" : "During Harrier df2",
+  "Command" : " During Harrier df2",
   "Hit" : "-2",
   "Block" : "-13",
   "Notes" : "",
@@ -1121,7 +1121,7 @@
   "Damage" : "13",
   "Startup" : "16F"
 }, {
-  "Command" : "During Harrier df2, 3",
+  "Command" : " During Harrier df2, 3",
   "Hit" : "+14Sp",
   "Block" : "-3",
   "Notes" : "TS \nCombo from 1st hit.\n",
@@ -1132,7 +1132,7 @@
   "Damage" : "13,18",
   "Startup" : ""
 }, {
-  "Command" : "During Harrier uf3",
+  "Command" : " During Harrier uf3",
   "Hit" : "KDN",
   "Block" : "-9C",
   "Notes" : "TJ 9F\nBlock force to crouching.\nDisable Ukemi on face-up down hit.\n",
@@ -1143,7 +1143,7 @@
   "Damage" : "20",
   "Startup" : "27F"
 }, {
-  "Command" : "During Rage 3+4",
+  "Command" : " During Rage 3+4",
   "Hit" : "Th",
   "Block" : "-22",
   "Notes" : "Guard Point 8F\n",
@@ -1154,7 +1154,7 @@
   "Damage" : "55",
   "Startup" : "20F"
 }, {
-  "Command" : "During Rage & Harrier 1+2",
+  "Command" : " During Rage & Harrier 1+2",
   "Hit" : "Th",
   "Block" : "+5C",
   "Notes" : "Block force to crouching\nDamage() is throw bonus\nThrow while mid-air enemy hit",
@@ -1187,7 +1187,7 @@
   "Damage" : "35",
   "Startup" : "12F"
 }, {
-  "Command" : "Approach from left side ",
+  "Command" : " Approach from left side ",
   "Hit" : "-3F",
   "Block" : "Foot-sd Fac-Up",
   "Notes" : "",
@@ -1198,7 +1198,7 @@
   "Damage" : "40",
   "Startup" : ""
 }, {
-  "Command" : "Approach from right side ",
+  "Command" : " Approach from right side ",
   "Hit" : "-3F",
   "Block" : "Head-sd Fac-Dwn",
   "Notes" : "",
@@ -1209,7 +1209,7 @@
   "Damage" : "40",
   "Startup" : ""
 }, {
-  "Command" : "Approach from behind ",
+  "Command" : " Approach from behind ",
   "Hit" : "disable",
   "Block" : "Head-sd Fac-Dwn",
   "Notes" : "Floor Break",
@@ -1220,7 +1220,7 @@
   "Damage" : "50",
   "Startup" : ""
 }, {
-  "Command" : "df1+2or During Harrier df1+2",
+  "Command" : "df1+2 or During Harrier df1+2",
   "Hit" : "-6F",
   "Block" : "Foot-sd Fac-Up",
   "Notes" : "Damage() is wall hit\nWall Stun\n",

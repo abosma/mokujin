@@ -263,7 +263,7 @@
   "Damage" : "23",
   "Startup" : "20F"
 }, {
-  "Command" : "dbor d1or FC 1",
+  "Command" : "db or d1 or FC 1",
   "Hit" : "+6",
   "Block" : "-5",
   "Notes" : "TC 4FC \nReturns to crouching.\nInput<img src=\"../6'.bmp\" class=\"c\">to standing",
@@ -274,7 +274,7 @@
   "Damage" : "5",
   "Startup" : "10F"
 }, {
-  "Command" : "dbor d1or FC 1, 1+2",
+  "Command" : "db or d1 or FC 1, 1+2",
   "Hit" : "+27",
   "Block" : "+16",
   "Notes" : "TC 4F\nSuper Combo Gauge Cost 1\nBlock -2F/Hit +9F after Forcus Attack to canncel",
@@ -285,7 +285,7 @@
   "Damage" : "5",
   "Startup" : ""
 }, {
-  "Command" : "dbor d1, 2or FC 1, 2",
+  "Command" : "db or d1, 2 or FC 1, 2",
   "Hit" : "-2",
   "Block" : "-13",
   "Notes" : "TC C \nReturns to crouching.\nCombo from 1st CH\n",
@@ -296,7 +296,7 @@
   "Damage" : "5,6",
   "Startup" : ""
 }, {
-  "Command" : "dbor d1, 2or FC 1, 2, 1+2",
+  "Command" : "db or d1, 2 or FC 1, 2, 1+2",
   "Hit" : "+27",
   "Block" : "+16",
   "Notes" : "TC \nSuper Combo Gauge Cost 1\nBlock -2F/Hit +9F after Forcus Attack to canncel",
@@ -307,7 +307,7 @@
   "Damage" : "5,6",
   "Startup" : ""
 }, {
-  "Command" : "dbor d2or FC 2",
+  "Command" : "db or d2 or FC 2",
   "Hit" : "+2",
   "Block" : "-9",
   "Notes" : "TC 4FC \n",
@@ -318,7 +318,7 @@
   "Damage" : "6",
   "Startup" : "12F"
 }, {
-  "Command" : "dbor d2or FC 2, 1+2",
+  "Command" : "db or d2 or FC 2, 1+2",
   "Hit" : "+22",
   "Block" : "+11",
   "Notes" : "Super Combo Gauge Cost 1.\nBlock -7F/Hit +4F after Forcus Attack to canncel.",
@@ -329,7 +329,7 @@
   "Damage" : "6",
   "Startup" : ""
 }, {
-  "Command" : "dbor d3or FC 3",
+  "Command" : "db or d3 or FC 3",
   "Hit" : "-2",
   "Block" : "-11",
   "Notes" : "TC 6FC \nDamage() is when close hit\nEnable cancel by Special Move",
@@ -340,7 +340,7 @@
   "Damage" : "7(10)",
   "Startup" : "15F"
 }, {
-  "Command" : "dbor d3or FC 3, 1+2",
+  "Command" : "db or d3 or FC 3, 1+2",
   "Hit" : "+26",
   "Block" : "+17",
   "Notes" : "Super Combo Gauge Cost 1\nBlock -1F/Hit +8F after Forcus Attack to canncel",
@@ -351,7 +351,7 @@
   "Damage" : "7(10)",
   "Startup" : ""
 }, {
-  "Command" : "dbor d4or FC 4",
+  "Command" : "db or d4 or FC 4",
   "Hit" : "KDN",
   "Block" : "-27",
   "Notes" : "TC 6F\n",
@@ -417,7 +417,7 @@
   "Damage" : "14",
   "Startup" : "15F"
 }, {
-  "Command" : "ff2Ｊ 1",
+  "Command" : "ff2 Ｊ 1",
   "Hit" : "KDN",
   "Block" : "-13",
   "Notes" : "WB \nCombo from 1st NH\nDisable 2nd after 1st whiff\n",
@@ -461,7 +461,7 @@
   "Damage" : "30",
   "Startup" : "26F"
 }, {
-  "Command" : "Run more than three steps 4",
+  "Command" : " Run more than three steps 4",
   "Hit" : "KDN",
   "Block" : "-24",
   "Notes" : "",
@@ -472,7 +472,7 @@
   "Damage" : "23",
   "Startup" : "20F"
 }, {
-  "Command" : "WS 1",
+  "Command" : " WS 1",
   "Hit" : "+6",
   "Block" : "-5",
   "Notes" : "C \n",
@@ -483,7 +483,7 @@
   "Damage" : "12",
   "Startup" : "13F"
 }, {
-  "Command" : "WS 1, 1+2",
+  "Command" : " WS 1, 1+2",
   "Hit" : "+27",
   "Block" : "+16",
   "Notes" : "Super Combo Gauge Cost 1\nBlock -2F/Hit +9F after Forcus Attack to canncel",
@@ -494,7 +494,7 @@
   "Damage" : "12",
   "Startup" : ""
 }, {
-  "Command" : "WS 2",
+  "Command" : " WS 2",
   "Hit" : "LNC",
   "Block" : "-15",
   "Notes" : "C \nEnable cancel by Special Move",
@@ -505,7 +505,7 @@
   "Damage" : "17",
   "Startup" : "15F"
 }, {
-  "Command" : "WS 2, 1+2",
+  "Command" : " WS 2, 1+2",
   "Hit" : "LNC",
   "Block" : "+20",
   "Notes" : "Super Combo Gauge Cost 1\nBlock +2F after Forcus Attack to canncel",
@@ -516,7 +516,7 @@
   "Damage" : "17",
   "Startup" : ""
 }, {
-  "Command" : "WS 3",
+  "Command" : " WS 3",
   "Hit" : "+2",
   "Block" : "-10",
   "Notes" : "C \n",
@@ -527,7 +527,7 @@
   "Damage" : "17",
   "Startup" : "13F"
 }, {
-  "Command" : "WS 3",
+  "Command" : " WS 3",
   "Hit" : "+30",
   "Block" : "+18",
   "Notes" : "C ",
@@ -538,7 +538,7 @@
   "Damage" : "17",
   "Startup" : ""
 }, {
-  "Command" : "WS 4",
+  "Command" : " WS 4",
   "Hit" : "+2",
   "Block" : "-9",
   "Notes" : "",
@@ -549,7 +549,7 @@
   "Damage" : "10",
   "Startup" : "11F"
 }, {
-  "Command" : "WS 4, 4",
+  "Command" : " WS 4, 4",
   "Hit" : "-5C",
   "Block" : "-15",
   "Notes" : "Combo from 1st NH\nHit force to crouching",
@@ -560,7 +560,7 @@
   "Damage" : "10,20",
   "Startup" : ""
 }, {
-  "Command" : "During Vertical Jump 1",
+  "Command" : " During Vertical Jump 1",
   "Hit" : "-15",
   "Block" : "-25",
   "Notes" : "TJ 9F\nStart-up 16 to 43F in actualy\nBlock &amp; Hit values are in the fastest",
@@ -571,7 +571,7 @@
   "Damage" : "10",
   "Startup" : "7F"
 }, {
-  "Command" : "During Vertical Jump 2",
+  "Command" : " During Vertical Jump 2",
   "Hit" : "-8",
   "Block" : "-18",
   "Notes" : "TJ 9F\nStart-up 18 to 43F in actualy\nBlock &amp; Hit values are in the fastest",
@@ -582,7 +582,7 @@
   "Damage" : "15",
   "Startup" : "9F"
 }, {
-  "Command" : "During Vertical Jump 3",
+  "Command" : " During Vertical Jump 3",
   "Hit" : "-15",
   "Block" : "-25",
   "Notes" : "TJ 9F\nStart-up 16 to 43F in actualy\nBlock &amp; Hit values are in the fastest",
@@ -593,7 +593,7 @@
   "Damage" : "10",
   "Startup" : "7F"
 }, {
-  "Command" : "During Vertical Jump 4",
+  "Command" : " During Vertical Jump 4",
   "Hit" : "-8",
   "Block" : "-18",
   "Notes" : "TJ 9F\nStart-up 18 to 43F in actualy\nBlock &amp; Hit values are in the fastest",
@@ -604,7 +604,7 @@
   "Damage" : "15",
   "Startup" : "9F"
 }, {
-  "Command" : "During Forward Jump 1",
+  "Command" : " During Forward Jump 1",
   "Hit" : "-11",
   "Block" : "-22",
   "Notes" : "TJ 5F\nStart-up 14 to 38F in actualy\nBlock &amp; Hit values are in the fastest",
@@ -615,7 +615,7 @@
   "Damage" : "10",
   "Startup" : "9F"
 }, {
-  "Command" : "During Forward Jump 2",
+  "Command" : " During Forward Jump 2",
   "Hit" : "-7",
   "Block" : "-17",
   "Notes" : "TJ 5F\nStart-up 14 to 37F in actualy\nBlock &amp; Hit values are in the fastest",
@@ -626,7 +626,7 @@
   "Damage" : "15",
   "Startup" : "9F"
 }, {
-  "Command" : "During Forward Jump 3",
+  "Command" : " During Forward Jump 3",
   "Hit" : "-16",
   "Block" : "-26",
   "Notes" : "TJ 5F\nStart-up 12 to 40F in actualy\nBlock &amp; Hit values are in the fastest",
@@ -637,7 +637,7 @@
   "Damage" : "10",
   "Startup" : "7F"
 }, {
-  "Command" : "During Forward Jump 4",
+  "Command" : " During Forward Jump 4",
   "Hit" : "-9",
   "Block" : "-20",
   "Notes" : "TJ 5F\nStart-up 12 to 39F in actualy\nBlock &amp; Hit values are in the fastest",
@@ -648,7 +648,7 @@
   "Damage" : "15",
   "Startup" : "7F"
 }, {
-  "Command" : "Forward Jump peak d3",
+  "Command" : " Forward Jump peak d3",
   "Hit" : "+9C",
   "Block" : "±0",
   "Notes" : "Start-up frame is base values\nMeaty 6F in actualy\nNH force to crouching",
@@ -670,7 +670,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "BT 1or 2",
+  "Command" : " BT 1 or 2",
   "Hit" : "+8",
   "Block" : "+1",
   "Notes" : "Equivalent to Sengeki (<img src=\"../lp.bmp\" class=\"c\">), can't connect Kimon Rendan (<img src=\"../lp.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../lp.bmp\" class=\"c\">)",
@@ -681,7 +681,7 @@
   "Damage" : "7",
   "Startup" : "10F"
 }, {
-  "Command" : "BT 4or 3",
+  "Command" : " BT 4 or 3",
   "Hit" : "+2",
   "Block" : "-13",
   "Notes" : "Equivalent to High Kick (<img src=\"../rk.bmp\" class=\"c\">)",
@@ -692,7 +692,7 @@
   "Damage" : "12",
   "Startup" : "14F"
 }, {
-  "Command" : "BT d1or d2",
+  "Command" : " BT d1 or d2",
   "Hit" : "+7",
   "Block" : "-4",
   "Notes" : "Equivalent to Shotei (<img src=\"../2.bmp\" class=\"c\"><img src=\"../rp.bmp\" class=\"c\">)",
@@ -703,7 +703,7 @@
   "Damage" : "6",
   "Startup" : "12F"
 }, {
-  "Command" : "BT d3or d4",
+  "Command" : " BT d3 or d4",
   "Hit" : "KDN",
   "Block" : "-27",
   "Notes" : "Equivalent to Ashibarai (<img src=\"../2.bmp\" class=\"c\"><img src=\"../rk.bmp\" class=\"c\">)\n",
@@ -725,7 +725,7 @@
   "Damage" : "14",
   "Startup" : "31F"
 }, {
-  "Command" : "1+2Hold ff",
+  "Command" : "1+2 Hold ff",
   "Hit" : "",
   "Block" : "",
   "Notes" : "PC 8F\nRecovery 15F after input<img src=\"../6.bmp\" class=\"c\"><img src=\"../6.bmp\" class=\"c\">",
@@ -736,7 +736,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "1+2Hold bb",
+  "Command" : "1+2 Hold bb",
   "Hit" : "",
   "Block" : "",
   "Notes" : "PC 8F\nRecovery 25F after input<img src=\"../4.bmp\" class=\"c\"><img src=\"../4.bmp\" class=\"c\">",
@@ -758,7 +758,7 @@
   "Damage" : "14",
   "Startup" : ""
 }, {
-  "Command" : "1+2Hold ",
+  "Command" : "1+2 Hold ",
   "Hit" : "KDN",
   "Block" : "-11",
   "Notes" : "PC 8F\nStart-up frame is to hold 21 to 25F\nStart-up 11 + hold frame over 26F",
@@ -769,7 +769,7 @@
   "Damage" : "20",
   "Startup" : "36F"
 }, {
-  "Command" : "1+2Hold ff",
+  "Command" : "1+2 Hold ff",
   "Hit" : "KDN",
   "Block" : "+4",
   "Notes" : "PC 8F",
@@ -780,7 +780,7 @@
   "Damage" : "20",
   "Startup" : ""
 }, {
-  "Command" : "1+2Hold (Max) ",
+  "Command" : "1+2 Hold (Max) ",
   "Hit" : "KDN",
   "Block" : "KDN",
   "Notes" : "PC 8F",
@@ -791,7 +791,7 @@
   "Damage" : "25",
   "Startup" : "65F"
 }, {
-  "Command" : "1+2Hold (Max) ff",
+  "Command" : "1+2 Hold (Max) ff",
   "Hit" : "KDN",
   "Block" : "KDN",
   "Notes" : "PC 8F",
@@ -945,7 +945,7 @@
   "Damage" : "6,6",
   "Startup" : ""
 }, {
-  "Command" : "fddf3or 4",
+  "Command" : "fddf3 or 4",
   "Hit" : "",
   "Block" : "",
   "Notes" : "TJ 5F\nMoving distance<img src=\"../lk.bmp\" class=\"c\">&lt;<img src=\"../rk.bmp\" class=\"c\">",
@@ -956,7 +956,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "During Hyakkishu ☆ ",
+  "Command" : " During Hyakkishu,n,",
   "Hit" : "KDN",
   "Block" : "-24",
   "Notes" : "",
@@ -967,7 +967,7 @@
   "Damage" : "23",
   "Startup" : "51F"
 }, {
-  "Command" : "During Hyakkishu 1",
+  "Command" : " During Hyakkishu 1",
   "Hit" : "KDN",
   "Block" : "-1",
   "Notes" : "Fastest start-up 37F in actualy\n",
@@ -978,7 +978,7 @@
   "Damage" : "15",
   "Startup" : "7F"
 }, {
-  "Command" : "During Hyakkishu 2",
+  "Command" : " During Hyakkishu 2",
   "Hit" : "KDN",
   "Block" : "-9C",
   "Notes" : "Fastest start-up 43F in actualy\n",
@@ -989,7 +989,7 @@
   "Damage" : "20",
   "Startup" : "16F"
 }, {
-  "Command" : "During Hyakkishu 3",
+  "Command" : " During Hyakkishu 3",
   "Hit" : "+24Sp",
   "Block" : "-9",
   "Notes" : "H TS \nFastest start-up 42F in actualy\n",
@@ -1000,7 +1000,7 @@
   "Damage" : "21",
   "Startup" : "14F"
 }, {
-  "Command" : "During Hyakkishu 4",
+  "Command" : " During Hyakkishu 4",
   "Hit" : "+16C",
   "Block" : "+4G",
   "Notes" : "Hit force to crouching\nMeaty 5F in actualy\nFastest start-up 44F in actualy\n",
@@ -1033,7 +1033,7 @@
   "Damage" : "13,6,6,6",
   "Startup" : "10F"
 }, {
-  "Command" : "During Jump ddff1or 2",
+  "Command" : " During Jump ddff1 or 2",
   "Hit" : "+4",
   "Block" : "-7",
   "Notes" : "Frame values are just before landing",
@@ -1044,7 +1044,7 @@
   "Damage" : "10",
   "Startup" : "17F"
 }, {
-  "Command" : "During Jump ddbb3or 4",
+  "Command" : " During Jump ddbb3 or 4",
   "Hit" : "KDN",
   "Block" : "+2",
   "Notes" : "Frame values are just before landing",
@@ -1110,7 +1110,7 @@
   "Damage" : "6,6,20",
   "Startup" : "11F"
 }, {
-  "Command" : "During CH fddf1+2",
+  "Command" : " During CH fddf1+2",
   "Hit" : "",
   "Block" : "",
   "Notes" : "Super Combo Gauge Cost 1",
@@ -1132,7 +1132,7 @@
   "Damage" : "6,6,6,20",
   "Startup" : "10F"
 }, {
-  "Command" : "During Jump ddff1+2",
+  "Command" : " During Jump ddff1+2",
   "Hit" : "+39",
   "Block" : "+20G",
   "Notes" : "Super Combo Gauge Cost 1",
@@ -1143,7 +1143,7 @@
   "Damage" : "10,10",
   "Startup" : "8F"
 }, {
-  "Command" : "During Jump ddbb3+4",
+  "Command" : " During Jump ddbb3+4",
   "Hit" : "KDN",
   "Block" : "+9",
   "Notes" : "Super Combo Gauge Cost 1",
@@ -1187,7 +1187,7 @@
   "Damage" : "20*5",
   "Startup" : "9F"
 }, {
-  "Command" : "During Rage 1, 1bor f3, 2",
+  "Command" : " During Rage 1, 1b or f3, 2",
   "Hit" : "KDN",
   "Block" : "KDN",
   "Notes" : "Another command<img src=\"../lp.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../lp.bmp\" class=\"c\"><img src=\"../4.bmp\" class=\"c\">or<img src=\"../6.bmp\" class=\"c\"><img src=\"../rpk.bmp\" class=\"c\">\nGuard Point 8F\nEnable evade input<img src=\"../8'.bmp\" class=\"c\">\n",

@@ -175,7 +175,7 @@
   "Damage" : "22,20,25",
   "Startup" : ""
 }, {
-  "Command" : "3, 4, 3, 4, … ",
+  "Command" : "3, 4, 3, 4,  … ",
   "Hit" : "+3",
   "Block" : "-8",
   "Notes" : "",
@@ -263,7 +263,7 @@
   "Damage" : "14",
   "Startup" : "14F"
 }, {
-  "Command" : "【 f2, 1】 or 【 ff2, 1】 or 【 bdbddf2, 1】 ",
+  "Command" : "f2~1",
   "Hit" : "+12",
   "Block" : "+4",
   "Notes" : "Disable advanced input.\nStart-up 17F in actualy.",
@@ -483,7 +483,7 @@
   "Damage" : "15",
   "Startup" : "29F"
 }, {
-  "Command" : "d2, 2, 2, … ",
+  "Command" : "d2, 2, 2,  … ",
   "Hit" : "-11",
   "Block" : "-17",
   "Notes" : "Combo from CH.",
@@ -593,7 +593,7 @@
   "Damage" : "35",
   "Startup" : "42F"
 }, {
-  "Command" : "d1+4Hold ",
+  "Command" : "d1+4 Hold ",
   "Hit" : "KDN",
   "Block" : "-25C",
   "Notes" : "Damage up 40, 45, 50 with hold input.",
@@ -604,7 +604,7 @@
   "Damage" : "40",
   "Startup" : ""
 }, {
-  "Command" : "d1+4Hold ",
+  "Command" : "d1+4 Hold ",
   "Hit" : "LNC",
   "Block" : "LNC",
   "Notes" : "",
@@ -681,7 +681,7 @@
   "Damage" : "18,15,20",
   "Startup" : ""
 }, {
-  "Command" : "【 b1, 2】 ",
+  "Command" : "b1~2",
   "Hit" : "KDN",
   "Block" : "-14",
   "Notes" : "",
@@ -692,7 +692,7 @@
   "Damage" : "2,2,2,21",
   "Startup" : "14F"
 }, {
-  "Command" : "【 b1, 2】 1just ",
+  "Command" : "b1~2",
   "Hit" : "KDN",
   "Block" : "-14",
   "Notes" : "Enable input<img src=\"../rp.bmp\" class=\"c\">.",
@@ -703,7 +703,7 @@
   "Damage" : "2*5,21",
   "Startup" : ""
 }, {
-  "Command" : "【 b1, 2】 1just , 1just ",
+  "Command" : "b1~2",
   "Hit" : "KDN",
   "Block" : "-14",
   "Notes" : "Enable input<img src=\"../rp.bmp\" class=\"c\">.",
@@ -714,7 +714,7 @@
   "Damage" : "2*7,21",
   "Startup" : ""
 }, {
-  "Command" : "【 b1, 2】 1just , 1just , 1just ",
+  "Command" : "b1~2",
   "Hit" : "KDN",
   "Block" : "-14",
   "Notes" : "Enable input<img src=\"../rp.bmp\" class=\"c\">.",
@@ -813,7 +813,7 @@
   "Damage" : "19",
   "Startup" : "10F"
 }, {
-  "Command" : "ubor uor uf1",
+  "Command" : "ub or u or uf1",
   "Hit" : "+5",
   "Block" : "-6",
   "Notes" : "TJ 9F\n+12F on crouch hit.",
@@ -824,7 +824,7 @@
   "Damage" : "15",
   "Startup" : "18F"
 }, {
-  "Command" : "ubor u2",
+  "Command" : "ub or u2",
   "Hit" : "+9",
   "Block" : "-12",
   "Notes" : "",
@@ -890,7 +890,7 @@
   "Damage" : "35",
   "Startup" : "25F"
 }, {
-  "Command" : "ubor uor uf4or uf☆ 4",
+  "Command" : "ub or u or uf4 or uf,n,4",
   "Hit" : "KDN",
   "Block" : "-9",
   "Notes" : "TJ 9F",
@@ -923,7 +923,7 @@
   "Damage" : "28",
   "Startup" : ""
 }, {
-  "Command" : "ubor uor uf3+4",
+  "Command" : "ub or u or uf3+4",
   "Hit" : "KDN",
   "Block" : "+13C",
   "Notes" : "TJ 9F\nMeaty 5F.",
@@ -1044,7 +1044,7 @@
   "Damage" : "35",
   "Startup" : "24F"
 }, {
-  "Command" : "FC db1",
+  "Command" : " FC db1",
   "Hit" : "+6",
   "Block" : "-5",
   "Notes" : "TC \nReturns to crouching.\nReturns to standing when input<img src=\"../6'.bmp\" class=\"c\">.",
@@ -1055,7 +1055,7 @@
   "Damage" : "5",
   "Startup" : "10F"
 }, {
-  "Command" : "FC dbor d2",
+  "Command" : " FC db or d2",
   "Hit" : "+4",
   "Block" : "-7",
   "Notes" : "TC \nReturns to crouching.",
@@ -1066,7 +1066,7 @@
   "Damage" : "8",
   "Startup" : "10F"
 }, {
-  "Command" : "FC 3",
+  "Command" : " FC 3",
   "Hit" : "-1",
   "Block" : "-15",
   "Notes" : "TC \nReturns to crouching.",
@@ -1077,7 +1077,7 @@
   "Damage" : "12",
   "Startup" : "20F"
 }, {
-  "Command" : "FC 4",
+  "Command" : " FC 4",
   "Hit" : "-2",
   "Block" : "-13",
   "Notes" : "TC \nReturns to crouching.",
@@ -1088,7 +1088,7 @@
   "Damage" : "10",
   "Startup" : "16F"
 }, {
-  "Command" : "WS 1",
+  "Command" : " WS 1",
   "Hit" : "+8",
   "Block" : "-3",
   "Notes" : "",
@@ -1099,7 +1099,7 @@
   "Damage" : "12",
   "Startup" : "13F"
 }, {
-  "Command" : "WS 1, 2",
+  "Command" : " WS 1, 2",
   "Hit" : "±0C",
   "Block" : "-13",
   "Notes" : "Combo from 1st hit.\nCan be delayed 12F.\nCombo can be delayed 7F from 1st hit.",
@@ -1110,7 +1110,7 @@
   "Damage" : "12,19",
   "Startup" : ""
 }, {
-  "Command" : "WS 2",
+  "Command" : " WS 2",
   "Hit" : "LNC",
   "Block" : "-13",
   "Notes" : "",
@@ -1121,7 +1121,7 @@
   "Damage" : "17",
   "Startup" : "16F"
 }, {
-  "Command" : "WS 3",
+  "Command" : " WS 3",
   "Hit" : "KDN",
   "Block" : "-2",
   "Notes" : "",
@@ -1132,7 +1132,7 @@
   "Damage" : "28",
   "Startup" : "16F"
 }, {
-  "Command" : "WS 4",
+  "Command" : " WS 4",
   "Hit" : "+5",
   "Block" : "-6",
   "Notes" : "",
@@ -1143,7 +1143,7 @@
   "Damage" : "20",
   "Startup" : "11F"
 }, {
-  "Command" : "WS 1+2",
+  "Command" : " WS 1+2",
   "Hit" : "LNC",
   "Block" : "-14",
   "Notes" : "Can be delayed 17F.",
@@ -1154,7 +1154,7 @@
   "Damage" : "14",
   "Startup" : "19F"
 }, {
-  "Command" : "WS 1+2, 1+2",
+  "Command" : " WS 1+2, 1+2",
   "Hit" : "+23G",
   "Block" : "-11C",
   "Notes" : "",
@@ -1165,7 +1165,7 @@
   "Damage" : "14,17",
   "Startup" : ""
 }, {
-  "Command" : "FC d1",
+  "Command" : " FC d1",
   "Hit" : "+3",
   "Block" : "-7",
   "Notes" : "TC ",
@@ -1176,7 +1176,7 @@
   "Damage" : "10",
   "Startup" : "20F"
 }, {
-  "Command" : "FC d1, 1",
+  "Command" : " FC d1, 1",
   "Hit" : "+6",
   "Block" : "-5",
   "Notes" : "TC ",
@@ -1187,7 +1187,7 @@
   "Damage" : "10,8",
   "Startup" : ""
 }, {
-  "Command" : "FC d1, 1, 1",
+  "Command" : " FC d1, 1, 1",
   "Hit" : "-3",
   "Block" : "-14",
   "Notes" : "Combo from 2nd CH.",
@@ -1198,7 +1198,7 @@
   "Damage" : "10,8,12",
   "Startup" : ""
 }, {
-  "Command" : "FC d1, 1, 1, 2",
+  "Command" : " FC d1, 1, 1, 2",
   "Hit" : "-8",
   "Block" : "-19",
   "Notes" : "",
@@ -1209,7 +1209,7 @@
   "Damage" : "10,8,12,12",
   "Startup" : ""
 }, {
-  "Command" : "FC d1, 1, 1, 2, 1",
+  "Command" : " FC d1, 1, 1, 2, 1",
   "Hit" : "+14B",
   "Block" : "-6",
   "Notes" : "",
@@ -1220,7 +1220,7 @@
   "Damage" : "10,8,12,12,12",
   "Startup" : ""
 }, {
-  "Command" : "FC d1, 1, 1, 2df1",
+  "Command" : " FC d1, 1, 1, 2df1",
   "Hit" : "+9",
   "Block" : "-2",
   "Notes" : "",
@@ -1231,7 +1231,7 @@
   "Damage" : "10,8,12,12,15",
   "Startup" : ""
 }, {
-  "Command" : "FC d1, 1, 1, 2d1",
+  "Command" : " FC d1, 1, 1, 2d1",
   "Hit" : "-1",
   "Block" : "-11",
   "Notes" : "TC ",
@@ -1242,7 +1242,7 @@
   "Damage" : "10,8,12,12,8",
   "Startup" : ""
 }, {
-  "Command" : "FC df1",
+  "Command" : " FC df1",
   "Hit" : "+2",
   "Block" : "-9",
   "Notes" : "",
@@ -1253,7 +1253,7 @@
   "Damage" : "9",
   "Startup" : "18F"
 }, {
-  "Command" : "FC df1, 2",
+  "Command" : " FC df1, 2",
   "Hit" : "+2",
   "Block" : "-9",
   "Notes" : "Combo from 1st hit.",
@@ -1264,7 +1264,7 @@
   "Damage" : "9,12",
   "Startup" : ""
 }, {
-  "Command" : "FC df1, 2, 1",
+  "Command" : " FC df1, 2, 1",
   "Hit" : "+7",
   "Block" : "-8",
   "Notes" : "Combo from 2nd CH.\nCan be delayed.",
@@ -1275,7 +1275,7 @@
   "Damage" : "9,12,12",
   "Startup" : ""
 }, {
-  "Command" : "FC dor df1+2",
+  "Command" : " FC d or df1+2",
   "Hit" : "KDN",
   "Block" : "-23",
   "Notes" : "TC ",
@@ -1286,7 +1286,7 @@
   "Damage" : "24",
   "Startup" : "23F"
 }, {
-  "Command" : "FC df2",
+  "Command" : " FC df2",
   "Hit" : "KDN",
   "Block" : "-12",
   "Notes" : "TS ",
@@ -1297,7 +1297,7 @@
   "Damage" : "20",
   "Startup" : "14F"
 }, {
-  "Command" : "SS 1",
+  "Command" : " SS 1",
   "Hit" : "KDN",
   "Block" : "-9",
   "Notes" : "TS ",
@@ -1330,7 +1330,7 @@
   "Damage" : "-",
   "Startup" : "15F"
 }, {
-  "Command" : "While down (facing up) 1+2",
+  "Command" : " While down (facing up) 1+2",
   "Hit" : "+15",
   "Block" : "+5",
   "Notes" : "Meaty 2F.",
@@ -1341,7 +1341,7 @@
   "Damage" : "12",
   "Startup" : "25F"
 }, {
-  "Command" : "bbubwith back against wall ",
+  "Command" : "bbub with back against wall ",
   "Hit" : "KDN",
   "Block" : "+4C",
   "Notes" : "Disable advanced input.\nAir-status 5F.\nInvinciblity during 8 to 13F.",
@@ -1352,7 +1352,7 @@
   "Damage" : "21",
   "Startup" : "39F"
 }, {
-  "Command" : "BT 1or 2",
+  "Command" : " BT 1 or 2",
   "Hit" : "+3",
   "Block" : "-8",
   "Notes" : "",
@@ -1363,7 +1363,7 @@
   "Damage" : "15",
   "Startup" : "8F"
 }, {
-  "Command" : "BT 3or 4",
+  "Command" : " BT 3 or 4",
   "Hit" : "KDN",
   "Block" : "+1",
   "Notes" : "",
@@ -1374,7 +1374,7 @@
   "Damage" : "18",
   "Startup" : "10F"
 }, {
-  "Command" : "BT d1or d2",
+  "Command" : " BT d1 or d2",
   "Hit" : "+9",
   "Block" : "-2",
   "Notes" : "",
@@ -1385,7 +1385,7 @@
   "Damage" : "10",
   "Startup" : "10F"
 }, {
-  "Command" : "BT d3or d4",
+  "Command" : " BT d3 or d4",
   "Hit" : "+3",
   "Block" : "-11",
   "Notes" : "",
@@ -1396,7 +1396,7 @@
   "Damage" : "12",
   "Startup" : "10F"
 }, {
-  "Command" : "BT 1+2",
+  "Command" : " BT 1+2",
   "Hit" : "KDN",
   "Block" : "-2C",
   "Notes" : "TJ 9F\nMeaty 13F.",
@@ -1418,7 +1418,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "Tachiai 1",
+  "Command" : " Tachiai 1",
   "Hit" : "+8",
   "Block" : "-3",
   "Notes" : "",
@@ -1429,7 +1429,7 @@
   "Damage" : "17",
   "Startup" : "11F"
 }, {
-  "Command" : "Tachiai 2",
+  "Command" : " Tachiai 2",
   "Hit" : "KDN",
   "Block" : "-9",
   "Notes" : "H TS ",
@@ -1440,7 +1440,7 @@
   "Damage" : "20",
   "Startup" : "14F"
 }, {
-  "Command" : "Tachiai 3",
+  "Command" : " Tachiai 3",
   "Hit" : "+9",
   "Block" : "-12",
   "Notes" : "",
@@ -1451,7 +1451,7 @@
   "Damage" : "24",
   "Startup" : "20F"
 }, {
-  "Command" : "Tachiai 4",
+  "Command" : " Tachiai 4",
   "Hit" : "-3",
   "Block" : "-14",
   "Notes" : "",
@@ -1462,7 +1462,7 @@
   "Damage" : "14",
   "Startup" : "13F"
 }, {
-  "Command" : "Tachiai 4, 1",
+  "Command" : " Tachiai 4, 1",
   "Hit" : "+10Sp",
   "Block" : "-9",
   "Notes" : "TS \nCombo from 1st hit.\nCan be delayed 10F.\nCombo can be delayed 10F from 1st hit.",
@@ -1473,7 +1473,7 @@
   "Damage" : "14,20",
   "Startup" : ""
 }, {
-  "Command" : "Tachiai 1+2or Shiranui 1+2",
+  "Command" : " Tachiai 1+2 or Shiranui 1+2",
   "Hit" : "Th",
   "Block" : "-12",
   "Notes" : "PC 8F\nConnect to<a href=\"#66rp\">Kumite Tsukami</a>.",
@@ -1484,7 +1484,7 @@
   "Damage" : "15",
   "Startup" : "26F"
 }, {
-  "Command" : "Tachiai 3+4",
+  "Command" : " Tachiai 3+4",
   "Hit" : "",
   "Block" : "",
   "Notes" : "",
@@ -1495,7 +1495,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "Tachiai f1+2",
+  "Command" : " Tachiai f1+2",
   "Hit" : "KDN",
   "Block" : "-24",
   "Notes" : "After moving, head side &amp; face down.\nMeaty 5F.",
@@ -1506,7 +1506,7 @@
   "Damage" : "35",
   "Startup" : "20F"
 }, {
-  "Command" : "Tachiai df1+2",
+  "Command" : " Tachiai df1+2",
   "Hit" : "",
   "Block" : "",
   "Notes" : "Returns to crouching.\nAbsorbs(L) during 5 to 25F.\nAbsorbs succeeds, +18F &amp; forced to crouchiing.\n",
@@ -1517,7 +1517,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "Tachiai db1+2",
+  "Command" : " Tachiai db1+2",
   "Hit" : "KDN",
   "Block" : "KDN",
   "Notes" : "",
@@ -1528,7 +1528,7 @@
   "Damage" : "40",
   "Startup" : "50F"
 }, {
-  "Command" : "Tachiai db1+2d",
+  "Command" : " Tachiai db1+2d",
   "Hit" : "",
   "Block" : "",
   "Notes" : "",
@@ -1539,7 +1539,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "Tachiai b1+2",
+  "Command" : " Tachiai b1+2",
   "Hit" : "KDN",
   "Block" : "-24",
   "Notes" : "TC \nMeaty 8F.",
@@ -1550,7 +1550,7 @@
   "Damage" : "20",
   "Startup" : "22F"
 }, {
-  "Command" : "Tachiai d",
+  "Command" : " Tachiai d",
   "Hit" : "",
   "Block" : "",
   "Notes" : "Cost 30F.",
@@ -1561,7 +1561,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "Splits f",
+  "Command" : " Splits f",
   "Hit" : "",
   "Block" : "",
   "Notes" : "Auto block &amp; Absorbs Punch(H/M).\nAbsorbs succeeds, +13BF.\nCost 45F to Rough Waves.",
@@ -1572,7 +1572,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "Splits uor d",
+  "Command" : " Splits u or d",
   "Hit" : "",
   "Block" : "",
   "Notes" : "",
@@ -1583,7 +1583,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "d3+4or FC 3+4",
+  "Command" : "d3+4 or FC 3+4",
   "Hit" : "",
   "Block" : "",
   "Notes" : "TJ 6F\nCost 20F.\nAir status.",
@@ -1594,7 +1594,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "During Sit 1",
+  "Command" : " During Sit 1",
   "Hit" : "KDN",
   "Block" : "-4",
   "Notes" : "",
@@ -1605,7 +1605,7 @@
   "Damage" : "27",
   "Startup" : "30F"
 }, {
-  "Command" : "During Sit 2",
+  "Command" : " During Sit 2",
   "Hit" : "KDN",
   "Block" : "-17",
   "Notes" : "TC ",
@@ -1616,7 +1616,7 @@
   "Damage" : "11",
   "Startup" : "19F"
 }, {
-  "Command" : "During Sit 1+2",
+  "Command" : " During Sit 1+2",
   "Hit" : "KDN",
   "Block" : "-2C",
   "Notes" : "TJ 9F\nMeaty 13F.\nSelf damage 2 on whiff.",
@@ -1627,7 +1627,7 @@
   "Damage" : "33",
   "Startup" : "30F"
 }, {
-  "Command" : "During Sit 3+4",
+  "Command" : " During Sit 3+4",
   "Hit" : "KDN",
   "Block" : "-29",
   "Notes" : "Meaty 4F.\nAfter moving, head side &amp; face down.",
@@ -1638,7 +1638,7 @@
   "Damage" : "22",
   "Startup" : "25F"
 }, {
-  "Command" : "During Sit d",
+  "Command" : " During Sit d",
   "Hit" : "",
   "Block" : "",
   "Notes" : "Cost 30F.",
@@ -1649,7 +1649,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "During Rage db1+2",
+  "Command" : " During Rage db1+2",
   "Hit" : "Th",
   "Block" : "-22",
   "Notes" : "Guard Point 8F.\n",
@@ -1660,7 +1660,7 @@
   "Damage" : "55",
   "Startup" : "20F"
 }, {
-  "Command" : "During Rage df1+4",
+  "Command" : " During Rage df1+4",
   "Hit" : "LNC",
   "Block" : "-6C",
   "Notes" : "TC 11F\nSpecial effect when approach mid-air enemy.\n",
@@ -1693,7 +1693,7 @@
   "Damage" : "35",
   "Startup" : "12F"
 }, {
-  "Command" : "Approach from left side ",
+  "Command" : " Approach from left side ",
   "Hit" : "-3F",
   "Block" : "RP Foot-sd. Face-Up",
   "Notes" : "Wall Stun\nDamage () is wall damage.",
@@ -1704,7 +1704,7 @@
   "Damage" : "40(52)",
   "Startup" : ""
 }, {
-  "Command" : "Approach from right side ",
+  "Command" : " Approach from right side ",
   "Hit" : "-3F",
   "Block" : "CCW. Foot-sd. Face-Up",
   "Notes" : "Wall Stun\nDamage () is wall damage.",
@@ -1715,7 +1715,7 @@
   "Damage" : "40(52)",
   "Startup" : ""
 }, {
-  "Command" : "Approach from behind 1+3",
+  "Command" : " Approach from behind 1+3",
   "Hit" : "disable",
   "Block" : "Foot-sd. Face-dwn",
   "Notes" : "",
@@ -1726,7 +1726,7 @@
   "Damage" : "50",
   "Startup" : ""
 }, {
-  "Command" : "Approach from behind 2+4",
+  "Command" : " Approach from behind 2+4",
   "Hit" : "disable",
   "Block" : "RP Head-sd. Face-Up",
   "Notes" : "",
@@ -1737,7 +1737,7 @@
   "Damage" : "50",
   "Startup" : ""
 }, {
-  "Command" : "Approach from behind d1+2",
+  "Command" : " Approach from behind d1+2",
   "Hit" : "disable",
   "Block" : "+19BF",
   "Notes" : "",
@@ -1770,7 +1770,7 @@
   "Damage" : "40",
   "Startup" : "12F"
 }, {
-  "Command" : "b1+3or b2+4",
+  "Command" : "b1+3 or b2+4",
   "Hit" : "disable",
   "Block" : "RP +13BF",
   "Notes" : "Absorbs Punch(H/M) during 2 to 10F.",
@@ -1781,7 +1781,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "d1+2CH ",
+  "Command" : "d1+2 CH ",
   "Hit" : "",
   "Block" : "",
   "Notes" : "No input ±0F.\nConnect to Pedal Press on behind hit.",
@@ -1792,7 +1792,7 @@
   "Damage" : "22",
   "Startup" : "16F"
 }, {
-  "Command" : "Okuridashi Tsukami 1",
+  "Command" : " Okuridashi Tsukami 1",
   "Hit" : "-3F",
   "Block" : "RP Foot-sd. Face-Up",
   "Notes" : "Floor Break.",
@@ -1803,7 +1803,7 @@
   "Damage" : "28",
   "Startup" : ""
 }, {
-  "Command" : "Okuridashi Tsukami 2",
+  "Command" : " Okuridashi Tsukami 2",
   "Hit" : "-3F",
   "Block" : "CW Foot-sd. Face-Up",
   "Notes" : "Floor Break.",
@@ -1814,7 +1814,7 @@
   "Damage" : "28",
   "Startup" : ""
 }, {
-  "Command" : "Okuridashi Tsukami 1+2",
+  "Command" : " Okuridashi Tsukami 1+2",
   "Hit" : "-3F",
   "Block" : "RP Foot-sd. Face-Up",
   "Notes" : "",
@@ -1825,7 +1825,7 @@
   "Damage" : "35",
   "Startup" : ""
 }, {
-  "Command" : "ff2CH ",
+  "Command" : "ff2 CH ",
   "Hit" : "",
   "Block" : "",
   "Notes" : "No input ±0F.\nConnect to Pedal Press on behind hit.",
@@ -1836,7 +1836,7 @@
   "Damage" : "18",
   "Startup" : "17F"
 }, {
-  "Command" : "Tachiai 1+2or Shiranui 1+2",
+  "Command" : " Tachiai 1+2 or Shiranui 1+2",
   "Hit" : "",
   "Block" : "",
   "Notes" : "PC 8F\nNo input ±0F.\nConnect to Pedal Press on behind hit.\nSide throw on side hit.",
@@ -1847,7 +1847,7 @@
   "Damage" : "15",
   "Startup" : "26F"
 }, {
-  "Command" : "Kumite Tsukami 1",
+  "Command" : " Kumite Tsukami 1",
   "Hit" : "-3F",
   "Block" : "RP Head-sd. Face-Up",
   "Notes" : "",
@@ -1858,7 +1858,7 @@
   "Damage" : "33",
   "Startup" : ""
 }, {
-  "Command" : "Kumite Tsukami 2",
+  "Command" : " Kumite Tsukami 2",
   "Hit" : "-3F",
   "Block" : "CCW Head-sd. Face-dwn",
   "Notes" : "",
@@ -1869,7 +1869,7 @@
   "Damage" : "33",
   "Startup" : ""
 }, {
-  "Command" : "Kumite Tsukami 1+2",
+  "Command" : " Kumite Tsukami 1+2",
   "Hit" : "-3F",
   "Block" : "RP Head-sd. Face-Up",
   "Notes" : "Landing damage.\nDamage () is wall damage.",

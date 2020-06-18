@@ -131,7 +131,7 @@
   "Damage" : "3,7(,20)",
   "Startup" : "12F"
 }, {
-  "Command" : "1+2during hit f",
+  "Command" : "1+2 during hit f",
   "Hit" : "+9",
   "Block" : "",
   "Notes" : "",
@@ -461,7 +461,7 @@
   "Damage" : "20",
   "Startup" : "19F"
 }, {
-  "Command" : "ubor uor uf1",
+  "Command" : "ub or u or uf1",
   "Hit" : "-1",
   "Block" : "-12",
   "Notes" : "TJ 9F",
@@ -472,7 +472,7 @@
   "Damage" : "12",
   "Startup" : "18F"
 }, {
-  "Command" : "ubor uor uf2",
+  "Command" : "ub or u or uf2",
   "Hit" : "-8",
   "Block" : "-14",
   "Notes" : "TC 6F\nDamage () is tiger.\n",
@@ -483,7 +483,7 @@
   "Damage" : "12(,20)",
   "Startup" : "14F"
 }, {
-  "Command" : "ubor uor uf2during hit f",
+  "Command" : "ub or u or uf2 during hit f",
   "Hit" : "+9",
   "Block" : "",
   "Notes" : "TC 6F\n",
@@ -593,7 +593,7 @@
   "Damage" : "13",
   "Startup" : "15F"
 }, {
-  "Command" : "uf☆ 4",
+  "Command" : "uf,n,4",
   "Hit" : "LNC",
   "Block" : "-11",
   "Notes" : "TJ 9F",
@@ -681,7 +681,7 @@
   "Damage" : "24",
   "Startup" : "15F"
 }, {
-  "Command" : "FC 1",
+  "Command" : " FC 1",
   "Hit" : "+6",
   "Block" : "-5",
   "Notes" : "TC \nReturns to crouching.\nInput<img src=\"../6'.bmp\" class=\"c\">to standing",
@@ -692,7 +692,7 @@
   "Damage" : "5",
   "Startup" : "10F"
 }, {
-  "Command" : "FC 2",
+  "Command" : " FC 2",
   "Hit" : "+7",
   "Block" : "-4",
   "Notes" : "TC \nReturns to crouching.",
@@ -703,7 +703,7 @@
   "Damage" : "8",
   "Startup" : "11F"
 }, {
-  "Command" : "FC 3",
+  "Command" : " FC 3",
   "Hit" : "-3",
   "Block" : "-17",
   "Notes" : "TC \nReturns to crouching.",
@@ -714,7 +714,7 @@
   "Damage" : "12",
   "Startup" : "16F"
 }, {
-  "Command" : "FC dbor d4",
+  "Command" : " FC db or d4",
   "Hit" : "-4",
   "Block" : "-15",
   "Notes" : "TC \nReturns to crouching.",
@@ -725,7 +725,7 @@
   "Damage" : "10",
   "Startup" : "16F"
 }, {
-  "Command" : "FC df4",
+  "Command" : " FC df4",
   "Hit" : "-4",
   "Block" : "-15",
   "Notes" : "TC \nReturns to crouching.",
@@ -736,7 +736,7 @@
   "Damage" : "10",
   "Startup" : "12F"
 }, {
-  "Command" : "WS 1",
+  "Command" : " WS 1",
   "Hit" : "+7",
   "Block" : "-4",
   "Notes" : "Meaty 1F\n",
@@ -747,7 +747,7 @@
   "Damage" : "12",
   "Startup" : "12F"
 }, {
-  "Command" : "WS 1, 2",
+  "Command" : " WS 1, 2",
   "Hit" : "KDN",
   "Block" : "-13",
   "Notes" : "Combo from 1st NH\nCan be delayed 8F\nCombo can be delayed 8F\n",
@@ -758,7 +758,7 @@
   "Damage" : "12,23",
   "Startup" : ""
 }, {
-  "Command" : "WS 2",
+  "Command" : " WS 2",
   "Hit" : "LNC",
   "Block" : "-12",
   "Notes" : "Meaty 1F",
@@ -769,7 +769,7 @@
   "Damage" : "20",
   "Startup" : "18F"
 }, {
-  "Command" : "WS 3",
+  "Command" : " WS 3",
   "Hit" : "-8",
   "Block" : "-11",
   "Notes" : "Damage () is tiger.\n",
@@ -780,7 +780,7 @@
   "Damage" : "15(,20)",
   "Startup" : "15F"
 }, {
-  "Command" : "WS 3during hit f",
+  "Command" : " WS 3 during hit f",
   "Hit" : "+9",
   "Block" : "",
   "Notes" : "",
@@ -791,7 +791,7 @@
   "Damage" : "15(,20)",
   "Startup" : ""
 }, {
-  "Command" : "WS 4",
+  "Command" : " WS 4",
   "Hit" : "+8",
   "Block" : "-3",
   "Notes" : "",
@@ -802,7 +802,7 @@
   "Damage" : "13",
   "Startup" : "11F"
 }, {
-  "Command" : "WS 4, 4",
+  "Command" : " WS 4, 4",
   "Hit" : "+13Sp",
   "Block" : "-6",
   "Notes" : "H TS \nCombo from 1st NH",
@@ -813,7 +813,7 @@
   "Damage" : "13,16",
   "Startup" : ""
 }, {
-  "Command" : "While enemy is down d2",
+  "Command" : " While enemy is down d2",
   "Hit" : "-2",
   "Block" : "-13",
   "Notes" : "",
@@ -835,7 +835,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "bbubwith back against wall ",
+  "Command" : "bbub with back against wall ",
   "Hit" : "KDN",
   "Block" : "+1",
   "Notes" : "To back toward\nAdvance Input is unavailable\nAir Status 5F\nInvinciblity during 8 to 24F",
@@ -846,7 +846,7 @@
   "Damage" : "21",
   "Startup" : "35F"
 }, {
-  "Command" : "BT 1or 2",
+  "Command" : " BT 1 or 2",
   "Hit" : "+3",
   "Block" : "-8",
   "Notes" : "",
@@ -857,7 +857,7 @@
   "Damage" : "15",
   "Startup" : "8F"
 }, {
-  "Command" : "BT 3or 4",
+  "Command" : " BT 3 or 4",
   "Hit" : "KDN",
   "Block" : "-8",
   "Notes" : "",
@@ -868,7 +868,7 @@
   "Damage" : "18",
   "Startup" : "10F"
 }, {
-  "Command" : "BT d1or d2",
+  "Command" : " BT d1 or d2",
   "Hit" : "+9",
   "Block" : "-2",
   "Notes" : "TC 1F\nReturns to crouching.",
@@ -879,7 +879,7 @@
   "Damage" : "10",
   "Startup" : "10F"
 }, {
-  "Command" : "BT d3or d4",
+  "Command" : " BT d3 or d4",
   "Hit" : "+3",
   "Block" : "-11",
   "Notes" : "TC 1F\nReturns to crouching.",
@@ -890,7 +890,7 @@
   "Damage" : "12",
   "Startup" : "10F"
 }, {
-  "Command" : "f3+4or ff3+4or During Last Warrior f",
+  "Command" : "f3+4 or ff3+4 or During Last Warrior f",
   "Hit" : "",
   "Block" : "",
   "Notes" : "TJ 8F\nBasic Cost 16F\n",
@@ -901,7 +901,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "b3+4or During Fearless Warrior b",
+  "Command" : "b3+4 or During Fearless Warrior b",
   "Hit" : "",
   "Block" : "",
   "Notes" : "TJ 6F\n",
@@ -912,7 +912,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "During Fearless Warrior 1",
+  "Command" : " During Fearless Warrior 1",
   "Hit" : "KDN",
   "Block" : "-11",
   "Notes" : "WB TJ \n",
@@ -923,7 +923,7 @@
   "Damage" : "25",
   "Startup" : "19F"
 }, {
-  "Command" : "During Fearless Warrior 2",
+  "Command" : " During Fearless Warrior 2",
   "Hit" : "LNC",
   "Block" : "-10",
   "Notes" : "TJ \nFrom cost 13F\n",
@@ -934,7 +934,7 @@
   "Damage" : "20",
   "Startup" : "15F"
 }, {
-  "Command" : "During Fearless Warrior 3",
+  "Command" : " During Fearless Warrior 3",
   "Hit" : "+7C",
   "Block" : "-7",
   "Notes" : "TJ \n",
@@ -945,7 +945,7 @@
   "Damage" : "20",
   "Startup" : "23F"
 }, {
-  "Command" : "During Fearless Warrior 4",
+  "Command" : " During Fearless Warrior 4",
   "Hit" : "+5C",
   "Block" : "-31",
   "Notes" : "TJ \nHit force to crouching\n2nd input force to down",
@@ -956,7 +956,7 @@
   "Damage" : "17",
   "Startup" : "18F"
 }, {
-  "Command" : "During Fearless Warrior 4, 2",
+  "Command" : " During Fearless Warrior 4, 2",
   "Hit" : "KDN",
   "Block" : "-16",
   "Notes" : "",
@@ -967,7 +967,7 @@
   "Damage" : "17,20",
   "Startup" : ""
 }, {
-  "Command" : "During Fearless Warrior 1+2",
+  "Command" : " During Fearless Warrior 1+2",
   "Hit" : "+8",
   "Block" : "+4",
   "Notes" : "TJ \nMeaty 1F\n",
@@ -978,7 +978,7 @@
   "Damage" : "20",
   "Startup" : "22F"
 }, {
-  "Command" : "During Fearless Warrior 3+4",
+  "Command" : " During Fearless Warrior 3+4",
   "Hit" : "LNC",
   "Block" : "-15",
   "Notes" : "Mid-air hit on 2nd hit after 1st hit.\n",
@@ -989,7 +989,7 @@
   "Damage" : "8,20",
   "Startup" : "19F"
 }, {
-  "Command" : "During Fearless Warrior f1+2",
+  "Command" : " During Fearless Warrior f1+2",
   "Hit" : "KDN",
   "Block" : "KDN",
   "Notes" : "TJ ",
@@ -1000,7 +1000,7 @@
   "Damage" : "30",
   "Startup" : "50F"
 }, {
-  "Command" : "During Rage d1+2",
+  "Command" : " During Rage d1+2",
   "Hit" : "Th",
   "Block" : "-22",
   "Notes" : "Guard Point 8F\n",
@@ -1011,7 +1011,7 @@
   "Damage" : "55",
   "Startup" : "20F"
 }, {
-  "Command" : "During Rage ff1+2",
+  "Command" : " During Rage ff1+2",
   "Hit" : "LNC",
   "Block" : "-12",
   "Notes" : "Damage 2 on block\nUnblokable damage 5 close to Wall &amp; -6F",
@@ -1044,7 +1044,7 @@
   "Damage" : "35",
   "Startup" : "12F"
 }, {
-  "Command" : "Approach from left side ",
+  "Command" : " Approach from left side ",
   "Hit" : "-3F",
   "Block" : "Head-sd Fac-Up",
   "Notes" : "",
@@ -1055,7 +1055,7 @@
   "Damage" : "40",
   "Startup" : ""
 }, {
-  "Command" : "Approach from right side ",
+  "Command" : " Approach from right side ",
   "Hit" : "-3F",
   "Block" : "Head-sd Fac-Up",
   "Notes" : "",
@@ -1066,7 +1066,7 @@
   "Damage" : "40",
   "Startup" : ""
 }, {
-  "Command" : "Approach from behind ",
+  "Command" : " Approach from behind ",
   "Hit" : "disable",
   "Block" : "Head-sd Fac-Dwn",
   "Notes" : "",
@@ -1099,7 +1099,7 @@
   "Damage" : "0(,30)",
   "Startup" : ""
 }, {
-  "Command" : "During Fearless Warrior b1+2",
+  "Command" : " During Fearless Warrior b1+2",
   "Hit" : "disable",
   "Block" : "+8F",
   "Notes" : "Wall Stun.\n",
