@@ -77,7 +77,11 @@ def move_simplifier(move_input):
         'cd': 'f,n,d,df',
         'wr': 'f,f,f',
         'ewgf': 'f,n,d,df+2',
-        '☆': 'n'
+        '☆': 'n',
+        'ddff': 'qcf',
+        'ddbb': 'qcb',
+        'bdbddff': 'hcf',
+        'fdfddbb': 'hcb'
     }
 
     # Don't apply the above replacements for any of the moves with the following notation
