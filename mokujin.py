@@ -9,12 +9,9 @@ from discord.ext import commands
 import tkfinder
 import config
 
-prefix = '$'
-description = 'The premier Tekken 7 Frame bot, made by Baikonur#4927'
+prefix = '!'
+description = 'Tekken 7 Frame Bot customized by AtillaBosma'
 bot = commands.Bot(command_prefix=prefix, description=description)
-
-normal_timeout = config.EXTRA_DATA['timeout_normal']
-error_timeout = config.EXTRA_DATA['timeout_error']
 
 # Dict for searching special move types
 move_types = {  'ra': 'Rage art',
@@ -44,13 +41,15 @@ def move_embed(character, move):
             description='Move: ' + move['Command'])
 
     embed.set_thumbnail(url=character['portrait'])
-    embed.add_field(name='Property', value=move['Hit level'])
-    embed.add_field(name='Damage', value=move['Damage'])
-    embed.add_field(name='Startup', value='i' + move['Start up frame'])
-    embed.add_field(name='Block', value=move['Block frame'])
-    embed.add_field(name='Hit', value=move['Hit frame'])
-    embed.add_field(name='Counter Hit', value=move['Counter hit frame'])
-    embed.add_field(name='Notes', value=move['Notes'])
+    embed.add_field(name='Name', value=move['Name'] + "\n\u200b")
+    embed.add_field(name='Property', value=move['Property'] + "\n\u200b")
+    embed.add_field(name='Damage', value=move['Damage'] + "\n\u200b")
+    embed.add_field(name='Startup', value='i' + move['Startup'] + "\n\u200b")
+    embed.add_field(name='Block', value=move['Block'] + "\n\u200b")
+    embed.add_field(name='Hit', value=move['Hit'] + "\n\u200b")
+    embed.add_field(name='Total', value=move['Total'] + "\n\u200b")
+    embed.add_field(name='Counter Hit', value=move['Counter Hit'] + "\n\u200b")
+    embed.add_field(name='Notes', value=move['Notes'] + "\n\u200b")
 
     return embed
 
@@ -88,24 +87,6 @@ async def test(ctx):
     embed.set_author(name='Test name', icon_url=bot.user.default_avatar_url)
     await ctx.send(embed=embed, delete_after=60)
 
-@bot.command()
-async def settimeout(ctx, arg):
-    try:
-        timeout = float(arg)
-        normal_timeout = timeout
-        ctx.send('Set the timeout of normal messages to:' + arg, delete_after=10)
-    except Exception as e:
-        ctx.send(e, delete_after=10)
-
-@bot.command()
-async def seterrortimeout(ctx, arg):
-    try:
-        timeout = float(arg)
-        error_timeout = timeout
-        ctx.send('Set the timeout of error messages to:' + arg, delete_after=10)
-    except Exception as e:
-        ctx.send(e, delete_after=10)
-
 @bot.event
 async def on_message(message):
     '''This has the main functionality of the bot. It has a lot of
@@ -138,14 +119,14 @@ async def on_message(message):
                 move_list = tkfinder.get_by_move_type(character, move_types[chara_move])
                 if  len(move_list) < 1:
                     embed = error_embed('No ' + move_types[chara_move].lower() + ' for ' + character['proper_name'])
-                    msg = await channel.send(embed=embed, delete_after=error_timeout)
+                    msg = await channel.send(embed=embed, delete_after=config.EXTRA_DATA['timeout_error'])
                 elif len(move_list) == 1:
                     move = tkfinder.get_move(character, move_list[0], False)
                     embed = move_embed(character, move)
-                    msg = await channel.send(embed=embed, delete_after=normal_timeout)
+                    msg = await channel.send(embed=embed, delete_after=config.EXTRA_DATA['timeout_normal'])
                 elif len(move_list) > 1:
                     embed = move_list_embed(character, move_list, move_types[chara_move])
-                    msg = await channel.send(embed=embed, delete_after=normal_timeout)
+                    msg = await channel.send(embed=embed, delete_after=config.EXTRA_DATA['timeout_normal'])
 
             else:
                 move = tkfinder.get_move(character, chara_move, True)
@@ -155,20 +136,21 @@ async def on_message(message):
 
                 if move is not None:
                     embed = move_embed(character, move)
-                    msg = await channel.send(embed=embed, delete_after=normal_timeout)
+                    msg = await channel.send(embed=embed, delete_after=config.EXTRA_DATA['timeout_normal'])
                 else:
                     move = tkfinder.get_move(character, chara_move, False)
                     if move is not None:
                         embed = move_embed(character, move)
-                        msg = await channel.send(embed=embed, delete_after=normal_timeout)
+                        msg = await channel.send(embed=embed, delete_after=config.EXTRA_DATA['timeout_normal'])
                     else:
                         embed = error_embed('Move not found: ' + chara_move)
-                        msg = await channel.send(embed=embed, delete_after=normal_timeout)
+                        msg = await channel.send(embed=embed, delete_after=config.EXTRA_DATA['timeout_error'])
         else:
             bot_msg = 'Character ' + chara_name + ' does not exist.'
             embed = error_embed(bot_msg)
-            msg = await message.channel.send(embed=embed, delete_after=error_timeout)
+            msg = await message.channel.send(embed=embed, delete_after=config.EXTRA_DATA['timeout_error'])
 
             return
     await bot.process_commands(message)
+
 bot.run(token)

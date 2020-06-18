@@ -23,7 +23,7 @@
     {
         "name": "armor_king",
         "proper_name": "Armor King",
-        "local_json": "armor_king.json",
+        "local_json": "amking.json",
         "online_webpage": "http://rbnorway.org/armor-king-t7-frames",
         "portrait": "https://i.imgur.com/aiZSjIv.jpg"
     },
@@ -58,7 +58,7 @@
     {
         "name": "devil_jin",
         "proper_name": "Devil Jin",
-        "local_json": "devil_jin.json",
+        "local_json": "devil.json",
         "online_webpage": "http://rbnorway.org/devil-jin-t7-frames",
         "portrait": "https://i.imgur.com/bhZbto7.jpg"
     },
@@ -193,7 +193,7 @@
         "proper_name": "Kuma",
         "local_json": "kuma.json",
         "online_webpage": "http://rbnorway.org/kuma-t7-frames",
-        "portrait": "https://i.imgur.com/aOHX45D.jpg"
+        "portrait": "https://www.tshirtvortex.net/wp-content/uploads/2011/10/laserbear_ftw.jpg"
     },
     {
         "name": "lars",
@@ -248,7 +248,7 @@
     {
         "name": "lucky_chloe",
         "proper_name": "Lucky Chloe",
-        "local_json": "lucky_chloe.json",
+        "local_json": "lucky.json",
         "online_webpage": "http://rbnorway.org/lucky-chloe-t7-frames",
         "portrait": "https://i.imgur.com/iNXYpwT.jpg"
     },
@@ -262,7 +262,7 @@
     {
         "name": "master_raven", 
         "proper_name": "Master Raven",
-        "local_json": "master_raven.json",
+        "local_json": "raven.json",
         "online_webpage": "http://rbnorway.org/master-raven-t7-frames/",
         "portrait": "https://i.imgur.com/UZVFlhV.jpg"
     },

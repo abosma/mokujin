@@ -28,7 +28,7 @@ def get_move(character: dict, move_command: str, case_important: bool) -> dict:
 
     move_file_name = '/json/' + character.get('local_json')
     filepath = dirname + move_file_name
-    with open(filepath) as move_file:
+    with open(filepath, encoding="utf-8") as move_file:
         move_file_contents = move_file.read()
     move_json = json.loads(move_file_contents)
 
