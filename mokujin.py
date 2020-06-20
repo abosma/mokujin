@@ -2,6 +2,7 @@
 import os, sys
 import datetime
 import asyncio
+import json
 
 import discord
 from discord.ext import commands
@@ -9,8 +10,9 @@ from discord.ext import commands
 import tkfinder
 import config
 
-prefix = '!'
-description = 'Tekken 7 Frame Bot customized by AtillaBosma'
+prefix = config.EXTRA_DATA['prefix']
+description = config.EXTRA_DATA['description']
+
 bot = commands.Bot(command_prefix=prefix, description=description)
 
 # Dict for searching special move types
@@ -32,6 +34,8 @@ move_types = {  'ra': 'Rage art',
                 'power_crush': 'Power crush'}
 
 token = os.environ.get('BOT_TOKEN')
+
+alias_file = os.path.dirname(__file__) + '/json/character_alias.json'
 
 def move_embed(character, move):
     '''Returns the embed message for character and move'''
@@ -87,6 +91,64 @@ async def test(ctx):
     embed.set_author(name='Test name', icon_url=bot.user.default_avatar_url)
     await ctx.send(embed=embed, delete_after=60)
 
+@bot.command()
+async def addalias(ctx, *args):
+    if len(args) != 2:
+        embed = discord.Embed(title='Error', colour=0x0000FF)
+        embed.set_author(name='TekkenFrameBot', icon_url=bot.user.default_avatar_url)
+        embed.add_field(name="Message", value="Not enough arguments, or too many arguments.")
+        await ctx.send(embed=embed, delete_after=15)
+        return
+    
+    character_name = args[0]
+    toAddAlias = args[1]
+    character_aliases = []
+    
+    with open(alias_file, 'r') as characterAliases:
+        character_aliases = json.load(characterAliases)
+
+    for alias in character_aliases:
+        if alias['name'] == character_name:
+            if toAddAlias not in alias['alias']:
+                alias['alias'].append(toAddAlias)
+                break
+
+    with open(alias_file, 'w') as characterAliases:
+        json.dump(character_aliases, characterAliases, indent=4)
+
+    embed=discord.Embed(title="Success", description="Added the alias: %s to character: %s!" % (toAddAlias, character_name), color=0x2dd280)
+    embed.set_author(name='TekkenFrameBot', icon_url=bot.user.default_avatar_url)
+    await ctx.send(embed=embed, delete_after=15)
+
+@bot.command()
+async def removealias(ctx, *args):
+    if len(args) != 2:
+        embed = discord.Embed(title='Error', colour=0x0000FF)
+        embed.set_author(name='TekkenFrameBot', icon_url=bot.user.default_avatar_url)
+        embed.add_field(name="Message", value="Not enough arguments, or too many arguments.")
+        await ctx.send(embed=embed, delete_after=15)
+        return
+    
+    character_name = args[0]
+    toRemoveAlias = args[1]
+    character_aliases = []
+    
+    with open(alias_file, 'r') as characterAliases:
+        character_aliases = json.load(characterAliases)
+
+    for alias in character_aliases:
+        if alias['name'] == character_name:
+            if toRemoveAlias in alias['alias']:
+                alias['alias'].remove(toRemoveAlias)
+                break
+
+    with open(alias_file, 'w') as characterAliases:
+        json.dump(character_aliases, characterAliases, indent=4)
+
+    embed=discord.Embed(title="Success", description="Removed the alias: %s to character: %s!" % (toRemoveAlias, character_name), color=0x2dd280)
+    embed.set_author(name='TekkenFrameBot', icon_url=bot.user.default_avatar_url)
+    await ctx.send(embed=embed, delete_after=15)
+
 @bot.event
 async def on_message(message):
     '''This has the main functionality of the bot. It has a lot of
@@ -108,7 +170,11 @@ async def on_message(message):
         chara_move = user_message_list[1]
 
         # iterate through character aliases in config for matching value
-        chara_alias = list(filter(lambda x: (chara_name in x['alias']), config.CHARACTER_NAMES))
+        character_aliases = []
+        with open(alias_file, 'r') as characterAliases:
+            character_aliases = json.load(characterAliases)
+
+        chara_alias = list(filter(lambda x: (chara_name in x['alias']), character_aliases))
         if chara_alias:
             chara_name = chara_alias[0]['name']
 
