@@ -35,6 +35,7 @@ move_types = {  'ra': 'Rage art',
 
 token = os.environ.get('BOT_TOKEN')
 dirname = os.getcwd()
+alias_file = dirname + '/json/character_alias.json'
 
 def move_embed(character, move):
     '''Returns the embed message for character and move'''
@@ -101,7 +102,6 @@ async def addalias(ctx, *args):
     
     character_name = args[0]
     toAddAlias = args[1]
-    alias_file = dirname + '/json/character_alias.json'
     character_aliases = []
     
     with open(alias_file, 'r') as characterAliases:
@@ -131,7 +131,6 @@ async def removealias(ctx, *args):
     
     toRemoveAlias = args[0]
     character_name = args[1]
-    alias_file = dirname + '/json/character_alias.json'
     character_aliases = []
     
     with open(alias_file, 'r') as characterAliases:
