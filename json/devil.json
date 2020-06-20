@@ -87,7 +87,7 @@
   "Damage" : "7,8,10",
   "Startup" : ""
 }, {
-  "Command" : "4~1",
+  "Command" : "1, 2, 4~1",
   "Hit" : "+3",
   "Block" : "-4",
   "Notes" : "To White Heron (<img src=\"../lpk.bmp\" class=\"c\">)\nInput<img src=\"../lp.bmp\" class=\"c\">during Start-up 3rd<img src=\"../rk.bmp\" class=\"c\">\n3rd crouching block -18F",
@@ -98,7 +98,7 @@
   "Damage" : "7,8,5,5",
   "Startup" : ""
 }, {
-  "Command" : "4~3",
+  "Command" : "1, 2, 4~3",
   "Hit" : "KDN",
   "Block" : "-7C",
   "Notes" : "TJ \nTo Wheel of Pain (【<img src=\"../rk.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../lk.bmp\" class=\"c\">】)\nInput<img src=\"../lk.bmp\" class=\"c\">during Start-up 3rd<img src=\"../rk.bmp\" class=\"c\">\nBlock force to crouching",
@@ -153,7 +153,7 @@
   "Damage" : "21",
   "Startup" : "16F"
 }, {
-  "Command" : "4~3",
+  "Command" : "or, 4~3",
   "Hit" : "KDN",
   "Block" : "-7C",
   "Notes" : "TJ 14F\nAdvance Input is unavailable\nStart-up 30F in actualy\nBlock force to crouching\nMeaty 3F",

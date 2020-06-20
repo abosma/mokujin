@@ -142,7 +142,7 @@
   "Damage" : "18",
   "Startup" : "12F"
 }, {
-  "Command" : "4~3",
+  "Command" : "or, 4~3",
   "Hit" : "KDN",
   "Block" : "-10",
   "Notes" : "TJ 10F\nAdvance Input is unavailable\n【<img src=\"../9.bmp\" class=\"c\"><img src=\"../rk.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../lk.bmp\" class=\"c\">】　Start-up 31F",
@@ -1000,7 +1000,7 @@
   "Damage" : "30",
   "Startup" : "22F"
 }, {
-  "Command" : "f,n,ddf Ｊ 2",
+  "Command" : "f,n,ddf:2",
   "Hit" : "LNC",
   "Block" : "+5",
   "Notes" : "Press Simultaneously\nTotal 36F on block or hit\n",
@@ -1187,7 +1187,7 @@
   "Damage" : "30,15",
   "Startup" : "22F"
 }, {
-  "Command" : " While in DT f,n,ddf Ｊ 2",
+  "Command" : " While in DT f,n,ddf:2",
   "Hit" : "LNC",
   "Block" : "-6",
   "Notes" : "",

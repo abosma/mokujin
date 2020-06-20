@@ -1550,7 +1550,7 @@
   "Damage" : "14",
   "Startup" : "20F"
 }, {
-  "Command" : "df2~1",
+  "Command" : "FC, df2~1",
   "Hit" : "KDN",
   "Block" : "-21",
   "Notes" : "TC 1F\nSecret Move.\nAdvance Input is available.\nReturrns to crouching when input<img src=\"../2'.bmp\" class=\"c\">after moving.",

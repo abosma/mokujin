@@ -439,7 +439,7 @@
   "Damage" : "16",
   "Startup" : "13F"
 }, {
-  "Command" : "f2~1",
+  "Command" : ", f2~1",
   "Hit" : "KDN",
   "Block" : "+5",
   "Notes" : "Advance Input is unavailable\nStart-up 21F\nMeaty 1F\n",

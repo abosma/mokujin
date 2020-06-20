@@ -76,7 +76,7 @@
   "Damage" : "7,14,20",
   "Startup" : ""
 }, {
-  "Command" : "2~1+2",
+  "Command" : "1, 3, 2~1+2",
   "Hit" : "Th",
   "Block" : "",
   "Notes" : "Break Throw<img src=\"../p.bmp\" class=\"c\">(14F)\n+5F after break Throw\nDisable break throw during Charging\n",
@@ -87,7 +87,7 @@
   "Damage" : "7,14,35",
   "Startup" : ""
 }, {
-  "Command" : "2~1+2",
+  "Command" : "1, 3  b, 2~1+2",
   "Hit" : "-24",
   "Block" : "-32",
   "Notes" : "",
@@ -626,7 +626,7 @@
   "Damage" : "14",
   "Startup" : "27F"
 }, {
-  "Command" : "db3~1+2",
+  "Command" : ", db3~1+2",
   "Hit" : "Th",
   "Block" : "",
   "Notes" : "Break Throw<img src=\"../p.bmp\" class=\"c\">(14F)\n+5F after break Throw\nDisable break throw during Charging",
@@ -637,7 +637,7 @@
   "Damage" : "45",
   "Startup" : "40F"
 }, {
-  "Command" : "db3~1+2",
+  "Command" : "d, db3~1+2",
   "Hit" : "",
   "Block" : "",
   "Notes" : "Returns to crouching.",
@@ -725,7 +725,7 @@
   "Damage" : "14,11,16",
   "Startup" : ""
 }, {
-  "Command" : "3~1+2",
+  "Command" : "b2, 1, 3~1+2",
   "Hit" : "Th",
   "Block" : "",
   "Notes" : "TC \nBreak Throw<img src=\"../p.bmp\" class=\"c\">(14F)\n+5F after break Throw\nDisable break throw during Charging",
@@ -736,7 +736,7 @@
   "Damage" : "14,11,45",
   "Startup" : ""
 }, {
-  "Command" : "3~1+2",
+  "Command" : "b2, 1  d, 3~1+2",
   "Hit" : "",
   "Block" : "",
   "Notes" : "TC ",
@@ -1000,7 +1000,7 @@
   "Damage" : "20",
   "Startup" : "15F"
 }, {
-  "Command" : "ff2~1+2",
+  "Command" : ", ff2~1+2",
   "Hit" : "Th",
   "Block" : "",
   "Notes" : "Break Throw<img src=\"../p.bmp\" class=\"c\">(14F)\n+5F after break Throw\nDisable break throw during Charging",
@@ -1011,7 +1011,7 @@
   "Damage" : "35",
   "Startup" : ""
 }, {
-  "Command" : "ff2~1+2",
+  "Command" : "b, ff2~1+2",
   "Hit" : "",
   "Block" : "",
   "Notes" : "",
@@ -1660,7 +1660,7 @@
   "Damage" : "25＋α",
   "Startup" : ""
 }, {
-  "Command" : "ff2~1+2",
+  "Command" : "or 1, 3, ff2~1+2",
   "Hit" : "+5F",
   "Block" : "Head-sd Fac-Up",
   "Notes" : "Break Throw 14F\nDisable break throw during Charging\n",
@@ -1671,7 +1671,7 @@
   "Damage" : "35",
   "Startup" : ""
 }, {
-  "Command" : "db3~1+2",
+  "Command" : "or b2, 1, db3~1+2",
   "Hit" : "+5F",
   "Block" : "RP Foot-sd Fac-Up",
   "Notes" : "Input<img src=\"../2'.bmp\" class=\"c\">to cancel\nBreak Throw 14F\nDisable break throw during Charging",

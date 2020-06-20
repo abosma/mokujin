@@ -417,7 +417,7 @@
   "Damage" : "14",
   "Startup" : "15F"
 }, {
-  "Command" : "ff2 Ｊ 1",
+  "Command" : "ff2:1",
   "Hit" : "KDN",
   "Block" : "-13",
   "Notes" : "WB \nCombo from 1st NH\nDisable 2nd after 1st whiff\n",

@@ -219,7 +219,7 @@
   "Damage" : "15,12,23",
   "Startup" : ""
 }, {
-  "Command" : "3~4",
+  "Command" : ", 3~4",
   "Hit" : "KDN",
   "Block" : "-3",
   "Notes" : "TJ 16F\nStart-up frame is from input start timing\nAdvance Input is unavailable\n",
@@ -362,7 +362,7 @@
   "Damage" : "15",
   "Startup" : "16F"
 }, {
-  "Command" : "f3,n,3",
+  "Command" : ", f3,n,3",
   "Hit" : "KDN",
   "Block" : "-16",
   "Notes" : "Start-up frame is from input start timing",
@@ -1440,7 +1440,7 @@
   "Damage" : "13,16",
   "Startup" : ""
 }, {
-  "Command" : "3~4",
+  "Command" : "RS, 3~4",
   "Hit" : "KDN",
   "Block" : "+4",
   "Notes" : "H TS PC 8F\nStart-up frame is from input start timing\nMeaty 1F in actualy",
@@ -1495,7 +1495,7 @@
   "Damage" : "12,23",
   "Startup" : ""
 }, {
-  "Command" : "f4~4",
+  "Command" : "RS, f4~4",
   "Hit" : "LNC",
   "Block" : "-13",
   "Notes" : "Start-up frame is from input start timing\nMeaty 1F in actualy\n",
@@ -2375,7 +2375,7 @@
   "Damage" : "40",
   "Startup" : "12F"
 }, {
-  "Command" : "f3~2",
+  "Command" : "f2+3 or  or LF f2+3 or RS f2+3, f3~2",
   "Hit" : "±0F RP",
   "Block" : "CW Head-sd Fac-Up",
   "Notes" : "Enable motion cancel from input 【<img src=\"../6.bmp\" class=\"c\"><img src=\"../lk.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../rp.bmp\" class=\"c\">】\nFloor Break\n",
