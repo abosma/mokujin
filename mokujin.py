@@ -48,9 +48,9 @@ def move_embed(character, move):
     embed.add_field(name='Name', value=move['Name'] + "\n\u200b")
     embed.add_field(name='Property', value=move['Property'] + "\n\u200b")
     embed.add_field(name='Damage', value=move['Damage'] + "\n\u200b")
-    embed.add_field(name='Startup', value='i' + move['Startup'] + "\n\u200b")
+    embed.add_field(name='Startup', value=move['Startup'] + "\n\u200b")
     embed.add_field(name='Block', value=move['Block'] + "\n\u200b")
-    embed.add_field(name='Hit', value=move['Hit'] + "\n\u200b")
+    embed.add_field(name='Hit', value=move['Hit'] + "F\n\u200b")
     embed.add_field(name='Total', value=move['Total'] + "\n\u200b")
     embed.add_field(name='Counter Hit', value=move['Counter Hit'] + "\n\u200b")
     embed.add_field(name='Notes', value=move['Notes'] + "\n\u200b")
@@ -187,30 +187,20 @@ async def on_message(message):
                     embed = error_embed('No ' + move_types[chara_move].lower() + ' for ' + character['proper_name'])
                     msg = await channel.send(embed=embed, delete_after=config.EXTRA_DATA['timeout_error'])
                 elif len(move_list) == 1:
-                    move = tkfinder.get_move(character, move_list[0], False)
+                    move = tkfinder.get_move(character, move_list[0])
                     embed = move_embed(character, move)
                     msg = await channel.send(embed=embed, delete_after=config.EXTRA_DATA['timeout_normal'])
                 elif len(move_list) > 1:
                     embed = move_list_embed(character, move_list, move_types[chara_move])
                     msg = await channel.send(embed=embed, delete_after=config.EXTRA_DATA['timeout_normal'])
-
             else:
-                move = tkfinder.get_move(character, chara_move, True)
-
-                #First checks the move as case sensitive, if it doesn't find it
-                #it checks it case unsensitive
-
+                move = tkfinder.get_move(character, chara_move)
                 if move is not None:
                     embed = move_embed(character, move)
                     msg = await channel.send(embed=embed, delete_after=config.EXTRA_DATA['timeout_normal'])
                 else:
-                    move = tkfinder.get_move(character, chara_move, False)
-                    if move is not None:
-                        embed = move_embed(character, move)
-                        msg = await channel.send(embed=embed, delete_after=config.EXTRA_DATA['timeout_normal'])
-                    else:
-                        embed = error_embed('Move not found: ' + chara_move)
-                        msg = await channel.send(embed=embed, delete_after=config.EXTRA_DATA['timeout_error'])
+                    embed = error_embed('Move not found: ' + chara_move)
+                    msg = await channel.send(embed=embed, delete_after=config.EXTRA_DATA['timeout_error'])
         else:
             bot_msg = 'Character ' + chara_name + ' does not exist.'
             embed = error_embed(bot_msg)

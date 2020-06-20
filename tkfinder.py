@@ -21,7 +21,7 @@ def get_character(chara_name: str) -> dict:
     else:
         return None
 
-def get_move(character: dict, move_command: str, case_important: bool) -> dict:
+def get_move(character: dict, move_command: str) -> dict:
     '''Gets move from local_json, if exists
     returns move if exists, else None
     '''
@@ -32,18 +32,18 @@ def get_move(character: dict, move_command: str, case_important: bool) -> dict:
         move_file_contents = move_file.read()
     move_json = json.loads(move_file_contents)
 
-    if case_important:
-        move = list(filter(lambda x: (x['Command'] == move_command), move_json))
-    else:
-        move = list(filter(lambda x: (move_simplifier(x['Command'].lower())
-        == move_simplifier(move_command.lower())), move_json))
-        if not move:
-            move = list(filter(lambda x: move_simplifier(move_command.lower())
-            in move_simplifier(x['Command'].lower()), move_json))
-    if move:
-        return move[0]
-    else:
-        return None
+    # Check if move is exact same as a command in character movelist
+    move = list(filter(lambda x: (move_simplifier(x['Command'].lower()) == move_simplifier(move_command.lower())), move_json))
+    
+    if not move:
+        # Check if move is part of command in character movelist
+        move = list(filter(lambda x: move_simplifier(move_command.lower()) in move_simplifier(x['Command'].lower()), move_json))
+        if move:
+            return move[0]
+        else:
+            return None
+    
+    return move[0]
 
 def get_by_move_type(character: dict, move_type: str) -> list:
     '''Gets a list of moves that match move_type from local_json
@@ -78,17 +78,18 @@ def move_simplifier(move_input):
         'wr': 'f,f,f',
         'ewgf': 'f,n,d,df+2',
         '☆': 'n',
-        'ddff': 'qcf',
-        'ddbb': 'qcb',
         'bdbddff': 'hcf',
-        'fdfddbb': 'hcb'
+        'fdfddbb': 'hcb',
+        'ddff': 'qcf',
+        'd, df, f': 'qcf',
+        'd,df,f': 'qcf',
+        'ddbb': 'qcb',
+        'd, db, b': 'qcb',
+        'd,db,b': 'qcb'
     }
 
-    # Don't apply the above replacements for any of the moves with the following notation
-    replacements_blacklist = ["cds"]
-
     for move in move_replacements:
-        if not any([mv in move_input for mv in replacements_blacklist]) and move in move_input:
+        if move in move_input:
             move_input = move_input.replace(move, move_replacements[move])
 
     move_input = move_input.replace(' ', '')
