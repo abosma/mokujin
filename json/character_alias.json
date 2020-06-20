@@ -1,5 +1,13 @@
 [
     {
+        "name": "akuma",
+        "alias": []
+    },
+    {
+        "name": "alisa",
+        "alias": []
+    },
+    {
         "name": "armor_king",
         "alias": [
             "armor",
@@ -7,12 +15,31 @@
         ]
     },
     {
-        "name": "devil_jin",
+        "name": "anna",
+        "alias": []
+    },
+    {
+        "name": "asuka",
+        "alias": []
+    },
+    {
+        "name": "bob",
+        "alias": []
+    },
+    {
+        "name": "bryan",
+        "alias": []
+    },
+    {
+        "name": "claudio",
+        "alias": []
+    },
+    {
+        "name": "devil",
         "alias": [
             "dj",
             "dvj",
             "djin",
-            "devil",
             "deviljin"
         ]
     },
@@ -23,6 +50,14 @@
             "drag",
             "dragu"
         ]
+    },
+    {
+        "name": "eddy",
+        "alias": []
+    },
+    {
+        "name": "eliza",
+        "alias": []
     },
     {
         "name": "fahkumram",
@@ -37,6 +72,10 @@
         ]
     },
     {
+        "name": "feng",
+        "alias": []
+    },
+    {
         "name": "ganryu",
         "alias": [
             "ganruy",
@@ -49,6 +88,14 @@
         "alias": [
             "goose"
         ]
+    },
+    {
+        "name": "gigas",
+        "alias": []
+    },
+    {
+        "name": "heihachi",
+        "alias": []
     },
     {
         "name": "hwoarang",
@@ -67,66 +114,86 @@
         ]
     },
     {
+        "name": "jin",
+        "alias": []
+    },
+    {
         "name": "julia",
         "alias": [
             "julle"
         ]
     },
     {
-        "name": "lucky_chloe",
+        "name": "katarina",
+        "alias": []
+    },
+    {
+        "name": "kazumi",
+        "alias": []
+    },
+    {
+        "name": "kazuya",
+        "alias": []
+    },
+    {
+        "name": "king",
+        "alias": []
+    },
+    {
+        "name": "kuma",
+        "alias": []
+    },
+    {
+        "name": "lars",
+        "alias": []
+    },
+    {
+        "name": "law",
+        "alias": []
+    },
+    {
+        "name": "lee",
+        "alias": []
+    },
+    {
+        "name": "lei",
+        "alias": []
+    },
+    {
+        "name": "leo",
+        "alias": []
+    },
+    {
+        "name": "leroy",
+        "alias": []
+    },
+    {
+        "name": "lili",
+        "alias": []
+    },
+    {
+        "name": "lucky",
         "alias": [
             "chloe",
-            "lucky",
+            "lucky chloe",
             "lc"
         ]
     },
     {
-        "name": "heihachi",
-        "alias": [
-            "hei",
-            "hessu",
-            "heiska"
-        ]
-    },
-    {
-        "name": "katarina",
-        "alias": [
-            "kata",
-            "kat"
-        ]
-    },
-    {
-        "name": "kazuya",
-        "alias": [
-            "kaz",
-            "kazze"
-        ]
-    },
-    {
-        "name": "kuma",
-        "alias": [
-            "panda",
-            "karhu",
-            "olly"
-        ]
-    },
-    {
         "name": "marduk",
-        "alias": [
-            "mara",
-            "mardug",
-            "marduck"
-        ]
+        "alias": []
     },
     {
-        "name": "master_raven",
-        "alias": [
-            "master",
-            "raven",
-            "masterraven",
-            "mraven",
-            "maven"
-        ]
+        "name": "miguel",
+        "alias": []
+    },
+    {
+        "name": "negan",
+        "alias": []
+    },
+    {
+        "name": "nina",
+        "alias": []
     },
     {
         "name": "noctis",
@@ -138,29 +205,35 @@
     },
     {
         "name": "paul",
+        "alias": []
+    },
+    {
+        "name": "raven",
         "alias": [
-            "pave",
-            "pole"
+            "master",
+            "masterraven",
+            "mraven",
+            "maven"
         ]
     },
     {
         "name": "shaheen",
-        "alias": [
-            "sha",
-            "suhina"
-        ]
+        "alias": []
     },
     {
-        "name": "yoshimitsu",
-        "alias": [
-            "yoshi",
-            "ramification"
-        ]
+        "name": "steve",
+        "alias": []
     },
     {
         "name": "xiaoyu",
-        "alias": [
-            "ling"
-        ]
+        "alias": []
+    },
+    {
+        "name": "yoshimitsu",
+        "alias": []
+    },
+    {
+        "name": "zafina",
+        "alias": []
     }
 ]
