@@ -34,7 +34,7 @@ move_types = {  'ra': 'Rage art',
                 'power_crush': 'Power crush'}
 
 token = os.environ.get('BOT_TOKEN')
-dirname = os.path.dirname(__file__)
+dirname = os.getcwd()
 
 def move_embed(character, move):
     '''Returns the embed message for character and move'''
@@ -129,8 +129,8 @@ async def removealias(ctx, *args):
         await ctx.send(embed=embed, delete_after=15)
         return
     
-    character_name = args[0]
-    toRemoveAlias = args[1]
+    toRemoveAlias = args[0]
+    character_name = args[1]
     alias_file = dirname + '/json/character_alias.json'
     character_aliases = []
     
@@ -146,7 +146,7 @@ async def removealias(ctx, *args):
     with open(alias_file, 'w') as characterAliases:
         json.dump(character_aliases, characterAliases, indent=4)
 
-    embed=discord.Embed(title="Success", description="Removed the alias: %s to character: %s!" % (toRemoveAlias, character_name), color=0x2dd280)
+    embed=discord.Embed(title="Success", description="Removed the alias: %s from character: %s!" % (toRemoveAlias, character_name), color=0x2dd280)
     embed.set_author(name='TekkenFrameBot', icon_url=bot.user.default_avatar_url)
     await ctx.send(embed=embed, delete_after=15)
 
