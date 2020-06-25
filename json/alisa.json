@@ -1539,7 +1539,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : ", db1~1",
+  "Command" : "db1~1",
   "Hit" : "KDN",
   "Block" : "+4",
   "Notes" : "TS ",
@@ -1550,7 +1550,7 @@
   "Damage" : "31",
   "Startup" : "11F"
 }, {
-  "Command" : ", db1~2",
+  "Command" : "db1~2",
   "Hit" : "LNC",
   "Block" : "KDN",
   "Notes" : "Damage () is on landing\n",
@@ -1561,7 +1561,7 @@
   "Damage" : "20(,3)",
   "Startup" : "34F"
 }, {
-  "Command" : ", db1~3",
+  "Command" : "db1~3",
   "Hit" : "KDN",
   "Block" : "-9",
   "Notes" : "TJ 15F\nMeaty 2F in actualy\n",
@@ -1572,7 +1572,7 @@
   "Damage" : "30",
   "Startup" : "24F"
 }, {
-  "Command" : ", db1~4",
+  "Command" : "db1~4",
   "Hit" : "LNC",
   "Block" : "-9",
   "Notes" : "TJ 17F",

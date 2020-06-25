@@ -120,7 +120,7 @@
   "Damage" : "15",
   "Startup" : "11F"
 }, {
-  "Command" : ", 4~3",
+  "Command" : "4~3",
   "Hit" : "+3C",
   "Block" : "-1C",
   "Notes" : "TJ 10F\nStart-up 23F from input completed.\nStart-up 24F on Advance Input.\nReturns to crouching.\nBlock or NH force to crouching.\nMeaty 1F in actualy.",
@@ -131,7 +131,7 @@
   "Damage" : "23",
   "Startup" : "23F"
 }, {
-  "Command" : "d1+2, 4~3",
+  "Command" : "4~3, d1+2",
   "Hit" : "+4C",
   "Block" : "±0C",
   "Notes" : "TJ 10F\nTo Phoenix Stance(<img src=\"../2.bmp\" class=\"c\"><img src=\"../p.bmp\" class=\"c\">).\nBlock or NH force to crouching.",
@@ -307,7 +307,7 @@
   "Damage" : "15",
   "Startup" : "15F"
 }, {
-  "Command" : ", df2~1",
+  "Command" : "df2~1",
   "Hit" : "LNC",
   "Block" : "-13",
   "Notes" : "Advance Input is available.\n",

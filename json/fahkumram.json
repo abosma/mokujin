@@ -98,7 +98,7 @@
   "Damage" : "7,8,16,20",
   "Startup" : ""
 }, {
-  "Command" : "1, 2, 4  hold, 3~4",
+  "Command" : "1, 2, 4, 3~4, hold",
   "Hit" : "LNC",
   "Block" : "+14G",
   "Notes" : "Unblokable damage 1 &amp; Wall Stun on block close to Wall.",
@@ -186,7 +186,7 @@
   "Damage" : "8,16,20",
   "Startup" : ""
 }, {
-  "Command" : "2, 4  hold, 3~4",
+  "Command" : "2, 4, 3~4, hold",
   "Hit" : "LNC",
   "Block" : "+14G",
   "Notes" : "Unblokable damage 1 &amp; Wall Stun on block close to Wall.",
@@ -285,7 +285,7 @@
   "Damage" : "11,25",
   "Startup" : ""
 }, {
-  "Command" : "3  hold, 4~3",
+  "Command" : "3, 4~3, hold",
   "Hit" : "KDN",
   "Block" : "+14",
   "Notes" : "Wall Stun on block close to Wall.",
@@ -351,7 +351,7 @@
   "Damage" : "14,20",
   "Startup" : ""
 }, {
-  "Command" : "4  hold, 3~4",
+  "Command" : "4, 3~4, hold",
   "Hit" : "LNC",
   "Block" : "+14G",
   "Notes" : "Unblokable damage 1 &amp; Wall Stun on block close to Wall.",
@@ -461,7 +461,7 @@
   "Damage" : "18,16,25",
   "Startup" : ""
 }, {
-  "Command" : "f3, 2  hold, 4~3",
+  "Command" : "f3, 2, 4~3, hold",
   "Hit" : "KDN",
   "Block" : "+14",
   "Notes" : "Wall Stun on block close to Wall.",
@@ -571,7 +571,7 @@
   "Damage" : "10,15",
   "Startup" : ""
 }, {
-  "Command" : "df1  2, 4~3",
+  "Command" : "df1, 4~3, 2",
   "Hit" : "LNC",
   "Block" : "-16",
   "Notes" : "",
@@ -736,7 +736,7 @@
   "Damage" : "11,16,20",
   "Startup" : ""
 }, {
-  "Command" : "d3, 4  hold, 3~4",
+  "Command" : "d3, 4, 3~4, hold",
   "Hit" : "LNC",
   "Block" : "+14G",
   "Notes" : "Unblokable damage 1 &amp; Wall Stun on block close to Wall.",
@@ -1088,7 +1088,7 @@
   "Damage" : "15",
   "Startup" : "37F"
 }, {
-  "Command" : "ff  2, 4~3",
+  "Command" : "ff, 4~3, 2",
   "Hit" : "LNC",
   "Block" : "-16",
   "Notes" : "",
@@ -1231,7 +1231,7 @@
   "Damage" : "13,25",
   "Startup" : ""
 }, {
-  "Command" : "WS 2  hold, 4~3",
+  "Command" : "WS 2, 4~3, hold",
   "Hit" : "KDN",
   "Block" : "+14",
   "Notes" : "Wall Stun on block close to Wall.",

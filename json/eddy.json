@@ -98,7 +98,7 @@
   "Damage" : "17,23",
   "Startup" : ""
 }, {
-  "Command" : ", 3~4",
+  "Command" : "3~4",
   "Hit" : "KDN",
   "Block" : "-24",
   "Notes" : "TC 7FTJ 8F\nStart-up frame is from input start timing (completed timing in delay)\nDisable to Negativa after block\n",
@@ -109,7 +109,7 @@
   "Damage" : "10,10",
   "Startup" : "29F"
 }, {
-  "Command" : "b, 3~4",
+  "Command" : "3~4, b",
   "Hit" : "KDN",
   "Block" : "-24",
   "Notes" : "TC 7FTJ 8F\nStart-up frame is from input start timing (completed timing in delay)\nDisable to Handstand after block\n",
@@ -120,7 +120,7 @@
   "Damage" : "10,10",
   "Startup" : ""
 }, {
-  "Command" : "3, 3~4",
+  "Command" : "3~4, 3",
   "Hit" : "LNC",
   "Block" : "-14",
   "Notes" : "To Negativa",
@@ -131,7 +131,7 @@
   "Damage" : "10,10,21",
   "Startup" : ""
 }, {
-  "Command" : "4, 3~4",
+  "Command" : "3~4, 4",
   "Hit" : "+9",
   "Block" : "-7",
   "Notes" : "TC \nReturns to crouching.",
@@ -142,7 +142,7 @@
   "Damage" : "10,10,15",
   "Startup" : ""
 }, {
-  "Command" : "4b, 3~4",
+  "Command" : "3~4, 4b",
   "Hit" : "+7",
   "Block" : "-9",
   "Notes" : "TC ",
@@ -153,7 +153,7 @@
   "Damage" : "10,10,15",
   "Startup" : ""
 }, {
-  "Command" : "4, 4, 3~4",
+  "Command" : "3~4, 4, 4",
   "Hit" : "+10C",
   "Block" : "-14",
   "Notes" : "TS TC TJ \nCombo from 3rd CH",
@@ -164,7 +164,7 @@
   "Damage" : "10,10,15,15",
   "Startup" : ""
 }, {
-  "Command" : "4, 4b, 3~4",
+  "Command" : "3~4, 4, 4b",
   "Hit" : "-1",
   "Block" : "-25",
   "Notes" : "TS TC TJ \nCombo from 3rd CH",
@@ -175,7 +175,7 @@
   "Damage" : "10,10,15,15",
   "Startup" : ""
 }, {
-  "Command" : "4, 1+2, 3~4",
+  "Command" : "3~4, 4, 1+2",
   "Hit" : "+2",
   "Block" : "-14",
   "Notes" : "TC \nCombo from 3rd CH",
@@ -186,7 +186,7 @@
   "Damage" : "10,10,15,11",
   "Startup" : ""
 }, {
-  "Command" : "4, 1+2, 1+2, 3~4",
+  "Command" : "3~4, 4, 1+2, 1+2",
   "Hit" : "KDN",
   "Block" : "-14",
   "Notes" : "TC \nCombo from 4th NH",
@@ -197,7 +197,7 @@
   "Damage" : "10,10,15,11,12",
   "Startup" : ""
 }, {
-  "Command" : "3+4, 3~4",
+  "Command" : "3~4, 3+4",
   "Hit" : "+2C",
   "Block" : "-17",
   "Notes" : "TC TJ \nMeaty 4F in actualy\n",
@@ -208,7 +208,7 @@
   "Damage" : "10,10,18",
   "Startup" : ""
 }, {
-  "Command" : "3+4d, 3~4",
+  "Command" : "3~4, 3+4d",
   "Hit" : "+12C",
   "Block" : "-7",
   "Notes" : "TC TJ \nMeaty 4F in actualy",
@@ -230,7 +230,7 @@
   "Damage" : "12",
   "Startup" : "12F"
 }, {
-  "Command" : ", 4~3",
+  "Command" : "4~3",
   "Hit" : "-16",
   "Block" : "-27",
   "Notes" : "Start-up frame is from input start timing",
@@ -241,7 +241,7 @@
   "Damage" : "16",
   "Startup" : "19F"
 }, {
-  "Command" : "3, 4~3",
+  "Command" : "4~3, 3",
   "Hit" : "+6",
   "Block" : "-5",
   "Notes" : "TC TJ ",
@@ -252,7 +252,7 @@
   "Damage" : "16,17",
   "Startup" : ""
 }, {
-  "Command" : "3b, 4~3",
+  "Command" : "4~3, 3b",
   "Hit" : "",
   "Block" : "",
   "Notes" : "",
@@ -263,7 +263,7 @@
   "Damage" : "16",
   "Startup" : ""
 }, {
-  "Command" : "3d, 4~3",
+  "Command" : "4~3, 3d",
   "Hit" : "",
   "Block" : "",
   "Notes" : "",
@@ -274,7 +274,7 @@
   "Damage" : "16",
   "Startup" : ""
 }, {
-  "Command" : "4, 4~3",
+  "Command" : "4~3, 4",
   "Hit" : "KDN",
   "Block" : "-2",
   "Notes" : "TJ \nMeaty 1F in actualy",
@@ -296,7 +296,7 @@
   "Damage" : "12,15",
   "Startup" : "12F"
 }, {
-  "Command" : ", 1+2~3",
+  "Command" : "1+2~3",
   "Hit" : "LNC",
   "Block" : "-23",
   "Notes" : "Combo from 1st CH",
@@ -593,7 +593,7 @@
   "Damage" : "12",
   "Startup" : "16F"
 }, {
-  "Command" : "or, d3~3",
+  "Command" : "d3~3 or ff3~3",
   "Hit" : "LNC",
   "Block" : "-14",
   "Notes" : "TJ 14F\nAdvance Input is unavailable\nStart-up frame 【<img src=\"../2.bmp\" class=\"c\"><img src=\"../lk.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../lk.bmp\" class=\"c\">】:22F 【<img src=\"../6.bmp\" class=\"c\"><img src=\"../6'.bmp\" class=\"c\"><img src=\"../lk.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../lk.bmp\" class=\"c\">】:23F",
@@ -604,7 +604,7 @@
   "Damage" : "21",
   "Startup" : "20F"
 }, {
-  "Command" : ", d3~4",
+  "Command" : "d3~4",
   "Hit" : "+3C",
   "Block" : "-13",
   "Notes" : "TC 4F\nStart-up frame is from input start timing\nHit force to crouching\n",
@@ -1198,7 +1198,7 @@
   "Damage" : "20",
   "Startup" : "44F"
 }, {
-  "Command" : ", u4~4",
+  "Command" : "u4~4",
   "Hit" : "KDN",
   "Block" : "-3",
   "Notes" : "TJ 7F",
@@ -1847,7 +1847,7 @@
   "Damage" : "50",
   "Startup" : "34F"
 }, {
-  "Command" : "SS  b, 4~3",
+  "Command" : "SS, 4~3, b",
   "Hit" : "KDN",
   "Block" : "-23",
   "Notes" : "TJ 16F",
@@ -2078,7 +2078,7 @@
   "Damage" : "10,10",
   "Startup" : "27F"
 }, {
-  "Command" : "During Handstand  b, 3~4",
+  "Command" : "During Handstand, 3~4, b",
   "Hit" : "KDN",
   "Block" : "-24",
   "Notes" : "TC 4F\nAdvance Input is unavailable\nStart-up frame is from input start timing\nDisable to Handstand after block",

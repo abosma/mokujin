@@ -307,7 +307,7 @@
   "Damage" : "11,15",
   "Startup" : ""
 }, {
-  "Command" : "df3  1+2, 4~3",
+  "Command" : "df3, 4~3, 1+2",
   "Hit" : "+24Sp",
   "Block" : "+5",
   "Notes" : "Power Gauge Cost 1.\nDisable from whiff.",

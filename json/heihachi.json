@@ -65,7 +65,7 @@
   "Damage" : "7,8,25",
   "Startup" : ""
 }, {
-  "Command" : "1, 2  u or d, 2~1+2",
+  "Command" : "1, 2, 2~1+2, u or d",
   "Hit" : "-8",
   "Block" : "-16",
   "Notes" : "Combo from 1st NH",
@@ -153,7 +153,7 @@
   "Damage" : "10,25",
   "Startup" : ""
 }, {
-  "Command" : "2  u or d, 2~1+2",
+  "Command" : "2, 2~1+2, u or d",
   "Hit" : "-5",
   "Block" : "-14",
   "Notes" : "",
@@ -197,7 +197,7 @@
   "Damage" : "21",
   "Startup" : "16F"
 }, {
-  "Command" : "or  or, 4~3",
+  "Command" : "4~3 or uf4~3 or WS 3~4",
   "Hit" : "KDN",
   "Block" : "-10",
   "Notes" : "TJ 9F\nAdvance Input is unavailable\nSecret command 【<img src=\"../9.bmp\" class=\"c\"><img src=\"../rk.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../lk.bmp\" class=\"c\">】 Advance Input is available\nHeihachi down after moving\nSelf-harm damage 5 after whiff &amp; input<img src=\"../2'.bmp\" class=\"c\">\nStart-up 35F (Very high)",
@@ -241,7 +241,7 @@
   "Damage" : "13,20",
   "Startup" : ""
 }, {
-  "Command" : ", f2~1+2",
+  "Command" : "f2~1+2",
   "Hit" : "KDN",
   "Block" : "-6",
   "Notes" : "Start-up frame is from input start timing\n",
@@ -252,7 +252,7 @@
   "Damage" : "25",
   "Startup" : "21F"
 }, {
-  "Command" : "u or d, f2~1+2",
+  "Command" : "f2~1+2, u or d",
   "Hit" : "",
   "Block" : "",
   "Notes" : "",
@@ -538,7 +538,7 @@
   "Damage" : "14,25",
   "Startup" : ""
 }, {
-  "Command" : "b1  u or d, 2~1+2",
+  "Command" : "b1, 2~1+2, u or d",
   "Hit" : "-13",
   "Block" : "-19",
   "Notes" : "",

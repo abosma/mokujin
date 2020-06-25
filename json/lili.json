@@ -230,7 +230,7 @@
   "Damage" : "8,22",
   "Startup" : "18F"
 }, {
-  "Command" : ", f3+4~3",
+  "Command" : "f3+4~3",
   "Hit" : "KDN",
   "Block" : "-8",
   "Notes" : "Meaty 2F in actualy",
@@ -241,7 +241,7 @@
   "Damage" : "8,20",
   "Startup" : "18F"
 }, {
-  "Command" : "4, f3+4~3",
+  "Command" : "f3+4~3, 4",
   "Hit" : "KDN",
   "Block" : "-20",
   "Notes" : "TJ \nMeaty 2F in actualy\n",
@@ -659,7 +659,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "or, b3~3",
+  "Command" : "b3~3 or b4~3",
   "Hit" : "KDN",
   "Block" : "-15",
   "Notes" : "TC \nStart-up 24F.\nReturns to crouching.\nMeaty 1F.\n",
@@ -670,7 +670,7 @@
   "Damage" : "25",
   "Startup" : "49F"
 }, {
-  "Command" : "or, b3~4",
+  "Command" : "b3~4 or b4~4",
   "Hit" : "KDN",
   "Block" : "-6",
   "Notes" : "TJ \nStart-up 23F.\nMeaty 6F.",

@@ -131,7 +131,7 @@
   "Damage" : "15",
   "Startup" : "12F"
 }, {
-  "Command" : ", 3~4",
+  "Command" : "3~4",
   "Hit" : "+3",
   "Block" : "-6",
   "Notes" : "TJ 12F\nAdvance Input is unavailable.\nStart-up 18F in actualy.\n",
@@ -142,7 +142,7 @@
   "Damage" : "6,22",
   "Startup" : "17F"
 }, {
-  "Command" : "u, 3~4",
+  "Command" : "3~4, u",
   "Hit" : "+14",
   "Block" : "+5",
   "Notes" : "TJ 12F\n",
@@ -186,7 +186,7 @@
   "Damage" : "12,12,20",
   "Startup" : ""
 }, {
-  "Command" : ", 4~3",
+  "Command" : "4~3",
   "Hit" : "LNC",
   "Block" : "-13",
   "Notes" : "TC 4FTJ 10F\nAdvance Input is unavailable.\nStart-up 26F in actualy.\n",
@@ -208,7 +208,7 @@
   "Damage" : "21",
   "Startup" : "6F"
 }, {
-  "Command" : ", 4~1",
+  "Command" : "4~1",
   "Hit" : "KDN",
   "Block" : "-15",
   "Notes" : "Advance Input is unavailable.\nFast Input 1F.",

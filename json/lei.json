@@ -120,7 +120,7 @@
   "Damage" : "30(25),17",
   "Startup" : ""
 }, {
-  "Command" : ", 3~4",
+  "Command" : "3~4",
   "Hit" : "+6C",
   "Block" : "+3",
   "Notes" : "TJ 25F\nAdvance Input is unavailable\nStart-up 40F in actualy\nHit force to crouching\nMeaty 2F in actualy",
@@ -131,7 +131,7 @@
   "Damage" : "25",
   "Startup" : "39F"
 }, {
-  "Command" : ", 4, 3~4",
+  "Command" : "3~4, , 4",
   "Hit" : "+6C",
   "Block" : "+3",
   "Notes" : "TJ \nHit force to crouching\nMeaty 2F in actualy",
@@ -142,7 +142,7 @@
   "Damage" : "25,21",
   "Startup" : ""
 }, {
-  "Command" : ", 4, 4, 3~4",
+  "Command" : "3~4, , 4, 4",
   "Hit" : "+6C",
   "Block" : "+3",
   "Notes" : "TJ \nHit force to crouching\nMeaty 2F in actualy",
@@ -186,7 +186,7 @@
   "Damage" : "16",
   "Startup" : "12F"
 }, {
-  "Command" : ", 4~3",
+  "Command" : "4~3",
   "Hit" : "+4Sp",
   "Block" : "-16",
   "Notes" : "TS TJ 17F\nAdvance Input is unavailable\nStart-up 30F in actualy\nMeaty on the left side\n",
@@ -197,7 +197,7 @@
   "Damage" : "25",
   "Startup" : "29F"
 }, {
-  "Command" : "d, 4~3",
+  "Command" : "4~3, d",
   "Hit" : "+3Sp",
   "Block" : "-17",
   "Notes" : "TS TJ 17F\nAdvance Input is unavailable\nStart-up 30F in actualy\nAdvance Input is unavailable after Down",
@@ -208,7 +208,7 @@
   "Damage" : "25",
   "Startup" : ""
 }, {
-  "Command" : "or FC, 4~4",
+  "Command" : "4~4 or 4~4",
   "Hit" : "-4",
   "Block" : "-15",
   "Notes" : "TC 6F\nAdvance Input is unavailable\nStart-up 16F in actualy\nAir Status 10F",
@@ -219,7 +219,7 @@
   "Damage" : "7",
   "Startup" : "15F"
 }, {
-  "Command" : "d or FC  d, 4~4",
+  "Command" : "4~4 or 4~4, d",
   "Hit" : "-5",
   "Block" : "-16",
   "Notes" : "Advance Input is unavailable after Down",
@@ -230,7 +230,7 @@
   "Damage" : "7",
   "Startup" : ""
 }, {
-  "Command" : "3, 4~4",
+  "Command" : "4~4, 3",
   "Hit" : "+9",
   "Block" : "-2",
   "Notes" : "Combo from 1st CH",
@@ -241,7 +241,7 @@
   "Damage" : "7,7",
   "Startup" : ""
 }, {
-  "Command" : "3d, 4~4",
+  "Command" : "4~4, 3d",
   "Hit" : "+8",
   "Block" : "-3",
   "Notes" : "Combo from 1st CH\nAdvance Input is unavailable after Down",
@@ -252,7 +252,7 @@
   "Damage" : "7,7",
   "Startup" : ""
 }, {
-  "Command" : "3, 3, 4~4",
+  "Command" : "4~4, 3, 3",
   "Hit" : "LNC",
   "Block" : "-7",
   "Notes" : "Combo from 2nd CH",
@@ -263,7 +263,7 @@
   "Damage" : "7,7,24",
   "Startup" : ""
 }, {
-  "Command" : "3, 3d, 4~4",
+  "Command" : "4~4, 3, 3d",
   "Hit" : "LNC",
   "Block" : "-13",
   "Notes" : "Combo from 2nd CH\nAdvance Input is unavailable after Down",
@@ -2265,7 +2265,7 @@
   "Damage" : "8",
   "Startup" : ""
 }, {
-  "Command" : "During Sidewind (Feet first)  d, 3~4",
+  "Command" : "During Sidewind (Feet first), 3~4, d",
   "Hit" : "KDN",
   "Block" : "-26",
   "Notes" : "TC 10F\nDisable to Down after block",
@@ -2276,7 +2276,7 @@
   "Damage" : "12",
   "Startup" : ""
 }, {
-  "Command" : "During Sidewind (Feet first)  d, 3~4",
+  "Command" : "During Sidewind (Feet first), 3~4, d",
   "Hit" : "-1C",
   "Block" : "-26",
   "Notes" : "TC 10F\nInput 2nd force to Down\nAdvance Input is unavailable after Down",
@@ -2287,7 +2287,7 @@
   "Damage" : "8",
   "Startup" : ""
 }, {
-  "Command" : "During Sidewind (Feet first)  4, 3~4",
+  "Command" : "During Sidewind (Feet first), 3~4, 4",
   "Hit" : "KDN",
   "Block" : "-11",
   "Notes" : "Meaty 2F",
@@ -2320,7 +2320,7 @@
   "Damage" : "20",
   "Startup" : "21F"
 }, {
-  "Command" : "During Sidewind (Feet first)  d, 4~3",
+  "Command" : "During Sidewind (Feet first), 4~3, d",
   "Hit" : "-3Sp",
   "Block" : "-17",
   "Notes" : "TS TJ 10F\nAdvance Input is unavailable after Down",
@@ -2386,7 +2386,7 @@
   "Damage" : "15",
   "Startup" : "24F"
 }, {
-  "Command" : "During Play Dead (Head first)  d, 4~3",
+  "Command" : "During Play Dead (Head first), 4~3, d",
   "Hit" : "KDN",
   "Block" : "-25",
   "Notes" : "Meaty 3F in actualy\nAdvance Input is unavailable after Down",

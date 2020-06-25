@@ -472,7 +472,7 @@
   "Damage" : "12,20",
   "Startup" : ""
 }, {
-  "Command" : "df1  b, 2~1",
+  "Command" : "df1, 2~1, b",
   "Hit" : "+4",
   "Block" : "±0",
   "Notes" : "",
@@ -505,7 +505,7 @@
   "Damage" : "12,8,12",
   "Startup" : ""
 }, {
-  "Command" : "df1 ～, 2f1+2",
+  "Command" : "df1, 2f1+2, ～",
   "Hit" : "-1",
   "Block" : "-4",
   "Notes" : "Input<img src=\"../lk.bmp\" class=\"c\">connect to DL.\nInput<img src=\"../rk.bmp\" class=\"c\">connect to DR.\nInput<img src=\"../4.bmp\" class=\"c\"><img src=\"../lk.bmp\" class=\"c\">or<img src=\"../4.bmp\" class=\"c\"><img src=\"../rk.bmp\" class=\"c\">connect to SW.",
@@ -516,7 +516,7 @@
   "Damage" : "12,8,12",
   "Startup" : ""
 }, {
-  "Command" : "df1  f3 or f4, 2f1+2",
+  "Command" : "df1, 2f1+2, f3 or f4",
   "Hit" : "+1",
   "Block" : "-2",
   "Notes" : "When connect to Punisher(DK<img src=\"../6.bmp\" class=\"c\"><img src=\"../rp.bmp\" class=\"c\">）, faster 2F.",
@@ -648,7 +648,7 @@
   "Damage" : "13,8,17",
   "Startup" : ""
 }, {
-  "Command" : ", d2,n,1",
+  "Command" : "d2,n,1",
   "Hit" : "+7",
   "Block" : "-4",
   "Notes" : "",
@@ -659,7 +659,7 @@
   "Damage" : "15",
   "Startup" : "29F"
 }, {
-  "Command" : "～, d2,n,1",
+  "Command" : "d2,n,1, ～",
   "Hit" : "+5",
   "Block" : "-6",
   "Notes" : "Input<img src=\"../lk.bmp\" class=\"c\">connect to DL.\nInput<img src=\"../rk.bmp\" class=\"c\">connect to DR.\nInput<img src=\"../4.bmp\" class=\"c\"><img src=\"../lk.bmp\" class=\"c\">or<img src=\"../4.bmp\" class=\"c\"><img src=\"../rk.bmp\" class=\"c\">connect to SW.",
@@ -670,7 +670,7 @@
   "Damage" : "15",
   "Startup" : ""
 }, {
-  "Command" : "f3 or f4, d2,n,1",
+  "Command" : "d2,n,1, f3 or f4",
   "Hit" : "+7",
   "Block" : "-4",
   "Notes" : "When connect to Punisher(DK<img src=\"../6.bmp\" class=\"c\"><img src=\"../rp.bmp\" class=\"c\">）, faster 2F.",
@@ -681,7 +681,7 @@
   "Damage" : "15",
   "Startup" : ""
 }, {
-  "Command" : "2, d2,n,1",
+  "Command" : "d2,n,1, 2",
   "Hit" : "+3C",
   "Block" : "-13",
   "Notes" : "Combo from 1st NH\nCan be delayed 11F\nCombo can be delayed 11F\nNH force to crouching",
@@ -692,7 +692,7 @@
   "Damage" : "15,20",
   "Startup" : ""
 }, {
-  "Command" : "f2, d2,n,1",
+  "Command" : "d2,n,1, f2",
   "Hit" : "KDN",
   "Block" : "-2",
   "Notes" : "Combo from 1st NH\nCan be delayed 11F\nCombo can be delayed 6F",

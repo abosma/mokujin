@@ -109,7 +109,7 @@
   "Damage" : "8,10",
   "Startup" : ""
 }, {
-  "Command" : "or SS, 2~1",
+  "Command" : "2~1 or 2~1",
   "Hit" : "+8C",
   "Block" : "-3C",
   "Notes" : "Advance Input is unavailable\nStart-up 25F\nBlock or Hit force to crouching\nMeaty 1F\n",
@@ -120,7 +120,7 @@
   "Damage" : "10",
   "Startup" : "24F"
 }, {
-  "Command" : "1, 2~1",
+  "Command" : "2~1, 1",
   "Hit" : "LNC",
   "Block" : "-13",
   "Notes" : "Combo from 1st NH.\nCan be delayed 12F.\nCombo can be delayed 12F from 1st NH.\n",
@@ -175,7 +175,7 @@
   "Damage" : "15,18",
   "Startup" : ""
 }, {
-  "Command" : "or SS, 3~4",
+  "Command" : "3~4 or 3~4",
   "Hit" : "KDN",
   "Block" : "-7C",
   "Notes" : "TJ 20F\nStart-up frame is from input start timing (completed timing in delay)\nStart-up 33F after delay input\nBlock force to crouching\nMeaty 2F\n",
@@ -186,7 +186,7 @@
   "Damage" : "27",
   "Startup" : "34F"
 }, {
-  "Command" : "b, 3~4",
+  "Command" : "3~4, b",
   "Hit" : "KDN",
   "Block" : "-2C",
   "Notes" : "TJ 20F\nTo back toward\n",
@@ -197,7 +197,7 @@
   "Damage" : "27",
   "Startup" : ""
 }, {
-  "Command" : "3, 3~4",
+  "Command" : "3~4, 3",
   "Hit" : "KDN",
   "Block" : "-26",
   "Notes" : "TC \nReturns to crouching.\n",
@@ -219,7 +219,7 @@
   "Damage" : "17",
   "Startup" : "11F"
 }, {
-  "Command" : ", 4~3",
+  "Command" : "4~3",
   "Hit" : "+4C",
   "Block" : "-4",
   "Notes" : "TJ 15F\nAdvance Input is unavailable\nStart-up 28F\nNH force to crouching\nMeaty 4F in actualy",
@@ -1594,7 +1594,7 @@
   "Damage" : "12",
   "Startup" : "16F"
 }, {
-  "Command" : ", b3~4",
+  "Command" : "b3~4",
   "Hit" : "",
   "Block" : "",
   "Notes" : "To back toward\nTotal frame is after completing command input",

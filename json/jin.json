@@ -120,7 +120,7 @@
   "Damage" : "7,20",
   "Startup" : ""
 }, {
-  "Command" : "1  df3, 3~3",
+  "Command" : "1, 3~3, df3",
   "Hit" : "KDN",
   "Block" : "-14",
   "Notes" : "Can be delayed",
@@ -263,7 +263,7 @@
   "Damage" : "18",
   "Startup" : "13F"
 }, {
-  "Command" : "or, 4~3",
+  "Command" : "4~3 or WS 4~3",
   "Hit" : "KDN",
   "Block" : "-15",
   "Notes" : "TJ 12F\nAdvance Input is unavailable\nStart-up 25F in actualy\nMeaty 6F in actualy\nStart-up 23F (Verh short)",
@@ -318,7 +318,7 @@
   "Damage" : "16",
   "Startup" : "12F"
 }, {
-  "Command" : ", f3~3",
+  "Command" : "f3~3",
   "Hit" : "KDN",
   "Block" : "+6",
   "Notes" : "Advance Input is unavailable\nStart-up 24F in actualy",
@@ -329,7 +329,7 @@
   "Damage" : "20",
   "Startup" : "23F"
 }, {
-  "Command" : "df3, f3~3",
+  "Command" : "f3~3, df3",
   "Hit" : "KDN",
   "Block" : "-14",
   "Notes" : "Can be delayed",

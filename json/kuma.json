@@ -571,7 +571,7 @@
   "Damage" : "12,14,20",
   "Startup" : ""
 }, {
-  "Command" : ", b3~4",
+  "Command" : "b3~4",
   "Hit" : "KDN",
   "Block" : "-19",
   "Notes" : "TC 6F\nAdvance Input is unavailable\nStart-up 23F in actualy",

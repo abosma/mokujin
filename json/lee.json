@@ -263,7 +263,7 @@
   "Damage" : "16,18",
   "Startup" : ""
 }, {
-  "Command" : ", 3~3",
+  "Command" : "3~3",
   "Hit" : "+1",
   "Block" : "-10",
   "Notes" : "",
@@ -274,7 +274,7 @@
   "Damage" : "18",
   "Startup" : "30F"
 }, {
-  "Command" : "(when hit or guarded) 4, 3~3",
+  "Command" : "3~3, (when hit or guarded) 4",
   "Hit" : "Th",
   "Block" : "上投",
   "Notes" : "Input timing is 1F after hit.\nEnable on mid-air hit.\nDamage () is throw bonus.",
@@ -758,7 +758,7 @@
   "Damage" : "7,16",
   "Startup" : ""
 }, {
-  "Command" : "d4,n,(just), 4~3",
+  "Command" : "d4 ☆, 4~3, (just)",
   "Hit" : "KDN",
   "Block" : "KDN",
   "Notes" : "TC TJ \nSecret Move.",

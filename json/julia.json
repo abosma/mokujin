@@ -208,7 +208,7 @@
   "Damage" : "15,12,10",
   "Startup" : ""
 }, {
-  "Command" : ", 4~2",
+  "Command" : "4~2",
   "Hit" : "-4",
   "Block" : "-12",
   "Notes" : "Advance Input is unavailable\nStart-up 16F in actualy\n-1F from 1st CH &amp; 2nd whiff.",
@@ -219,7 +219,7 @@
   "Damage" : "7,5",
   "Startup" : "15F"
 }, {
-  "Command" : "1, 4~2",
+  "Command" : "4~2, 1",
   "Hit" : "KDN",
   "Block" : "-16",
   "Notes" : "Combo from 2nd whiff or 1st CH.\n",
@@ -1572,7 +1572,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : ", f3~1",
+  "Command" : "f3~1",
   "Hit" : "KDN",
   "Block" : "-3",
   "Notes" : "TJ 18F\nMeaty 7F.",
