@@ -50,7 +50,7 @@ def move_embed(character, move):
     embed.add_field(name='Damage', value=move['Damage'] + "\n\u200b")
     embed.add_field(name='Startup', value=move['Startup'] + "\n\u200b")
     embed.add_field(name='Block', value=move['Block'] + "\n\u200b")
-    embed.add_field(name='Hit', value=move['Hit'] + "F\n\u200b")
+    embed.add_field(name='Hit', value=move['Hit'] + "\n\u200b")
     embed.add_field(name='Total', value=move['Total'] + "\n\u200b")
     embed.add_field(name='Counter Hit', value=move['Counter Hit'] + "\n\u200b")
     embed.add_field(name='Notes', value=move['Notes'] + "\n\u200b")
@@ -148,6 +148,29 @@ async def removealias(ctx, *args):
     embed=discord.Embed(title="Success", description="Removed the alias: %s from character: %s!" % (toRemoveAlias, character_name), color=0x2dd280)
     embed.set_author(name='TekkenFrameBot', icon_url=bot.user.default_avatar_url)
     await ctx.send(embed=embed, delete_after=15)
+
+@bot.command()
+async def info(ctx):
+    embed = discord.Embed(title="Extra Information",
+            colour=0x00EAFF,
+            description="Extra information explaining the move data")
+
+    embed.add_field(name='Suffix G', value="Character can still block")
+    embed.add_field(name='C', value="Character is forced to crouch")
+    embed.add_field(name='B', value="Character is forced back towards you")
+    embed.add_field(name='SD', value="Character is forced side towards you")
+    embed.add_field(name='A', value="Character is half launched")
+    embed.add_field(name='KND', value="Character is knocked down to the ground")
+    embed.add_field(name='LNC', value="Character is launched")
+    embed.add_field(name='H', value="Move is homing")
+    embed.add_field(name='TS', value="Move is a tail spin (corkscrew)")
+    embed.add_field(name='PC', value="Move is a power crush (armor)")
+    embed.add_field(name='WB', value="Move is a wall bounce (wallbound)")
+    embed.add_field(name='C', value="Move is cancelable with a special move")
+    embed.add_field(name='TC', value="Move causes tech crouching state")
+    embed.add_field(name='TJ', value="Move causes tech jumping state")
+
+    await ctx.send(embed=embed, delete_after=60)
 
 @bot.event
 async def on_message(message):

@@ -95,7 +95,9 @@
     },
     {
         "name": "heihachi",
-        "alias": []
+        "alias": [
+            "hei"
+        ]
     },
     {
         "name": "hwoarang",
@@ -141,7 +143,9 @@
     },
     {
         "name": "kuma",
-        "alias": []
+        "alias": [
+            "olly"
+        ]
     },
     {
         "name": "lars",
@@ -189,7 +193,9 @@
     },
     {
         "name": "negan",
-        "alias": []
+        "alias": [
+            "niko"
+        ]
     },
     {
         "name": "nina",
