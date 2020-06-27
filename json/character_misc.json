@@ -21,7 +21,7 @@
         "portrait": "https://i.imgur.com/kiZ6oC8.jpg"
     },
     {
-        "name": "armor_king",
+        "name": "amking",
         "proper_name": "Armor King",
         "local_json": "amking.json",
         "online_webpage": "http://rbnorway.org/armor-king-t7-frames",
@@ -56,7 +56,7 @@
         "portrait": "https://i.imgur.com/iCqFIii.jpg"
     },
     {
-        "name": "devil_jin",
+        "name": "devil",
         "proper_name": "Devil Jin",
         "local_json": "devil.json",
         "online_webpage": "http://rbnorway.org/devil-jin-t7-frames",
@@ -246,7 +246,7 @@
         "portrait": "http://imgur.com/9gZWOcZ.jpg"
     },
     {
-        "name": "lucky_chloe",
+        "name": "lucky",
         "proper_name": "Lucky Chloe",
         "local_json": "lucky.json",
         "online_webpage": "http://rbnorway.org/lucky-chloe-t7-frames",
@@ -260,7 +260,7 @@
         "portrait": "https://i.imgur.com/aFYcBdu.jpg"
     },
     {
-        "name": "master_raven", 
+        "name": "raven", 
         "proper_name": "Master Raven",
         "local_json": "raven.json",
         "online_webpage": "http://rbnorway.org/master-raven-t7-frames/",

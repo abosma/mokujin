@@ -8,10 +8,11 @@
         "alias": []
     },
     {
-        "name": "armor_king",
+        "name": "amking",
         "alias": [
-            "armor",
-            "ak"
+            "armor king",
+            "ak",
+            "armor_king"
         ]
     },
     {
