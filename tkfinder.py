@@ -2,6 +2,7 @@
 import os
 import json
 import collections
+import re
 
 dirname = os.path.dirname(__file__)
 
@@ -52,7 +53,15 @@ def get_move_by_input(move_input: str, move_json: json):
             moves.append(move)
     
     if moves:
-        move = list(filter(lambda x: (move_simplifier(x['Command'].lower()) == move_simplifier(move_input.lower())), move_json))
+        simplified_move = move_simplifier(move_input.lower())
+        equal_moves = []
+
+        for move in move_json:
+            simplified_json_move = move_simplifier(move['Command'].lower())
+            if simplified_json_move == simplified_move:
+                equal_moves.append(simplified_json_move)
+
+        move = list(filter(lambda x: (move_simplifier(x['Command'].lower()) == simplified_move), move_json))
         
         if move:
             return move[0]
@@ -101,16 +110,19 @@ def move_simplifier(move_input) -> str:
         'd,df,f': 'qcf',
         'ddbb': 'qcb',
         'd, db, b': 'qcb',
-        'd,db,b': 'qcb',
-        '11': '1,1',
-        '22': '2,2',
-        '33': '3,3',
-        '44': '4,4'
+        'd,db,b': 'qcb'
     }
 
     for move in move_replacements:
         if move in move_input:
             move_input = move_input.replace(move, move_replacements[move])
+
+    numbers = re.search('(\d+)\d', move_input)
+
+    if numbers:
+        numbers = numbers.group(0)
+        if(len(numbers) > 1):
+            move_input = re.sub('(\d+)\d', ','.join(numbers), move_input)
 
     move_input = move_input.replace(' ', '')
     move_input = move_input.replace('/', '')
