@@ -52,7 +52,12 @@ def get_move_by_input(move_input: str, move_json: json):
             moves.append(move)
     
     if moves:
-        return moves[0]
+        move = list(filter(lambda x: (move_simplifier(x['Command'].lower()) == move_simplifier(move_input.lower())), move_json))
+        
+        if move:
+            return move[0]
+        else:
+            return moves[0]
     else:
         return None
 
@@ -96,7 +101,11 @@ def move_simplifier(move_input) -> str:
         'd,df,f': 'qcf',
         'ddbb': 'qcb',
         'd, db, b': 'qcb',
-        'd,db,b': 'qcb'
+        'd,db,b': 'qcb',
+        '11': '1,1',
+        '22': '2,2',
+        '33': '3,3',
+        '44': '4,4'
     }
 
     for move in move_replacements:
