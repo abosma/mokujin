@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import os
 import json
+import collections
 
 dirname = os.path.dirname(__file__)
 
@@ -27,23 +28,33 @@ def get_move(character: dict, move_command: str) -> dict:
     '''
 
     move_file_name = '/json/' + character.get('local_json')
+    
     filepath = dirname + move_file_name
+    
     with open(filepath, encoding="utf-8") as move_file:
         move_file_contents = move_file.read()
+    
     move_json = json.loads(move_file_contents)
 
-    # Check if move is exact same as a command in character movelist
-    move = list(filter(lambda x: (move_simplifier(x['Command'].lower()) == move_simplifier(move_command.lower())), move_json))
+    move = get_move_by_input(move_command.lower(), move_json)
+
+    return move
+
+def get_move_by_input(move_input: str, move_json: json):
+    move_strings = []
+    moves = []
+
+    for word in move_input.split():
+        move_strings.append(word)
+
+    for move in move_json:
+        if all(move_simplifier(move_string) in move_simplifier(move['Command'].lower()) for move_string in move_strings):
+            moves.append(move)
     
-    if not move:
-        # Check if move is part of command in character movelist
-        move = list(filter(lambda x: move_simplifier(move_command.lower()) in move_simplifier(x['Command'].lower()), move_json))
-        if move:
-            return move[0]
-        else:
-            return None
-    
-    return move[0]
+    if moves:
+        return moves[0]
+    else:
+        return None
 
 def get_by_move_type(character: dict, move_type: str) -> list:
     '''Gets a list of moves that match move_type from local_json
@@ -65,7 +76,7 @@ def get_by_move_type(character: dict, move_type: str) -> list:
     else:
         return []
 
-def move_simplifier(move_input):
+def move_simplifier(move_input) -> str:
     '''Removes bells and whistles from the move_input'''
 
     move_replacements = {
