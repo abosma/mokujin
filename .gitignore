@@ -16,3 +16,4 @@ venv
 .settings
 .vscode/settings.json
 .vscode/launch.json
+.env

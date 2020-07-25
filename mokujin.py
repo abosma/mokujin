@@ -10,6 +10,9 @@ from discord.ext import commands
 import tkfinder
 import config
 
+from dotenv import load_dotenv
+load_dotenv()
+
 prefix = config.EXTRA_DATA['prefix']
 description = config.EXTRA_DATA['description']
 
@@ -33,7 +36,7 @@ move_types = {  'ra': 'Rage art',
                 'power': 'Power crush',
                 'power_crush': 'Power crush'}
 
-token = os.environ.get('BOT_TOKEN')
+token = os.getenv("BOT_TOKEN")
 dirname = os.getcwd()
 alias_file = dirname + '/json/character_alias.json'
 
