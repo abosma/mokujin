@@ -3,6 +3,7 @@ import os
 import json
 import collections
 import re
+import difflib
 
 dirname = os.path.dirname(__file__)
 
@@ -99,9 +100,9 @@ def move_simplifier(move_input) -> str:
         'bf': 'b,f',
         'fb': 'f,b',
         'ddf': 'd,df',
-        'cd': 'f,n,d,df',
+        'cds': 'f,n,ddf',
         'wr': 'f,f,f',
-        'ewgf': 'f,n,d,df+2',
+        'ewgf': 'f,n,ddf+2',
         '☆': 'n',
         'bdbddff': 'hcf',
         'fdfddbb': 'hcb',
