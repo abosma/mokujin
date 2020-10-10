@@ -82,6 +82,7 @@ def dict_key_to_list(key, dictionary):
 def filter_dictionary(to_compare_key, to_compare_value, dictionary):
     to_return_item = None
     
+    # First check if move is equal to move list item, then if move is contained in move list item
     for item in dictionary:
         item_clean = item[to_compare_key].lower().strip().replace(' ', '')
         value_split = to_compare_value.split(' ')
@@ -115,7 +116,4 @@ def filter_dictionary(to_compare_key, to_compare_value, dictionary):
                 if all(value in item_clean for value in value_clean):
                     to_return_item = item
         
-        if to_return_item != None:
-            return to_return_item
-        else:
-            return None
+         return to_return_item
