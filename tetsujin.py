@@ -75,8 +75,8 @@ async def info(ctx):
 @bot.event
 async def on_message(message):
     channel = message.channel
+    
     if message.content.startswith('!') and ((isinstance(channel, discord.channel.DMChannel)) or (channel.name in config.CHANNELS)):
-
         user_message = message.content
         user_message = user_message.replace('!', '')
         user_message_list = user_message.split(' ', 1)
@@ -93,11 +93,17 @@ async def on_message(message):
 
         character = infofinder.get_character(char_name)
         
-        if(isinstance(character, discord.Embed)):
-            await channel.send(embed=character, delete_after=config.EXTRA_DATA['timeout_normal'])
-
         if character != None:
-            
+            move = infofinder.get_move(character['local_json'], char_move)
+            if(move != None):
+                to_return_embed = embedhandler.move_embed(character, move)
+                await channel.send(embed=to_return_embed, delete_after=config.EXTRA_DATA['timeout_normal'])
+            else:
+                to_return_error = embedhandler.error_embed("Could not find move input, or any like it. Please check geppopotamus for the move data.")
+                await channel.send(embed=to_return_error, delete_after=config.EXTRA_DATA['timeout_error'])
+        else:
+            to_return_error = embedhandler.error_embed("Could not find character, or any like it. Please check geppopotamus for the move data.")
+            await channel.send(embed=to_return_error, delete_after=config.EXTRA_DATA['timeout_error'])
 
     await bot.process_commands(message)
 

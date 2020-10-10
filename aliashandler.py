@@ -52,7 +52,7 @@ def getalias(potential_alias):
     with open(alias_file, 'r') as characterAliases:
         character_aliases = json.load(characterAliases)
 
-    char_alias = list(filter(lambda character: (potential_alias in character['alias']), character_aliases))
+    char_alias = list(filter(lambda character: (potential_alias == character['alias']) or (potential_alias in character['alias']), character_aliases))
     if char_alias:
         char_name = char_alias[0]['name']
 
