@@ -80,6 +80,8 @@ def dict_key_to_list(key, dictionary):
     return to_return_list
 
 def filter_dictionary(to_compare_key, to_compare_value, dictionary):
+    to_return_item = None
+    
     for item in dictionary:
         item_clean = item[to_compare_key].lower().strip().replace(' ', '')
         value_split = to_compare_value.split(' ')
@@ -87,12 +89,33 @@ def filter_dictionary(to_compare_key, to_compare_value, dictionary):
         if len(value_split) == 1:
             value_clean = to_compare_value.lower().strip().replace(' ', '')
 
-            if item_clean == value_clean or value_clean in item_clean:
-                return item
+            if item_clean == value_clean:
+                to_return_item = item
         else:
             value_clean = [value.lower().strip().replace(' ','') for value in value_split]
 
             if all(value in item_clean for value in value_clean):
-                return item
+                to_return_item = item
 
-    return None
+    if to_return_item != None:
+        return to_return_item
+    else:
+        for item in dictionary:
+            item_clean = item[to_compare_key].lower().strip().replace(' ', '')
+            value_split = to_compare_value.split(' ')
+
+            if len(value_split) == 1:
+                value_clean = to_compare_value.lower().strip().replace(' ', '')
+
+                if value_clean in item_clean:
+                    to_return_item = item
+            else:
+                value_clean = [value.lower().strip().replace(' ','') for value in value_split]
+
+                if all(value in item_clean for value in value_clean):
+                    to_return_item = item
+        
+        if to_return_item != None:
+            return to_return_item
+        else:
+            return None
