@@ -81,11 +81,18 @@ def dict_key_to_list(key, dictionary):
 
 def filter_dictionary(to_compare_key, to_compare_value, dictionary):
     for item in dictionary:
-
         item_clean = item[to_compare_key].lower().strip().replace(' ', '')
-        value_clean = to_compare_value.lower().strip().replace(' ', '')
+        value_split = to_compare_value.split(' ')
 
-        if item_clean == value_clean or value_clean in item_clean:
-            return item
+        if len(value_split) == 1:
+            value_clean = to_compare_value.lower().strip().replace(' ', '')
+
+            if item_clean == value_clean or value_clean in item_clean:
+                return item
+        else:
+            value_clean = [value.lower().strip().replace(' ','') for value in value_split]
+
+            if all(value in item_clean for value in value_clean):
+                return item
 
     return None
