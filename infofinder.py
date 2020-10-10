@@ -25,7 +25,7 @@ def get_character(char_name):
         else:
             names = dict_key_to_list('name', contents)
 
-            guessed_char = difflib.get_close_matches(char_name, names, n=2, cutoff=0.8)
+            guessed_char = difflib.get_close_matches(char_name, names, n=2, cutoff=0.4)
 
             if guessed_char:
                 guessed_char = guessed_char[0]
@@ -57,7 +57,7 @@ def get_move(character_json, char_move):
         else:
             move_inputs = dict_key_to_list('Command', char_move_list)
 
-            guessed_move = difflib.get_close_matches(char_move, move_inputs, n=2, cutoff=0.8)
+            guessed_move = difflib.get_close_matches(char_move, move_inputs, n=2, cutoff=0.4)
 
             if guessed_move:
                 guessed_move = guessed_move[0]
