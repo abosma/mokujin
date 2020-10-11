@@ -10,7 +10,7 @@
   "Damage" : "7",
   "Startup" : "10F"
 }, {
-  "Command" : "1, 1+2",
+  "Command" : "11+2",
   "Hit" : "+22",
   "Block" : "+15",
   "Notes" : "Super Combo Gauge Cost 1\nBlock -3F/Hit +4F after Forcus Attack to canncel",
@@ -21,7 +21,7 @@
   "Damage" : "7",
   "Startup" : ""
 }, {
-  "Command" : "1, 1",
+  "Command" : "11",
   "Hit" : "+4",
   "Block" : "-3",
   "Notes" : "C \nCombo from 1st CH",
@@ -32,7 +32,7 @@
   "Damage" : "7,7",
   "Startup" : ""
 }, {
-  "Command" : "1, 1, 1+2",
+  "Command" : "111+2",
   "Hit" : "+22",
   "Block" : "+15",
   "Notes" : "Super Combo Gauge Cost 1\nBlock -3F/Hit +4F after Forcus Attack to canncel",
@@ -43,7 +43,7 @@
   "Damage" : "7,7",
   "Startup" : ""
 }, {
-  "Command" : "1, 2",
+  "Command" : "12",
   "Hit" : "KDN",
   "Block" : "-17",
   "Notes" : "Combo from 1st NH",
@@ -65,7 +65,7 @@
   "Damage" : "15",
   "Startup" : "15F"
 }, {
-  "Command" : "2, 1+2",
+  "Command" : "21+2",
   "Hit" : "+28",
   "Block" : "+19",
   "Notes" : "Super Combo Gauge Cost 1\nBlock +1F/Hit +10F after Forcus Attack to canncel",
@@ -98,7 +98,7 @@
   "Damage" : "12",
   "Startup" : "14F"
 }, {
-  "Command" : "4, 3",
+  "Command" : "43",
   "Hit" : "+19Sp",
   "Block" : "-5",
   "Notes" : "H TS \nCombo from 1st NH",
@@ -164,7 +164,7 @@
   "Damage" : "10",
   "Startup" : "13F"
 }, {
-  "Command" : "df1, 1",
+  "Command" : "df11",
   "Hit" : "+6",
   "Block" : "-3",
   "Notes" : "Combo from 1st NH",
@@ -175,7 +175,7 @@
   "Damage" : "10,7",
   "Startup" : ""
 }, {
-  "Command" : "df1, 2",
+  "Command" : "df12",
   "Hit" : "+7C",
   "Block" : "-13C",
   "Notes" : "Combo from 1st NH\nBlock or Hit force to crouching\n",
@@ -197,7 +197,7 @@
   "Damage" : "10",
   "Startup" : "16F"
 }, {
-  "Command" : "df2, 1",
+  "Command" : "df21",
   "Hit" : "LNC",
   "Block" : "-18",
   "Notes" : "Combo from 1st NH\nCan be delayed 5F\nCombo can be delayed 5F from 1st NH",
@@ -208,7 +208,7 @@
   "Damage" : "10,10",
   "Startup" : ""
 }, {
-  "Command" : "df2, 4",
+  "Command" : "df24",
   "Hit" : "±0",
   "Block" : "-11",
   "Notes" : "Combo from 1st NH",
@@ -219,7 +219,7 @@
   "Damage" : "10,13",
   "Startup" : ""
 }, {
-  "Command" : "df2, 4, 3",
+  "Command" : "df243",
   "Hit" : "KDN",
   "Block" : "-17",
   "Notes" : "Combo from 2nd CH\nCan be delayed 13F\nCombo can be delayed 11F from 2nd CH",
@@ -274,7 +274,7 @@
   "Damage" : "5",
   "Startup" : "10F"
 }, {
-  "Command" : "db or d1 or FC 1, 1+2",
+  "Command" : "db or d1 or FC 11+2",
   "Hit" : "+27",
   "Block" : "+16",
   "Notes" : "TC 4F\nSuper Combo Gauge Cost 1\nBlock -2F/Hit +9F after Forcus Attack to canncel",
@@ -285,7 +285,7 @@
   "Damage" : "5",
   "Startup" : ""
 }, {
-  "Command" : "db or d1, 2 or FC 1, 2",
+  "Command" : "db or d12 or FC 12",
   "Hit" : "-2",
   "Block" : "-13",
   "Notes" : "TC C \nReturns to crouching.\nCombo from 1st CH\n",
@@ -296,7 +296,7 @@
   "Damage" : "5,6",
   "Startup" : ""
 }, {
-  "Command" : "db or d1, 2 or FC 1, 2, 1+2",
+  "Command" : "db or d12 or FC 121+2",
   "Hit" : "+27",
   "Block" : "+16",
   "Notes" : "TC \nSuper Combo Gauge Cost 1\nBlock -2F/Hit +9F after Forcus Attack to canncel",
@@ -318,7 +318,7 @@
   "Damage" : "6",
   "Startup" : "12F"
 }, {
-  "Command" : "db or d2 or FC 2, 1+2",
+  "Command" : "db or d2 or FC 21+2",
   "Hit" : "+22",
   "Block" : "+11",
   "Notes" : "Super Combo Gauge Cost 1.\nBlock -7F/Hit +4F after Forcus Attack to canncel.",
@@ -340,7 +340,7 @@
   "Damage" : "7(10)",
   "Startup" : "15F"
 }, {
-  "Command" : "db or d3 or FC 3, 1+2",
+  "Command" : "db or d3 or FC 31+2",
   "Hit" : "+26",
   "Block" : "+17",
   "Notes" : "Super Combo Gauge Cost 1\nBlock -1F/Hit +8F after Forcus Attack to canncel",
@@ -373,7 +373,7 @@
   "Damage" : "15",
   "Startup" : "14F"
 }, {
-  "Command" : "b1, 1+2",
+  "Command" : "b11+2",
   "Hit" : "KDN",
   "Block" : "+19",
   "Notes" : "Super Combo Gauge Cost 1\nBlock +1F after Forcus Attack to canncel",
@@ -483,7 +483,7 @@
   "Damage" : "12",
   "Startup" : "13F"
 }, {
-  "Command" : " WS 1, 1+2",
+  "Command" : " WS 11+2",
   "Hit" : "+27",
   "Block" : "+16",
   "Notes" : "Super Combo Gauge Cost 1\nBlock -2F/Hit +9F after Forcus Attack to canncel",
@@ -505,7 +505,7 @@
   "Damage" : "17",
   "Startup" : "15F"
 }, {
-  "Command" : " WS 2, 1+2",
+  "Command" : " WS 21+2",
   "Hit" : "LNC",
   "Block" : "+20",
   "Notes" : "Super Combo Gauge Cost 1\nBlock +2F after Forcus Attack to canncel",
@@ -549,7 +549,7 @@
   "Damage" : "10",
   "Startup" : "11F"
 }, {
-  "Command" : " WS 4, 4",
+  "Command" : " WS 44",
   "Hit" : "-5C",
   "Block" : "-15",
   "Notes" : "Combo from 1st NH\nHit force to crouching",
@@ -813,7 +813,7 @@
   "Damage" : "12",
   "Startup" : "19F"
 }, {
-  "Command" : "ddff1, 1+2",
+  "Command" : "ddff11+2",
   "Hit" : "+32",
   "Block" : "+24",
   "Notes" : "Super Combo Gauge Cost 1.\nBlock +7F/Hit +15F after Forcus Attack to canncel.",
@@ -835,7 +835,7 @@
   "Damage" : "12",
   "Startup" : "19F"
 }, {
-  "Command" : "ddff2, 1+2",
+  "Command" : "ddff21+2",
   "Hit" : "+32",
   "Block" : "+24",
   "Notes" : "Super Combo Gauge Cost 1.\nBlock +7F/Hit +15F after Forcus Attack to canncel.",
@@ -857,7 +857,7 @@
   "Damage" : "13",
   "Startup" : "28F"
 }, {
-  "Command" : "fdfddbb1, 1+2",
+  "Command" : "fdfddbb11+2",
   "Hit" : "+33",
   "Block" : "+25",
   "Notes" : "Super Combo Gauge Cost 1\nBlock +8F after Forcus Attack to canncel",
@@ -879,7 +879,7 @@
   "Damage" : "9*3",
   "Startup" : "33F"
 }, {
-  "Command" : "fdfddbb2, 1+2",
+  "Command" : "fdfddbb21+2",
   "Hit" : "KDN",
   "Block" : "+41G",
   "Notes" : "Super Combo Gauge Cost 1\nBlock +24<sup>G</sup>F after Forcus Attack to canncel",
@@ -901,7 +901,7 @@
   "Damage" : "15",
   "Startup" : "10F"
 }, {
-  "Command" : "fddf1, 1+2",
+  "Command" : "fddf11+2",
   "Hit" : "LNC",
   "Block" : "+21",
   "Notes" : "TC 6F\nSuper Combo Gauge Cost 1\nBlock +3F after Forcus Attack to canncel",
@@ -923,7 +923,7 @@
   "Damage" : "6,6,20",
   "Startup" : "11F"
 }, {
-  "Command" : "fddf2, 1+2",
+  "Command" : "fddf21+2",
   "Hit" : "+32",
   "Block" : "+19",
   "Notes" : "TC 6F\nSuper Combo Gauge Cost 1\nBlock +1F/Hit +14F after Forcus Attack to canncel",
@@ -934,7 +934,7 @@
   "Damage" : "6",
   "Startup" : ""
 }, {
-  "Command" : "fddf2, 1+2",
+  "Command" : "fddf21+2",
   "Hit" : "LNC",
   "Block" : "+21",
   "Notes" : "TC 6F\nSuper Combo Gauge Cost 1\nBlock +3F after Forcus Attack to canncel",
@@ -956,7 +956,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : " During Hyakkishu,n,",
+  "Command" : " During Hyakkishun",
   "Hit" : "KDN",
   "Block" : "-24",
   "Notes" : "",
@@ -1187,11 +1187,11 @@
   "Damage" : "20*5",
   "Startup" : "9F"
 }, {
-  "Command" : " During Rage 1, 1b or f3, 2",
+  "Command" : " During Rage 11b or f32",
   "Hit" : "KDN",
   "Block" : "KDN",
   "Notes" : "Another command<img src=\"../lp.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../lp.bmp\" class=\"c\"><img src=\"../4.bmp\" class=\"c\">or<img src=\"../6.bmp\" class=\"c\"><img src=\"../rpk.bmp\" class=\"c\">\nGuard Point 8F\nEnable evade input<img src=\"../8'.bmp\" class=\"c\">\n",
-  "Name" : "Wrath of the Raging Demon",
+  "Name" : "Rage Art",
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "Th(M)",

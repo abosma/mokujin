@@ -10,7 +10,7 @@
   "Damage" : "7",
   "Startup" : "10F"
 }, {
-  "Command" : "1, 2",
+  "Command" : "12",
   "Hit" : "+5",
   "Block" : "-1",
   "Notes" : "Combo from 1st NH",
@@ -21,7 +21,7 @@
   "Damage" : "7,12",
   "Startup" : ""
 }, {
-  "Command" : "1, 2, 3+4",
+  "Command" : "123+4",
   "Hit" : "+3",
   "Block" : "-3",
   "Notes" : "Advance Input is available Ready Position Move.\nAdvance Input is unavailable FC or WS Move and 3F delay.\n",
@@ -32,7 +32,7 @@
   "Damage" : "7,12",
   "Startup" : ""
 }, {
-  "Command" : "1, 2, 3+4, 3+4",
+  "Command" : "123+43+4",
   "Hit" : "+4",
   "Block" : "-2",
   "Notes" : "",
@@ -43,7 +43,7 @@
   "Damage" : "7,12",
   "Startup" : ""
 }, {
-  "Command" : "1, 2, 3",
+  "Command" : "123",
   "Hit" : "-5",
   "Block" : "-16",
   "Notes" : "Can be delayed",
@@ -54,7 +54,7 @@
   "Damage" : "7,12,12",
   "Startup" : ""
 }, {
-  "Command" : "1, 2, 3, 1+2",
+  "Command" : "1231+2",
   "Hit" : "+4C",
   "Block" : "±0C",
   "Notes" : "Combo from 3rd NH\nCan be delayed\nBlock or Hit force to Crouching.",
@@ -65,7 +65,7 @@
   "Damage" : "7,12,12,28",
   "Startup" : ""
 }, {
-  "Command" : "1, 2f1",
+  "Command" : "12f1",
   "Hit" : "+6",
   "Block" : "+4",
   "Notes" : "Can be delayed",
@@ -98,7 +98,7 @@
   "Damage" : "10",
   "Startup" : "10F"
 }, {
-  "Command" : "2, 1",
+  "Command" : "21",
   "Hit" : "+5",
   "Block" : "+3",
   "Notes" : "Combo from 1st NH",
@@ -164,7 +164,7 @@
   "Damage" : "20",
   "Startup" : "16F"
 }, {
-  "Command" : "f2, 1",
+  "Command" : "f21",
   "Hit" : "KDN",
   "Block" : "-7",
   "Notes" : "TS \nCan be delayed",
@@ -186,7 +186,7 @@
   "Damage" : "20,17",
   "Startup" : ""
 }, {
-  "Command" : "f2d1, 2",
+  "Command" : "f2d12",
   "Hit" : "LNC",
   "Block" : "-15",
   "Notes" : "",
@@ -208,7 +208,7 @@
   "Damage" : "13",
   "Startup" : "23F"
 }, {
-  "Command" : "f3, 2",
+  "Command" : "f32",
   "Hit" : "LNC",
   "Block" : "-11C",
   "Notes" : "Combo from 1st NH\nCan be delayed\nHit force to Crouching.\n",
@@ -252,7 +252,7 @@
   "Damage" : "30",
   "Startup" : "32F"
 }, {
-  "Command" : "f3+4, 3+4",
+  "Command" : "f3+43+4",
   "Hit" : "",
   "Block" : "",
   "Notes" : "Advance Input is available Ready Position, FC or WS move.",
@@ -296,7 +296,7 @@
   "Damage" : "16",
   "Startup" : "15F"
 }, {
-  "Command" : "df2, 1",
+  "Command" : "df21",
   "Hit" : "KDN",
   "Block" : "-13",
   "Notes" : "TS \nCombo from 1st CH\nCan be delayed 15F\nCombo can be delayed 15F from CH",
@@ -318,7 +318,7 @@
   "Damage" : "13",
   "Startup" : "17F"
 }, {
-  "Command" : "df3, 1",
+  "Command" : "df31",
   "Hit" : "+5",
   "Block" : "+2",
   "Notes" : "Combo from 1st NH\n",
@@ -329,7 +329,7 @@
   "Damage" : "13,7",
   "Startup" : ""
 }, {
-  "Command" : "df3, 1, 2",
+  "Command" : "df312",
   "Hit" : "+5",
   "Block" : "-1",
   "Notes" : "Combo from 1st NH",
@@ -340,7 +340,7 @@
   "Damage" : "13,7,10",
   "Startup" : ""
 }, {
-  "Command" : "df3, 1, 2, 3+4",
+  "Command" : "df3123+4",
   "Hit" : "+3",
   "Block" : "-3",
   "Notes" : "Advance Input is available Ready Position Move.\nAdvance Input is unavailable FC or WS Move and 3F delay.\nCombo from 1st NH.",
@@ -351,7 +351,7 @@
   "Damage" : "13,7,10",
   "Startup" : ""
 }, {
-  "Command" : "df3, 1, 2, 3+4, 3+4",
+  "Command" : "df3123+43+4",
   "Hit" : "+4",
   "Block" : "-2",
   "Notes" : "Combo from 1st NH",
@@ -362,7 +362,7 @@
   "Damage" : "13,7,10",
   "Startup" : ""
 }, {
-  "Command" : "df3, 1, 2, 3",
+  "Command" : "df3123",
   "Hit" : "-5",
   "Block" : "-16",
   "Notes" : "Can be delayed",
@@ -373,7 +373,7 @@
   "Damage" : "13,7,10,12",
   "Startup" : ""
 }, {
-  "Command" : "df3, 1, 2, 3, 1+2",
+  "Command" : "df31231+2",
   "Hit" : "+4C",
   "Block" : "±0C",
   "Notes" : "Combo from 4th NH.\nCan be delayed\nBlock or Hit force to Crouching.",
@@ -384,7 +384,7 @@
   "Damage" : "13,7,10,12",
   "Startup" : ""
 }, {
-  "Command" : "df3, 1, 2f1",
+  "Command" : "df312f1",
   "Hit" : "+6",
   "Block" : "+4",
   "Notes" : "Can be delayed",
@@ -395,7 +395,7 @@
   "Damage" : "13,7,10,12,28",
   "Startup" : ""
 }, {
-  "Command" : "df3, 1d2",
+  "Command" : "df31d2",
   "Hit" : "+7",
   "Block" : "-9",
   "Notes" : "Combo from 1st NH",
@@ -406,7 +406,7 @@
   "Damage" : "13,7,13",
   "Startup" : ""
 }, {
-  "Command" : "df3, 1+2",
+  "Command" : "df31+2",
   "Hit" : "+4C",
   "Block" : "±0C",
   "Notes" : "Combo from 1st NH.\nCan be delayed\nBlock or Hit force to Crouching.",
@@ -428,7 +428,7 @@
   "Damage" : "13,10",
   "Startup" : ""
 }, {
-  "Command" : "df3df1, 2",
+  "Command" : "df3df12",
   "Hit" : "KDN",
   "Block" : "-7",
   "Notes" : "Can be delayed\nBlock force to Crouching.\n",
@@ -439,7 +439,7 @@
   "Damage" : "13,10,20",
   "Startup" : ""
 }, {
-  "Command" : "df3df1, 2 Hold ",
+  "Command" : "df3df12 Hold ",
   "Hit" : "KDN",
   "Block" : "+13G",
   "Notes" : "TS \n",
@@ -461,7 +461,7 @@
   "Damage" : "13",
   "Startup" : "13F"
 }, {
-  "Command" : "df4, 2",
+  "Command" : "df42",
   "Hit" : "+12Sp",
   "Block" : "-5",
   "Notes" : "TS \nCombo from 1st NH.\nCan be delayed\n",
@@ -505,7 +505,7 @@
   "Damage" : "15",
   "Startup" : "16F"
 }, {
-  "Command" : "d2, 4",
+  "Command" : "d24",
   "Hit" : "+5",
   "Block" : "-9",
   "Notes" : "Combo from 1st NH.\nCan be delayed 10F.\nCombo can be delayed 10F from NH.",
@@ -582,7 +582,7 @@
   "Damage" : "10",
   "Startup" : "18F"
 }, {
-  "Command" : "db3, 1",
+  "Command" : "db31",
   "Hit" : "+8",
   "Block" : "-6",
   "Notes" : "Combo from 1st CH.",
@@ -593,7 +593,7 @@
   "Damage" : "10,16",
   "Startup" : ""
 }, {
-  "Command" : "db3, 1, 1",
+  "Command" : "db311",
   "Hit" : "KDN",
   "Block" : "-8",
   "Notes" : "TS \nCan be delayed",
@@ -604,7 +604,7 @@
   "Damage" : "10,16,23",
   "Startup" : ""
 }, {
-  "Command" : "db3, 1, 1, 3+4",
+  "Command" : "db3113+4",
   "Hit" : "-6",
   "Block" : "-20",
   "Notes" : "Advance Input is available Ready Position Move.\nAdvance Input is unavailable FC or WS Move.\n",
@@ -615,7 +615,7 @@
   "Damage" : "10,16",
   "Startup" : ""
 }, {
-  "Command" : "db3, 1, 1, 3+4",
+  "Command" : "db3113+4",
   "Hit" : "-7",
   "Block" : "-21",
   "Notes" : "",
@@ -626,7 +626,7 @@
   "Damage" : "10,16",
   "Startup" : ""
 }, {
-  "Command" : "db3, 4",
+  "Command" : "db34",
   "Hit" : "+3",
   "Block" : "-13",
   "Notes" : "",
@@ -637,7 +637,7 @@
   "Damage" : "10,16",
   "Startup" : ""
 }, {
-  "Command" : "db3, 4, 1+2",
+  "Command" : "db341+2",
   "Hit" : "Th",
   "Block" : "中投",
   "Notes" : "Interrupt 16F from 1st NH.\n",
@@ -681,7 +681,7 @@
   "Damage" : "10",
   "Startup" : "21F"
 }, {
-  "Command" : "b1, 2",
+  "Command" : "b12",
   "Hit" : "KDN",
   "Block" : "-14C",
   "Notes" : "Block force to Crouching\n",
@@ -747,7 +747,7 @@
   "Damage" : "70",
   "Startup" : "80F"
 }, {
-  "Command" : "b2+3, 1+2",
+  "Command" : "b2+31+2",
   "Hit" : "Th",
   "Block" : "中投",
   "Notes" : "",
@@ -824,7 +824,7 @@
   "Damage" : "21",
   "Startup" : "22F"
 }, {
-  "Command" : "ub1+2, 3+4",
+  "Command" : "ub1+23+4",
   "Hit" : "KDN",
   "Block" : "-7C",
   "Notes" : "Advance Input is available Ready Position Move.\nAdvance Input is unavailable FC or WS Move.\nBlock force to Crouching.\n",
@@ -835,7 +835,7 @@
   "Damage" : "21",
   "Startup" : ""
 }, {
-  "Command" : "ub1+2, 3+4, 3+4",
+  "Command" : "ub1+23+43+4",
   "Hit" : "KDN",
   "Block" : "-6C",
   "Notes" : "Block force to Crouching.",
@@ -868,7 +868,7 @@
   "Damage" : "25",
   "Startup" : "31F"
 }, {
-  "Command" : "uf,n,4",
+  "Command" : "ufn4",
   "Hit" : "LNC",
   "Block" : "-11",
   "Notes" : "TJ 9F",
@@ -901,7 +901,7 @@
   "Damage" : "18",
   "Startup" : "19F"
 }, {
-  "Command" : "ff3, 2",
+  "Command" : "ff32",
   "Hit" : "LNC",
   "Block" : "-14",
   "Notes" : "Combo from 1st CH.\n",
@@ -934,7 +934,7 @@
   "Damage" : "14,16",
   "Startup" : "15F"
 }, {
-  "Command" : "bf1+2, 2",
+  "Command" : "bf1+22",
   "Hit" : "KDN",
   "Block" : "-15",
   "Notes" : "Combo from 2nd CH.\nCan be delayed 13F\nCombo can be delayed 12F from 2nd CH",
@@ -956,7 +956,7 @@
   "Damage" : "21",
   "Startup" : "18F"
 }, {
-  "Command" : "ddff1, 2",
+  "Command" : "ddff12",
   "Hit" : "KDN",
   "Block" : "-7",
   "Notes" : "Input<img src=\"../1.bmp\" class=\"c\">to Ukemi from NH.",
@@ -967,7 +967,7 @@
   "Damage" : "21,24",
   "Startup" : ""
 }, {
-  "Command" : "ddff1, 2 (Hold) ",
+  "Command" : "ddff12 (Hold) ",
   "Hit" : "KDN",
   "Block" : "+23G",
   "Notes" : "",
@@ -1066,7 +1066,7 @@
   "Damage" : "14",
   "Startup" : "11F"
 }, {
-  "Command" : " WS 1, 3+4",
+  "Command" : " WS 13+4",
   "Hit" : "+3",
   "Block" : "-7",
   "Notes" : "Advance Input is available Ready Position, FC or WS Move.",
@@ -1077,7 +1077,7 @@
   "Damage" : "14",
   "Startup" : ""
 }, {
-  "Command" : " WS 1, 3+4, 3+4",
+  "Command" : " WS 13+43+4",
   "Hit" : "+2",
   "Block" : "-8",
   "Notes" : "",
@@ -1088,7 +1088,7 @@
   "Damage" : "14",
   "Startup" : ""
 }, {
-  "Command" : " WS 1, 2",
+  "Command" : " WS 12",
   "Hit" : "KDN",
   "Block" : "-7",
   "Notes" : "Combo from 1st CH,\nCan be delayed 19F.\nCombo can be delayed 13F from CH.\n",
@@ -1176,7 +1176,7 @@
   "Damage" : "18",
   "Startup" : "21F"
 }, {
-  "Command" : " SS 2, 3+4",
+  "Command" : " SS 23+4",
   "Hit" : "+5C",
   "Block" : "+2",
   "Notes" : "Advance Input is available Ready Position, FC or WS Move.\nHit force to Crouching.",
@@ -1187,7 +1187,7 @@
   "Damage" : "18",
   "Startup" : ""
 }, {
-  "Command" : " SS 2, 3+4, 3+4",
+  "Command" : " SS 23+43+4",
   "Hit" : "+4C",
   "Block" : "+1",
   "Notes" : "Hit force to Crouching.",
@@ -1374,7 +1374,7 @@
   "Damage" : "16",
   "Startup" : "13F"
 }, {
-  "Command" : " During Ready Position f1, 2",
+  "Command" : " During Ready Position f12",
   "Hit" : "KDN",
   "Block" : "-13C",
   "Notes" : "Combo from 1st NH.\nBlock or NH force to Crouching.\n",
@@ -1385,7 +1385,7 @@
   "Damage" : "16,20",
   "Startup" : ""
 }, {
-  "Command" : " During Ready Position f1, 4",
+  "Command" : " During Ready Position f14",
   "Hit" : "KDN",
   "Block" : "-10",
   "Notes" : "TS \nCombo from 1st NH.\n",
@@ -1444,7 +1444,7 @@
   "Hit" : "Th",
   "Block" : "+7G",
   "Notes" : "Connect to Mount.\nTo down afteer block or whiff.\nMeaty 11F in actualy\n",
-  "Name" : "Rage Drive to Mount",
+  "Name" : "Rage Drive",
   "Total" : "",
   "Counter Hit" : "Th",
   "Property" : "M,Th",
@@ -1455,428 +1455,314 @@
   "Hit" : "+9C",
   "Block" : "-10",
   "Notes" : "Distant attack level is Special Mid.\n",
-  "Name" : "Rage Drive to Down",
+  "Name" : "Rage Drive",
   "Total" : "",
   "Counter Hit" : "+9C",
   "Property" : "SM",
   "Damage" : "10",
   "Startup" : "45F"
 }, {
-  "Command" : "1+3",
-  "Hit" : "or -6F RP",
-  "Block" : "RP Foot-sd Fac-dwn",
-  "Notes" : "Long Range Throw",
+  "BreakThrow" : "1 or 2 -6F RP",
   "Name" : "Steam Roller",
-  "Total" : "Long Range Throw",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "35",
-  "Startup" : "12F"
+  "AfterThrow" : "RP Foot-sd Fac-dwn",
+  "Command" : "1+3",
+  "Property" : "Th(H)",
+  "Notes" : "Long Range Throw"
 }, {
-  "Command" : "2+4",
-  "Hit" : "or -6F CW",
-  "Block" : "CW Head-sd Fac-Up",
-  "Notes" : "Long Range Throw",
+  "BreakThrow" : "1 or 2 -6F CW",
   "Name" : "Knee Breaker",
-  "Total" : "Long Range Throw",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "35",
-  "Startup" : "12F"
+  "AfterThrow" : "CW Head-sd Fac-Up",
+  "Command" : "2+4",
+  "Property" : "Th(H)",
+  "Notes" : "Long Range Throw"
 }, {
-  "Command" : " Approach from left side ",
-  "Hit" : "-3F",
-  "Block" : "Head-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "1 -3F",
   "Name" : "Reverse Body Lift",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "45",
-  "Startup" : ""
+  "AfterThrow" : "Head-sd Fac-Up",
+  "Command" : " Approach from left side ",
+  "Property" : "Th(H)",
+  "Notes" : ""
 }, {
-  "Command" : " Approach from right side ",
-  "Hit" : "-3F",
-  "Block" : "Head-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "2 -3F",
   "Name" : "Toy Airplane",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "40",
-  "Startup" : ""
+  "AfterThrow" : "Head-sd Fac-Up",
+  "Command" : " Approach from right side ",
+  "Property" : "Th(H)",
+  "Notes" : ""
 }, {
-  "Command" : " Approach from behind 1+3",
-  "Hit" : "disable",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "Floor Break.",
+  "BreakThrow" : "disable ",
   "Name" : "Backdrop",
-  "Total" : "Floor Break.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "60",
-  "Startup" : ""
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " Approach from behind 1+3",
+  "Property" : "Th(H)",
+  "Notes" : "Floor Break."
 }, {
-  "Command" : " Approach from behind 2+4",
-  "Hit" : "disable",
-  "Block" : "Foot-sd Fac-Dwn",
-  "Notes" : "Floor Break.",
+  "BreakThrow" : "disable ",
   "Name" : "Arm Bar Flip",
-  "Total" : "Floor Break.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "60",
-  "Startup" : ""
+  "AfterThrow" : "Foot-sd Fac-Dwn",
+  "Command" : " Approach from behind 2+4",
+  "Property" : "Th(H)",
+  "Notes" : "Floor Break."
 }, {
-  "Command" : "ff1+2",
-  "Hit" : "±0F RP Marduk to BT",
-  "Block" : "RP Head-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "1+2 ±0F RPMarduk to BT",
   "Name" : "Around the World",
-  "Total" : "【S3 Patch Notes】・入力受付時間を17F→30Fに変更。",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "20",
-  "Startup" : "12F"
+  "AfterThrow" : "RP Head-sd Fac-Up",
+  "Command" : "ff1+2",
+  "Property" : "Th(H)",
+  "Notes" : "【S3 Patch Notes】・入力受付時間を17F→30Fに変更。"
 }, {
-  "Command" : "ddff1+3",
-  "Hit" : "-2F",
-  "Block" : "RP Head-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "1 -2F",
   "Name" : "Northern Light Suplex",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "30",
-  "Startup" : "12F"
+  "AfterThrow" : "RP Head-sd Fac-Up",
+  "Command" : "ddff1+3",
+  "Property" : "Th(H)",
+  "Notes" : ""
 }, {
-  "Command" : "ddff1+3, 1+2",
-  "Hit" : "-2F",
-  "Block" : "",
-  "Notes" : "",
+  "BreakThrow" : "-2F",
   "Name" : "Northern Light Suplex to Mount",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th(H),SP",
   "Damage" : "20",
-  "Startup" : "12F"
+  "AfterThrow" : "",
+  "Command" : "ddff1+31+2",
+  "Property" : "Th(H),SP",
+  "Notes" : ""
 }, {
-  "Command" : "ddff2+4",
-  "Hit" : "-2F",
-  "Block" : "RP Head-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "2 -2F",
   "Name" : "Power Slam",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "30",
-  "Startup" : "12F"
+  "AfterThrow" : "RP Head-sd Fac-Up",
+  "Command" : "ddff2+4",
+  "Property" : "Th(H)",
+  "Notes" : ""
 }, {
-  "Command" : "ddff2+4, 1+2",
-  "Hit" : "-2F",
-  "Block" : "",
-  "Notes" : "",
+  "BreakThrow" : "-2F",
   "Name" : "Power Slam to Mount",
-  "Total" : "",
-  "Counter Hit" : "",
+  "Damage" : "20",
+  "AfterThrow" : "",
+  "Command" : "ddff2+41+2",
   "Property" : "Th(H),SP",
-  "Damage" : "20",
-  "Startup" : "12F"
+  "Notes" : ""
 }, {
-  "Command" : "ddbb1+2",
-  "Hit" : "-6F",
-  "Block" : "RP Left-sd Fac-Up",
-  "Notes" : "Disable Preciding Input\n",
+  "BreakThrow" : "1+2 -6F",
   "Name" : "Back Breaker",
-  "Total" : "Disable Preciding Input",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "40",
-  "Startup" : "11F"
+  "AfterThrow" : "RP Left-sd Fac-Up",
+  "Command" : "ddbb1+2",
+  "Property" : "Th(H)",
+  "Notes" : "Disable Preciding Input"
 }, {
-  "Command" : "fbdbddff1",
-  "Hit" : "-2F",
-  "Block" : "RP Right-sd Fac-Up",
-  "Notes" : "Enable input during FC.\nEasy command<img src=\"../6.bmp\" class=\"c\"><img src=\"../4.bmp\" class=\"c\"><img src=\"../1.bmp\" class=\"c\"><img src=\"../2.bmp\" class=\"c\"><img src=\"../6.bmp\" class=\"c\"><img src=\"../lp.bmp\" class=\"c\">\nFloor Break.",
+  "BreakThrow" : "1 -2F",
   "Name" : "Suplex Bomb",
-  "Total" : "Enable input during FC. Easy command Floor Break.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "50",
-  "Startup" : "11F"
+  "AfterThrow" : "RP Right-sd Fac-Up",
+  "Command" : "fbdbddff1",
+  "Property" : "Th(H)",
+  "Notes" : "Enable input during FC. Easy command Floor Break."
 }, {
-  "Command" : " Approach crouching enemy d1+3",
-  "Hit" : "-2F",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "Enable input during FC.\nFloor Break.",
+  "BreakThrow" : "1 -2F",
   "Name" : "Power Bomb",
-  "Total" : "Enable input during FC. Floor Break.",
-  "Counter Hit" : "",
-  "Property" : "Th(L)",
   "Damage" : "45",
-  "Startup" : "13F"
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " Approach crouching enemy d1+3",
+  "Property" : "Th(L)",
+  "Notes" : "Enable input during FC. Floor Break."
 }, {
-  "Command" : " Approach crouching enemy d2+4",
-  "Hit" : "-2F",
-  "Block" : "Head-sd Fac-Dwn",
-  "Notes" : "Enable input during FC.",
+  "BreakThrow" : "2 -2F",
   "Name" : "Ultimate Knee",
-  "Total" : "Enable input during FC.",
-  "Counter Hit" : "",
-  "Property" : "Th(L)",
   "Damage" : "45",
-  "Startup" : "13F"
+  "AfterThrow" : "Head-sd Fac-Dwn",
+  "Command" : " Approach crouching enemy d2+4",
+  "Property" : "Th(L)",
+  "Notes" : "Enable input during FC."
 }, {
-  "Command" : "b1+3 or b2+4",
-  "Hit" : "disable",
-  "Block" : "",
-  "Notes" : "Reversal (H/M) during 3 to 8F.\nDamage 8 &amp; Connect to Mount after Trap success.",
+  "BreakThrow" : "disable ",
   "Name" : "Trap",
-  "Total" : "Reversal (H/M) during 3 to 8F. Damage 8 & Connect to Mount after Trap success.",
-  "Counter Hit" : "35",
+  "Damage" : "-",
+  "AfterThrow" : "",
+  "Command" : "b1+3 or b2+4",
   "Property" : "Reversal(HM)",
-  "Damage" : "-",
-  "Startup" : ""
+  "Notes" : "Reversal (H/M) during 3 to 8F. Damage 8 & Connect to Mount after Trap success."
 }, {
-  "Command" : " RUN (３ step） ",
-  "Hit" : "or -8F",
-  "Block" : "",
-  "Notes" : "Throw Break 2F.",
+  "BreakThrow" : "1 or 1+2 -8F",
   "Name" : "Double Leg Take Down to Mount",
-  "Total" : "Throw Break 2F.",
-  "Counter Hit" : "",
-  "Property" : "Th(M)",
   "Damage" : "12",
-  "Startup" : "16F"
+  "AfterThrow" : "",
+  "Command" : " RUN (３ step） ",
+  "Property" : "Th(M)",
+  "Notes" : "Throw Break 2F."
 }, {
-  "Command" : " During Ready Position 1+2",
-  "Hit" : "-4F",
-  "Block" : "",
-  "Notes" : "Throw break from 3 to 6F.\nDisable throw break from BT Takedown.",
+  "BreakThrow" : "1+2 -4F",
   "Name" : "Double Leg Take Down (close)",
-  "Total" : "Throw break from 3 to 6F. Disable throw break from BT Takedown.",
-  "Counter Hit" : "",
-  "Property" : "Th(M)",
   "Damage" : "12",
-  "Startup" : "24F"
-}, {
+  "AfterThrow" : "",
   "Command" : " During Ready Position 1+2",
-  "Hit" : "or -8F",
-  "Block" : "",
-  "Notes" : "Throw break 2F.",
+  "Property" : "Th(M)",
+  "Notes" : "Throw break from 3 to 6F. Disable throw break from BT Takedown."
+}, {
+  "BreakThrow" : "1 or 1+2 -8F",
   "Name" : "Double Leg Take Down",
-  "Total" : "Throw break 2F.",
-  "Counter Hit" : "",
-  "Property" : "Th(M)",
   "Damage" : "12",
-  "Startup" : "30F"
-}, {
+  "AfterThrow" : "",
   "Command" : " During Ready Position 1+2",
-  "Hit" : "",
-  "Block" : "",
-  "Notes" : "Block -22F.\nHit -3F &amp; force to Crouching.\n",
+  "Property" : "Th(M)",
+  "Notes" : "Throw break 2F."
+}, {
+  "BreakThrow" : "",
   "Name" : "Double Leg Take Down (distant)",
-  "Total" : "Block -22F. Hit -3F & force to Crouching. S2 Patch Notes (Ver.2.20)・Fixed an issue in which the move could be parried using Jin's Parry.",
-  "Counter Hit" : "",
-  "Property" : "SM",
   "Damage" : "10",
-  "Startup" : "50F"
+  "AfterThrow" : "",
+  "Command" : " During Ready Position 1+2",
+  "Property" : "SM",
+  "Notes" : "Block -22F. Hit -3F & force to Crouching. S2 Patch Notes (Ver.2.20)・Fixed an issue in which the move could be parried using Jin's Parry."
 }, {
-  "Command" : " During Double Leg Take Down u or d",
-  "Hit" : "",
-  "Block" : "",
-  "Notes" : "",
+  "BreakThrow" : "",
   "Name" : "Side Shift",
-  "Total" : "",
-  "Counter Hit" : "43",
-  "Property" : "SP",
   "Damage" : "-",
-  "Startup" : ""
+  "AfterThrow" : "",
+  "Command" : " During Double Leg Take Down u or d",
+  "Property" : "SP",
+  "Notes" : ""
 }, {
-  "Command" : " During Ready Position 1+3",
-  "Hit" : "-2F",
-  "Block" : "CCW Head-sd Fac-Up",
-  "Notes" : "Floor Break.",
+  "BreakThrow" : "1 -2F",
   "Name" : "Stangle Slam",
-  "Total" : "Floor Break.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "35",
-  "Startup" : "12F"
+  "AfterThrow" : "CCW Head-sd Fac-Up",
+  "Command" : " During Ready Position 1+3",
+  "Property" : "Th(H)",
+  "Notes" : "Floor Break."
 }, {
-  "Command" : " During Ready Position 2+4",
-  "Hit" : "-2F",
-  "Block" : "Head-sd Fac-Up",
-  "Notes" : "Floor Break.",
+  "BreakThrow" : "2 -2F",
   "Name" : "Body Slam",
-  "Total" : "Floor Break.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "35",
-  "Startup" : "12F"
+  "AfterThrow" : "Head-sd Fac-Up",
+  "Command" : " During Ready Position 2+4",
+  "Property" : "Th(H)",
+  "Notes" : "Floor Break."
 }, {
-  "Command" : " During Mount 1",
-  "Hit" : "-5F Foot-sd Fac-Up",
-  "Block" : "Right-sd Fac-Up",
-  "Notes" : "Input 【<img src=\"../lp.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../rp.bmp\" class=\"c\">】 to Right Melon Masher.",
+  "BreakThrow" : "2 -5F Foot-sdFac-Up",
   "Name" : "Left Melon Masher",
-  "Total" : "Input 【】 to Right Melon Masher.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "35",
-  "Startup" : "18F"
+  "AfterThrow" : "Right-sd Fac-Up",
+  "Command" : " During Mount 1",
+  "Property" : "Th(H)",
+  "Notes" : "Input 【】 to Right Melon Masher."
 }, {
-  "Command" : " During Mount 1+3",
-  "Hit" : "-9F",
-  "Block" : "Left-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "2 -9F",
   "Name" : "Neck Lock",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "40",
-  "Startup" : "17F"
+  "AfterThrow" : "Left-sd Fac-Up",
+  "Command" : " During Mount 1+3",
+  "Property" : "Th(H)",
+  "Notes" : ""
 }, {
-  "Command" : " During Mount 2",
-  "Hit" : "-5F",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "Input 【<img src=\"../rp.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../lp.bmp\" class=\"c\">】 to Left Melon Masher.",
+  "BreakThrow" : "1 -5F",
   "Name" : "Right Melon Masher",
-  "Total" : "Input 【】 to Left Melon Masher.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "35",
-  "Startup" : "17F"
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " During Mount 2",
+  "Property" : "Th(H)",
+  "Notes" : "Input 【】 to Left Melon Masher."
 }, {
-  "Command" : " During Mount 2+4",
-  "Hit" : "-9F",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "1 -9F",
   "Name" : "Knee Bar",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "40",
-  "Startup" : "18F"
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " During Mount 2+4",
+  "Property" : "Th(H)",
+  "Notes" : ""
 }, {
-  "Command" : " During Mount 1+2",
-  "Hit" : "-9F",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "1+2 -9F",
   "Name" : "Mount Mongolian Chop",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "40",
-  "Startup" : "28F"
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " During Mount 1+2",
+  "Property" : "Th(H)",
+  "Notes" : ""
 }, {
-  "Command" : " During Mount 3+4",
-  "Hit" : "-9F",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "1+2 -9F",
   "Name" : "Skull Crusher",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "40",
-  "Startup" : "28F"
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " During Mount 3+4",
+  "Property" : "Th(H)",
+  "Notes" : ""
 }, {
-  "Command" : " While enemy is down db1+3",
-  "Hit" : "±0F",
-  "Block" : "",
-  "Notes" : "Throw break 7F.\nDamage is landing bonus.",
+  "BreakThrow" : "1 ±0F",
   "Name" : "Hercules' Hammer",
-  "Total" : "Throw break 7F. Damage is landing bonus.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "20",
-  "Startup" : "18F"
+  "AfterThrow" : "",
+  "Command" : " While enemy is down db1+3",
+  "Property" : "Th(H)",
+  "Notes" : "Throw break 7F. Damage is landing bonus."
 }, {
-  "Command" : " While enemy is down by the feet db2+4",
-  "Hit" : "±0F",
-  "Block" : "",
-  "Notes" : "Throw break 7F.",
+  "BreakThrow" : "2 ±0F",
   "Name" : "Reversi Throw",
-  "Total" : "Throw break 7F.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "40",
-  "Startup" : "18F"
+  "AfterThrow" : "",
+  "Command" : " While enemy is down by the feet db2+4",
+  "Property" : "Th(H)",
+  "Notes" : "Throw break 7F."
 }, {
-  "Command" : " While enemy is down by the head db2+4",
-  "Hit" : "+1F",
-  "Block" : "",
-  "Notes" : "Throw break 7F.\nWall bonus damage 1.",
+  "BreakThrow" : "2 +1F",
   "Name" : "Alarm Knee",
-  "Total" : "Throw break 7F. Wall bonus damage 1.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "40",
-  "Startup" : "18F"
+  "AfterThrow" : "",
+  "Command" : " While enemy is down by the head db2+4",
+  "Property" : "Th(H)",
+  "Notes" : "Throw break 7F. Wall bonus damage 1."
 }, {
-  "Command" : " Enemy on back by enemy's side db1+3 or db2+4",
-  "Hit" : "or ±0F",
-  "Block" : "",
-  "Notes" : "Throw break 7F.",
+  "BreakThrow" : "1 or 2 ±0F",
   "Name" : "Mount Position",
-  "Total" : "Throw break 7F.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "12",
-  "Startup" : "18F"
+  "AfterThrow" : "",
+  "Command" : " Enemy on back by enemy's side db1+3 or db2+4",
+  "Property" : "Th(H)",
+  "Notes" : "Throw break 7F."
 }, {
-  "Command" : " Enemy face down by enemy's side db1+3 or db2+4",
-  "Hit" : "or +1F",
-  "Block" : "",
-  "Notes" : "Throw break 7F.",
+  "BreakThrow" : "1 or 2 +1F",
   "Name" : "Rib Buster",
-  "Total" : "Throw break 7F.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "30",
-  "Startup" : "18F"
+  "AfterThrow" : "",
+  "Command" : " Enemy face down by enemy's side db1+3 or db2+4",
+  "Property" : "Th(H)",
+  "Notes" : "Throw break 7F."
 }, {
-  "Command" : " Approach mid-air enemy 1+3",
-  "Hit" : "",
-  "Block" : "",
-  "Notes" : "Floor Break.",
+  "BreakThrow" : "",
   "Name" : "Gator Slam",
-  "Total" : "Floor Break.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "29",
-  "Startup" : "12F"
+  "AfterThrow" : "",
+  "Command" : " Approach mid-air enemy 1+3",
+  "Property" : "Th(H)",
+  "Notes" : "Floor Break."
 }, {
-  "Command" : " Approach mid-air enemy 2+4",
-  "Hit" : "",
-  "Block" : "",
-  "Notes" : "Wall bonus (right-side) &amp; damage 25.",
+  "BreakThrow" : "",
   "Name" : "Corkscrew",
-  "Total" : "Wall bonus (right-side) & damage 25.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "26",
-  "Startup" : "12F"
+  "AfterThrow" : "",
+  "Command" : " Approach mid-air enemy 2+4",
+  "Property" : "Th(H)",
+  "Notes" : "Wall bonus (right-side) & damage 25."
 }, {
-  "Command" : " Approach mid-air enemy ff1+2",
-  "Hit" : "",
-  "Block" : "",
-  "Notes" : "Floor Break.",
+  "BreakThrow" : "",
   "Name" : "Mid-Air Suplex",
-  "Total" : "Floor Break.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "60",
-  "Startup" : "12F"
+  "AfterThrow" : "",
+  "Command" : " Approach mid-air enemy ff1+2",
+  "Property" : "Th(H)",
+  "Notes" : "Floor Break."
 }, {
-  "Command" : " During enemy wall stun 1+3 or 2+4 or ff1+2",
-  "Hit" : "",
-  "Block" : "",
-  "Notes" : "",
+  "BreakThrow" : "",
   "Name" : "Angry Ape",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "60",
-  "Startup" : "12F"
+  "AfterThrow" : "",
+  "Command" : " During enemy wall stun 1+3 or 2+4 or ff1+2",
+  "Property" : "Th(H)",
+  "Notes" : ""
 } ]

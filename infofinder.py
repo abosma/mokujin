@@ -92,11 +92,13 @@ def filter_dictionary(to_compare_key, to_compare_value, dictionary):
 
             if item_clean == value_clean:
                 to_return_item = item
+                break
         else:
             value_clean = [value.lower().strip().replace(' ','') for value in value_split]
 
             if all(value in item_clean for value in value_clean):
                 to_return_item = item
+                break
 
     if to_return_item != None:
         return to_return_item
@@ -110,10 +112,12 @@ def filter_dictionary(to_compare_key, to_compare_value, dictionary):
 
                 if value_clean in item_clean:
                     to_return_item = item
+                    break
             else:
                 value_clean = [value.lower().strip().replace(' ','') for value in value_split]
 
                 if all(value in item_clean for value in value_clean):
                     to_return_item = item
+                    break
         
         return to_return_item

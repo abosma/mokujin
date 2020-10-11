@@ -10,7 +10,7 @@
   "Damage" : "7",
   "Startup" : "10F"
 }, {
-  "Command" : "1, 2",
+  "Command" : "12",
   "Hit" : "+5",
   "Block" : "-1",
   "Notes" : "Combo from 1st NH\n",
@@ -21,7 +21,7 @@
   "Damage" : "7,9",
   "Startup" : ""
 }, {
-  "Command" : "1, 2, 2",
+  "Command" : "122",
   "Hit" : "+3",
   "Block" : "-11",
   "Notes" : "Can be delayed.\nCrumble Stun +12F on CH.\nCombo from 1st or 2nd CH.\nCombo can be delayed 14F frrom 1st CH.\n",
@@ -32,7 +32,7 @@
   "Damage" : "7,9,17",
   "Startup" : ""
 }, {
-  "Command" : "1, 2, 3",
+  "Command" : "123",
   "Hit" : "+3",
   "Block" : "-8",
   "Notes" : "Can be delayed.\nCombo from 1st or 2nd CH.\n",
@@ -65,7 +65,7 @@
   "Damage" : "7,9,18",
   "Startup" : ""
 }, {
-  "Command" : "1, 2, 4",
+  "Command" : "124",
   "Hit" : "KDN",
   "Block" : "-13",
   "Notes" : "Can be delayed",
@@ -87,7 +87,7 @@
   "Damage" : "10",
   "Startup" : "10F"
 }, {
-  "Command" : "2, 1",
+  "Command" : "21",
   "Hit" : "+2",
   "Block" : "-4",
   "Notes" : "Combo from 1st NH\n",
@@ -175,7 +175,7 @@
   "Damage" : "16",
   "Startup" : "11F"
 }, {
-  "Command" : "4, 1",
+  "Command" : "41",
   "Hit" : "+4",
   "Block" : "-5",
   "Notes" : "Combo from 1st NH\n",
@@ -186,7 +186,7 @@
   "Damage" : "16,12",
   "Startup" : ""
 }, {
-  "Command" : "4, 3",
+  "Command" : "43",
   "Hit" : "KDN",
   "Block" : "-1",
   "Notes" : "TS ",
@@ -197,7 +197,7 @@
   "Damage" : "16,21",
   "Startup" : "42F"
 }, {
-  "Command" : "4, 4",
+  "Command" : "44",
   "Hit" : "KDN",
   "Block" : "-13",
   "Notes" : "",
@@ -219,7 +219,7 @@
   "Damage" : "12",
   "Startup" : "12F"
 }, {
-  "Command" : "f2, 3",
+  "Command" : "f23",
   "Hit" : "KDN",
   "Block" : "-12",
   "Notes" : "Combo from 1st NH\n",
@@ -230,7 +230,7 @@
   "Damage" : "12,20",
   "Startup" : ""
 }, {
-  "Command" : "f2, 4",
+  "Command" : "f24",
   "Hit" : "-2",
   "Block" : "-13",
   "Notes" : "",
@@ -241,7 +241,7 @@
   "Damage" : "12,13",
   "Startup" : ""
 }, {
-  "Command" : "f2, 4df",
+  "Command" : "f24df",
   "Hit" : "-7",
   "Block" : "-18",
   "Notes" : "",
@@ -252,7 +252,7 @@
   "Damage" : "12,13",
   "Startup" : ""
 }, {
-  "Command" : "f2, 4df",
+  "Command" : "f24df",
   "Hit" : "-8",
   "Block" : "-17",
   "Notes" : "",
@@ -263,7 +263,7 @@
   "Damage" : "12,13",
   "Startup" : ""
 }, {
-  "Command" : "f2, 4, 4",
+  "Command" : "f244",
   "Hit" : "+14Sp",
   "Block" : "-3",
   "Notes" : "TS \n",
@@ -472,7 +472,7 @@
   "Damage" : "11",
   "Startup" : ""
 }, {
-  "Command" : "db2, 1",
+  "Command" : "db21",
   "Hit" : "KDN",
   "Block" : "-11",
   "Notes" : "Combo from 1st NH\nCan be delayed\nCombo can be delayed 10F",
@@ -494,7 +494,7 @@
   "Damage" : "12",
   "Startup" : "20F"
 }, {
-  "Command" : "db3, 4",
+  "Command" : "db34",
   "Hit" : "LNC",
   "Block" : "-13",
   "Notes" : "TC \nCombo from 1st CH\n",
@@ -637,7 +637,7 @@
   "Damage" : "13",
   "Startup" : "15F"
 }, {
-  "Command" : "uf,n,4",
+  "Command" : "ufn4",
   "Hit" : "LNC",
   "Block" : "-11",
   "Notes" : "TJ 9F",
@@ -769,7 +769,7 @@
   "Damage" : "16",
   "Startup" : "13F"
 }, {
-  "Command" : " WS 3, 3",
+  "Command" : " WS 33",
   "Hit" : "KDN",
   "Block" : "-13",
   "Notes" : "",
@@ -934,7 +934,7 @@
   "Damage" : "14",
   "Startup" : "18F"
 }, {
-  "Command" : " During Stealth Step 4, 1",
+  "Command" : " During Stealth Step 41",
   "Hit" : "KDN",
   "Block" : "-2",
   "Notes" : "TS \n",
@@ -967,7 +967,7 @@
   "Damage" : "55",
   "Startup" : "20F"
 }, {
-  "Command" : " During Rage db2, 4",
+  "Command" : " During Rage db24",
   "Hit" : "KDN",
   "Block" : "+6",
   "Notes" : "TS \nCombo from 1st NH.\nCan be delayed.\nCombo can be delayed 10F from 1st hit.\nNot consumed in the count of Tail Spin.",
@@ -978,22 +978,22 @@
   "Damage" : "12,12",
   "Startup" : ""
 }, {
-  "Command" : " During Rage db2, 4df",
+  "Command" : " During Rage db24df",
   "Hit" : "KDN",
   "Block" : "+12G",
   "Notes" : "TS \nCombo from 1st NH.\nCan be delayed.\nCombo can be delayed 10F from 1st hit.\nNot consumed in the count of Tail Spin.",
-  "Name" : "Rage Drive to Stealth Step",
+  "Name" : "Rage Drive",
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "M,H,SP",
   "Damage" : "12,12",
   "Startup" : ""
 }, {
-  "Command" : " During Rage db2, 4dfdb",
+  "Command" : " During Rage db24dfdb",
   "Hit" : "KDN",
   "Block" : "+1",
   "Notes" : "TS \nCombo from 1st NH.\nCan be delayed.\nCombo can be delayed 10F from 1st hit.\nNot consumed in the count of Tail Spin.\nReturns to crouching.\n",
-  "Name" : "Rage Drive to Stealth Step Cancel",
+  "Name" : "Rage Drive",
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "M,H,SP",
@@ -1004,7 +1004,7 @@
   "Hit" : "",
   "Block" : "",
   "Notes" : "",
-  "Name" : "",
+  "Name" : "Rage Drive",
   "Total" : "",
   "Counter Hit" : "",
   "Property" : "",
@@ -1015,7 +1015,7 @@
   "Hit" : "",
   "Block" : "",
   "Notes" : "",
-  "Name" : "",
+  "Name" : "Rage Drive",
   "Total" : "",
   "Counter Hit" : "",
   "Property" : "",
@@ -1026,109 +1026,82 @@
   "Hit" : "",
   "Block" : "-5",
   "Notes" : "",
-  "Name" : "",
+  "Name" : "Rage Drive",
   "Total" : "",
   "Counter Hit" : "",
   "Property" : "",
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "1+3",
-  "Hit" : "or -3F",
-  "Block" : "Head-sd Fac-Up",
-  "Notes" : "Long Range Throw",
+  "BreakThrow" : "1 or 2 -3F",
   "Name" : "Desert Fang",
-  "Total" : "Long Range Throw",
-  "Counter Hit" : "39",
-  "Property" : "Th(H)",
   "Damage" : "35",
-  "Startup" : "12F"
+  "AfterThrow" : "Head-sd Fac-Up",
+  "Command" : "1+3",
+  "Property" : "Th(H)",
+  "Notes" : "Long Range Throw"
 }, {
-  "Command" : "2+4",
-  "Hit" : "or -6F",
-  "Block" : "RP Head-sd Fac-Up",
-  "Notes" : "Long Range Throw\nFloor Break",
+  "BreakThrow" : "1 or 2 -6F",
   "Name" : "Aldebaran",
-  "Total" : "Long Range Throw Floor Break",
-  "Counter Hit" : "39",
-  "Property" : "Th(H)",
   "Damage" : "35",
-  "Startup" : "12F"
+  "AfterThrow" : "RP Head-sd Fac-Up",
+  "Command" : "2+4",
+  "Property" : "Th(H)",
+  "Notes" : "Long Range Throw Floor Break"
 }, {
-  "Command" : " Approach from left side ",
-  "Hit" : "-3F",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "1 -3F",
   "Name" : "Chasm Drop",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "40",
-  "Startup" : ""
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " Approach from left side ",
+  "Property" : "Th(H)",
+  "Notes" : ""
 }, {
-  "Command" : " Approach from right side ",
-  "Hit" : "-3F",
-  "Block" : "Head-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "2 -3F",
   "Name" : "Axel Spinner",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "40",
-  "Startup" : ""
+  "AfterThrow" : "Head-sd Fac-Up",
+  "Command" : " Approach from right side ",
+  "Property" : "Th(H)",
+  "Notes" : ""
 }, {
-  "Command" : " Approach from behind ",
-  "Hit" : "disable",
-  "Block" : "Head-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "disable ",
   "Name" : "Silent Death",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "60",
-  "Startup" : ""
-}, {
-  "Command" : "df1+4",
-  "Hit" : "-3F",
-  "Block" : "RP Head-sd Fac-Up",
-  "Notes" : "",
-  "Name" : "Wezen",
-  "Total" : "",
-  "Counter Hit" : "",
+  "AfterThrow" : "Head-sd Fac-Up",
+  "Command" : " Approach from behind ",
   "Property" : "Th(H)",
+  "Notes" : ""
+}, {
+  "BreakThrow" : "1+2 -3F",
+  "Name" : "Wezen",
   "Damage" : "40",
-  "Startup" : "12F"
+  "AfterThrow" : "RP Head-sd Fac-Up",
+  "Command" : "df1+4",
+  "Property" : "Th(H)",
+  "Notes" : ""
 }, {
-  "Command" : "b1+2",
-  "Hit" : "disable",
-  "Block" : "RP +7BF",
-  "Notes" : "Absorbs Punch(H/M) during 2 to 12F.\n",
+  "BreakThrow" : "disable ",
   "Name" : "Falcon Shield",
-  "Total" : "Absorbs Punch(H/M) during 2 to 12F. S2 Patch Notes ・Couldn't do move while crouched. Now fixed.",
-  "Counter Hit" : "35",
-  "Property" : "AbsorbsPunch(HM)",
   "Damage" : "0",
-  "Startup" : ""
+  "AfterThrow" : "RP +7BF",
+  "Command" : "b1+2",
+  "Property" : "AbsorbsPunch(HM)",
+  "Notes" : "Absorbs Punch(H/M) during 2 to 12F. S2 Patch Notes ・Couldn't do move while crouched. Now fixed."
 }, {
-  "Command" : " After Falcon Shield succeeds 1",
-  "Hit" : "",
-  "Block" : "",
-  "Notes" : "-7F on blcok.",
+  "BreakThrow" : "",
   "Name" : "Conbination attack",
-  "Total" : "-7F on blcok.",
-  "Counter Hit" : "",
+  "Damage" : "30",
+  "AfterThrow" : "",
+  "Command" : " After Falcon Shield succeeds 1",
   "Property" : "-",
-  "Damage" : "30",
-  "Startup" : "14F"
+  "Notes" : "-7F on blcok."
 }, {
-  "Command" : " Druing Stealth Step 1+2",
-  "Hit" : "-5F CW",
-  "Block" : "RP Head-sd Fac-Up",
-  "Notes" : "Break Throw 7F.\nTo BT afet Break Throw.",
+  "BreakThrow" : "2 -5F CW",
   "Name" : "Assault Tackl;e",
-  "Total" : "Break Throw 7F. To BT afet Break Throw.",
-  "Counter Hit" : "60",
-  "Property" : "Th(M)",
   "Damage" : "30",
-  "Startup" : "27F"
+  "AfterThrow" : "RP Head-sd Fac-Up",
+  "Command" : " Druing Stealth Step 1+2",
+  "Property" : "Th(M)",
+  "Notes" : "Break Throw 7F. To BT afet Break Throw."
 } ]

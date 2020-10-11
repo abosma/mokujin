@@ -10,7 +10,7 @@
   "Damage" : "7",
   "Startup" : "10F"
 }, {
-  "Command" : "1, 2",
+  "Command" : "12",
   "Hit" : "+5",
   "Block" : "-1",
   "Notes" : "Combo from 1st NH\nCan be delayed 8F",
@@ -21,7 +21,7 @@
   "Damage" : "7,10",
   "Startup" : ""
 }, {
-  "Command" : "1, 2u or d",
+  "Command" : "12u or d",
   "Hit" : "+6",
   "Block" : "±0",
   "Notes" : "",
@@ -32,7 +32,7 @@
   "Damage" : "7,10",
   "Startup" : ""
 }, {
-  "Command" : "1, 2, 1",
+  "Command" : "121",
   "Hit" : "+4",
   "Block" : "-3",
   "Notes" : "Combo from 2nd CH\nCan be delayed",
@@ -43,7 +43,7 @@
   "Damage" : "7,10,6",
   "Startup" : ""
 }, {
-  "Command" : "1, 2, 1, 2",
+  "Command" : "1212",
   "Hit" : "+1",
   "Block" : "-10",
   "Notes" : "Combo from 3rd CH\nCan be delayed",
@@ -54,7 +54,7 @@
   "Damage" : "7,10,6,6",
   "Startup" : ""
 }, {
-  "Command" : "1, 2, 1, 2, 1+2",
+  "Command" : "12121+2",
   "Hit" : "KDN",
   "Block" : "-14",
   "Notes" : "Combo from 4th CH\nCan be delayed 10F\n",
@@ -65,7 +65,7 @@
   "Damage" : "7,10,6,6,22",
   "Startup" : ""
 }, {
-  "Command" : "1, 2, 1, 4",
+  "Command" : "1214",
   "Hit" : "-2",
   "Block" : "-13",
   "Notes" : "TC \nCombo from 3rd CH\nCan be delayed\nReturns to crouching.",
@@ -76,7 +76,7 @@
   "Damage" : "7,10,6,12",
   "Startup" : ""
 }, {
-  "Command" : "1, 2, 3",
+  "Command" : "123",
   "Hit" : "+2",
   "Block" : "-13",
   "Notes" : "When input<img src=\"../p.bmp\" class=\"c\">before hit(3F), connect to Triple Slaps.\nDamage () is throw bonus.\nCombo from 2nd CH.\nCan be delayed.",
@@ -87,7 +87,7 @@
   "Damage" : "7,10,15(,10)",
   "Startup" : ""
 }, {
-  "Command" : "1, 2, 4",
+  "Command" : "124",
   "Hit" : "KDN",
   "Block" : "-6",
   "Notes" : "TS \nCombo from 2nd CH\nCan be delayed\n",
@@ -98,7 +98,7 @@
   "Damage" : "7,10,22",
   "Startup" : ""
 }, {
-  "Command" : "1, 2, 1+2",
+  "Command" : "121+2",
   "Hit" : "KDN",
   "Block" : "-14",
   "Notes" : "Combo from 2nd CH\nCan be delayed\n",
@@ -109,7 +109,7 @@
   "Damage" : "7,10,22",
   "Startup" : ""
 }, {
-  "Command" : "1, 4",
+  "Command" : "14",
   "Hit" : "+1",
   "Block" : "-4",
   "Notes" : "Combo from 1st NH\n",
@@ -120,7 +120,7 @@
   "Damage" : "7,17",
   "Startup" : ""
 }, {
-  "Command" : "1, 4, 1",
+  "Command" : "141",
   "Hit" : "+15Sp",
   "Block" : "-11",
   "Notes" : "TS \n",
@@ -142,7 +142,7 @@
   "Damage" : "10",
   "Startup" : "10F"
 }, {
-  "Command" : "2, 1",
+  "Command" : "21",
   "Hit" : "+4",
   "Block" : "-3",
   "Notes" : "Combo from 1st CH\nCan be delayed",
@@ -153,7 +153,7 @@
   "Damage" : "10,6",
   "Startup" : ""
 }, {
-  "Command" : "2, 1, 4",
+  "Command" : "214",
   "Hit" : "-2",
   "Block" : "-13",
   "Notes" : "TC \nCombo from 2nd CH\nCan be delayed\nReturns to crouching.",
@@ -164,7 +164,7 @@
   "Damage" : "10,6,12",
   "Startup" : ""
 }, {
-  "Command" : "2, 3",
+  "Command" : "23",
   "Hit" : "+2",
   "Block" : "-13",
   "Notes" : "When input<img src=\"../p.bmp\" class=\"c\">before hit(3F), connect to Triple Slaps.\nDamage () is throw bonus.\nCombo from 1st CH.\nCan be delayed.",
@@ -175,7 +175,7 @@
   "Damage" : "10,15(,10)",
   "Startup" : ""
 }, {
-  "Command" : "2, 4",
+  "Command" : "24",
   "Hit" : "KDN",
   "Block" : "-6",
   "Notes" : "TS \nCombo from 1st CH\nCan be delayed\n",
@@ -186,7 +186,7 @@
   "Damage" : "10,22",
   "Startup" : ""
 }, {
-  "Command" : "2, 1+2",
+  "Command" : "21+2",
   "Hit" : "KDN",
   "Block" : "-14",
   "Notes" : "Combo from 1st CH\nCan be delayed\n",
@@ -241,7 +241,7 @@
   "Damage" : "14,22",
   "Startup" : ""
 }, {
-  "Command" : "3, 3",
+  "Command" : "33",
   "Hit" : "-6",
   "Block" : "-17",
   "Notes" : "TC \nCombo from 1st NH",
@@ -252,7 +252,7 @@
   "Damage" : "14,10",
   "Startup" : ""
 }, {
-  "Command" : "3, 3, 2",
+  "Command" : "332",
   "Hit" : "LNC",
   "Block" : "-13",
   "Notes" : "Combo from 2nd CH",
@@ -263,7 +263,7 @@
   "Damage" : "14,10,10",
   "Startup" : ""
 }, {
-  "Command" : "3, 3, 4",
+  "Command" : "334",
   "Hit" : "+5",
   "Block" : "-6",
   "Notes" : "Combo from 2nd CH",
@@ -274,7 +274,7 @@
   "Damage" : "14,10,18",
   "Startup" : ""
 }, {
-  "Command" : "3, 3, 4, 3",
+  "Command" : "3343",
   "Hit" : "+5C",
   "Block" : "+2C",
   "Notes" : "Block or NH force to crouching",
@@ -285,7 +285,7 @@
   "Damage" : "14,10,18,20",
   "Startup" : ""
 }, {
-  "Command" : "3, 4",
+  "Command" : "34",
   "Hit" : "KDN",
   "Block" : "-6",
   "Notes" : "TS \nCombo from 1st NH\nCan be delayed 10F\nCombo can be delayed 8F",
@@ -340,7 +340,7 @@
   "Damage" : "15,22",
   "Startup" : ""
 }, {
-  "Command" : "4, 3",
+  "Command" : "43",
   "Hit" : "-3",
   "Block" : "-17",
   "Notes" : "TC ",
@@ -351,7 +351,7 @@
   "Damage" : "15,13",
   "Startup" : ""
 }, {
-  "Command" : "4, 3, 2",
+  "Command" : "432",
   "Hit" : "LNC",
   "Block" : "-13",
   "Notes" : "Combo from 2nd CH",
@@ -362,7 +362,7 @@
   "Damage" : "15,13,10",
   "Startup" : ""
 }, {
-  "Command" : "4, 3, 4",
+  "Command" : "434",
   "Hit" : "+5",
   "Block" : "-6",
   "Notes" : "Combo from 2nd CH",
@@ -373,7 +373,7 @@
   "Damage" : "15,13,18",
   "Startup" : ""
 }, {
-  "Command" : "4, 3, 4, 3",
+  "Command" : "4343",
   "Hit" : "+5C",
   "Block" : "+2C",
   "Notes" : "Block or NH force to crouching\nMeaty 1F",
@@ -406,7 +406,7 @@
   "Damage" : "12",
   "Startup" : "13F"
 }, {
-  "Command" : "f2, 1",
+  "Command" : "f21",
   "Hit" : "-6A",
   "Block" : "-13",
   "Notes" : "Combo from 1st CH.\nCan be delayed 9F.\nCombo can be delayed 9F from 1st CH.",
@@ -417,7 +417,7 @@
   "Damage" : "12,12",
   "Startup" : ""
 }, {
-  "Command" : "f2, 1, 2",
+  "Command" : "f212",
   "Hit" : "+4C",
   "Block" : "-12C",
   "Notes" : "Launch from 2nd hit.\nCan be delayed.\nBlock or NH force to crouching.",
@@ -428,7 +428,7 @@
   "Damage" : "12,12,20",
   "Startup" : ""
 }, {
-  "Command" : "f2, 1, 4",
+  "Command" : "f214",
   "Hit" : "KDN",
   "Block" : "-3",
   "Notes" : "TS \nLaunch from 2nd hit.\nCan be delayed.\nCombo can be delayed 5F.\n",
@@ -461,7 +461,7 @@
   "Damage" : "14",
   "Startup" : "16F"
 }, {
-  "Command" : "f4, 3",
+  "Command" : "f43",
   "Hit" : "LNC",
   "Block" : "-14",
   "Notes" : "Combo from 1st CH.\nCan be delayed 10F.\n",
@@ -472,7 +472,7 @@
   "Damage" : "14,13",
   "Startup" : ""
 }, {
-  "Command" : "f4, 3, 3",
+  "Command" : "f433",
   "Hit" : "KDN",
   "Block" : "-14",
   "Notes" : "TJ ",
@@ -483,7 +483,7 @@
   "Damage" : "14,13,20",
   "Startup" : ""
 }, {
-  "Command" : "f4, 4",
+  "Command" : "f44",
   "Hit" : "+13Sp",
   "Block" : "+1",
   "Notes" : "Combo from 1st NH.\nCan be delayed 10F.\nCombo can be delayed 9F.\nCombo can be delayed 10F from 1st CH.",
@@ -516,7 +516,7 @@
   "Damage" : "13",
   "Startup" : "13F"
 }, {
-  "Command" : "df1, 2",
+  "Command" : "df12",
   "Hit" : "+2",
   "Block" : "-3",
   "Notes" : "Connect to Left Right Combo （<img src=\"../lp.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../rp.bmp\" class=\"c\">）.\nCombo from 1st NH.",
@@ -527,7 +527,7 @@
   "Damage" : "13,10",
   "Startup" : ""
 }, {
-  "Command" : "df1, 2f",
+  "Command" : "df12f",
   "Hit" : "+2",
   "Block" : "-3",
   "Notes" : "Advance Input is available druing Rolling Step.\nWhen input ☆ + any button, connect to WS moves.\nWhen input<img src=\"../6'.bmp\" class=\"c\">+ any button, connect to Rolling Dash Combinations.\n",
@@ -538,7 +538,7 @@
   "Damage" : "13,10",
   "Startup" : ""
 }, {
-  "Command" : "df1, 2u or d",
+  "Command" : "df12u or d",
   "Hit" : "+4",
   "Block" : "-1",
   "Notes" : "",
@@ -571,7 +571,7 @@
   "Damage" : "13",
   "Startup" : "14F"
 }, {
-  "Command" : "df3, 1",
+  "Command" : "df31",
   "Hit" : "+3",
   "Block" : "-8",
   "Notes" : "Combo from 1st NH\nCan be delayed",
@@ -582,7 +582,7 @@
   "Damage" : "13,10",
   "Startup" : ""
 }, {
-  "Command" : "df3, 1d or u",
+  "Command" : "df31d or u",
   "Hit" : "-7",
   "Block" : "-19",
   "Notes" : "",
@@ -593,7 +593,7 @@
   "Damage" : "13",
   "Startup" : ""
 }, {
-  "Command" : "df3, 1, 2",
+  "Command" : "df312",
   "Hit" : "+1",
   "Block" : "-10",
   "Notes" : "Combo from 1st NH",
@@ -604,7 +604,7 @@
   "Damage" : "13,10,6",
   "Startup" : ""
 }, {
-  "Command" : "df3, 1, 2, 1+2",
+  "Command" : "df3121+2",
   "Hit" : "KDN",
   "Block" : "-14",
   "Notes" : "Combo from 3rd CH\nCan be delayed\n",
@@ -615,7 +615,7 @@
   "Damage" : "13,10,6,22",
   "Startup" : ""
 }, {
-  "Command" : "df3, 2",
+  "Command" : "df32",
   "Hit" : "+2",
   "Block" : "+1",
   "Notes" : "Combo from 1st NH\nCan be delayed 10F\nCombo can be delayed 10F",
@@ -626,7 +626,7 @@
   "Damage" : "13,12",
   "Startup" : ""
 }, {
-  "Command" : "df3, 2df",
+  "Command" : "df32df",
   "Hit" : "±0",
   "Block" : "-1",
   "Notes" : "Advance Input is available druing Rolling Step.\nWhen input<img src=\"../3'.bmp\" class=\"c\">+ any button, connect to WS moves.\nWhen input<img src=\"../3'.bmp\" class=\"c\"><img src=\"../6'.bmp\" class=\"c\">+ any button, connect to Rolling Dash Combinations.\n",
@@ -637,7 +637,7 @@
   "Damage" : "13,12",
   "Startup" : ""
 }, {
-  "Command" : "df3, 2dbddff",
+  "Command" : "df32dbddff",
   "Hit" : "+11",
   "Block" : "+10",
   "Notes" : "",
@@ -648,7 +648,7 @@
   "Damage" : "13,12",
   "Startup" : ""
 }, {
-  "Command" : "df3, 2d or u",
+  "Command" : "df32d or u",
   "Hit" : "+1",
   "Block" : "±0",
   "Notes" : "",
@@ -659,7 +659,7 @@
   "Damage" : "13,12",
   "Startup" : ""
 }, {
-  "Command" : "df3, 2, 1",
+  "Command" : "df321",
   "Hit" : "+4",
   "Block" : "-3",
   "Notes" : "Combo from 2nd CH\nCan be delayed",
@@ -670,7 +670,7 @@
   "Damage" : "13,12,6",
   "Startup" : ""
 }, {
-  "Command" : "df3, 2, 1, 4",
+  "Command" : "df3214",
   "Hit" : "-2",
   "Block" : "-13",
   "Notes" : "TC \nCombo from 3rd CH\nCan be delayed\nReturns to crouching.",
@@ -681,7 +681,7 @@
   "Damage" : "13,12,6,12",
   "Startup" : ""
 }, {
-  "Command" : "df3, 2, 3",
+  "Command" : "df323",
   "Hit" : "LNC",
   "Block" : "-17",
   "Notes" : "Combo from 2nd CH.\nCan be delayed 10F.\nCombo can be delayed 10F from 2nd CH.",
@@ -692,7 +692,7 @@
   "Damage" : "13,12,21",
   "Startup" : ""
 }, {
-  "Command" : "df3, 2, 4",
+  "Command" : "df324",
   "Hit" : "KDN",
   "Block" : "-6",
   "Notes" : "TS \nCombo from 2nd CH.\nCan be delayed 10F.\nCombo can be delayed 10F from 2md CH.\n",
@@ -703,7 +703,7 @@
   "Damage" : "13,12,22",
   "Startup" : ""
 }, {
-  "Command" : "df3, 2d3",
+  "Command" : "df32d3",
   "Hit" : "-3",
   "Block" : "-14",
   "Notes" : "TC \nCombo from 2nd CH.\nReturns to crouching.",
@@ -714,7 +714,7 @@
   "Damage" : "13,12,10",
   "Startup" : ""
 }, {
-  "Command" : "df3, 2d3, 2",
+  "Command" : "df32d32",
   "Hit" : "LNC",
   "Block" : "-13",
   "Notes" : "Combo from 3rd CH",
@@ -725,7 +725,7 @@
   "Damage" : "13,12,10,10",
   "Startup" : ""
 }, {
-  "Command" : "df3, 2d3, 4",
+  "Command" : "df32d34",
   "Hit" : "+5",
   "Block" : "-6",
   "Notes" : "Combo from 3rd CH",
@@ -736,7 +736,7 @@
   "Damage" : "13,12,10,18",
   "Startup" : ""
 }, {
-  "Command" : "df3, 2d3, 4, 3",
+  "Command" : "df32d343",
   "Hit" : "+5C",
   "Block" : "+2C",
   "Notes" : "Block or NH force to crouching\nMeaty 1F",
@@ -747,7 +747,7 @@
   "Damage" : "13,12,10,18,20",
   "Startup" : ""
 }, {
-  "Command" : "df3, 3",
+  "Command" : "df33",
   "Hit" : "-3",
   "Block" : "-14",
   "Notes" : "Combo from 1st NH\nCan be delayed 10F\nCombo can be delayed 10F",
@@ -758,7 +758,7 @@
   "Damage" : "13,6",
   "Startup" : ""
 }, {
-  "Command" : "df3, 3, 3",
+  "Command" : "df333",
   "Hit" : "-3",
   "Block" : "-14",
   "Notes" : "Combo from 1st NH\nCan be delayed",
@@ -769,7 +769,7 @@
   "Damage" : "13,6,8",
   "Startup" : ""
 }, {
-  "Command" : "df3, 3, 3, 4",
+  "Command" : "df3334",
   "Hit" : "KDN",
   "Block" : "-6",
   "Notes" : "TS \nCombo from 3rd CH.\nCan be delayed 10F.\nCombo can be delayed 6F from 3rd CH.",
@@ -780,7 +780,7 @@
   "Damage" : "13,6,8,20",
   "Startup" : ""
 }, {
-  "Command" : "df3, 4",
+  "Command" : "df34",
   "Hit" : "+7",
   "Block" : "-4",
   "Notes" : "TJ \nCombo from 1st NH\nCan be delayed",
@@ -791,7 +791,7 @@
   "Damage" : "13,21",
   "Startup" : ""
 }, {
-  "Command" : "df3, 4, 4",
+  "Command" : "df344",
   "Hit" : "KDN",
   "Block" : "-12",
   "Notes" : "TC TJ \nCombo from 2nd CH",
@@ -802,7 +802,7 @@
   "Damage" : "13,21,20",
   "Startup" : ""
 }, {
-  "Command" : "df3, 4, 3+4",
+  "Command" : "df343+4",
   "Hit" : "KDN",
   "Block" : "-5",
   "Notes" : "TJ \nMeaty 2F in actualy",
@@ -857,7 +857,7 @@
   "Damage" : "5",
   "Startup" : "10F"
 }, {
-  "Command" : "d1, 2 or FC 1, 2",
+  "Command" : "d12 or FC 12",
   "Hit" : "+5",
   "Block" : "-6",
   "Notes" : "TC \nCombo from 1st CH\nReturns to crouching.\n",
@@ -868,7 +868,7 @@
   "Damage" : "5,8",
   "Startup" : ""
 }, {
-  "Command" : "d1, 2, 4 or FC 1, 2, 4",
+  "Command" : "d124 or FC 124",
   "Hit" : "-3",
   "Block" : "-14",
   "Notes" : "Combo from 2nd CH\nMeaty 2F",
@@ -879,7 +879,7 @@
   "Damage" : "5,8,10",
   "Startup" : ""
 }, {
-  "Command" : "d1, 4 or FC 1, 4",
+  "Command" : "d14 or FC 14",
   "Hit" : "±0",
   "Block" : "-11",
   "Notes" : "Combo from 1st CH",
@@ -901,7 +901,7 @@
   "Damage" : "13",
   "Startup" : "20F"
 }, {
-  "Command" : "d2, 3",
+  "Command" : "d23",
   "Hit" : "KDN",
   "Block" : "-6",
   "Notes" : "TS \nCombo from 1st CH\n",
@@ -923,7 +923,7 @@
   "Damage" : "12",
   "Startup" : "16F"
 }, {
-  "Command" : "d3 or FC 3, 2",
+  "Command" : "d3 or FC 32",
   "Hit" : "LNC",
   "Block" : "-13",
   "Notes" : "Combo from 1st CH",
@@ -934,7 +934,7 @@
   "Damage" : "12,10",
   "Startup" : ""
 }, {
-  "Command" : "d3 or FC 3, 4",
+  "Command" : "d3 or FC 34",
   "Hit" : "+5",
   "Block" : "-6",
   "Notes" : "Combo from 1st CH",
@@ -945,7 +945,7 @@
   "Damage" : "12,18",
   "Startup" : ""
 }, {
-  "Command" : "d3 or FC 3, 4, 3",
+  "Command" : "d3 or FC 343",
   "Hit" : "+5C",
   "Block" : "+2C",
   "Notes" : "Block or NH force to crouching\nMeaty 1F",
@@ -967,7 +967,7 @@
   "Damage" : "7",
   "Startup" : "12F"
 }, {
-  "Command" : "d4 or FC 4, 1",
+  "Command" : "d4 or FC 41",
   "Hit" : "+6",
   "Block" : "±0",
   "Notes" : "Damage () is when input FC<img src=\"../rk.bmp\" class=\"c\">.\nCombo from 1st CH.\nCan be delayed.\nCombo can be delayed 6F from 1st CH.",
@@ -978,7 +978,7 @@
   "Damage" : "7(10),10",
   "Startup" : ""
 }, {
-  "Command" : "d4 or FC 4, 1d or u",
+  "Command" : "d4 or FC 41d or u",
   "Hit" : "-2",
   "Block" : "-13",
   "Notes" : "Damage () is when input FC<img src=\"../rk.bmp\" class=\"c\">.",
@@ -1022,7 +1022,7 @@
   "Damage" : "5",
   "Startup" : "16F"
 }, {
-  "Command" : "db4, 3",
+  "Command" : "db43",
   "Hit" : "LNC",
   "Block" : "-17",
   "Notes" : "Combo from 1st CH.\nMeaty 1F.\n",
@@ -1088,7 +1088,7 @@
   "Damage" : "12",
   "Startup" : "12F"
 }, {
-  "Command" : "b2, 2",
+  "Command" : "b22",
   "Hit" : "+5",
   "Block" : "-6",
   "Notes" : "Combo from 1st NH\n",
@@ -1099,7 +1099,7 @@
   "Damage" : "12,16",
   "Startup" : ""
 }, {
-  "Command" : "b2, 2, 2",
+  "Command" : "b222",
   "Hit" : "+9Sp",
   "Block" : "-9",
   "Notes" : "Combo from 1st CH.\nCombo from 2nd CH.\nCan be delayed 14F.\nCounter Combo can be delayed 7F from 2nd CH.\n",
@@ -1110,7 +1110,7 @@
   "Damage" : "12,16,20",
   "Startup" : ""
 }, {
-  "Command" : "b2, 2, 2u or d",
+  "Command" : "b222u or d",
   "Hit" : "+1",
   "Block" : "-10",
   "Notes" : "",
@@ -1132,7 +1132,7 @@
   "Damage" : "10",
   "Startup" : "18F"
 }, {
-  "Command" : "b3, 4",
+  "Command" : "b34",
   "Hit" : "KDN",
   "Block" : "-8",
   "Notes" : "Combo from 1st NH\nCan be delayed 17F\nCombo can be delayed 17F\n",
@@ -1220,7 +1220,7 @@
   "Damage" : "10",
   "Startup" : "18F"
 }, {
-  "Command" : "uf2, 1",
+  "Command" : "uf21",
   "Hit" : "LNC",
   "Block" : "-13",
   "Notes" : "Combo from 1st NH\nCan be delayed 9F\nCombo can be delayed 9F",
@@ -1297,7 +1297,7 @@
   "Damage" : "23",
   "Startup" : "18F"
 }, {
-  "Command" : "uf4, 3",
+  "Command" : "uf43",
   "Hit" : "-8",
   "Block" : "-19",
   "Notes" : "TC TJ \nCombo from 1st CH",
@@ -1308,7 +1308,7 @@
   "Damage" : "23,10",
   "Startup" : ""
 }, {
-  "Command" : "uf4, 3, 4",
+  "Command" : "uf434",
   "Hit" : "+5",
   "Block" : "-6",
   "Notes" : "Combo from 2nd NH",
@@ -1319,7 +1319,7 @@
   "Damage" : "23,10,14",
   "Startup" : ""
 }, {
-  "Command" : "uf4, 3, 4d or u",
+  "Command" : "uf434d or u",
   "Hit" : "+6",
   "Block" : "-5",
   "Notes" : "Combo from 1st CH",
@@ -1363,7 +1363,7 @@
   "Damage" : "21",
   "Startup" : "23F"
 }, {
-  "Command" : "uf,n,4",
+  "Command" : "ufn4",
   "Hit" : "KDN",
   "Block" : "-9",
   "Notes" : "TJ 9F",
@@ -1374,7 +1374,7 @@
   "Damage" : "25",
   "Startup" : "25F"
 }, {
-  "Command" : "uf,n,d3",
+  "Command" : "ufnd3",
   "Hit" : "-6",
   "Block" : "-17",
   "Notes" : "TC 34FTJ 9F",
@@ -1385,7 +1385,7 @@
   "Damage" : "15",
   "Startup" : "43F"
 }, {
-  "Command" : "uf,n,d3, 2",
+  "Command" : "ufnd32",
   "Hit" : "LNC",
   "Block" : "-13",
   "Notes" : "Combo from 1st CH",
@@ -1396,7 +1396,7 @@
   "Damage" : "15,10",
   "Startup" : ""
 }, {
-  "Command" : "uf,n,d3, 4",
+  "Command" : "ufnd34",
   "Hit" : "+5",
   "Block" : "-6",
   "Notes" : "Combo from 1st CH",
@@ -1407,7 +1407,7 @@
   "Damage" : "15,18",
   "Startup" : ""
 }, {
-  "Command" : "uf,n,d3, 4, 3",
+  "Command" : "ufnd343",
   "Hit" : "+5C",
   "Block" : "+2C",
   "Notes" : "Block or NH force to crouching\nMeaty 1F",
@@ -1473,7 +1473,7 @@
   "Damage" : "20",
   "Startup" : "28F"
 }, {
-  "Command" : "ff4,  any attack input ",
+  "Command" : "ff4 any attack input ",
   "Hit" : "+2C",
   "Block" : "+9",
   "Notes" : "Advance Input is unavailable.\nStart-up 29F in actualy.\nReturns to crouching.",
@@ -1484,7 +1484,7 @@
   "Damage" : "30",
   "Startup" : ""
 }, {
-  "Command" : "ff4,  any attack input ",
+  "Command" : "ff4 any attack input ",
   "Hit" : "+2C",
   "Block" : "-17G",
   "Notes" : "Advance Input is unavailable.\nStart-up 29F in actualy.\nReturns to crouching.\nMeaty 3F in actualy.",
@@ -1550,7 +1550,7 @@
   "Damage" : "20",
   "Startup" : "19F"
 }, {
-  "Command" : "dbddff,n,db2+3",
+  "Command" : "dbddffndb2+3",
   "Hit" : "+33",
   "Block" : "+33",
   "Notes" : "TC 1F\nInput<img src=\"../1'.bmp\" class=\"c\"><img src=\"../rpk.bmp\" class=\"c\">during<img src=\"../1.bmp\" class=\"c\"><img src=\"../2.bmp\" class=\"c\"><img src=\"../3.bmp\" class=\"c\"><img src=\"../6.bmp\" class=\"c\">☆ step.\nStart-up 21F is delay input.\nStart-up 43F on fast input.\nMeaty 17F in actualy.\nWhen hit and enemy input<img src=\"../2'.bmp\" class=\"c\">, to go down.",
@@ -1572,7 +1572,7 @@
   "Damage" : "12",
   "Startup" : "20F"
 }, {
-  "Command" : "fff3, 4",
+  "Command" : "fff34",
   "Hit" : "LNC",
   "Block" : "-15",
   "Notes" : "Combo from 1st hit.\n",
@@ -1616,7 +1616,7 @@
   "Damage" : "8",
   "Startup" : "11F"
 }, {
-  "Command" : " FC 2, 4",
+  "Command" : " FC 24",
   "Hit" : "+1",
   "Block" : "-10",
   "Notes" : "Combo from 1st CH",
@@ -1660,7 +1660,7 @@
   "Damage" : "17",
   "Startup" : "13F"
 }, {
-  "Command" : " WS 1, 4",
+  "Command" : " WS 14",
   "Hit" : "KDN",
   "Block" : "-3C",
   "Notes" : "Block force to crouching",
@@ -1671,7 +1671,7 @@
   "Damage" : "17,20",
   "Startup" : ""
 }, {
-  "Command" : " WS 1, 1+2",
+  "Command" : " WS 11+2",
   "Hit" : "KDN",
   "Block" : "-7",
   "Notes" : "TS \nCombo from 1st NH\n",
@@ -1715,7 +1715,7 @@
   "Damage" : "15",
   "Startup" : "11F"
 }, {
-  "Command" : " WS 4, 3",
+  "Command" : " WS 43",
   "Hit" : "KDN",
   "Block" : "-6",
   "Notes" : "TS \nCombo from 1st CH\n",
@@ -1792,7 +1792,7 @@
   "Damage" : "15",
   "Startup" : ""
 }, {
-  "Command" : " SS 1, 2",
+  "Command" : " SS 12",
   "Hit" : "±0",
   "Block" : "-6",
   "Notes" : "",
@@ -1957,7 +1957,7 @@
   "Damage" : "15",
   "Startup" : "14F"
 }, {
-  "Command" : "ddff4, 2",
+  "Command" : "ddff42",
   "Hit" : "-3",
   "Block" : "-9",
   "Notes" : "Launch from 1st hit.",
@@ -1968,7 +1968,7 @@
   "Damage" : "15,10",
   "Startup" : ""
 }, {
-  "Command" : "ddff4, 2, 3",
+  "Command" : "ddff423",
   "Hit" : "KDN",
   "Block" : "-10",
   "Notes" : "Combo from 2nd CH\n",
@@ -2016,7 +2016,7 @@
   "Hit" : "KDN",
   "Block" : "+20G",
   "Notes" : "TJ 5F\nAdvance Input is unavailable during Rolling Dash.\nWhen input<img src=\"../3'.bmp\" class=\"c\">+ any button, connect to WS moves.\nWhen input<img src=\"../3'.bmp\" class=\"c\"><img src=\"../6'.bmp\" class=\"c\">+ any button, connect to Rolling Dash Combinations.\n",
-  "Name" : "Rage Drive to Rolling Dash",
+  "Name" : "Rage Drive",
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "M,SP",
@@ -2027,373 +2027,274 @@
   "Hit" : "KDN",
   "Block" : "+32G",
   "Notes" : "TJ 5F",
-  "Name" : "Rage Drive to Evil Mist Step",
+  "Name" : "Rage Drive",
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "M,SP",
   "Damage" : "50",
   "Startup" : ""
 }, {
-  "Command" : "1+3",
-  "Hit" : "-6F RP",
-  "Block" : "RP Head-sd Fac-Up",
-  "Notes" : "Long Range Throw",
+  "BreakThrow" : "1 -6F RP",
   "Name" : "Arm Grab Flip",
-  "Total" : "Long Range Throw",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "35",
-  "Startup" : "12F"
+  "AfterThrow" : "RP Head-sd Fac-Up",
+  "Command" : "1+3",
+  "Property" : "Th(H)",
+  "Notes" : "Long Range Throw"
 }, {
-  "Command" : "2+4",
-  "Hit" : "±0F RP To BT",
-  "Block" : "RP Head-sd Fac-Up",
-  "Notes" : "Long Range Throw.\nTo BT after throw.",
+  "BreakThrow" : "2 ±0F RPTo BT",
   "Name" : "Over the Back Toss",
-  "Total" : "Long Range Throw. To BT after throw.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "35",
-  "Startup" : "12F"
+  "AfterThrow" : "RP Head-sd Fac-Up",
+  "Command" : "2+4",
+  "Property" : "Th(H)",
+  "Notes" : "Long Range Throw. To BT after throw."
 }, {
-  "Command" : "2+4, 1, 2, 1",
-  "Hit" : "±0F RP To BT",
-  "Block" : "RP Head-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "2 ±0F RPTo BT",
   "Name" : "Shoulder Through Buster",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "35",
-  "Startup" : "12F"
+  "AfterThrow" : "RP Head-sd Fac-Up",
+  "Command" : "2+4121",
+  "Property" : "Th(H)",
+  "Notes" : ""
 }, {
-  "Command" : " During Shoulder Through Buster 2, 1, 3",
-  "Hit" : "disable",
-  "Block" : "CCW Head-sd Fac-Dwn",
-  "Notes" : "",
+  "BreakThrow" : "disable ",
   "Name" : "Shoulder Through Arm Breaker",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "7",
-  "Startup" : ""
+  "AfterThrow" : "CCW Head-sd Fac-Dwn",
+  "Command" : " During Shoulder Through Buster 213",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " Approach from left side ",
-  "Hit" : "-3F",
-  "Block" : "Head-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "1 -3F",
   "Name" : "Triangle Hold",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "40",
-  "Startup" : ""
+  "AfterThrow" : "Head-sd Fac-Up",
+  "Command" : " Approach from left side ",
+  "Property" : "Th(H)",
+  "Notes" : ""
 }, {
-  "Command" : " Approach from right side ",
-  "Hit" : "-3F",
-  "Block" : "Head-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "2 -3F",
   "Name" : "Hammer Throw",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "38",
-  "Startup" : ""
+  "AfterThrow" : "Head-sd Fac-Up",
+  "Command" : " Approach from right side ",
+  "Property" : "Th(H)",
+  "Notes" : ""
 }, {
-  "Command" : " Approach from behind ",
-  "Hit" : "disable",
-  "Block" : "Head-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "disable ",
   "Name" : "Leaping Triangle Hold",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "60",
-  "Startup" : ""
+  "AfterThrow" : "Head-sd Fac-Up",
+  "Command" : " Approach from behind ",
+  "Property" : "Th(H)",
+  "Notes" : ""
 }, {
-  "Command" : "df1+3",
-  "Hit" : "-2F",
-  "Block" : "CCW Head-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "1 -2F",
   "Name" : "Elbow to Arm Grab Flip",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "37",
-  "Startup" : "11F"
+  "AfterThrow" : "CCW Head-sd Fac-Up",
+  "Command" : "df1+3",
+  "Property" : "Th(H)",
+  "Notes" : ""
 }, {
-  "Command" : "df2+4",
-  "Hit" : "-2F",
-  "Block" : "CW Foot-sd Fac-Dwn",
-  "Notes" : "",
+  "BreakThrow" : "2 -2F",
   "Name" : "Reverse Neck Breaker",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "37",
-  "Startup" : "11F"
+  "AfterThrow" : "CW Foot-sd Fac-Dwn",
+  "Command" : "df2+4",
+  "Property" : "Th(H)",
+  "Notes" : ""
 }, {
-  "Command" : "uf1+2",
-  "Hit" : "±0F RP",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "Damage () is on ukemi.\nDamage 45 on wall hit.",
+  "BreakThrow" : "1+2 ±0F RP",
   "Name" : "Jumping Flip",
-  "Total" : "Damage () is on ukemi. Damage 45 on wall hit.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "40(30)",
-  "Startup" : "12F"
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : "uf1+2",
+  "Property" : "Th(H)",
+  "Notes" : "Damage () is on ukemi. Damage 45 on wall hit."
 }, {
-  "Command" : "dfdf1",
-  "Hit" : "-6F",
-  "Block" : "CW Foot-sd Fac-Up",
-  "Notes" : "Floor Break\n",
+  "BreakThrow" : "1+2 -6F",
   "Name" : "Elbow Smash",
-  "Total" : "Floor Break 【S3 Patch Notes】– Increased the lower range of the attack.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "43",
-  "Startup" : "12F"
+  "AfterThrow" : "CW Foot-sd Fac-Up",
+  "Command" : "dfdf1",
+  "Property" : "Th(H)",
+  "Notes" : "Floor Break 【S3 Patch Notes】– Increased the lower range of the attack."
 }, {
-  "Command" : "b1+3 or b2+4",
-  "Hit" : "-6F",
-  "Block" : "",
-  "Notes" : "Reversal(H/M) during 3 to 8F.\nDamage 25 + 50% of enemy attack.\nReversal<img src=\"../lp.bmp\" class=\"c\">connect to Backhand Slap （<img src=\"../2.bmp\" class=\"c\"><img src=\"../3.bmp\" class=\"c\"><img src=\"../6.bmp\" class=\"c\"><img src=\"../p.bmp\" class=\"c\">）.\nReversal against Reversal durint to 7F(<img src=\"../lp.bmp\" class=\"c\">or<img src=\"../rp.bmp\" class=\"c\">), to 10F(<img src=\"../lk.bmp\" class=\"c\">), to 9F(<img src=\"../rk.bmp\" class=\"c\">) &amp; -3F, damage15.\nEnable Reversal blade attack(Yoshimitsu).",
+  "BreakThrow" : "-6F",
   "Name" : "Attack Reversal",
-  "Total" : "Reversal(H/M) during 3 to 8F. Damage 25 + 50% of enemy attack. Reversal connect to Backhand Slap （）. Reversal against Reversal durint to 7F( or ), to 10F(), to 9F() & -3F, damage15. Enable Reversal blade attack(Yoshimitsu).",
-  "Counter Hit" : "35",
-  "Property" : "Reversal(HM)",
   "Damage" : "25+α",
-  "Startup" : "-F"
+  "AfterThrow" : "",
+  "Command" : "b1+3 or b2+4",
+  "Property" : "Reversal(HM)",
+  "Notes" : "Reversal(H/M) during 3 to 8F. Damage 25 + 50% of enemy attack. Reversal connect to Backhand Slap （）. Reversal against Reversal durint to 7F( or ), to 10F(), to 9F() & -3F, damage15. Enable Reversal blade attack(Yoshimitsu)."
 }, {
-  "Command" : "ddff1+2",
-  "Hit" : "-2F",
-  "Block" : "±0F",
-  "Notes" : "Disable Preciding Input\nStart-up 13F in actualy.\n",
+  "BreakThrow" : "2 -2F",
   "Name" : "Backhand Slap",
-  "Total" : "Disable Preciding Input Start-up 13F in actualy. S2 Patch Notes ・Hitbox expanded downward.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "15",
-  "Startup" : "11F"
+  "AfterThrow" : "±0F",
+  "Command" : "ddff1+2",
+  "Property" : "Th(H)",
+  "Notes" : "Disable Preciding Input Start-up 13F in actualy. S2 Patch Notes ・Hitbox expanded downward."
 }, {
-  "Command" : " During Backhand Slap 3, 4, 3, 1+2",
-  "Hit" : "-4F",
-  "Block" : "Head-sd Fac-Up",
-  "Notes" : "When Break throw, revenge damage 5.",
+  "BreakThrow" : "1+2 -4F",
   "Name" : "Seoi Gyaku Juji-gatame",
-  "Total" : "When Break throw, revenge damage 5.",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "30",
-  "Startup" : ""
+  "AfterThrow" : "Head-sd Fac-Up",
+  "Command" : " During Backhand Slap 3431+2",
+  "Property" : "-",
+  "Notes" : "When Break throw, revenge damage 5."
 }, {
-  "Command" : " During Backhand Slap 2, 3, 4, 2, 2",
-  "Hit" : "-4F",
-  "Block" : "Head-sd Fac-Dwn",
-  "Notes" : "When connect from Spider Knee （WS<img src=\"../lk.bmp\" class=\"c\">）, Disable break throw &amp; damage 10.\nWhen Break throw, revenge damage 5.",
+  "BreakThrow" : "2 -4F",
   "Name" : "Triple Slaps",
-  "Total" : "When connect from Spider Knee （WS ）, Disable break throw & damage 10. When Break throw, revenge damage 5.",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "25",
-  "Startup" : ""
+  "AfterThrow" : "Head-sd Fac-Dwn",
+  "Command" : " During Backhand Slap 23422",
+  "Property" : "-",
+  "Notes" : "When connect from Spider Knee （WS ）, Disable break throw & damage 10. When Break throw, revenge damage 5."
 }, {
-  "Command" : " During Triple Slaps 1, 3+4, 1, 2, 1+2",
-  "Hit" : "-4F",
-  "Block" : "Head-sd Fac-Dwn",
-  "Notes" : "When Break throw, revenge damage 5.",
+  "BreakThrow" : "1 -4F",
   "Name" : "Neck Crusher",
-  "Total" : "When Break throw, revenge damage 5.",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "25",
-  "Startup" : ""
-}, {
-  "Command" : " During Triple Slaps 1, 2, 4, 3, 1+2+3",
-  "Hit" : "-4F",
-  "Block" : "Head-sd Fac-Up",
-  "Notes" : "When Break throw, revenge damage 5.",
-  "Name" : "Leg Stretch Arm Lock",
-  "Total" : "When Break throw, revenge damage 5.",
-  "Counter Hit" : "",
+  "AfterThrow" : "Head-sd Fac-Dwn",
+  "Command" : " During Triple Slaps 13+4121+2",
   "Property" : "-",
-  "Damage" : "30",
-  "Startup" : ""
+  "Notes" : "When Break throw, revenge damage 5."
 }, {
-  "Command" : "ddbb1+4 or Reverse Rolling Dash 1+4",
-  "Hit" : "disable",
-  "Block" : "+6Ｆ force to crouching.",
-  "Notes" : "Start-up 32F in actualy.",
+  "BreakThrow" : "2 -4F",
+  "Name" : "Leg Stretch Arm Lock",
+  "Damage" : "30",
+  "AfterThrow" : "Head-sd Fac-Up",
+  "Command" : " During Triple Slaps 12431+2+3",
+  "Property" : "-",
+  "Notes" : "When Break throw, revenge damage 5."
+}, {
+  "BreakThrow" : "disable ",
   "Name" : "Betrayer",
-  "Total" : "Start-up 32F in actualy.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "15",
-  "Startup" : "12F"
+  "AfterThrow" : "+6Ｆ force to crouching.",
+  "Command" : "ddbb1+4 or Reverse Rolling Dash 1+4",
+  "Property" : "Th(H)",
+  "Notes" : "Start-up 32F in actualy."
 }, {
-  "Command" : " During Betrayer 2, 1, 1+2, 1+2+3",
-  "Hit" : "-4F",
-  "Block" : "Foot-sd Fac-Dwn",
-  "Notes" : "",
+  "BreakThrow" : "2 -4F",
   "Name" : "Twisted Nightmare",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "20",
-  "Startup" : ""
+  "AfterThrow" : "Foot-sd Fac-Dwn",
+  "Command" : " During Betrayer 211+21+2+3",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During Twidter Nightmare 1, 3+4, 1, 2, 1+2",
-  "Hit" : "-4F",
-  "Block" : "Head-sd Fac-Dwn",
-  "Notes" : "",
+  "BreakThrow" : "1 -4F",
   "Name" : "Neck Crusher",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "25",
-  "Startup" : ""
+  "AfterThrow" : "Head-sd Fac-Dwn",
+  "Command" : " During Twidter Nightmare 13+4121+2",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During Twidter Nightmare 1, 2, 4, 3, 1+2+3",
-  "Hit" : "-4F",
-  "Block" : "Head-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "2 -4F",
   "Name" : "Leg Stretch Arm Lock",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "30",
-  "Startup" : ""
+  "AfterThrow" : "Head-sd Fac-Up",
+  "Command" : " During Twidter Nightmare 12431+2+3",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During Backhand Slap or Betraayer 1, 3, 2, 1",
-  "Hit" : "-4F",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "1 -4F",
   "Name" : "Arm Break",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "18",
-  "Startup" : ""
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " During Backhand Slap or Betraayer 1321",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During Arm Break 3, 1, 4, 1+2, 1+2",
-  "Hit" : "-4F",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "When Break throw, revenge damage 5.",
+  "BreakThrow" : "1 -4F",
   "Name" : "Double Arm Break",
-  "Total" : "When Break throw, revenge damage 5.",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "25",
-  "Startup" : ""
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " During Arm Break 3141+21+2",
+  "Property" : "-",
+  "Notes" : "When Break throw, revenge damage 5."
 }, {
-  "Command" : " During Arm Break 2, 1, 3, 4, 1+2",
-  "Hit" : "-4F",
-  "Block" : "Foot-sd Fac-Dwn",
-  "Notes" : "When Break throw, revenge damage 5.",
+  "BreakThrow" : "2 -4F",
   "Name" : "Falling Arm Break",
-  "Total" : "When Break throw, revenge damage 5.",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "25",
-  "Startup" : ""
+  "AfterThrow" : "Foot-sd Fac-Dwn",
+  "Command" : " During Arm Break 21341+2",
+  "Property" : "-",
+  "Notes" : "When Break throw, revenge damage 5."
 }, {
-  "Command" : "ddff3+4",
-  "Hit" : "-2F",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "Start-up 13F in actualy.\n",
+  "BreakThrow" : "1 -2F",
   "Name" : "Crab Hold",
-  "Total" : "Start-up 13F in actualy. S2 Patch Notes ・Hitbox expanded downward.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "15",
-  "Startup" : "11F"
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : "ddff3+4",
+  "Property" : "Th(H)",
+  "Notes" : "Start-up 13F in actualy. S2 Patch Notes ・Hitbox expanded downward."
 }, {
-  "Command" : " During Crab Hold 3+4, 3, 4, 1+2",
-  "Hit" : "±0F",
-  "Block" : "Head-sd Fac-Up",
-  "Notes" : "When Break throw, revenge damage 8.\n",
+  "BreakThrow" : "1 ±0F",
   "Name" : "Commando Arm Lock",
-  "Total" : "When Break throw, revenge damage 8. S2 Patch Notes (Ver.2.20)・Decreased the recovery animation when thrown by 11 frames.",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "35",
-  "Startup" : ""
+  "AfterThrow" : "Head-sd Fac-Up",
+  "Command" : " During Crab Hold 3+4341+2",
+  "Property" : "-",
+  "Notes" : "When Break throw, revenge damage 8. S2 Patch Notes (Ver.2.20)・Decreased the recovery animation when thrown by 11 frames."
 }, {
-  "Command" : " During Crab Hold 3+4, 4, 2, 1+2",
-  "Hit" : "±0F",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "Connect from Leaping Heel Hold（<img src=\"../9.bmp\" class=\"c\"><img src=\"../k.bmp\" class=\"c\">）.\nWhen Break throw, revenge damage 8.\n",
+  "BreakThrow" : "2 ±0F",
   "Name" : "Heel Hold",
-  "Total" : "Connect from Leaping Heel Hold（）. When Break throw, revenge damage 8. S2 Patch Notes (Ver.2.20)・Decreased the recovery animation when thrown by 11 frames.",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "18",
-  "Startup" : ""
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " During Crab Hold 3+4421+2",
+  "Property" : "-",
+  "Notes" : "Connect from Leaping Heel Hold（）. When Break throw, revenge damage 8. S2 Patch Notes (Ver.2.20)・Decreased the recovery animation when thrown by 11 frames."
 }, {
-  "Command" : " During Heel Hold 3, 1, 4, 2+4",
-  "Hit" : "-9F",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "1 -9F",
   "Name" : "Double Snap",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "30",
-  "Startup" : ""
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " During Heel Hold 3142+4",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During Heel Hold 1, 3, 2+4, 3+4, 1+2",
-  "Hit" : "-9F",
-  "Block" : "Foot-sd Fac-Dwn",
-  "Notes" : "",
+  "BreakThrow" : "2 -9F",
   "Name" : "Double Heel Hold",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "35",
-  "Startup" : ""
+  "AfterThrow" : "Foot-sd Fac-Dwn",
+  "Command" : " During Heel Hold 132+43+41+2",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " RUN (３ steps) ",
-  "Hit" : "-5F CW BT",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "Break Throw<img src=\"../rp.bmp\" class=\"c\">4F\n<img src=\"../p.bmp\" class=\"c\">2F before takedown",
+  "BreakThrow" : "-5F CWBT",
   "Name" : "Ultimate Tackle",
-  "Total" : "Break Throw 4F 2F before takedown",
-  "Counter Hit" : "",
-  "Property" : "Th(M)",
   "Damage" : "5",
-  "Startup" : "26F"
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " RUN (３ steps) ",
+  "Property" : "Th(M)",
+  "Notes" : "Break Throw 4F 2F before takedown"
 }, {
-  "Command" : " During tackle 1, 2, 1, 2 or 2, 1, 2, 1",
-  "Hit" : "or To Down",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "1 or 2  To Down",
   "Name" : "Ultimate Punch",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "5,5,5,15",
-  "Startup" : ""
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " During tackle 1212 or 2121",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During tackle or Ultimate Punch (３) 1+2",
-  "Hit" : "-9F",
-  "Block" : "RP Head-sd Fac-Up",
-  "Notes" : "Break throw input<img src=\"../p.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../rp.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../rp.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../rp.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../rp.bmp\" class=\"c\">",
+  "BreakThrow" : "-9F",
   "Name" : "Cross Arm Lock",
-  "Total" : "Break throw input",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "25",
-  "Startup" : ""
-}, {
-  "Command" : " During tackle or Ultimate Punch (３) 3+4",
-  "Hit" : "±0F",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "Break throw input<img src=\"../p.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../lp.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../lp.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../lp.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../lp.bmp\" class=\"c\">",
-  "Name" : "Leg Cross Hold",
-  "Total" : "Break throw input",
-  "Counter Hit" : "",
+  "AfterThrow" : "RP Head-sd Fac-Up",
+  "Command" : " During tackle or Ultimate Punch (３) 1+2",
   "Property" : "-",
+  "Notes" : "Break throw input"
+}, {
+  "BreakThrow" : "±0F",
+  "Name" : "Leg Cross Hold",
   "Damage" : "20",
-  "Startup" : ""
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " During tackle or Ultimate Punch (３) 3+4",
+  "Property" : "-",
+  "Notes" : "Break throw input"
 } ]

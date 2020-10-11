@@ -10,7 +10,7 @@
   "Damage" : "7",
   "Startup" : "10F"
 }, {
-  "Command" : "1, 1",
+  "Command" : "11",
   "Hit" : "+8",
   "Block" : "-3",
   "Notes" : "Combo from 1st NH.",
@@ -21,7 +21,7 @@
   "Damage" : "7,9",
   "Startup" : ""
 }, {
-  "Command" : "1, 1, 2",
+  "Command" : "112",
   "Hit" : "+5",
   "Block" : "-9",
   "Notes" : "Combo from 2nd CH.\nCan be delayed",
@@ -32,7 +32,7 @@
   "Damage" : "7,9,17",
   "Startup" : ""
 }, {
-  "Command" : "1, 2",
+  "Command" : "12",
   "Hit" : "+3",
   "Block" : "-8",
   "Notes" : "Combo from 1st NH.",
@@ -43,7 +43,7 @@
   "Damage" : "7,9",
   "Startup" : ""
 }, {
-  "Command" : "1, 2 Hold ",
+  "Command" : "12 Hold ",
   "Hit" : "+3",
   "Block" : "-8",
   "Notes" : "Combo from 1st NH.\n",
@@ -54,7 +54,7 @@
   "Damage" : "7,9",
   "Startup" : ""
 }, {
-  "Command" : "1, 2, 2",
+  "Command" : "122",
   "Hit" : "LNC",
   "Block" : "+4",
   "Notes" : "Interruption 14F from 2nd block.\n",
@@ -65,7 +65,7 @@
   "Damage" : "7,9,22",
   "Startup" : ""
 }, {
-  "Command" : "1, 2, 4",
+  "Command" : "124",
   "Hit" : "+1",
   "Block" : "-9",
   "Notes" : "Combo from 1st NH.\n",
@@ -76,7 +76,7 @@
   "Damage" : "7,9,13",
   "Startup" : ""
 }, {
-  "Command" : "1, 4",
+  "Command" : "14",
   "Hit" : "+3",
   "Block" : "-6",
   "Notes" : "Combo from 1st NH.",
@@ -87,7 +87,7 @@
   "Damage" : "7,17",
   "Startup" : ""
 }, {
-  "Command" : "1, 4, 2",
+  "Command" : "142",
   "Hit" : "+6C",
   "Block" : "-5",
   "Notes" : "Combo from 2nd CH.\nCan be delayed",
@@ -109,7 +109,7 @@
   "Damage" : "9",
   "Startup" : "11F"
 }, {
-  "Command" : "2, 1",
+  "Command" : "21",
   "Hit" : "+4",
   "Block" : "-7",
   "Notes" : "Combo from 1st NH.\n",
@@ -120,7 +120,7 @@
   "Damage" : "9,12",
   "Startup" : ""
 }, {
-  "Command" : "2, 1, 4",
+  "Command" : "214",
   "Hit" : "+3C",
   "Block" : "-12",
   "Notes" : "Combo from 2nd CH.\nCan be delayed\n",
@@ -131,7 +131,7 @@
   "Damage" : "9,12,15",
   "Startup" : ""
 }, {
-  "Command" : "2, 2",
+  "Command" : "22",
   "Hit" : "+1C",
   "Block" : "-14",
   "Notes" : "Combo from 1st NH.",
@@ -142,7 +142,7 @@
   "Damage" : "9,17",
   "Startup" : ""
 }, {
-  "Command" : "2, 2, 2",
+  "Command" : "222",
   "Hit" : "+1C",
   "Block" : "-14",
   "Notes" : "",
@@ -153,7 +153,7 @@
   "Damage" : "9,17,17",
   "Startup" : ""
 }, {
-  "Command" : "2, 2, 2, 2",
+  "Command" : "2222",
   "Hit" : "KDN",
   "Block" : "-14C",
   "Notes" : "Combo from 3rd NH.",
@@ -186,7 +186,7 @@
   "Damage" : "17",
   "Startup" : "12F"
 }, {
-  "Command" : "4, 2",
+  "Command" : "42",
   "Hit" : "+6C",
   "Block" : "-5",
   "Notes" : "Combo from 1st CH.",
@@ -230,7 +230,7 @@
   "Damage" : "10",
   "Startup" : "14F"
 }, {
-  "Command" : "f2, 2",
+  "Command" : "f22",
   "Hit" : "Th",
   "Block" : "-12",
   "Notes" : "Combo from 1st CH\nDamage () is throw bonus.\n+8F from side hit or behind hit.",
@@ -252,7 +252,7 @@
   "Damage" : "13",
   "Startup" : "18F"
 }, {
-  "Command" : "f3, 2",
+  "Command" : "f32",
   "Hit" : "KDN",
   "Block" : "-19",
   "Notes" : "Combo from 1st NH.\nCan be delayed 6F.\nCombo can be delayed 6F from 1st NH.",
@@ -296,7 +296,7 @@
   "Damage" : "13",
   "Startup" : "13F"
 }, {
-  "Command" : "df1, 1",
+  "Command" : "df11",
   "Hit" : "+7",
   "Block" : "-4",
   "Notes" : "Combo from 1st NH.\nCan be delayed.",
@@ -307,7 +307,7 @@
   "Damage" : "13,9",
   "Startup" : ""
 }, {
-  "Command" : "df1, 1, 2",
+  "Command" : "df112",
   "Hit" : "KDN",
   "Block" : "-13",
   "Notes" : "TS ",
@@ -318,7 +318,7 @@
   "Damage" : "13,9,21",
   "Startup" : ""
 }, {
-  "Command" : "df1, 2",
+  "Command" : "df12",
   "Hit" : "+7",
   "Block" : "-11",
   "Notes" : "Combo from 1st NH.",
@@ -329,7 +329,7 @@
   "Damage" : "13,20",
   "Startup" : ""
 }, {
-  "Command" : "df1, 2 Hold ",
+  "Command" : "df12 Hold ",
   "Hit" : "+7",
   "Block" : "-11",
   "Notes" : "",
@@ -373,7 +373,7 @@
   "Damage" : "13",
   "Startup" : "15F"
 }, {
-  "Command" : "df3, 1",
+  "Command" : "df31",
   "Hit" : "+9",
   "Block" : "-2",
   "Notes" : "Combo from 1st NH.",
@@ -384,7 +384,7 @@
   "Damage" : "13,12",
   "Startup" : ""
 }, {
-  "Command" : "df3, 1, 2",
+  "Command" : "df312",
   "Hit" : "+4C",
   "Block" : "-11",
   "Notes" : "Combo from 2nd CH.\nCan be delayed.\nCombo can be delayed 9F from 2nd CH.\nNH forces to crouching.\n",
@@ -395,7 +395,7 @@
   "Damage" : "13,12,20",
   "Startup" : ""
 }, {
-  "Command" : "df3, 1, 4",
+  "Command" : "df314",
   "Hit" : "KDN",
   "Block" : "-14",
   "Notes" : "Combo from 2nd CH.\nCan be delayed.\nCombo can be delayed 6F from 2nd CH.",
@@ -417,7 +417,7 @@
   "Damage" : "15",
   "Startup" : "14F"
 }, {
-  "Command" : "df4, 2",
+  "Command" : "df42",
   "Hit" : "+6",
   "Block" : "+1",
   "Notes" : "Combo from 1st NH.",
@@ -428,7 +428,7 @@
   "Damage" : "15,20",
   "Startup" : ""
 }, {
-  "Command" : "df4, 2 Hold ",
+  "Command" : "df42 Hold ",
   "Hit" : "+10",
   "Block" : "+5",
   "Notes" : "Combo from 1st NH.",
@@ -439,7 +439,7 @@
   "Damage" : "15,20",
   "Startup" : ""
 }, {
-  "Command" : "df4, 3",
+  "Command" : "df43",
   "Hit" : "+7",
   "Block" : "-9",
   "Notes" : "Combo from 1st CH.",
@@ -571,7 +571,7 @@
   "Damage" : "12",
   "Startup" : "16F"
 }, {
-  "Command" : "b1, 2",
+  "Command" : "b12",
   "Hit" : "KDN",
   "Block" : "-10",
   "Notes" : "TS \nCombo from 1st CH.\nCan be delayed.\nCombo can be delayed 8F from 1st CH.",
@@ -593,7 +593,7 @@
   "Damage" : "15",
   "Startup" : "16F"
 }, {
-  "Command" : "b2, 2",
+  "Command" : "b22",
   "Hit" : "Th",
   "Block" : "-11",
   "Notes" : "Damage () is throw bonus.\n±0<sup>C</sup>F from side or behind hit.\nCombo from 1st CH.\nCan be delayed.\nCombo can be delayed 10F from 1st CH.\n",
@@ -604,7 +604,7 @@
   "Damage" : "15,20(,30)",
   "Startup" : ""
 }, {
-  "Command" : "b2, 3",
+  "Command" : "b23",
   "Hit" : "KDN",
   "Block" : "-6",
   "Notes" : "Combo from 1st CH.\nCan be delayed.\nCombo can be delayed 10F from 1st CH.",
@@ -703,7 +703,7 @@
   "Damage" : "20",
   "Startup" : "17F"
 }, {
-  "Command" : "uf,n,4",
+  "Command" : "ufn4",
   "Hit" : "LNC",
   "Block" : "-11",
   "Notes" : "TJ 9F",
@@ -736,7 +736,7 @@
   "Damage" : "13",
   "Startup" : "18F"
 }, {
-  "Command" : "ff3, 2",
+  "Command" : "ff32",
   "Hit" : "KDN",
   "Block" : "-20",
   "Notes" : "Combo from 1st NH.\nCan be delayed 17F.\nCombo can be delayed 17F from 1st NH.",
@@ -846,7 +846,7 @@
   "Damage" : "11",
   "Startup" : "12F"
 }, {
-  "Command" : " WS 1, 2",
+  "Command" : " WS 12",
   "Hit" : "+7",
   "Block" : "-11",
   "Notes" : "Combo from 1st hit.\n",
@@ -857,7 +857,7 @@
   "Damage" : "11,20",
   "Startup" : ""
 }, {
-  "Command" : " WS 1, 2 Hold ",
+  "Command" : " WS 12 Hold ",
   "Hit" : "+7",
   "Block" : "-11",
   "Notes" : "Combo from 1st hit.\n",
@@ -901,7 +901,7 @@
   "Damage" : "13",
   "Startup" : "14F"
 }, {
-  "Command" : " WS 3, 2",
+  "Command" : " WS 32",
   "Hit" : "KDN",
   "Block" : "-19",
   "Notes" : "Combo from 1st NH.",
@@ -1077,7 +1077,7 @@
   "Damage" : "15",
   "Startup" : "14F"
 }, {
-  "Command" : " INT 1, 2",
+  "Command" : " INT 12",
   "Hit" : "KDN",
   "Block" : "-13",
   "Notes" : "TS \nCombo from 1st NH.\nCan be delayed 15F.\nCombo can be delayed 15F from 1st NH.",
@@ -1191,7 +1191,7 @@
   "Hit" : "LNC",
   "Block" : "+8C",
   "Notes" : "",
-  "Name" : "Rage Drive 1",
+  "Name" : "Rage Drive",
   "Total" : "",
   "Counter Hit" : "LNC",
   "Property" : "M,M",
@@ -1202,7 +1202,7 @@
   "Hit" : "KDN",
   "Block" : "+6G",
   "Notes" : "WB \nUnblokable damage 5 close to Wall\n&amp; +12<sup>G</sup>F.",
-  "Name" : "Rage Drive 2",
+  "Name" : "Rage Drive",
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "M,M",
@@ -1213,7 +1213,7 @@
   "Hit" : "LNC",
   "Block" : "-7",
   "Notes" : "Damage () is landing bonus.\n",
-  "Name" : "Rage Drive 3",
+  "Name" : "Rage Drive",
   "Total" : "",
   "Counter Hit" : "LNC",
   "Property" : "M,M",

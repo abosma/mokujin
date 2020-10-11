@@ -21,6 +21,23 @@ def move_embed(character, move):
 
     return embed
 
+def throw_embed(character, throw):
+    '''Returns the embed message for character and throw'''
+    embed = discord.Embed(title=character['proper_name'],
+            colour=0x00EAFF,
+            url=character['online_webpage'],
+            description='Move: ' + throw['Command'])
+
+    embed.set_thumbnail(url=character['portrait'])
+    embed.add_field(name='Name', value=throw['Name'] + "\n\u200b")
+    embed.add_field(name='Property', value=throw['Property'] + "\n\u200b")
+    embed.add_field(name='Damage', value=throw['Damage'] + "\n\u200b")
+    embed.add_field(name='Throw Break', value=throw['BreakThrow'] + "\n\u200b")
+    embed.add_field(name='After Successful Throw', value=throw['AfterThrow'] + "\n\u200b")
+    embed.add_field(name='Notes', value=throw['Notes'] + "\n\u200b")
+
+    return embed
+
 def info_embed():
     embed = discord.Embed(title="Extra Information",
             colour=0x00EAFF,

@@ -10,7 +10,7 @@
   "Damage" : "7",
   "Startup" : "10F"
 }, {
-  "Command" : "1, 1+2",
+  "Command" : "11+2",
   "Hit" : "+5",
   "Block" : "-2",
   "Notes" : "Power Gauge Cost 1.\nDisable from whiff.",
@@ -21,7 +21,7 @@
   "Damage" : "7",
   "Startup" : ""
 }, {
-  "Command" : "1, 1",
+  "Command" : "11",
   "Hit" : "+6",
   "Block" : "-1",
   "Notes" : "Combo from 1st NH",
@@ -32,7 +32,7 @@
   "Damage" : "7,7",
   "Startup" : ""
 }, {
-  "Command" : "1, 1, 2",
+  "Command" : "112",
   "Hit" : "+7",
   "Block" : "-12",
   "Notes" : "Combo from 1st NH",
@@ -43,7 +43,7 @@
   "Damage" : "7,7,12",
   "Startup" : ""
 }, {
-  "Command" : "1, 2",
+  "Command" : "12",
   "Hit" : "+4",
   "Block" : "-7",
   "Notes" : "Combo from 1st NH",
@@ -54,7 +54,7 @@
   "Damage" : "7,10",
   "Startup" : ""
 }, {
-  "Command" : "1, 2, 1",
+  "Command" : "121",
   "Hit" : "-8",
   "Block" : "-19",
   "Notes" : "Combo from 2nd CH.\nCan be delayed 8F.\nCombo can be delayed 8F from 2nd CH.",
@@ -65,7 +65,7 @@
   "Damage" : "7,10,15",
   "Startup" : ""
 }, {
-  "Command" : "1, 2, 1, 1",
+  "Command" : "1211",
   "Hit" : "KDN",
   "Block" : "-15",
   "Notes" : "Combo from 3rd NH\nEnable connect to Super Special Move.\nDamage 1 on block.\n",
@@ -76,7 +76,7 @@
   "Damage" : "7,10,15,20",
   "Startup" : ""
 }, {
-  "Command" : "1, 2, 3",
+  "Command" : "123",
   "Hit" : "+20Sp",
   "Block" : "+1",
   "Notes" : "Combo from 2nd CH",
@@ -87,7 +87,7 @@
   "Damage" : "7,10,15",
   "Startup" : ""
 }, {
-  "Command" : "1, 2, 3, 1+2",
+  "Command" : "1231+2",
   "Hit" : "+24Sp",
   "Block" : "+5",
   "Notes" : "Power Gauge Cost 1.\nDisable from whiff.",
@@ -109,7 +109,7 @@
   "Damage" : "13",
   "Startup" : "15F"
 }, {
-  "Command" : "2, 1+2",
+  "Command" : "21+2",
   "Hit" : "+11",
   "Block" : "+2",
   "Notes" : "Power Gauge Cost 1.\nDisable from whiff.",
@@ -131,7 +131,7 @@
   "Damage" : "10",
   "Startup" : "16F"
 }, {
-  "Command" : "3, 3",
+  "Command" : "33",
   "Hit" : "±0",
   "Block" : "-13",
   "Notes" : "Combo from 1st NH\nCan be delayed 14F\nCombo can be delayed 9F\n",
@@ -175,7 +175,7 @@
   "Damage" : "5,10",
   "Startup" : "17F"
 }, {
-  "Command" : "f2, 1+2",
+  "Command" : "f21+2",
   "Hit" : "KDN",
   "Block" : "+2",
   "Notes" : "Power Gauge Cost 1.\nDisable from whiff.",
@@ -230,7 +230,7 @@
   "Damage" : "10",
   "Startup" : "13F"
 }, {
-  "Command" : "df1, 1",
+  "Command" : "df11",
   "Hit" : "+4",
   "Block" : "-4",
   "Notes" : "Combo from 1st NH\n",
@@ -241,7 +241,7 @@
   "Damage" : "10,8",
   "Startup" : ""
 }, {
-  "Command" : "df1, 4",
+  "Command" : "df14",
   "Hit" : "KDN",
   "Block" : "-13",
   "Notes" : "Combo from 1st CH.\nCan be delayed 6F.\nCombo can be delayed 4F from 1st CH.\n",
@@ -274,7 +274,7 @@
   "Damage" : "11",
   "Startup" : "15F"
 }, {
-  "Command" : "df3, 4",
+  "Command" : "df34",
   "Hit" : "-2",
   "Block" : "-13",
   "Notes" : "Combo from 1st CH",
@@ -285,7 +285,7 @@
   "Damage" : "11,14",
   "Startup" : ""
 }, {
-  "Command" : "df3, 4~2",
+  "Command" : "df3 42",
   "Hit" : "KDN",
   "Block" : "+2",
   "Notes" : "WB \n",
@@ -296,7 +296,7 @@
   "Damage" : "11,25",
   "Startup" : ""
 }, {
-  "Command" : "df3, 4~3",
+  "Command" : "df3 43",
   "Hit" : "+20Sp",
   "Block" : "+1",
   "Notes" : "",
@@ -307,7 +307,7 @@
   "Damage" : "11,15",
   "Startup" : ""
 }, {
-  "Command" : "df3, 4~3, 1+2",
+  "Command" : "df3 43 1+2",
   "Hit" : "+24Sp",
   "Block" : "+5",
   "Notes" : "Power Gauge Cost 1.\nDisable from whiff.",
@@ -340,7 +340,7 @@
   "Damage" : "5",
   "Startup" : "10F"
 }, {
-  "Command" : "d1 or FC 1, 1+2",
+  "Command" : "d1 or FC 11+2",
   "Hit" : "+10G",
   "Block" : "-1",
   "Notes" : "Power Gauge Cost 1.\nDisable from whiff.",
@@ -373,7 +373,7 @@
   "Damage" : "12",
   "Startup" : "15F"
 }, {
-  "Command" : "d3, 1",
+  "Command" : "d31",
   "Hit" : "+2",
   "Block" : "-9",
   "Notes" : "TC C \nCombo from 1st CH",
@@ -384,7 +384,7 @@
   "Damage" : "12,5",
   "Startup" : ""
 }, {
-  "Command" : "d3, 1, 1+2",
+  "Command" : "d311+2",
   "Hit" : "+10G",
   "Block" : "-1",
   "Notes" : "TC \nPower Gauge Cost 1.\nDisable from whiff.",
@@ -406,7 +406,7 @@
   "Damage" : "15",
   "Startup" : "17F"
 }, {
-  "Command" : "d4 or FC 4, 1+2",
+  "Command" : "d4 or FC 41+2",
   "Hit" : "+15G",
   "Block" : "-",
   "Notes" : "TC 6F\nPower Gauge Cost 1.\nDisable from whiff or block.",
@@ -439,7 +439,7 @@
   "Damage" : "10",
   "Startup" : "12F"
 }, {
-  "Command" : "b1, 2",
+  "Command" : "b12",
   "Hit" : "+1",
   "Block" : "-12",
   "Notes" : "Combo from 1st NH\n",
@@ -472,7 +472,7 @@
   "Damage" : "11",
   "Startup" : "14F"
 }, {
-  "Command" : "b3, 2",
+  "Command" : "b32",
   "Hit" : "KDN",
   "Block" : "-15",
   "Notes" : "Combo from 1st NH\nCan be delayed 8F\nCombo can be delayed 8F\n",
@@ -483,7 +483,7 @@
   "Damage" : "11,15",
   "Startup" : ""
 }, {
-  "Command" : "b3, 2, 1+2",
+  "Command" : "b321+2",
   "Hit" : "KDN",
   "Block" : "+2",
   "Notes" : "Power Gauge Cost 1.\nDisable from whiff.",
@@ -505,7 +505,7 @@
   "Damage" : "10",
   "Startup" : "19F"
 }, {
-  "Command" : "b4, 4",
+  "Command" : "b44",
   "Hit" : "+16Sp",
   "Block" : "-3",
   "Notes" : "TS \nCombo from 1st CH",
@@ -538,7 +538,7 @@
   "Damage" : "12",
   "Startup" : "13F"
 }, {
-  "Command" : " WS 1, 1+2",
+  "Command" : " WS 11+2",
   "Hit" : "+8",
   "Block" : "-3",
   "Notes" : "Power Gauge Cost 1.\nDisable from whiff.",
@@ -769,7 +769,7 @@
   "Damage" : "12",
   "Startup" : "24F"
 }, {
-  "Command" : "f1, 1+2",
+  "Command" : "f11+2",
   "Hit" : "+15",
   "Block" : "+2",
   "Notes" : "Power Gauge Cost 1.\nDisable from whiff.",
@@ -791,7 +791,7 @@
   "Damage" : "15",
   "Startup" : "23F"
 }, {
-  "Command" : "f3, 1+2",
+  "Command" : "f31+2",
   "Hit" : "+24Sp",
   "Block" : "+5",
   "Notes" : "Power Gauge Cost 1.\nDisable from whiff.",
@@ -868,7 +868,7 @@
   "Damage" : "10",
   "Startup" : "20F"
 }, {
-  "Command" : "ddbb2, 1",
+  "Command" : "ddbb21",
   "Hit" : "KDN",
   "Block" : "-15",
   "Notes" : "Combo from 1st NH.\nDamage total 2 on block.",
@@ -879,7 +879,7 @@
   "Damage" : "10,15",
   "Startup" : ""
 }, {
-  "Command" : "ddbb2, 3",
+  "Command" : "ddbb23",
   "Hit" : "KDN",
   "Block" : "-8C",
   "Notes" : "Damage total 2 on block.",
@@ -890,7 +890,7 @@
   "Damage" : "10,20",
   "Startup" : ""
 }, {
-  "Command" : "ddbb2, 4",
+  "Command" : "ddbb24",
   "Hit" : "KDN",
   "Block" : "-18",
   "Notes" : "Returns to crouching.\nDamage total 2 on block.",
@@ -989,7 +989,7 @@
   "Damage" : "10",
   "Startup" : "20F"
 }, {
-  "Command" : " During MAX mode ddbb1+2, 1",
+  "Command" : " During MAX mode ddbb1+21",
   "Hit" : "KDN",
   "Block" : "-2",
   "Notes" : "WB \nCombo from 1st NH\nDamage total 2 on block.\n",
@@ -1000,7 +1000,7 @@
   "Damage" : "10,10",
   "Startup" : ""
 }, {
-  "Command" : " During MAX mode ddbb1+2, 3",
+  "Command" : " During MAX mode ddbb1+23",
   "Hit" : "LNC",
   "Block" : "-8C",
   "Notes" : "Damage total 2 on block.\n",
@@ -1011,7 +1011,7 @@
   "Damage" : "10,20",
   "Startup" : ""
 }, {
-  "Command" : " During MAX mode ddbb1+2, 4",
+  "Command" : " During MAX mode ddbb1+24",
   "Hit" : "KDN",
   "Block" : "-18",
   "Notes" : "Damage total 2 on block.\n",
@@ -1077,7 +1077,7 @@
   "Damage" : "43",
   "Startup" : "9F"
 }, {
-  "Command" : " When keep ２ power gauges 1, 2, 1, 2",
+  "Command" : " When keep ２ power gauges 1212",
   "Hit" : "KDN",
   "Block" : "+1",
   "Notes" : "Power Gauge Cost 2.\nDamage total 5 on block.\n",
@@ -1092,7 +1092,7 @@
   "Hit" : "Th",
   "Block" : "Th",
   "Notes" : "Guard Point 8F",
-  "Name" : "Rahomon",
+  "Name" : "Rage Art",
   "Total" : "",
   "Counter Hit" : "Th",
   "Property" : "UB(H)",
@@ -1103,7 +1103,7 @@
   "Hit" : "-16",
   "Block" : "-22",
   "Notes" : "Guard Point 8F",
-  "Name" : "Deadly Rave (1)",
+  "Name" : "Rage Art",
   "Total" : "",
   "Counter Hit" : "-16",
   "Property" : "M",
@@ -1114,95 +1114,95 @@
   "Hit" : "+5",
   "Block" : "-",
   "Notes" : "Combo from 1st NH",
-  "Name" : "Deadly Rave (2)",
+  "Name" : "Rage Art",
   "Total" : "",
   "Counter Hit" : "-",
   "Property" : "M,H",
   "Damage" : "10,4",
   "Startup" : ""
 }, {
-  "Command" : " During Rage fdfddbbf3+4 during hit 1, 2",
+  "Command" : " During Rage fdfddbbf3+4 during hit 12",
   "Hit" : "-8",
   "Block" : "-",
   "Notes" : "Combo from 1st NH",
-  "Name" : "Deadly Rave (3)",
+  "Name" : "Rage Art",
   "Total" : "",
   "Counter Hit" : "-",
   "Property" : "M,H,M",
   "Damage" : "10,4*2",
   "Startup" : ""
 }, {
-  "Command" : " During Rage fdfddbbf3+4 during hit 1, 2, 4",
+  "Command" : " During Rage fdfddbbf3+4 during hit 124",
   "Hit" : "-9",
   "Block" : "-",
   "Notes" : "Combo from 1st NH",
-  "Name" : "Deadly Rave (4)",
+  "Name" : "Rage Art",
   "Total" : "",
   "Counter Hit" : "-",
   "Property" : "M,H,M,M",
   "Damage" : "10,4*3",
   "Startup" : ""
 }, {
-  "Command" : " During Rage fdfddbbf3+4 during hit 1, 2, 4, 1",
+  "Command" : " During Rage fdfddbbf3+4 during hit 1241",
   "Hit" : "-8",
   "Block" : "-",
   "Notes" : "Combo from 1st NH",
-  "Name" : "Deadly Rave (5)",
+  "Name" : "Rage Art",
   "Total" : "",
   "Counter Hit" : "-",
   "Property" : "M,H,M,M,M",
   "Damage" : "10,4*4",
   "Startup" : ""
 }, {
-  "Command" : " During Rage fdfddbbf3+4 during hit 1, 2, 4, 1, 4",
+  "Command" : " During Rage fdfddbbf3+4 during hit 12414",
   "Hit" : "-13",
   "Block" : "-",
   "Notes" : "Combo from 1st NH\nReturns to crouching.",
-  "Name" : "Deadly Rave (6)",
+  "Name" : "Rage Art",
   "Total" : "",
   "Counter Hit" : "-",
   "Property" : "M,H,M,M,M,L",
   "Damage" : "10,4*5",
   "Startup" : ""
 }, {
-  "Command" : " During Rage fdfddbbf3+4 during hit 1, 2, 4, 1, 4, 1",
+  "Command" : " During Rage fdfddbbf3+4 during hit 124141",
   "Hit" : "-9",
   "Block" : "-",
   "Notes" : "Combo from 1st NH",
-  "Name" : "Deadly Rave (7)",
+  "Name" : "Rage Art",
   "Total" : "",
   "Counter Hit" : "-",
   "Property" : "M,H,M,M,M,L,M",
   "Damage" : "10,4*6",
   "Startup" : ""
 }, {
-  "Command" : " During Rage fdfddbbf3+4 during hit 1, 2, 4, 1, 4, 1, 3",
+  "Command" : " During Rage fdfddbbf3+4 during hit 1241413",
   "Hit" : "-1",
   "Block" : "-",
   "Notes" : "Combo from 1st NH",
-  "Name" : "Deadly Rave (8)",
+  "Name" : "Rage Art",
   "Total" : "",
   "Counter Hit" : "-",
   "Property" : "M,H,M,M,M,L,M,H",
   "Damage" : "10,4*7",
   "Startup" : ""
 }, {
-  "Command" : " During Rage fdfddbbf3+4 during hit 1, 2, 4, 1, 4, 1, 3, 2",
+  "Command" : " During Rage fdfddbbf3+4 during hit 12414132",
   "Hit" : "+19G",
   "Block" : "-",
   "Notes" : "Combo from 1st NH",
-  "Name" : "Deadly Rave (9)",
+  "Name" : "Rage Art",
   "Total" : "",
   "Counter Hit" : "-",
   "Property" : "M,H,M,M,M,L,M,H,H",
   "Damage" : "10,4*8",
   "Startup" : ""
 }, {
-  "Command" : " During Rage fdfddbbf3+4 during hit 1, 2, 4, 1, 4, 1, 3, 2, 1+2",
+  "Command" : " During Rage fdfddbbf3+4 during hit 124141321+2",
   "Hit" : "KDN",
   "Block" : "-",
   "Notes" : "Combo from 1st NH\n",
-  "Name" : "Deadly Rave",
+  "Name" : "Rage Art",
   "Total" : "",
   "Counter Hit" : "-",
   "Property" : "M,H,M,M,M,L,M,H,H,UB(M)",

@@ -10,7 +10,7 @@
   "Damage" : "10",
   "Startup" : "12F"
 }, {
-  "Command" : "1, 2",
+  "Command" : "12",
   "Hit" : "+7",
   "Block" : "-1",
   "Notes" : "Combo from 1st hit.",
@@ -21,7 +21,7 @@
   "Damage" : "10,10",
   "Startup" : ""
 }, {
-  "Command" : "1, 2, 1",
+  "Command" : "121",
   "Hit" : "+7",
   "Block" : "-1",
   "Notes" : "Combo from 2nd CH.",
@@ -32,7 +32,7 @@
   "Damage" : "10,10,8",
   "Startup" : ""
 }, {
-  "Command" : "1, 2, 1, 2",
+  "Command" : "1212",
   "Hit" : "+7",
   "Block" : "-1",
   "Notes" : "Combo from 3rd hit.",
@@ -43,7 +43,7 @@
   "Damage" : "10,10,8,5",
   "Startup" : ""
 }, {
-  "Command" : "1, 2, 1, 2, 1",
+  "Command" : "12121",
   "Hit" : "+7",
   "Block" : "-1",
   "Notes" : "Combo from 4th CH.",
@@ -54,7 +54,7 @@
   "Damage" : "10,10,8,5,5",
   "Startup" : ""
 }, {
-  "Command" : "1, 2, 1, 2, 1, 2",
+  "Command" : "121212",
   "Hit" : "-7",
   "Block" : "-18",
   "Notes" : "Combo from 5th hit.",
@@ -65,7 +65,7 @@
   "Damage" : "10,10,8,5,5,5",
   "Startup" : ""
 }, {
-  "Command" : "1, 2, 1, 2, 1, 2, 1",
+  "Command" : "1212121",
   "Hit" : "-7",
   "Block" : "-18",
   "Notes" : "Combo from 6th CH.",
@@ -76,7 +76,7 @@
   "Damage" : "10,10,8,5,5,5,5",
   "Startup" : ""
 }, {
-  "Command" : "1, 2, 1, 2, 1, 2, 1, 2",
+  "Command" : "12121212",
   "Hit" : "-7",
   "Block" : "-18",
   "Notes" : "Combo from 7th hit.",
@@ -98,7 +98,7 @@
   "Damage" : "12",
   "Startup" : "12F"
 }, {
-  "Command" : "2, 1",
+  "Command" : "21",
   "Hit" : "+8",
   "Block" : "-3",
   "Notes" : "Combo from 1st hit.",
@@ -109,7 +109,7 @@
   "Damage" : "12,12",
   "Startup" : ""
 }, {
-  "Command" : "2, 1, 3+4",
+  "Command" : "213+4",
   "Hit" : "+12G",
   "Block" : "+1",
   "Notes" : "",
@@ -120,7 +120,7 @@
   "Damage" : "12,12",
   "Startup" : ""
 }, {
-  "Command" : "2, 1, 2",
+  "Command" : "212",
   "Hit" : "LNC",
   "Block" : "-11C",
   "Notes" : "Combo from 2nd CH.\nCan be delayed 10F.\nCombo can be delayed 6F from 2nd CH.\nForced crouching on block.",
@@ -131,7 +131,7 @@
   "Damage" : "12,12,20",
   "Startup" : ""
 }, {
-  "Command" : "2, 4",
+  "Command" : "24",
   "Hit" : "-1",
   "Block" : "-12",
   "Notes" : "",
@@ -153,7 +153,7 @@
   "Damage" : "22",
   "Startup" : "16F"
 }, {
-  "Command" : "3, 4",
+  "Command" : "34",
   "Hit" : "+3",
   "Block" : "-8",
   "Notes" : "",
@@ -164,7 +164,7 @@
   "Damage" : "22,20",
   "Startup" : ""
 }, {
-  "Command" : "3, 4, 3",
+  "Command" : "343",
   "Hit" : "KDN",
   "Block" : "-12",
   "Notes" : "",
@@ -175,7 +175,7 @@
   "Damage" : "22,20,25",
   "Startup" : ""
 }, {
-  "Command" : "3, 4, 3, 4,  … ",
+  "Command" : "3434 … ",
   "Hit" : "+3",
   "Block" : "-8",
   "Notes" : "",
@@ -186,7 +186,7 @@
   "Damage" : "22,20,25,20",
   "Startup" : ""
 }, {
-  "Command" : "3, 4, 4",
+  "Command" : "344",
   "Hit" : "KDN",
   "Block" : "-12C",
   "Notes" : "Connected from Sumo Stampede<img src=\"../rk.bmp\" class=\"c\">.\nForced crouching on block.",
@@ -208,7 +208,7 @@
   "Damage" : "20",
   "Startup" : "15F"
 }, {
-  "Command" : "4, 4",
+  "Command" : "44",
   "Hit" : "KDN",
   "Block" : "-12C",
   "Notes" : "Combo from 1st hit.\nCan be delayed 11F.\nCombo can be delayed 11F from 1st hit.",
@@ -230,7 +230,7 @@
   "Damage" : "19",
   "Startup" : "19F"
 }, {
-  "Command" : "1+2, 3+4",
+  "Command" : "1+23+4",
   "Hit" : "+17CG",
   "Block" : "-3",
   "Notes" : "",
@@ -241,7 +241,7 @@
   "Damage" : "19",
   "Startup" : ""
 }, {
-  "Command" : "1+2, 1+2",
+  "Command" : "1+21+2",
   "Hit" : "LNC",
   "Block" : "-13",
   "Notes" : "",
@@ -263,7 +263,7 @@
   "Damage" : "14",
   "Startup" : "14F"
 }, {
-  "Command" : "f2~1 or ff2~1 or bdbddf2~1",
+  "Command" : "f21 or ff21 or bdbddf21",
   "Hit" : "+12",
   "Block" : "+4",
   "Notes" : "Disable advanced input.\nStart-up 17F in actualy.",
@@ -318,7 +318,7 @@
   "Damage" : "12",
   "Startup" : "13F"
 }, {
-  "Command" : "df1, 4",
+  "Command" : "df14",
   "Hit" : "-2",
   "Block" : "-13",
   "Notes" : "Combo from 1st hit.\nCan be delayed 17F.\nCombo can be delayed 7F from 1st hit.",
@@ -329,7 +329,7 @@
   "Damage" : "12,12",
   "Startup" : ""
 }, {
-  "Command" : "df1, 4, 1",
+  "Command" : "df141",
   "Hit" : "+8",
   "Block" : "-6",
   "Notes" : "Combo from 2nd CH.\nCan be delayed 12F.\nCombo can be delayed 12F from 2nd CH.",
@@ -351,7 +351,7 @@
   "Damage" : "17",
   "Startup" : "16F"
 }, {
-  "Command" : "df2, 1",
+  "Command" : "df21",
   "Hit" : "+4",
   "Block" : "-7",
   "Notes" : "",
@@ -362,7 +362,7 @@
   "Damage" : "17,10",
   "Startup" : ""
 }, {
-  "Command" : "df2, 1, 2",
+  "Command" : "df212",
   "Hit" : "+7",
   "Block" : "-1",
   "Notes" : "Combo from 2nd hit.\nConnect to Open Palm Combo (<img src=\"../lp.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../rp.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../lp.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../rp.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../lp.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../rp.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../lp.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../rp.bmp\" class=\"c\">） 2nd.",
@@ -395,7 +395,7 @@
   "Damage" : "14",
   "Startup" : "15F"
 }, {
-  "Command" : "df4, 1",
+  "Command" : "df41",
   "Hit" : "-3",
   "Block" : "-9",
   "Notes" : "Combo from 1st hit.",
@@ -406,7 +406,7 @@
   "Damage" : "14,13",
   "Startup" : ""
 }, {
-  "Command" : "df4, 1, 2",
+  "Command" : "df412",
   "Hit" : "KDN",
   "Block" : "-14",
   "Notes" : "Combo from 2nd CH.",
@@ -428,7 +428,7 @@
   "Damage" : "10,10",
   "Startup" : "20F"
 }, {
-  "Command" : "df1+2, 1",
+  "Command" : "df1+21",
   "Hit" : "KDN",
   "Block" : "-16",
   "Notes" : "Combo from 1st hit.\nCombo can be delayed 22F from 1st hit.",
@@ -461,7 +461,7 @@
   "Damage" : "22",
   "Startup" : "25F"
 }, {
-  "Command" : "d1, 3+4",
+  "Command" : "d13+4",
   "Hit" : "+9C",
   "Block" : "+5",
   "Notes" : "",
@@ -483,7 +483,7 @@
   "Damage" : "15",
   "Startup" : "29F"
 }, {
-  "Command" : "d2, 2, 2,  … ",
+  "Command" : "d222 … ",
   "Hit" : "-11",
   "Block" : "-17",
   "Notes" : "Combo from CH.",
@@ -494,7 +494,7 @@
   "Damage" : "15,10,10,…",
   "Startup" : ""
 }, {
-  "Command" : "d2, 1",
+  "Command" : "d21",
   "Hit" : "-1",
   "Block" : "-7",
   "Notes" : "",
@@ -505,7 +505,7 @@
   "Damage" : "15,12",
   "Startup" : ""
 }, {
-  "Command" : "d2, 1, 2",
+  "Command" : "d212",
   "Hit" : "-8",
   "Block" : "-19",
   "Notes" : "Combo from 2nd hit.",
@@ -516,7 +516,7 @@
   "Damage" : "15,12,12",
   "Startup" : ""
 }, {
-  "Command" : "d2, 1, 2, 1",
+  "Command" : "d2121",
   "Hit" : "+14B",
   "Block" : "-6",
   "Notes" : "",
@@ -527,7 +527,7 @@
   "Damage" : "15,12,12,12",
   "Startup" : ""
 }, {
-  "Command" : "d2, 1, 2df1",
+  "Command" : "d212df1",
   "Hit" : "+9",
   "Block" : "-2",
   "Notes" : "",
@@ -538,7 +538,7 @@
   "Damage" : "15,12,12,15",
   "Startup" : ""
 }, {
-  "Command" : "d2, 1, 2d1",
+  "Command" : "d212d1",
   "Hit" : "-1",
   "Block" : "-11",
   "Notes" : "TC ",
@@ -648,7 +648,7 @@
   "Damage" : "18",
   "Startup" : "21F"
 }, {
-  "Command" : "b1, 1",
+  "Command" : "b11",
   "Hit" : "±0",
   "Block" : "-6",
   "Notes" : "Combo from 1st hit.",
@@ -659,7 +659,7 @@
   "Damage" : "18,15",
   "Startup" : ""
 }, {
-  "Command" : "b1, 1, 1",
+  "Command" : "b111",
   "Hit" : "KDN",
   "Block" : "+2C",
   "Notes" : "",
@@ -670,7 +670,7 @@
   "Damage" : "18,15,20",
   "Startup" : ""
 }, {
-  "Command" : "b1, 1, 1, 3+4",
+  "Command" : "b1113+4",
   "Hit" : "KDN",
   "Block" : "+3C",
   "Notes" : "",
@@ -681,7 +681,7 @@
   "Damage" : "18,15,20",
   "Startup" : ""
 }, {
-  "Command" : "b1~2",
+  "Command" : "b12",
   "Hit" : "KDN",
   "Block" : "-14",
   "Notes" : "",
@@ -692,7 +692,7 @@
   "Damage" : "2,2,2,21",
   "Startup" : "14F"
 }, {
-  "Command" : "b1~2, 1 just",
+  "Command" : "b12 1:",
   "Hit" : "KDN",
   "Block" : "-14",
   "Notes" : "Enable input<img src=\"../rp.bmp\" class=\"c\">.",
@@ -703,7 +703,7 @@
   "Damage" : "2*5,21",
   "Startup" : ""
 }, {
-  "Command" : "b1~2, 1 just , 1 just",
+  "Command" : "b12 1:1:",
   "Hit" : "KDN",
   "Block" : "-14",
   "Notes" : "Enable input<img src=\"../rp.bmp\" class=\"c\">.",
@@ -714,7 +714,7 @@
   "Damage" : "2*7,21",
   "Startup" : ""
 }, {
-  "Command" : "b1~2, 1 just , 1 just , 1 just",
+  "Command" : "b12 1:1:1:",
   "Hit" : "KDN",
   "Block" : "-14",
   "Notes" : "Enable input<img src=\"../rp.bmp\" class=\"c\">.",
@@ -736,7 +736,7 @@
   "Damage" : "12",
   "Startup" : "15F"
 }, {
-  "Command" : "b2, 1",
+  "Command" : "b21",
   "Hit" : "+1",
   "Block" : "-5",
   "Notes" : "Combo from 1st hit.\nCan be delayed 23F.\nCombo can be delayed 10F from 1st hit.",
@@ -747,7 +747,7 @@
   "Damage" : "12,13",
   "Startup" : ""
 }, {
-  "Command" : "b2, 1, 3+4",
+  "Command" : "b213+4",
   "Hit" : "+4",
   "Block" : "-2",
   "Notes" : "",
@@ -758,7 +758,7 @@
   "Damage" : "12,13",
   "Startup" : ""
 }, {
-  "Command" : "b2, 1, 2",
+  "Command" : "b212",
   "Hit" : "KDN",
   "Block" : "-12",
   "Notes" : "TS \nCombo from 2nd CH.\nCan be delayed 12F.\nCombo can be delayed 12F from 2nd CH.",
@@ -769,7 +769,7 @@
   "Damage" : "12,13,22",
   "Startup" : ""
 }, {
-  "Command" : "b2, 1d2",
+  "Command" : "b21d2",
   "Hit" : "KDN",
   "Block" : "-22",
   "Notes" : "TC ",
@@ -791,7 +791,7 @@
   "Damage" : "14",
   "Startup" : "15F"
 }, {
-  "Command" : "b4, 1",
+  "Command" : "b41",
   "Hit" : "KDN",
   "Block" : "-7",
   "Notes" : "TS \nCombo from 1st CH.",
@@ -846,7 +846,7 @@
   "Damage" : "17",
   "Startup" : "21F"
 }, {
-  "Command" : "uf2, 1+2",
+  "Command" : "uf21+2",
   "Hit" : "KDN",
   "Block" : "-14",
   "Notes" : "Combo from 1st hit.",
@@ -890,7 +890,7 @@
   "Damage" : "35",
   "Startup" : "25F"
 }, {
-  "Command" : "ub or u or uf4 or uf,n,4",
+  "Command" : "ub or u or uf4 or ufn4",
   "Hit" : "KDN",
   "Block" : "-9",
   "Notes" : "TJ 9F",
@@ -912,7 +912,7 @@
   "Damage" : "28",
   "Startup" : "18F"
 }, {
-  "Command" : "uf1+2, 3+4",
+  "Command" : "uf1+23+4",
   "Hit" : "+6",
   "Block" : "-2",
   "Notes" : "",
@@ -1099,7 +1099,7 @@
   "Damage" : "12",
   "Startup" : "13F"
 }, {
-  "Command" : " WS 1, 2",
+  "Command" : " WS 12",
   "Hit" : "±0C",
   "Block" : "-13",
   "Notes" : "Combo from 1st hit.\nCan be delayed 12F.\nCombo can be delayed 7F from 1st hit.",
@@ -1154,7 +1154,7 @@
   "Damage" : "14",
   "Startup" : "19F"
 }, {
-  "Command" : " WS 1+2, 1+2",
+  "Command" : " WS 1+21+2",
   "Hit" : "+23G",
   "Block" : "-11C",
   "Notes" : "",
@@ -1176,7 +1176,7 @@
   "Damage" : "10",
   "Startup" : "20F"
 }, {
-  "Command" : " FC d1, 1",
+  "Command" : " FC d11",
   "Hit" : "+6",
   "Block" : "-5",
   "Notes" : "TC ",
@@ -1187,7 +1187,7 @@
   "Damage" : "10,8",
   "Startup" : ""
 }, {
-  "Command" : " FC d1, 1, 1",
+  "Command" : " FC d111",
   "Hit" : "-3",
   "Block" : "-14",
   "Notes" : "Combo from 2nd CH.",
@@ -1198,7 +1198,7 @@
   "Damage" : "10,8,12",
   "Startup" : ""
 }, {
-  "Command" : " FC d1, 1, 1, 2",
+  "Command" : " FC d1112",
   "Hit" : "-8",
   "Block" : "-19",
   "Notes" : "",
@@ -1209,7 +1209,7 @@
   "Damage" : "10,8,12,12",
   "Startup" : ""
 }, {
-  "Command" : " FC d1, 1, 1, 2, 1",
+  "Command" : " FC d11121",
   "Hit" : "+14B",
   "Block" : "-6",
   "Notes" : "",
@@ -1220,7 +1220,7 @@
   "Damage" : "10,8,12,12,12",
   "Startup" : ""
 }, {
-  "Command" : " FC d1, 1, 1, 2df1",
+  "Command" : " FC d1112df1",
   "Hit" : "+9",
   "Block" : "-2",
   "Notes" : "",
@@ -1231,7 +1231,7 @@
   "Damage" : "10,8,12,12,15",
   "Startup" : ""
 }, {
-  "Command" : " FC d1, 1, 1, 2d1",
+  "Command" : " FC d1112d1",
   "Hit" : "-1",
   "Block" : "-11",
   "Notes" : "TC ",
@@ -1253,7 +1253,7 @@
   "Damage" : "9",
   "Startup" : "18F"
 }, {
-  "Command" : " FC df1, 2",
+  "Command" : " FC df12",
   "Hit" : "+2",
   "Block" : "-9",
   "Notes" : "Combo from 1st hit.",
@@ -1264,7 +1264,7 @@
   "Damage" : "9,12",
   "Startup" : ""
 }, {
-  "Command" : " FC df1, 2, 1",
+  "Command" : " FC df121",
   "Hit" : "+7",
   "Block" : "-8",
   "Notes" : "Combo from 2nd CH.\nCan be delayed.",
@@ -1319,7 +1319,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "1+2+3+4, 2+3",
+  "Command" : "1+2+3+42+3",
   "Hit" : "-34",
   "Block" : "",
   "Notes" : "Secret Move.\nOnly Julia.\nStart-up 68F in actualy.\nRecovery +3pt.\nJulia can punish by<img src=\"../lp.bmp\" class=\"c\">(damage 48 &amp; KDN).",
@@ -1462,7 +1462,7 @@
   "Damage" : "14",
   "Startup" : "13F"
 }, {
-  "Command" : " Tachiai 4, 1",
+  "Command" : " Tachiai 41",
   "Hit" : "+10Sp",
   "Block" : "-9",
   "Notes" : "TS \nCombo from 1st hit.\nCan be delayed 10F.\nCombo can be delayed 10F from 1st hit.",
@@ -1664,219 +1664,162 @@
   "Hit" : "LNC",
   "Block" : "-6C",
   "Notes" : "TC 11F\nSpecial effect when approach mid-air enemy.\n",
-  "Name" : "Rage Drive to Tachiai",
+  "Name" : "Rage Drive",
   "Total" : "",
   "Counter Hit" : "LNC",
   "Property" : "L,M,SP",
   "Damage" : "16,20",
   "Startup" : "23F"
 }, {
-  "Command" : "1+3",
-  "Hit" : "or -6F RP",
-  "Block" : "RP Head-sd. Face-Up",
-  "Notes" : "Long Range Throw.",
+  "BreakThrow" : "1 or 2 -6F RP",
   "Name" : "Body Slam",
-  "Total" : "Long Range Throw.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "35",
-  "Startup" : "12F"
+  "AfterThrow" : "RP Head-sd. Face-Up",
+  "Command" : "1+3",
+  "Property" : "Th(H)",
+  "Notes" : "Long Range Throw."
 }, {
-  "Command" : "2+4",
-  "Hit" : "or -1F",
-  "Block" : "RP Foot-sd. Face-Up",
-  "Notes" : "Long Range Throw.",
+  "BreakThrow" : "1 or 2 -1F",
   "Name" : "Sumo Scoop",
-  "Total" : "Long Range Throw.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "35",
-  "Startup" : "12F"
+  "AfterThrow" : "RP Foot-sd. Face-Up",
+  "Command" : "2+4",
+  "Property" : "Th(H)",
+  "Notes" : "Long Range Throw."
 }, {
-  "Command" : " Approach from left side ",
-  "Hit" : "-3F",
-  "Block" : "RP Foot-sd. Face-Up",
-  "Notes" : "Wall Stun\nDamage () is wall damage.",
+  "BreakThrow" : "1 -3F",
   "Name" : "Upper Stream Throw",
-  "Total" : "Wall Stun Damage () is wall damage.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "40(52)",
-  "Startup" : ""
+  "AfterThrow" : "RP Foot-sd. Face-Up",
+  "Command" : " Approach from left side ",
+  "Property" : "Th(H)",
+  "Notes" : "Wall Stun Damage () is wall damage."
 }, {
-  "Command" : " Approach from right side ",
-  "Hit" : "-3F",
-  "Block" : "CCW. Foot-sd. Face-Up",
-  "Notes" : "Wall Stun\nDamage () is wall damage.",
+  "BreakThrow" : "2 -3F",
   "Name" : "Crotch Throw",
-  "Total" : "Wall Stun Damage () is wall damage.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "40(52)",
-  "Startup" : ""
+  "AfterThrow" : "CCW. Foot-sd. Face-Up",
+  "Command" : " Approach from right side ",
+  "Property" : "Th(H)",
+  "Notes" : "Wall Stun Damage () is wall damage."
 }, {
-  "Command" : " Approach from behind 1+3",
-  "Hit" : "disable",
-  "Block" : "Foot-sd. Face-dwn",
-  "Notes" : "",
+  "BreakThrow" : "disable ",
   "Name" : "Okurigake",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "50",
-  "Startup" : ""
+  "AfterThrow" : "Foot-sd. Face-dwn",
+  "Command" : " Approach from behind 1+3",
+  "Property" : "Th(H)",
+  "Notes" : ""
 }, {
-  "Command" : " Approach from behind 2+4",
-  "Hit" : "disable",
-  "Block" : "RP Head-sd. Face-Up",
-  "Notes" : "",
+  "BreakThrow" : "disable ",
   "Name" : "Reverse Choke Slam",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "50",
-  "Startup" : ""
+  "AfterThrow" : "RP Head-sd. Face-Up",
+  "Command" : " Approach from behind 2+4",
+  "Property" : "Th(H)",
+  "Notes" : ""
 }, {
-  "Command" : " Approach from behind d1+2",
-  "Hit" : "disable",
-  "Block" : "+19BF",
-  "Notes" : "",
+  "BreakThrow" : "disable ",
   "Name" : "Pedal Press",
-  "Total" : "",
-  "Counter Hit" : "",
+  "Damage" : "22",
+  "AfterThrow" : "+19BF",
+  "Command" : " Approach from behind d1+2",
   "Property" : "M,Th",
-  "Damage" : "22",
-  "Startup" : "16F"
+  "Notes" : ""
 }, {
-  "Command" : "ff1+4",
-  "Hit" : "-2F",
-  "Block" : "+5F",
-  "Notes" : "Disable Preciding Input\n",
+  "BreakThrow" : "1+2 -2F",
   "Name" : "Tsuri Dashi",
-  "Total" : "Disable Preciding Input",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "28",
-  "Startup" : "12F"
+  "AfterThrow" : "+5F",
+  "Command" : "ff1+4",
+  "Property" : "Th(H)",
+  "Notes" : "Disable Preciding Input"
 }, {
-  "Command" : "ff2+3",
-  "Hit" : "-6F",
-  "Block" : "Foot-sd. Face-Up",
-  "Notes" : "Disable Preciding Input\nFloor Break.",
+  "BreakThrow" : "1+2 -6F",
   "Name" : "Choke Slam",
-  "Total" : "Disable Preciding Input Floor Break.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "40",
-  "Startup" : "12F"
+  "AfterThrow" : "Foot-sd. Face-Up",
+  "Command" : "ff2+3",
+  "Property" : "Th(H)",
+  "Notes" : "Disable Preciding Input Floor Break."
 }, {
-  "Command" : "b1+3 or b2+4",
-  "Hit" : "disable",
-  "Block" : "RP +13BF",
-  "Notes" : "Absorbs Punch(H/M) during 2 to 10F.",
+  "BreakThrow" : "disable ",
   "Name" : "Twin Wall",
-  "Total" : "Absorbs Punch(H/M) during 2 to 10F.",
-  "Counter Hit" : "45",
-  "Property" : "AbsorbsPunch(HM)",
   "Damage" : "-",
-  "Startup" : ""
+  "AfterThrow" : "RP +13BF",
+  "Command" : "b1+3 or b2+4",
+  "Property" : "AbsorbsPunch(HM)",
+  "Notes" : "Absorbs Punch(H/M) during 2 to 10F."
 }, {
-  "Command" : "d1+2 CH ",
-  "Hit" : "",
-  "Block" : "",
-  "Notes" : "No input ±0F.\nConnect to Pedal Press on behind hit.",
+  "BreakThrow" : "",
   "Name" : "Okuridashi Tsukami",
-  "Total" : "No input ±0F. Connect to Pedal Press on behind hit.",
-  "Counter Hit" : "",
-  "Property" : "M,SP",
   "Damage" : "22",
-  "Startup" : "16F"
+  "AfterThrow" : "",
+  "Command" : "d1+2 CH ",
+  "Property" : "M,SP",
+  "Notes" : "No input ±0F. Connect to Pedal Press on behind hit."
 }, {
-  "Command" : " Okuridashi Tsukami 1",
-  "Hit" : "-3F",
-  "Block" : "RP Foot-sd. Face-Up",
-  "Notes" : "Floor Break.",
+  "BreakThrow" : "1 -3F",
   "Name" : "Soto Tasukizori",
-  "Total" : "Floor Break.",
-  "Counter Hit" : "",
-  "Property" : "Th",
   "Damage" : "28",
-  "Startup" : ""
+  "AfterThrow" : "RP Foot-sd. Face-Up",
+  "Command" : " Okuridashi Tsukami 1",
+  "Property" : "Th",
+  "Notes" : "Floor Break."
 }, {
-  "Command" : " Okuridashi Tsukami 2",
-  "Hit" : "-3F",
-  "Block" : "CW Foot-sd. Face-Up",
-  "Notes" : "Floor Break.",
+  "BreakThrow" : "2 -3F",
   "Name" : "Shumokuzori",
-  "Total" : "Floor Break.",
-  "Counter Hit" : "",
-  "Property" : "Th",
   "Damage" : "28",
-  "Startup" : ""
+  "AfterThrow" : "CW Foot-sd. Face-Up",
+  "Command" : " Okuridashi Tsukami 2",
+  "Property" : "Th",
+  "Notes" : "Floor Break."
 }, {
-  "Command" : " Okuridashi Tsukami 1+2",
-  "Hit" : "-3F",
-  "Block" : "RP Foot-sd. Face-Up",
-  "Notes" : "",
+  "BreakThrow" : "1+2 -3F",
   "Name" : "Tsuri Otoshi",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th",
   "Damage" : "35",
-  "Startup" : ""
+  "AfterThrow" : "RP Foot-sd. Face-Up",
+  "Command" : " Okuridashi Tsukami 1+2",
+  "Property" : "Th",
+  "Notes" : ""
 }, {
-  "Command" : "ff2 CH ",
-  "Hit" : "",
-  "Block" : "",
-  "Notes" : "No input ±0F.\nConnect to Pedal Press on behind hit.",
+  "BreakThrow" : "",
   "Name" : "Kumite Tsukami",
-  "Total" : "No input ±0F. Connect to Pedal Press on behind hit.",
-  "Counter Hit" : "",
-  "Property" : "M,SP",
   "Damage" : "18",
-  "Startup" : "17F"
-}, {
-  "Command" : " Tachiai 1+2 or Shiranui 1+2",
-  "Hit" : "",
-  "Block" : "",
-  "Notes" : "PC 8F\nNo input ±0F.\nConnect to Pedal Press on behind hit.\nSide throw on side hit.",
-  "Name" : "Rough Waves",
-  "Total" : "PC8F No input ±0F. Connect to Pedal Press on behind hit. Side throw on side hit.",
-  "Counter Hit" : "",
+  "AfterThrow" : "",
+  "Command" : "ff2 CH ",
   "Property" : "M,SP",
+  "Notes" : "No input ±0F. Connect to Pedal Press on behind hit."
+}, {
+  "BreakThrow" : "",
+  "Name" : "Rough Waves",
   "Damage" : "15",
-  "Startup" : "26F"
+  "AfterThrow" : "",
+  "Command" : " Tachiai 1+2 or Shiranui 1+2",
+  "Property" : "M,SP",
+  "Notes" : "PC8F No input ±0F. Connect to Pedal Press on behind hit. Side throw on side hit."
 }, {
-  "Command" : " Kumite Tsukami 1",
-  "Hit" : "-3F",
-  "Block" : "RP Head-sd. Face-Up",
-  "Notes" : "",
+  "BreakThrow" : "1 -3F",
   "Name" : "Harima Nage",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th",
   "Damage" : "33",
-  "Startup" : ""
+  "AfterThrow" : "RP Head-sd. Face-Up",
+  "Command" : " Kumite Tsukami 1",
+  "Property" : "Th",
+  "Notes" : ""
 }, {
-  "Command" : " Kumite Tsukami 2",
-  "Hit" : "-3F",
-  "Block" : "CCW Head-sd. Face-dwn",
-  "Notes" : "",
+  "BreakThrow" : "2 -3F",
   "Name" : "Soto Muso",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th",
   "Damage" : "33",
-  "Startup" : ""
-}, {
-  "Command" : " Kumite Tsukami 1+2",
-  "Hit" : "-3F",
-  "Block" : "RP Head-sd. Face-Up",
-  "Notes" : "Landing damage.\nDamage () is wall damage.",
-  "Name" : "Gokuraku Utchari",
-  "Total" : "Landing damage. Damage () is wall damage.",
-  "Counter Hit" : "",
+  "AfterThrow" : "CCW Head-sd. Face-dwn",
+  "Command" : " Kumite Tsukami 2",
   "Property" : "Th",
+  "Notes" : ""
+}, {
+  "BreakThrow" : "1+2 -3F",
+  "Name" : "Gokuraku Utchari",
   "Damage" : "22(25)",
-  "Startup" : ""
+  "AfterThrow" : "RP Head-sd. Face-Up",
+  "Command" : " Kumite Tsukami 1+2",
+  "Property" : "Th",
+  "Notes" : "Landing damage. Damage () is wall damage."
 } ]

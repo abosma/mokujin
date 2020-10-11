@@ -10,7 +10,7 @@
   "Damage" : "7",
   "Startup" : "10F"
 }, {
-  "Command" : "1, 1",
+  "Command" : "11",
   "Hit" : "+2",
   "Block" : "-9",
   "Notes" : "Combo from 1st NH.",
@@ -21,7 +21,7 @@
   "Damage" : "7,12",
   "Startup" : ""
 }, {
-  "Command" : "1, 1, 1",
+  "Command" : "111",
   "Hit" : "KDN",
   "Block" : "-14",
   "Notes" : "Combo from 1st or 2nd CH.",
@@ -32,7 +32,7 @@
   "Damage" : "7,12,20",
   "Startup" : ""
 }, {
-  "Command" : "1, 1, 2",
+  "Command" : "112",
   "Hit" : "KDN",
   "Block" : "-9",
   "Notes" : "Interrupt 12F from 2nd block.",
@@ -43,7 +43,7 @@
   "Damage" : "7,12,20",
   "Startup" : ""
 }, {
-  "Command" : "1, 2",
+  "Command" : "12",
   "Hit" : "+5",
   "Block" : "-1",
   "Notes" : "Combo from 1st NH.\n",
@@ -54,7 +54,7 @@
   "Damage" : "7,10",
   "Startup" : ""
 }, {
-  "Command" : "1, 2, 3 or 4",
+  "Command" : "123 or 4",
   "Hit" : "+7",
   "Block" : "+1",
   "Notes" : "",
@@ -65,7 +65,7 @@
   "Damage" : "7,10",
   "Startup" : ""
 }, {
-  "Command" : "1, 2, 3 or 4",
+  "Command" : "123 or 4",
   "Hit" : "-3",
   "Block" : "-9",
   "Notes" : "",
@@ -76,7 +76,7 @@
   "Damage" : "7,10",
   "Startup" : ""
 }, {
-  "Command" : "1, 2, 1",
+  "Command" : "121",
   "Hit" : "+3",
   "Block" : "-13",
   "Notes" : "Combo from 2nd CH.\nCan be delayed.",
@@ -87,7 +87,7 @@
   "Damage" : "7,10,10",
   "Startup" : ""
 }, {
-  "Command" : "1, 2, 1, 1",
+  "Command" : "1211",
   "Hit" : "KDN",
   "Block" : "-14",
   "Notes" : "Combo from 3rd CH.\nCan be delayed 8F.\nCombo can be delayed 8F from 3rd CH.",
@@ -153,7 +153,7 @@
   "Damage" : "15",
   "Startup" : "11F"
 }, {
-  "Command" : "4, 4",
+  "Command" : "44",
   "Hit" : "-2",
   "Block" : "-16",
   "Notes" : "TC \nReturns to crouching.",
@@ -164,7 +164,7 @@
   "Damage" : "15,12",
   "Startup" : ""
 }, {
-  "Command" : "4, 4, 1",
+  "Command" : "441",
   "Hit" : "LNC",
   "Block" : "-14",
   "Notes" : "Combo from 2nd CH.",
@@ -175,7 +175,7 @@
   "Damage" : "15,12,21",
   "Startup" : ""
 }, {
-  "Command" : "4, 4, 1~2",
+  "Command" : "44 12",
   "Hit" : "KDN",
   "Block" : "-9",
   "Notes" : "",
@@ -186,7 +186,7 @@
   "Damage" : "15,12,20",
   "Startup" : ""
 }, {
-  "Command" : "4, 4, 4",
+  "Command" : "444",
   "Hit" : "KDN",
   "Block" : "-6",
   "Notes" : "Combo from 2nd CH.",
@@ -197,7 +197,7 @@
   "Damage" : "15,12,23",
   "Startup" : ""
 }, {
-  "Command" : "4, 4d4",
+  "Command" : "44d4",
   "Hit" : "-8",
   "Block" : "-19",
   "Notes" : "Combo from 2nd CH.\nReturns to crouching.",
@@ -208,7 +208,7 @@
   "Damage" : "15,12,10",
   "Startup" : ""
 }, {
-  "Command" : "4~2",
+  "Command" : "42",
   "Hit" : "-4",
   "Block" : "-12",
   "Notes" : "Advance Input is unavailable\nStart-up 16F in actualy\n-1F from 1st CH &amp; 2nd whiff.",
@@ -219,7 +219,7 @@
   "Damage" : "7,5",
   "Startup" : "15F"
 }, {
-  "Command" : "4~2, 1",
+  "Command" : "42 1",
   "Hit" : "KDN",
   "Block" : "-16",
   "Notes" : "Combo from 2nd whiff or 1st CH.\n",
@@ -241,7 +241,7 @@
   "Damage" : "14",
   "Startup" : "18F"
 }, {
-  "Command" : "1+2, 4",
+  "Command" : "1+24",
   "Hit" : "-1",
   "Block" : "-12",
   "Notes" : "Combo from 1st NH.\nCan be delayed.",
@@ -252,7 +252,7 @@
   "Damage" : "14,12",
   "Startup" : ""
 }, {
-  "Command" : "1+2, 4bf1+2",
+  "Command" : "1+24bf1+2",
   "Hit" : "KDN",
   "Block" : "-10",
   "Notes" : "Combo from 2nd CH.",
@@ -263,7 +263,7 @@
   "Damage" : "14,12,25",
   "Startup" : ""
 }, {
-  "Command" : "1+2, 4, 4",
+  "Command" : "1+244",
   "Hit" : "KDN",
   "Block" : "-20",
   "Notes" : "Combo from 2nd CH.\n",
@@ -318,7 +318,7 @@
   "Damage" : "10",
   "Startup" : ""
 }, {
-  "Command" : "f2, 1",
+  "Command" : "f21",
   "Hit" : "+5",
   "Block" : "-1",
   "Notes" : "Combo from 1st NH.",
@@ -329,7 +329,7 @@
   "Damage" : "10,14",
   "Startup" : ""
 }, {
-  "Command" : "f2, 1, 3",
+  "Command" : "f213",
   "Hit" : "+20G",
   "Block" : "+14",
   "Notes" : "",
@@ -340,7 +340,7 @@
   "Damage" : "10,14",
   "Startup" : ""
 }, {
-  "Command" : "f2, 1, 2",
+  "Command" : "f212",
   "Hit" : "KDN",
   "Block" : "-10",
   "Notes" : "Combo from 2nd CH.\nCan be delayed.\n",
@@ -351,7 +351,7 @@
   "Damage" : "10,14,20",
   "Startup" : ""
 }, {
-  "Command" : "f2, 4",
+  "Command" : "f24",
   "Hit" : "+5",
   "Block" : "-8",
   "Notes" : "Combo from 1st NH.\n",
@@ -373,7 +373,7 @@
   "Damage" : "13",
   "Startup" : "15F"
 }, {
-  "Command" : "f4, 1",
+  "Command" : "f41",
   "Hit" : "KDN",
   "Block" : "-14",
   "Notes" : "Combo from 1st NH.\n",
@@ -428,7 +428,7 @@
   "Damage" : "8",
   "Startup" : "15F"
 }, {
-  "Command" : "df2, 1",
+  "Command" : "df21",
   "Hit" : "LNC",
   "Block" : "-18",
   "Notes" : "Combo from 1st NH.",
@@ -439,7 +439,7 @@
   "Damage" : "8,12",
   "Startup" : ""
 }, {
-  "Command" : "df2, 3",
+  "Command" : "df23",
   "Hit" : "+27",
   "Block" : "+16",
   "Notes" : "",
@@ -450,7 +450,7 @@
   "Damage" : "8",
   "Startup" : ""
 }, {
-  "Command" : "df2, 4",
+  "Command" : "df24",
   "Hit" : "+5",
   "Block" : "-6",
   "Notes" : "Combo from 1st NH.",
@@ -472,7 +472,7 @@
   "Damage" : "14",
   "Startup" : "13F"
 }, {
-  "Command" : "df3, 1+2",
+  "Command" : "df31+2",
   "Hit" : "KDN",
   "Block" : "-13",
   "Notes" : "Combo from 1st NH (Air Hit).\n",
@@ -494,7 +494,7 @@
   "Damage" : "14",
   "Startup" : "14F"
 }, {
-  "Command" : "df4, 2",
+  "Command" : "df42",
   "Hit" : "-2",
   "Block" : "-13",
   "Notes" : "Combo from 1st CH.\nDelayble.",
@@ -505,7 +505,7 @@
   "Damage" : "14,10",
   "Startup" : ""
 }, {
-  "Command" : "df4, 2, 3",
+  "Command" : "df423",
   "Hit" : "KDN",
   "Block" : "-5",
   "Notes" : "TS \nCombo from 1st or 2nd CH.\nDelayble.\n",
@@ -516,7 +516,7 @@
   "Damage" : "14,10,18",
   "Startup" : ""
 }, {
-  "Command" : "df4, 2, 1",
+  "Command" : "df421",
   "Hit" : "KDN",
   "Block" : "-14",
   "Notes" : "Combo from 1st or 2nd CH.\nDelayble.\n",
@@ -527,7 +527,7 @@
   "Damage" : "14,10,25",
   "Startup" : ""
 }, {
-  "Command" : "df4, 2bf1",
+  "Command" : "df42bf1",
   "Hit" : "KDN",
   "Block" : "-14",
   "Notes" : "Combo from 1st or 2nd CH.\nDelayble.",
@@ -571,7 +571,7 @@
   "Damage" : "8",
   "Startup" : "11F"
 }, {
-  "Command" : "d2, 3",
+  "Command" : "d23",
   "Hit" : "+1",
   "Block" : "-10",
   "Notes" : "Combo from 1st CH.",
@@ -604,7 +604,7 @@
   "Damage" : "12",
   "Startup" : "20F"
 }, {
-  "Command" : "d4, 1",
+  "Command" : "d41",
   "Hit" : "LNC",
   "Block" : "-14",
   "Notes" : "Combo from 1st CH.",
@@ -615,7 +615,7 @@
   "Damage" : "12,21",
   "Startup" : ""
 }, {
-  "Command" : "d4, 1~2",
+  "Command" : "d4 12",
   "Hit" : "KDN",
   "Block" : "-9",
   "Notes" : "",
@@ -626,7 +626,7 @@
   "Damage" : "12,20",
   "Startup" : ""
 }, {
-  "Command" : "d4, 4",
+  "Command" : "d44",
   "Hit" : "KDN",
   "Block" : "-6",
   "Notes" : "Combo from 1st CH.",
@@ -681,7 +681,7 @@
   "Damage" : "13",
   "Startup" : "15F"
 }, {
-  "Command" : "db2, 1",
+  "Command" : "db21",
   "Hit" : "-4",
   "Block" : "-11",
   "Notes" : "Combo from 1st CH.\nCan be delayed 10F.",
@@ -714,7 +714,7 @@
   "Damage" : "11",
   "Startup" : "15F"
 }, {
-  "Command" : "db4, 1",
+  "Command" : "db41",
   "Hit" : "KDN",
   "Block" : "-10",
   "Notes" : "Combo from 1st CH.\nCan be delayed 9F.\nCombo can be delayed 9F from 1st CH.\n",
@@ -747,7 +747,7 @@
   "Damage" : "14",
   "Startup" : "13F"
 }, {
-  "Command" : "b2, 3",
+  "Command" : "b23",
   "Hit" : "+4",
   "Block" : "-12",
   "Notes" : "Combo from 1st NH.",
@@ -758,7 +758,7 @@
   "Damage" : "14,15",
   "Startup" : ""
 }, {
-  "Command" : "b2, 3, 1+2",
+  "Command" : "b231+2",
   "Hit" : "KDN",
   "Block" : "-13",
   "Notes" : "Combo from 2nd CH.\nCan be delayed.",
@@ -780,7 +780,7 @@
   "Damage" : "17",
   "Startup" : "27F"
 }, {
-  "Command" : "b3, 4",
+  "Command" : "b34",
   "Hit" : "KDN",
   "Block" : "-8",
   "Notes" : "TC \nReturns to crouching.",
@@ -912,7 +912,7 @@
   "Damage" : "8",
   "Startup" : "16F"
 }, {
-  "Command" : "uf4, 3",
+  "Command" : "uf43",
   "Hit" : "LNC",
   "Block" : "-13",
   "Notes" : "Combo from 1st NH.\nCan be delayed 6F.\nCombo can be delayed 6F from 1st NH.\n",
@@ -923,7 +923,7 @@
   "Damage" : "8,8",
   "Startup" : ""
 }, {
-  "Command" : "uf4, 3, 1",
+  "Command" : "uf431",
   "Hit" : "KDN",
   "Block" : "-6",
   "Notes" : "",
@@ -945,7 +945,7 @@
   "Damage" : "30",
   "Startup" : "35F"
 }, {
-  "Command" : "uf,n,4",
+  "Command" : "ufn4",
   "Hit" : "LNC",
   "Block" : "-18",
   "Notes" : "TJ 9F",
@@ -967,7 +967,7 @@
   "Damage" : "11",
   "Startup" : "11F"
 }, {
-  "Command" : "ff1, 4",
+  "Command" : "ff14",
   "Hit" : "+15Sp",
   "Block" : "-4",
   "Notes" : "TS \nCombo from 1st NH.\nCan be delayed.\n",
@@ -1022,7 +1022,7 @@
   "Damage" : "14",
   "Startup" : "12F"
 }, {
-  "Command" : "ddf1, 3 or 4",
+  "Command" : "ddf13 or 4",
   "Hit" : "+8",
   "Block" : "+2",
   "Notes" : "",
@@ -1033,7 +1033,7 @@
   "Damage" : "14",
   "Startup" : ""
 }, {
-  "Command" : "ddf1, 3 or 4",
+  "Command" : "ddf13 or 4",
   "Hit" : "-2",
   "Block" : "-8",
   "Notes" : "",
@@ -1044,7 +1044,7 @@
   "Damage" : "14",
   "Startup" : ""
 }, {
-  "Command" : "ddf1, 2",
+  "Command" : "ddf12",
   "Hit" : "KDN",
   "Block" : "-14",
   "Notes" : "Combo from 1st CH.\nCan be delayed.",
@@ -1088,7 +1088,7 @@
   "Damage" : "12",
   "Startup" : "14F"
 }, {
-  "Command" : "fff2, 1",
+  "Command" : "fff21",
   "Hit" : "KDN",
   "Block" : "-13",
   "Notes" : "Combo from 1st NH.\nCan be delayed 11F.\n",
@@ -1165,7 +1165,7 @@
   "Damage" : "15",
   "Startup" : "15F"
 }, {
-  "Command" : "WS, 1~2",
+  "Command" : "WS 12",
   "Hit" : "KDN",
   "Block" : "-9",
   "Notes" : "",
@@ -1187,7 +1187,7 @@
   "Damage" : "11",
   "Startup" : "18F"
 }, {
-  "Command" : " WS 2, 3 or 4",
+  "Command" : " WS 23 or 4",
   "Hit" : "+10",
   "Block" : "+2",
   "Notes" : "",
@@ -1198,7 +1198,7 @@
   "Damage" : "11",
   "Startup" : ""
 }, {
-  "Command" : " WS 2, 3 or 4",
+  "Command" : " WS 23 or 4",
   "Hit" : "±0",
   "Block" : "-8",
   "Notes" : "",
@@ -1209,7 +1209,7 @@
   "Damage" : "11",
   "Startup" : ""
 }, {
-  "Command" : " WS 2, 1",
+  "Command" : " WS 21",
   "Hit" : "KDN",
   "Block" : "-4",
   "Notes" : "Combo from 1st NH.\nCan be delayed.",
@@ -1220,7 +1220,7 @@
   "Damage" : "11,20",
   "Startup" : ""
 }, {
-  "Command" : " WS 2, 2",
+  "Command" : " WS 22",
   "Hit" : "KDN",
   "Block" : "-16",
   "Notes" : "Combo from 1st NH.",
@@ -1231,7 +1231,7 @@
   "Damage" : "11,16",
   "Startup" : ""
 }, {
-  "Command" : " WS 2, 2d",
+  "Command" : " WS 22d",
   "Hit" : "KDN",
   "Block" : "-18",
   "Notes" : "",
@@ -1242,7 +1242,7 @@
   "Damage" : "11,16",
   "Startup" : ""
 }, {
-  "Command" : " WS 2, 2 Hold ",
+  "Command" : " WS 22 Hold ",
   "Hit" : "KDN",
   "Block" : "+4",
   "Notes" : "",
@@ -1253,7 +1253,7 @@
   "Damage" : "11,23",
   "Startup" : ""
 }, {
-  "Command" : " WS 2, 2 Hold d",
+  "Command" : " WS 22 Hold d",
   "Hit" : "KDN",
   "Block" : "+4",
   "Notes" : "",
@@ -1264,7 +1264,7 @@
   "Damage" : "11,23",
   "Startup" : ""
 }, {
-  "Command" : " WS 2, 2, 1+2",
+  "Command" : " WS 221+2",
   "Hit" : "KDN",
   "Block" : "-16",
   "Notes" : "TJ \nDamage () is Hold bonus.\nCan be delayed.\n",
@@ -1319,7 +1319,7 @@
   "Damage" : "9",
   "Startup" : "16F"
 }, {
-  "Command" : " FC df4, 3",
+  "Command" : " FC df43",
   "Hit" : "KDN",
   "Block" : "-17",
   "Notes" : "TJ \nCombo from 1st NH.",
@@ -1506,7 +1506,7 @@
   "Damage" : "10",
   "Startup" : "18F"
 }, {
-  "Command" : " WR 3, 1+2",
+  "Command" : " WR 31+2",
   "Hit" : "KDN",
   "Block" : "-13",
   "Notes" : "Combo from 1st NH.\n",
@@ -1528,7 +1528,7 @@
   "Damage" : "14",
   "Startup" : "20F"
 }, {
-  "Command" : " WR 4, 1+2",
+  "Command" : " WR 41+2",
   "Hit" : "KDN",
   "Block" : "-16",
   "Notes" : "TC ",
@@ -1572,7 +1572,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "f3~1",
+  "Command" : "f31",
   "Hit" : "KDN",
   "Block" : "-3",
   "Notes" : "TJ 18F\nMeaty 7F.",
@@ -1649,168 +1649,123 @@
   "Damage" : "20,35",
   "Startup" : "15F"
 }, {
-  "Command" : "1+3",
-  "Hit" : "or -6F RP",
-  "Block" : "RP Foot-sd. Fac-Up.",
-  "Notes" : "Floor break.\n",
+  "BreakThrow" : "1 or 2 -6F RP",
   "Name" : "Death Valley Bomb",
-  "Total" : "Floor break. S2 Patch Notes (ver.2.30)・Corrected name on Move List.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "35",
-  "Startup" : "12F"
+  "AfterThrow" : "RP Foot-sd. Fac-Up.",
+  "Command" : "1+3",
+  "Property" : "Th(H)",
+  "Notes" : "Floor break. S2 Patch Notes (ver.2.30)・Corrected name on Move List."
 }, {
-  "Command" : "2+4",
-  "Hit" : "or -3F",
-  "Block" : "CCW Foot-sd. Fac-Up.",
-  "Notes" : "",
+  "BreakThrow" : "1 or 2 -3F",
   "Name" : "Side Slam",
-  "Total" : "S2 Patch Notes (ver.2.30)・Corrected name on Move List.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "35",
-  "Startup" : "12F"
+  "AfterThrow" : "CCW Foot-sd. Fac-Up.",
+  "Command" : "2+4",
+  "Property" : "Th(H)",
+  "Notes" : "S2 Patch Notes (ver.2.30)・Corrected name on Move List."
 }, {
-  "Command" : " Approach from left side ",
-  "Hit" : "-3F",
-  "Block" : "Head-sd. Fac-Dwn.",
-  "Notes" : "",
+  "BreakThrow" : "1 -3F",
   "Name" : "Headlock Back Crusher",
-  "Total" : "S2 Patch Notes (ver.2.30)・Corrected name on Move List.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "45",
-  "Startup" : ""
+  "AfterThrow" : "Head-sd. Fac-Dwn.",
+  "Command" : " Approach from left side ",
+  "Property" : "Th(H)",
+  "Notes" : "S2 Patch Notes (ver.2.30)・Corrected name on Move List."
 }, {
-  "Command" : " Approach from right side ",
-  "Hit" : "-3F",
-  "Block" : "Head-sd. Fac-Up.",
-  "Notes" : "",
+  "BreakThrow" : "2 -3F",
   "Name" : "Twisted Sister",
-  "Total" : "S2 Patch Notes (ver.2.30)・Corrected name on Move List.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "40",
-  "Startup" : ""
+  "AfterThrow" : "Head-sd. Fac-Up.",
+  "Command" : " Approach from right side ",
+  "Property" : "Th(H)",
+  "Notes" : "S2 Patch Notes (ver.2.30)・Corrected name on Move List."
 }, {
-  "Command" : " Approach from behind 1+3",
-  "Hit" : "disable",
-  "Block" : "Head-sd. Fac-Dwn.",
-  "Notes" : "",
+  "BreakThrow" : "disable ",
   "Name" : "German Suplex",
-  "Total" : "S2 Patch Notes ・Remove Floor Break.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "55",
-  "Startup" : ""
+  "AfterThrow" : "Head-sd. Fac-Dwn.",
+  "Command" : " Approach from behind 1+3",
+  "Property" : "Th(H)",
+  "Notes" : "S2 Patch Notes ・Remove Floor Break."
 }, {
-  "Command" : " Approach from behind 2+4",
-  "Hit" : "disable",
-  "Block" : "Head-sd. Fac-Dwn.",
-  "Notes" : "",
+  "BreakThrow" : "disable ",
   "Name" : "Calf Branding",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "55",
-  "Startup" : ""
+  "AfterThrow" : "Head-sd. Fac-Dwn.",
+  "Command" : " Approach from behind 2+4",
+  "Property" : "Th(H)",
+  "Notes" : ""
 }, {
-  "Command" : "df1+3",
-  "Hit" : "-2F",
-  "Block" : "RP Head-sd. Fac-Up.",
-  "Notes" : "Floor break.\n",
+  "BreakThrow" : "1 -2F",
   "Name" : "Waist Suplex",
-  "Total" : "Floor break. S2 Patch Notes (Ver.2.30)Changed Move(from Fisherman's Suplex to Waist Suplex).",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "37",
-  "Startup" : "11F"
+  "AfterThrow" : "RP Head-sd. Fac-Up.",
+  "Command" : "df1+3",
+  "Property" : "Th(H)",
+  "Notes" : "Floor break. S2 Patch Notes (Ver.2.30)Changed Move(from Fisherman's Suplex to Waist Suplex)."
 }, {
-  "Command" : "b2+4",
-  "Hit" : "-2F",
-  "Block" : "RP BT ±0F",
-  "Notes" : "Wall bonus 5 damage &amp; BT stun.\n",
+  "BreakThrow" : "2 -2F",
   "Name" : "Seesaw Toss",
-  "Total" : "Wall bonus 5 damage & BT stun. S2 Patch Notes ・Change Command.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "20",
-  "Startup" : "11F"
+  "AfterThrow" : "RP BT ±0F",
+  "Command" : "b2+4",
+  "Property" : "Th(H)",
+  "Notes" : "Wall bonus 5 damage & BT stun. S2 Patch Notes ・Change Command."
 }, {
-  "Command" : "uf1+2",
-  "Hit" : "-6F",
-  "Block" : "RP Head-sd. Fac-Up.",
-  "Notes" : "",
+  "BreakThrow" : "1+2 -6F",
   "Name" : "Arm Lock Suplex",
-  "Total" : "S2 Patch Notes ・Change Command.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "37",
-  "Startup" : "11F"
+  "AfterThrow" : "RP Head-sd. Fac-Up.",
+  "Command" : "uf1+2",
+  "Property" : "Th(H)",
+  "Notes" : "S2 Patch Notes ・Change Command."
 }, {
-  "Command" : "ddbbf2",
-  "Hit" : "-4F",
-  "Block" : "CW Foot-sd. Fac-Up.",
-  "Notes" : "Disable Preciding Input\nInput<img src=\"../2.bmp\" class=\"c\"><img src=\"../1.bmp\" class=\"c\">&amp;<img src=\"../4.bmp\" class=\"c\"><img src=\"../6'.bmp\" class=\"c\">.\n",
+  "BreakThrow" : "1+2 -4F",
   "Name" : "Mad Axes",
-  "Total" : "Disable Preciding Input Input & . S2 Patch Notes ・Start Up from 11F to 10F.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "42",
-  "Startup" : "10F"
+  "AfterThrow" : "CW Foot-sd. Fac-Up.",
+  "Command" : "ddbbf2",
+  "Property" : "Th(H)",
+  "Notes" : "Disable Preciding Input Input & . S2 Patch Notes ・Start Up from 11F to 10F."
 }, {
-  "Command" : " FC dbddb1+2",
-  "Hit" : "-6F",
-  "Block" : "CW Foot-sd. Fac-Up.",
-  "Notes" : "",
+  "BreakThrow" : "1+2 -6F",
   "Name" : "Cross Arm Suplex",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "45",
-  "Startup" : "12F"
+  "AfterThrow" : "CW Foot-sd. Fac-Up.",
+  "Command" : " FC dbddb1+2",
+  "Property" : "Th(H)",
+  "Notes" : ""
 }, {
-  "Command" : " Approach crouching enemy d1+3",
-  "Hit" : "±0F",
-  "Block" : "Head-sd. Fac-Dwn.",
-  "Notes" : "",
+  "BreakThrow" : "1 ±0F",
   "Name" : "Wild Stallion",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th(L)",
   "Damage" : "40",
-  "Startup" : "13F"
+  "AfterThrow" : "Head-sd. Fac-Dwn.",
+  "Command" : " Approach crouching enemy d1+3",
+  "Property" : "Th(L)",
+  "Notes" : ""
 }, {
-  "Command" : " Approach crouching enemy d2+4",
-  "Hit" : "±0F",
-  "Block" : "Head-sd. Fac-Dwn.",
-  "Notes" : "",
+  "BreakThrow" : "2 ±0F",
   "Name" : "Bulldog",
-  "Total" : "",
-  "Counter Hit" : "",
+  "Damage" : "40",
+  "AfterThrow" : "Head-sd. Fac-Dwn.",
+  "Command" : " Approach crouching enemy d2+4",
   "Property" : "Th(L)",
-  "Damage" : "40",
-  "Startup" : "13F"
+  "Notes" : ""
 }, {
-  "Command" : " During Swift Step 1+2",
-  "Hit" : "-3F RP",
-  "Block" : "RP Head-sd. Fac-Up.",
-  "Notes" : "Start up 15 + 16F.\nFloor break.\n",
+  "BreakThrow" : "1+2 -3F RP",
   "Name" : "Running Neck Breaker Drop",
-  "Total" : "Start up 15 + 16F. Floor break. 【S3 Patch Notes】– New move. (Ver.3.01) Fixed an issue where damage did not increase when throwing during rage mode.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "40",
-  "Startup" : "31F"
-}, {
-  "Command" : " Approach mid-air enemy & During Swift Step 1+2",
-  "Hit" : "disable",
-  "Block" : "Head-sd. Fac-Dwn.",
-  "Notes" : "Start up 15 + 16F.\nFloor break.\n",
-  "Name" : "Aerial Bomb",
-  "Total" : "Start up 15 + 16F. Floor break. 【S3 Patch Notes】– New move.",
-  "Counter Hit" : "",
+  "AfterThrow" : "RP Head-sd. Fac-Up.",
+  "Command" : " During Swift Step 1+2",
   "Property" : "Th(H)",
+  "Notes" : "Start up 15 + 16F. Floor break. 【S3 Patch Notes】– New move. (Ver.3.01) Fixed an issue where damage did not increase when throwing during rage mode."
+}, {
+  "BreakThrow" : "disable ",
+  "Name" : "Aerial Bomb",
   "Damage" : "30",
-  "Startup" : "31F"
+  "AfterThrow" : "Head-sd. Fac-Dwn.",
+  "Command" : " Approach mid-air enemy & During Swift Step 1+2",
+  "Property" : "Th(H)",
+  "Notes" : "Start up 15 + 16F. Floor break. 【S3 Patch Notes】– New move."
 } ]

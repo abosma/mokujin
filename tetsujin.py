@@ -96,7 +96,13 @@ async def on_message(message):
         if character != None:
             move = infofinder.get_move(character['local_json'], char_move)
             if(move != None):
-                to_return_embed = embedhandler.move_embed(character, move)
+                to_return_embed = None
+                
+                if 'BreakThrow' in move:
+                    to_return_embed = embedhandler.throw_embed(character, move)
+                else:
+                    to_return_embed = embedhandler.move_embed(character, move)
+
                 await channel.send(embed=to_return_embed, delete_after=config.EXTRA_DATA['timeout_normal'])
             else:
                 to_return_error = embedhandler.error_embed("Could not find move input, or any like it. Please check geppopotamus for the move data.")

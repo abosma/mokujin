@@ -10,7 +10,7 @@
   "Damage" : "7",
   "Startup" : "10F"
 }, {
-  "Command" : "1, 2",
+  "Command" : "12",
   "Hit" : "+7",
   "Block" : "-1",
   "Notes" : "Combo from 1st NH",
@@ -21,7 +21,7 @@
   "Damage" : "7,10",
   "Startup" : ""
 }, {
-  "Command" : "1, 2b",
+  "Command" : "12b",
   "Hit" : "-2",
   "Block" : "-10",
   "Notes" : "Combo from 1st NH",
@@ -32,7 +32,7 @@
   "Damage" : "7,10",
   "Startup" : ""
 }, {
-  "Command" : "1, 2, 1",
+  "Command" : "121",
   "Hit" : "+6",
   "Block" : "-5",
   "Notes" : "Combo from 2nd CH\nCan be delayed",
@@ -43,7 +43,7 @@
   "Damage" : "7,10,16",
   "Startup" : ""
 }, {
-  "Command" : "1, 2, 1, 1",
+  "Command" : "1211",
   "Hit" : "KDN",
   "Block" : "-13",
   "Notes" : "Combo from 3rd hit.",
@@ -54,7 +54,7 @@
   "Damage" : "7,10,16,21",
   "Startup" : ""
 }, {
-  "Command" : "1, 2, 1, 4",
+  "Command" : "1214",
   "Hit" : "KDN",
   "Block" : "-6",
   "Notes" : "Combo from 3rd hit.",
@@ -65,7 +65,7 @@
   "Damage" : "7,10,16,30",
   "Startup" : ""
 }, {
-  "Command" : "1, 2, 4",
+  "Command" : "124",
   "Hit" : "+3",
   "Block" : "-13",
   "Notes" : "Combo from 2nd CH\nCan be delayed\n",
@@ -76,7 +76,7 @@
   "Damage" : "7,10,15",
   "Startup" : ""
 }, {
-  "Command" : "1, 4",
+  "Command" : "14",
   "Hit" : "+5",
   "Block" : "-4",
   "Notes" : "Combo from 1st NH",
@@ -98,7 +98,7 @@
   "Damage" : "9",
   "Startup" : "11F"
 }, {
-  "Command" : "2, 1",
+  "Command" : "21",
   "Hit" : "+4",
   "Block" : "-7",
   "Notes" : "Combo from 1st NH",
@@ -109,7 +109,7 @@
   "Damage" : "9,12",
   "Startup" : ""
 }, {
-  "Command" : "2, 2",
+  "Command" : "22",
   "Hit" : "+4",
   "Block" : "-13",
   "Notes" : "Combo from 1st NH",
@@ -131,7 +131,7 @@
   "Damage" : "15",
   "Startup" : "14F"
 }, {
-  "Command" : "3, 2",
+  "Command" : "32",
   "Hit" : "+9",
   "Block" : "-2",
   "Notes" : "Combo from 1st NH",
@@ -142,7 +142,7 @@
   "Damage" : "15,10",
   "Startup" : ""
 }, {
-  "Command" : "3, 2d",
+  "Command" : "32d",
   "Hit" : "+5",
   "Block" : "-6",
   "Notes" : "Combo from 1st NH",
@@ -153,7 +153,7 @@
   "Damage" : "15,10",
   "Startup" : ""
 }, {
-  "Command" : "3, 2, 3",
+  "Command" : "323",
   "Hit" : "KDN",
   "Block" : "-7",
   "Notes" : "Combo from 2nd CH\nCan be delayed\nCounter Combo can be delayed 7F",
@@ -164,7 +164,7 @@
   "Damage" : "15,10,26",
   "Startup" : ""
 }, {
-  "Command" : "3, 2, 3b",
+  "Command" : "323b",
   "Hit" : "-4",
   "Block" : "-15",
   "Notes" : "",
@@ -175,7 +175,7 @@
   "Damage" : "15,10",
   "Startup" : ""
 }, {
-  "Command" : "3, 2, 4",
+  "Command" : "324",
   "Hit" : "+14G",
   "Block" : "+8",
   "Notes" : "Combo from 2nd CH",
@@ -230,7 +230,7 @@
   "Damage" : "14",
   "Startup" : "14F"
 }, {
-  "Command" : "f2, 2",
+  "Command" : "f22",
   "Hit" : "+6",
   "Block" : "-12",
   "Notes" : "Combo from 1st NH\nCan be delayed\nCombo can be delayed 7F",
@@ -296,7 +296,7 @@
   "Damage" : "13",
   "Startup" : "13F"
 }, {
-  "Command" : "df1, 2",
+  "Command" : "df12",
   "Hit" : "KDN",
   "Block" : "-6",
   "Notes" : "Combo from 1st CH\nCan be delayed\nCounter Combo can be delayed 9F",
@@ -406,7 +406,7 @@
   "Damage" : "10",
   "Startup" : "16F"
 }, {
-  "Command" : "d4, 2",
+  "Command" : "d42",
   "Hit" : "KDN",
   "Block" : "-5",
   "Notes" : "Combo from 1st CH.\nWhen hit, input<img src=\"../p.bmp\" class=\"c\">to Charge.",
@@ -450,7 +450,7 @@
   "Damage" : "11",
   "Startup" : "14F"
 }, {
-  "Command" : "db2, 2",
+  "Command" : "db22",
   "Hit" : "+8C",
   "Block" : "-4",
   "Notes" : "NH force to crouching.\nCombo from 1st hit.\nCan be delayed.\n",
@@ -483,7 +483,7 @@
   "Damage" : "12(18)",
   "Startup" : "20F"
 }, {
-  "Command" : "db4, 1",
+  "Command" : "db41",
   "Hit" : "KDN",
   "Block" : "-16",
   "Notes" : "ダメージ()内はクリーンヒット時\n",
@@ -505,7 +505,7 @@
   "Damage" : "17",
   "Startup" : "21F"
 }, {
-  "Command" : "db1+2, 1",
+  "Command" : "db1+21",
   "Hit" : "KDN",
   "Block" : "-12",
   "Notes" : "Combo from 1st NH\nCan be delayed\nCombo can be delayed 15F",
@@ -538,7 +538,7 @@
   "Damage" : "17",
   "Startup" : "18F"
 }, {
-  "Command" : "b1, 4",
+  "Command" : "b14",
   "Hit" : "+14G",
   "Block" : "+8",
   "Notes" : "",
@@ -560,7 +560,7 @@
   "Damage" : "11",
   "Startup" : "15F"
 }, {
-  "Command" : "b2, 1",
+  "Command" : "b21",
   "Hit" : "+7",
   "Block" : "-4",
   "Notes" : "Combo from 1st NH\nCan be delayed\nCombo can be delayed 8F",
@@ -571,7 +571,7 @@
   "Damage" : "11,11",
   "Startup" : ""
 }, {
-  "Command" : "b2, 1+2",
+  "Command" : "b21+2",
   "Hit" : "+8C",
   "Block" : "-11C",
   "Notes" : "Block or NH force to crouching\nCombo from 1st NH\nCan be delayed\nCombo can be delayed 3F",
@@ -593,7 +593,7 @@
   "Damage" : "15",
   "Startup" : "14F"
 }, {
-  "Command" : "b3, 1",
+  "Command" : "b31",
   "Hit" : "+4",
   "Block" : "-7",
   "Notes" : "Combo from 1st CH",
@@ -604,7 +604,7 @@
   "Damage" : "15,16",
   "Startup" : ""
 }, {
-  "Command" : "b3, 1b",
+  "Command" : "b31b",
   "Hit" : "±0",
   "Block" : "-11",
   "Notes" : "",
@@ -615,7 +615,7 @@
   "Damage" : "15,16",
   "Startup" : ""
 }, {
-  "Command" : "b3, 1d",
+  "Command" : "b31d",
   "Hit" : "+3",
   "Block" : "-8",
   "Notes" : "",
@@ -637,7 +637,7 @@
   "Damage" : "13",
   "Startup" : "18F"
 }, {
-  "Command" : "b4, 1+2",
+  "Command" : "b41+2",
   "Hit" : "KDN",
   "Block" : "-12",
   "Notes" : "WB \nCombo from 1st NH.\n",
@@ -648,7 +648,7 @@
   "Damage" : "13,20",
   "Startup" : ""
 }, {
-  "Command" : "b4, 1+2d",
+  "Command" : "b41+2d",
   "Hit" : "-3",
   "Block" : "-16",
   "Notes" : "Returns to crouching.\n",
@@ -714,7 +714,7 @@
   "Damage" : "8",
   "Startup" : "13F"
 }, {
-  "Command" : "uf1, 1",
+  "Command" : "uf11",
   "Hit" : "+15Sp",
   "Block" : "-9",
   "Notes" : "TS \nCombo from 1st NH\nCan be delayed",
@@ -725,7 +725,7 @@
   "Damage" : "8,17",
   "Startup" : ""
 }, {
-  "Command" : "uf1, 2",
+  "Command" : "uf12",
   "Hit" : "KDN",
   "Block" : "-14",
   "Notes" : "When hit, input<img src=\"../p.bmp\" class=\"c\">to Charge.\nCombo from 1st NH.\nCan be delayed.\nCombo can be delayed 5F.",
@@ -769,7 +769,7 @@
   "Damage" : "15",
   "Startup" : ""
 }, {
-  "Command" : "uf2, 1",
+  "Command" : "uf21",
   "Hit" : "+4",
   "Block" : "-8",
   "Notes" : "TJ \n",
@@ -857,7 +857,7 @@
   "Damage" : "26",
   "Startup" : "24F"
 }, {
-  "Command" : "uf,n,4",
+  "Command" : "ufn4",
   "Hit" : "LNC",
   "Block" : "-11",
   "Notes" : "TJ 9F",
@@ -923,7 +923,7 @@
   "Damage" : "12",
   "Startup" : "19F"
 }, {
-  "Command" : "ff4, 3",
+  "Command" : "ff43",
   "Hit" : "KDN",
   "Block" : "-14",
   "Notes" : "TS TJ \nChain Block.\n",
@@ -934,7 +934,7 @@
   "Damage" : "12,23",
   "Startup" : ""
 }, {
-  "Command" : "ff4, 3, 4",
+  "Command" : "ff434",
   "Hit" : "-1",
   "Block" : "-12",
   "Notes" : "TC TJ \n",
@@ -956,7 +956,7 @@
   "Damage" : "15",
   "Startup" : "17F"
 }, {
-  "Command" : "bf1+2, 1+2",
+  "Command" : "bf1+21+2",
   "Hit" : "-3",
   "Block" : "-14",
   "Notes" : "Combo from 1st NH.",
@@ -967,7 +967,7 @@
   "Damage" : "15,13",
   "Startup" : ""
 }, {
-  "Command" : "bf1+2, 1+2, 2",
+  "Command" : "bf1+21+22",
   "Hit" : "KDN",
   "Block" : "-16",
   "Notes" : "Combo from 2nd CH.\nCan be delayed.\nCombo can be delayed 15F from 2nd CH.\n",
@@ -978,7 +978,7 @@
   "Damage" : "15,13,25",
   "Startup" : ""
 }, {
-  "Command" : "bf1+2, 1+2ddff2",
+  "Command" : "bf1+21+2ddff2",
   "Hit" : "KDN",
   "Block" : "-16",
   "Notes" : "Combo from 2nd CH.\nCan be delayed.\nCombo can be delayed 15F from 2nd CH.\n",
@@ -1055,7 +1055,7 @@
   "Damage" : "13",
   "Startup" : "14F"
 }, {
-  "Command" : " WS 1, 4",
+  "Command" : " WS 14",
   "Hit" : "-1",
   "Block" : "-12",
   "Notes" : "Combo from 1st CH\nCan be delayed\nCounter Combo can be delayed 11F",
@@ -1066,7 +1066,7 @@
   "Damage" : "13,12",
   "Startup" : ""
 }, {
-  "Command" : " WS 1, 4, 1",
+  "Command" : " WS 141",
   "Hit" : "KDN",
   "Block" : "-14",
   "Notes" : "Combo from 2nd CH\nCan be delayed\nCounter Combo can be delayed 8F",
@@ -1099,7 +1099,7 @@
   "Damage" : "9",
   "Startup" : "13F"
 }, {
-  "Command" : " WS 3, 1",
+  "Command" : " WS 31",
   "Hit" : "+3",
   "Block" : "-10",
   "Notes" : "Combo from 1st NH\n",
@@ -1110,7 +1110,7 @@
   "Damage" : "9,9",
   "Startup" : ""
 }, {
-  "Command" : " WS 3, 1, 2",
+  "Command" : " WS 312",
   "Hit" : "KDN",
   "Block" : "-9",
   "Notes" : "Combo from 1st or 2nd CH.\n",
@@ -1132,7 +1132,7 @@
   "Damage" : "15",
   "Startup" : "11F"
 }, {
-  "Command" : " WS 4, 1+2",
+  "Command" : " WS 41+2",
   "Hit" : "KDN",
   "Block" : "-12",
   "Notes" : "",
@@ -1187,7 +1187,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : " During Shan Dian db4, 1, 2",
+  "Command" : " During Shan Dian db412",
   "Hit" : "KDN",
   "Block" : "-15",
   "Notes" : "Secret Move.\nDamage () is on clean.",
@@ -1198,7 +1198,7 @@
   "Damage" : "12(18),27,20",
   "Startup" : ""
 }, {
-  "Command" : " During Shan Dian b3, 1, 2",
+  "Command" : " During Shan Dian b312",
   "Hit" : "KDN",
   "Block" : "-15",
   "Notes" : "Secret Move.\nCombo from 1st NH.",
@@ -1330,7 +1330,7 @@
   "Damage" : "12",
   "Startup" : "18F"
 }, {
-  "Command" : " During Jin Ji Du Li 1, 2",
+  "Command" : " During Jin Ji Du Li 12",
   "Hit" : "KDN",
   "Block" : "-9",
   "Notes" : "WB \nCombo from 1st NH.\nCan be delayed.\nCombo can be delayed 12F.\n",
@@ -1374,7 +1374,7 @@
   "Damage" : "13",
   "Startup" : "20F"
 }, {
-  "Command" : " During Jin Ji Du Li 3, 4",
+  "Command" : " During Jin Ji Du Li 34",
   "Hit" : "LNC",
   "Block" : "-12",
   "Notes" : "TJ \n",
@@ -1429,7 +1429,7 @@
   "Damage" : "13",
   "Startup" : "13F"
 }, {
-  "Command" : " During Fo Bu 1, 2",
+  "Command" : " During Fo Bu 12",
   "Hit" : "+2",
   "Block" : "-14",
   "Notes" : "Combo from 1st NH",
@@ -1528,7 +1528,7 @@
   "Damage" : "14",
   "Startup" : ""
 }, {
-  "Command" : "ddff2, 1",
+  "Command" : "ddff21",
   "Hit" : "+7",
   "Block" : "-6",
   "Notes" : "Combo from 1st NH\nCombo can be delayed 4F\n",
@@ -1605,146 +1605,107 @@
   "Damage" : "35",
   "Startup" : "13F"
 }, {
-  "Command" : "1+3",
-  "Hit" : "or -3F",
-  "Block" : "Foot-sd Fac-Dwn",
-  "Notes" : "Long Range Throw",
+  "BreakThrow" : "1 or 2 -3F",
   "Name" : "Bao Hu Gui Shan",
-  "Total" : "Long Range Throw",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "35",
-  "Startup" : "12F"
+  "AfterThrow" : "Foot-sd Fac-Dwn",
+  "Command" : "1+3",
+  "Property" : "Th(H)",
+  "Notes" : "Long Range Throw"
 }, {
-  "Command" : "2+4",
-  "Hit" : "or -6F CW",
-  "Block" : "CW Foot-sd Fac-Up",
-  "Notes" : "Long Range Throw.\nDamage () is wall bonus.",
+  "BreakThrow" : "1 or 2 -6F CW",
   "Name" : "Dan Yang Da",
-  "Total" : "Long Range Throw. Damage () is wall bonus.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "35(,4)",
-  "Startup" : "12F"
+  "AfterThrow" : "CW Foot-sd Fac-Up",
+  "Command" : "2+4",
+  "Property" : "Th(H)",
+  "Notes" : "Long Range Throw. Damage () is wall bonus."
 }, {
-  "Command" : " Approach from left side ",
-  "Hit" : "-3F",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "Damage () is wall bonus.",
+  "BreakThrow" : "1 -3F",
   "Name" : "Da Zhe Jiang",
-  "Total" : "Damage () is wall bonus.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "40(,4)",
-  "Startup" : ""
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " Approach from left side ",
+  "Property" : "Th(H)",
+  "Notes" : "Damage () is wall bonus."
 }, {
-  "Command" : " Approach from right side ",
-  "Hit" : "-3F",
-  "Block" : "Head-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "2 -3F",
   "Name" : "Chou Bie Zi",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "40",
-  "Startup" : ""
+  "AfterThrow" : "Head-sd Fac-Up",
+  "Command" : " Approach from right side ",
+  "Property" : "Th(H)",
+  "Notes" : ""
 }, {
-  "Command" : " Approach from behind ",
-  "Hit" : "disable",
-  "Block" : "Foot-sd Fac-Dwn",
-  "Notes" : "Damage () is wall bonus.",
+  "BreakThrow" : "disable ",
   "Name" : "Yang Di Tou",
-  "Total" : "Damage () is wall bonus.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "50(,10)",
-  "Startup" : ""
-}, {
-  "Command" : "ff1+2",
-  "Hit" : "-6F RP",
-  "Block" : "RP Foot-sd Fac-Up",
-  "Notes" : "Damage () is wall bonus.\nWall Stun.",
-  "Name" : "Shuang Pai Shou",
-  "Total" : "Damage () is wall bonus. Wall Stun.",
-  "Counter Hit" : "",
+  "AfterThrow" : "Foot-sd Fac-Dwn",
+  "Command" : " Approach from behind ",
   "Property" : "Th(H)",
+  "Notes" : "Damage () is wall bonus."
+}, {
+  "BreakThrow" : "1+2 -6F RP",
+  "Name" : "Shuang Pai Shou",
   "Damage" : "40(,2)",
-  "Startup" : "12F"
+  "AfterThrow" : "RP Foot-sd Fac-Up",
+  "Command" : "ff1+2",
+  "Property" : "Th(H)",
+  "Notes" : "Damage () is wall bonus. Wall Stun."
 }, {
-  "Command" : "ub1",
-  "Hit" : "",
-  "Block" : "",
-  "Notes" : "Absorbs Punch(H) during 2 to 10F and +5F.",
+  "BreakThrow" : "",
   "Name" : "Bao Zhou",
-  "Total" : "Absorbs Punch(H) during 2 to 10F and +5F.",
-  "Counter Hit" : "40",
+  "Damage" : "0",
+  "AfterThrow" : "",
+  "Command" : "ub1",
   "Property" : "AbsorbsPunch(H)",
-  "Damage" : "0",
-  "Startup" : ""
+  "Notes" : "Absorbs Punch(H) during 2 to 10F and +5F."
 }, {
-  "Command" : " After Bao Zhou succeeds 4",
-  "Hit" : "",
-  "Block" : "",
-  "Notes" : "",
+  "BreakThrow" : "",
   "Name" : "Combination Attack",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-(H)",
   "Damage" : "35",
-  "Startup" : ""
+  "AfterThrow" : "",
+  "Command" : " After Bao Zhou succeeds 4",
+  "Property" : "-(H)",
+  "Notes" : ""
 }, {
-  "Command" : "b1+2",
-  "Hit" : "",
-  "Block" : "",
-  "Notes" : "Absorbs(H/M) during 6 to 12F.",
+  "BreakThrow" : "",
   "Name" : "Shi Zi Xiao Zhang Kou",
-  "Total" : "Absorbs(H/M) during 6 to 12F.",
-  "Counter Hit" : "45",
-  "Property" : "Absorbs(HM)",
   "Damage" : "0",
-  "Startup" : ""
+  "AfterThrow" : "",
+  "Command" : "b1+2",
+  "Property" : "Absorbs(HM)",
+  "Notes" : "Absorbs(H/M) during 6 to 12F."
 }, {
-  "Command" : " After Shi Zi Xiao Zhang Kou (Pucnh) succeeds 2, 2",
-  "Hit" : "",
-  "Block" : "",
-  "Notes" : "-1F on 1st hit.\nKnock Down on 2nd hit.",
+  "BreakThrow" : "",
   "Name" : "Combination Attack (Punch)",
-  "Total" : "-1F on 1st hit. Knock Down on 2nd hit.",
-  "Counter Hit" : "",
-  "Property" : "-(M,M)",
   "Damage" : "10,22",
-  "Startup" : ""
+  "AfterThrow" : "",
+  "Command" : " After Shi Zi Xiao Zhang Kou (Pucnh) succeeds 22",
+  "Property" : "-(M,M)",
+  "Notes" : "-1F on 1st hit. Knock Down on 2nd hit."
 }, {
-  "Command" : " After Shi Zi Xiao Zhang Kou (Kick) succeeds 2",
-  "Hit" : "",
-  "Block" : "",
-  "Notes" : "",
+  "BreakThrow" : "",
   "Name" : "Combination Attack (Kick)",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-(M)",
   "Damage" : "23",
-  "Startup" : ""
+  "AfterThrow" : "",
+  "Command" : " After Shi Zi Xiao Zhang Kou (Kick) succeeds 2",
+  "Property" : "-(M)",
+  "Notes" : ""
 }, {
-  "Command" : "b1+3 or b2+4",
-  "Hit" : "",
-  "Block" : "RP +5BF",
-  "Notes" : "Absorbs Punch(H/M) during 2 to 12F.\nDamage () is wall bonus.\nWall Stun.",
+  "BreakThrow" : "",
   "Name" : "Shi Zi Zhou",
-  "Total" : "Absorbs Punch(H/M) during 2 to 12F. Damage () is wall bonus. Wall Stun.",
-  "Counter Hit" : "35",
-  "Property" : "AbsorbsPunch(HM)",
   "Damage" : "(25)",
-  "Startup" : ""
-}, {
+  "AfterThrow" : "RP +5BF",
   "Command" : "b1+3 or b2+4",
-  "Hit" : "-6F",
-  "Block" : "Foot-sd Fac-Dwn",
-  "Notes" : "Reversal Kick(H/M) during 3 to 8F.\nDamage 25 + 50% of enemy attack.\nReversal to Reversal command<img src=\"../6.bmp\" class=\"c\"><img src=\"../l.bmp\" class=\"c\">or<img src=\"../6.bmp\" class=\"c\"><img src=\"../r.bmp\" class=\"c\">during 7F damage 15.",
+  "Property" : "AbsorbsPunch(HM)",
+  "Notes" : "Absorbs Punch(H/M) during 2 to 12F. Damage () is wall bonus. Wall Stun."
+}, {
+  "BreakThrow" : "-6F",
   "Name" : "Shi Zi Zhou",
-  "Total" : "Reversal Kick(H/M) during 3 to 8F. Damage 25 + 50% of enemy attack. Reversal to Reversal command or during 7F damage 15.",
-  "Counter Hit" : "35",
-  "Property" : "ReversalKick(HM)",
   "Damage" : "25+α",
-  "Startup" : ""
+  "AfterThrow" : "Foot-sd Fac-Dwn",
+  "Command" : "b1+3 or b2+4",
+  "Property" : "ReversalKick(HM)",
+  "Notes" : "Reversal Kick(H/M) during 3 to 8F. Damage 25 + 50% of enemy attack. Reversal to Reversal command or during 7F damage 15."
 } ]

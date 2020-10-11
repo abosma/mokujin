@@ -10,7 +10,7 @@
   "Damage" : "7",
   "Startup" : "10F"
 }, {
-  "Command" : "1, 2",
+  "Command" : "12",
   "Hit" : "+6",
   "Block" : "-1",
   "Notes" : "Combo from 1st NH",
@@ -21,7 +21,7 @@
   "Damage" : "7,15",
   "Startup" : ""
 }, {
-  "Command" : "1, 2, 2+4",
+  "Command" : "122+4",
   "Hit" : "Th",
   "Block" : "",
   "Notes" : "",
@@ -32,7 +32,7 @@
   "Damage" : "7,15,30",
   "Startup" : ""
 }, {
-  "Command" : "1, 2d2+4",
+  "Command" : "12d2+4",
   "Hit" : "Th",
   "Block" : "",
   "Notes" : "",
@@ -43,7 +43,7 @@
   "Damage" : "7,15,45",
   "Startup" : ""
 }, {
-  "Command" : "1, 2, 1",
+  "Command" : "121",
   "Hit" : "+5",
   "Block" : "-4",
   "Notes" : "Advance Input is unavailable Left Attack",
@@ -54,7 +54,7 @@
   "Damage" : "7,15,10",
   "Startup" : ""
 }, {
-  "Command" : "1, 2, 1, 2+4",
+  "Command" : "1212+4",
   "Hit" : "Th",
   "Block" : "",
   "Notes" : "",
@@ -65,7 +65,7 @@
   "Damage" : "7,15,10,40",
   "Startup" : ""
 }, {
-  "Command" : "1, 2, 1d2+4",
+  "Command" : "121d2+4",
   "Hit" : "Th",
   "Block" : "",
   "Notes" : "",
@@ -87,7 +87,7 @@
   "Damage" : "10",
   "Startup" : "10F"
 }, {
-  "Command" : "2, 1",
+  "Command" : "21",
   "Hit" : "+7",
   "Block" : "-1",
   "Notes" : "Combo from 1st NH\n",
@@ -131,7 +131,7 @@
   "Damage" : "18",
   "Startup" : "18F"
 }, {
-  "Command" : "1+2, 1",
+  "Command" : "1+21",
   "Hit" : "KDN",
   "Block" : "-13",
   "Notes" : "WB \nCombo from 1st NH\n",
@@ -142,7 +142,7 @@
   "Damage" : "18,21",
   "Startup" : ""
 }, {
-  "Command" : "1+2, 3",
+  "Command" : "1+23",
   "Hit" : "KDN",
   "Block" : "-3",
   "Notes" : "TS \nCombo from 1st NH",
@@ -175,7 +175,7 @@
   "Damage" : "12",
   "Startup" : "15F"
 }, {
-  "Command" : "f2, 1",
+  "Command" : "f21",
   "Hit" : "KDN",
   "Block" : "-9",
   "Notes" : "Combo from 1st NH\nCan be delayed\n",
@@ -197,7 +197,7 @@
   "Damage" : "12,15",
   "Startup" : ""
 }, {
-  "Command" : "f2d1, 2",
+  "Command" : "f2d12",
   "Hit" : "LNC",
   "Block" : "-15",
   "Notes" : "Combo from 2nd NH\nCan be delayed\nCombo can be delayed 13F from 2nd NH",
@@ -296,7 +296,7 @@
   "Damage" : "15",
   "Startup" : "14F"
 }, {
-  "Command" : "df1, 2",
+  "Command" : "df12",
   "Hit" : "+3",
   "Block" : "-10",
   "Notes" : "Combo from 1st NH\nCan be delayed\nCombo can be delayed 7F from 1st NH\nCombo can be delayed 12F from 2st CH\n",
@@ -318,7 +318,7 @@
   "Damage" : "12",
   "Startup" : "13F"
 }, {
-  "Command" : "df2, 1",
+  "Command" : "df21",
   "Hit" : "KDN",
   "Block" : "-4",
   "Notes" : "TS \nCombo from 1st CH\nCan be delayed 13F\nCombo can be delayed 13F from 1st CH\n",
@@ -340,7 +340,7 @@
   "Damage" : "17",
   "Startup" : "14F"
 }, {
-  "Command" : "df3, 4",
+  "Command" : "df34",
   "Hit" : "KDN",
   "Block" : "±0",
   "Notes" : "TJ \nDisable from 1st whiff\nCombo from 1st CH\nTo down after moving",
@@ -362,7 +362,7 @@
   "Damage" : "10",
   "Startup" : "14F"
 }, {
-  "Command" : "df4, 3",
+  "Command" : "df43",
   "Hit" : "+6",
   "Block" : "-5",
   "Notes" : "Combo from 1st CH",
@@ -373,7 +373,7 @@
   "Damage" : "10,11",
   "Startup" : ""
 }, {
-  "Command" : "df4, 3, 4",
+  "Command" : "df434",
   "Hit" : "KDN",
   "Block" : "-15",
   "Notes" : "TJ \nCombo from 2nd CH",
@@ -384,7 +384,7 @@
   "Damage" : "10,11,27",
   "Startup" : ""
 }, {
-  "Command" : "df4, 3, 4b",
+  "Command" : "df434b",
   "Hit" : "KDN",
   "Block" : "-8",
   "Notes" : "Combo from 2nd CH",
@@ -395,7 +395,7 @@
   "Damage" : "10,11,27",
   "Startup" : ""
 }, {
-  "Command" : "df4, 3db or d4",
+  "Command" : "df43db or d4",
   "Hit" : "KDN",
   "Block" : "-13",
   "Notes" : "TJ \nTo BT after block or whiff\nHit force to crouching",
@@ -428,7 +428,7 @@
   "Damage" : "5",
   "Startup" : "10F"
 }, {
-  "Command" : "db or d1 or FC db or d1, 2",
+  "Command" : "db or d1 or FC db or d12",
   "Hit" : "±0",
   "Block" : "-11",
   "Notes" : "Combo from 1st CH",
@@ -494,7 +494,7 @@
   "Damage" : "14",
   "Startup" : "16F"
 }, {
-  "Command" : "d3+4, 4",
+  "Command" : "d3+44",
   "Hit" : "-9",
   "Block" : "-25",
   "Notes" : "TC \nReturns to crouching.",
@@ -505,7 +505,7 @@
   "Damage" : "14,7",
   "Startup" : ""
 }, {
-  "Command" : "d3+4, 4 *２ ",
+  "Command" : "d3+44 *２ ",
   "Hit" : "+7",
   "Block" : "-29",
   "Notes" : "TC \nReturns to crouching.",
@@ -516,7 +516,7 @@
   "Damage" : "14,7,7",
   "Startup" : ""
 }, {
-  "Command" : "d3+4, 4 *３ ",
+  "Command" : "d3+44 *３ ",
   "Hit" : "+15",
   "Block" : "-26",
   "Notes" : "TC \nEnable after 1st CH\nDisable Run WK\nReturns to crouching.",
@@ -593,7 +593,7 @@
   "Damage" : "13",
   "Startup" : "12F"
 }, {
-  "Command" : "b1, 2",
+  "Command" : "b12",
   "Hit" : "+5",
   "Block" : "-13",
   "Notes" : "Combo from 1st NH\nCan be delayed\nCombo can be delayed 8F from 1st NH",
@@ -604,7 +604,7 @@
   "Damage" : "13,20",
   "Startup" : ""
 }, {
-  "Command" : "b1, 4",
+  "Command" : "b14",
   "Hit" : "KDN",
   "Block" : "-9",
   "Notes" : "TJ \nCan be delayed",
@@ -626,7 +626,7 @@
   "Damage" : "12",
   "Startup" : "14F"
 }, {
-  "Command" : "b2, 1",
+  "Command" : "b21",
   "Hit" : "KDN",
   "Block" : "-9",
   "Notes" : "TS \nCombo from 1st NH.\nCan be delayed.\n",
@@ -637,7 +637,7 @@
   "Damage" : "12,25",
   "Startup" : ""
 }, {
-  "Command" : "b2, 1+2",
+  "Command" : "b21+2",
   "Hit" : "KDN",
   "Block" : "+2C",
   "Notes" : "Block force to crouching\nCan be delayed\n",
@@ -648,7 +648,7 @@
   "Damage" : "12,22",
   "Startup" : ""
 }, {
-  "Command" : "b2, 4",
+  "Command" : "b24",
   "Hit" : "Th",
   "Block" : "-9",
   "Notes" : "Damage () is throw bonus\nSide or behind hit +9F\nCan be delayed\n",
@@ -835,7 +835,7 @@
   "Damage" : "28",
   "Startup" : "23F"
 }, {
-  "Command" : "uf,n,4",
+  "Command" : "ufn4",
   "Hit" : "LNC",
   "Block" : "-11",
   "Notes" : "",
@@ -846,7 +846,7 @@
   "Damage" : "25",
   "Startup" : "23F"
 }, {
-  "Command" : "ff,n,2",
+  "Command" : "ffn2",
   "Hit" : "+1C",
   "Block" : "-14",
   "Notes" : "TC 6F\nAdvance Input is unavailable\nStart-up 19F in actualy\nDuring CH to Jaguar Hammer\nDamage () is throw bonus\nNH force to crouching\n",
@@ -857,7 +857,7 @@
   "Damage" : "15(,35)",
   "Startup" : "18F"
 }, {
-  "Command" : "ff,n,1+2",
+  "Command" : "ffn1+2",
   "Hit" : "+7",
   "Block" : "±0",
   "Notes" : "Advance Input is unavailable\nStart-up 10F in actualy\n",
@@ -901,7 +901,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "ff2, 1",
+  "Command" : "ff21",
   "Hit" : "KDN",
   "Block" : "-1",
   "Notes" : "Combo from 1st NH\nCan be delayed\nCombo can be delayed 11F from 1st NH",
@@ -1077,7 +1077,7 @@
   "Damage" : "11",
   "Startup" : "14F"
 }, {
-  "Command" : " WS 2, 2",
+  "Command" : " WS 22",
   "Hit" : "+12Sp",
   "Block" : "-12",
   "Notes" : "TS \nCombo from 1st NH\nCan be delayed\nCombo can be delayed 9F from 1st NH\nCombo can be delayed 16F from 1st CH",
@@ -1176,7 +1176,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : " Charge with advanced input start-up １F , 1+2+3+4",
+  "Command" : " Charge with advanced input start-up １F 1+2+3+4",
   "Hit" : "",
   "Block" : "",
   "Notes" : "To Charging (long).\nCan not cancel with input anything.",
@@ -1484,7 +1484,7 @@
   "Damage" : "34",
   "Startup" : ""
 }, {
-  "Command" : " JS 3, 2+3",
+  "Command" : " JS 32+3",
   "Hit" : "Th",
   "Block" : "-17C",
   "Notes" : "TJ \nDamage () is throw bonus\nBlock or Hit force to crouching",
@@ -1495,7 +1495,7 @@
   "Damage" : "20(,15)",
   "Startup" : ""
 }, {
-  "Command" : " JS 3, 2+3",
+  "Command" : " JS 32+3",
   "Hit" : "-15C",
   "Block" : "-12C",
   "Notes" : "Block or Hit force to crouching",
@@ -1616,7 +1616,7 @@
   "Damage" : "45",
   "Startup" : ""
 }, {
-  "Command" : "f,n,ddf",
+  "Command" : "fnddf",
   "Hit" : "",
   "Block" : "",
   "Notes" : "Returns to crouching.\nAdvance Input is unavailable",
@@ -1627,7 +1627,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "f,n,ddf1",
+  "Command" : "fnddf1",
   "Hit" : "KDN",
   "Block" : "-12",
   "Notes" : "TC 1F\nAdvance Input is unavailable\nStart-up 36F in actualy\nReturns to crouching.",
@@ -1638,7 +1638,7 @@
   "Damage" : "20",
   "Startup" : "32F"
 }, {
-  "Command" : "f,n,ddf4",
+  "Command" : "fnddf4",
   "Hit" : "KDN",
   "Block" : "-9",
   "Notes" : "Advance Input is unavailable\nStart-up 19F in actualy",
@@ -1649,7 +1649,7 @@
   "Damage" : "21",
   "Startup" : "15F"
 }, {
-  "Command" : "f,n,ddf1+2",
+  "Command" : "fnddf1+2",
   "Hit" : "KDN",
   "Block" : "-5C",
   "Notes" : "Advance Input is unavailable\nStart-up 24F in actualy\nMeaty 1F in actualy\n",
@@ -1682,1312 +1682,955 @@
   "Damage" : "24",
   "Startup" : "20F"
 }, {
-  "Command" : "1+3",
-  "Hit" : "or -6F RP",
-  "Block" : "Head-sd Fac-Up",
-  "Notes" : "Long Range Throw",
+  "BreakThrow" : "1 or 2 -6F RP",
   "Name" : "Winding Nut",
-  "Total" : "Long Range Throw",
-  "Counter Hit" : "39",
-  "Property" : "Th(H)",
   "Damage" : "35",
-  "Startup" : "12F"
+  "AfterThrow" : "Head-sd Fac-Up",
+  "Command" : "1+3",
+  "Property" : "Th(H)",
+  "Notes" : "Long Range Throw"
 }, {
-  "Command" : "2+4",
-  "Hit" : "or -3F",
-  "Block" : "RP Head-sd Fac-Up",
-  "Notes" : "Long Range Throw",
+  "BreakThrow" : "1 or 2 -3F",
   "Name" : "Suplex",
-  "Total" : "Long Range Throw",
-  "Counter Hit" : "39",
-  "Property" : "Th(H)",
   "Damage" : "35",
-  "Startup" : "12F"
+  "AfterThrow" : "RP Head-sd Fac-Up",
+  "Command" : "2+4",
+  "Property" : "Th(H)",
+  "Notes" : "Long Range Throw"
 }, {
-  "Command" : " Approach from left side ",
-  "Hit" : "-3F",
-  "Block" : "Head-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "1 -3F",
   "Name" : "Argentina BackBreaker",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "40",
-  "Startup" : ""
+  "AfterThrow" : "Head-sd Fac-Up",
+  "Command" : " Approach from left side ",
+  "Property" : "Th(H)",
+  "Notes" : ""
 }, {
-  "Command" : " Approach from right side ",
-  "Hit" : "-3F",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "2 -3F",
   "Name" : "Knee Crusher",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "42",
-  "Startup" : ""
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " Approach from right side ",
+  "Property" : "Th(H)",
+  "Notes" : ""
 }, {
+  "BreakThrow" : "disable ",
+  "Name" : "Half Boston Crab",
+  "Damage" : "60",
+  "AfterThrow" : "Right-sd Fac-Dwn",
   "Command" : " Approach from behind 1+3",
-  "Hit" : "disable",
-  "Block" : "Right-sd Fac-Dwn",
-  "Notes" : "",
-  "Name" : "Half Boston Crab",
-  "Total" : "",
-  "Counter Hit" : "",
   "Property" : "Th(H)",
-  "Damage" : "60",
-  "Startup" : ""
+  "Notes" : ""
 }, {
+  "BreakThrow" : "disable ",
+  "Name" : "Cobra Twist",
+  "Damage" : "60",
+  "AfterThrow" : "Right-sd Fac-Dwn",
   "Command" : " Approach from behind 2+4",
-  "Hit" : "disable",
-  "Block" : "Right-sd Fac-Dwn",
-  "Notes" : "",
-  "Name" : "Cobra Twist",
-  "Total" : "",
-  "Counter Hit" : "",
   "Property" : "Th(H)",
-  "Damage" : "60",
-  "Startup" : ""
+  "Notes" : ""
 }, {
-  "Command" : " Approach from behind bf1+2",
-  "Hit" : "disable",
-  "Block" : "Left-sd Fac-Up",
-  "Notes" : "Floor Break",
+  "BreakThrow" : "disable ",
   "Name" : "Stretch Buster",
-  "Total" : "Floor Break",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "75",
-  "Startup" : "10F"
+  "AfterThrow" : "Left-sd Fac-Up",
+  "Command" : " Approach from behind bf1+2",
+  "Property" : "Th(H)",
+  "Notes" : "Floor Break"
 }, {
-  "Command" : "df2+3",
-  "Hit" : "-2F",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "2 -2F",
   "Name" : "Knee Bash",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "40",
-  "Startup" : "12F"
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : "df2+3",
+  "Property" : "Th(H)",
+  "Notes" : ""
 }, {
+  "BreakThrow" : "1+2 -6F",
+  "Name" : "Figure Four Leg Lock",
+  "Damage" : "40",
+  "AfterThrow" : "Foot-sd Fac-Up",
   "Command" : "db2+3",
-  "Hit" : "-6F",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "Break throw just input<img src=\"../k.bmp\" class=\"c\">to Reverse Figure Four Leg Lock (Damage 26 to King)",
-  "Name" : "Figure Four Leg Lock",
-  "Total" : "Break throw just input to Reverse Figure Four Leg Lock (Damage 26 to King)",
-  "Counter Hit" : "",
   "Property" : "Th(H)",
-  "Damage" : "40",
-  "Startup" : "12F"
+  "Notes" : "Break throw just input to Reverse Figure Four Leg Lock (Damage 26 to King)"
 }, {
-  "Command" : "ub or u1+2",
-  "Hit" : "-6F",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "Damage () is wall bonus\nWall Stun\n",
+  "BreakThrow" : "1+2 -6F",
   "Name" : "Executioner Drop",
-  "Total" : "Damage () is wall bonus Wall Stun S2 Patch Notes ・Opponent can now ukemi sideways.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "30(15)",
-  "Startup" : "12F"
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : "ub or u1+2",
+  "Property" : "Th(H)",
+  "Notes" : "Damage () is wall bonus Wall Stun S2 Patch Notes ・Opponent can now ukemi sideways."
 }, {
-  "Command" : "ub or u1+2b",
-  "Hit" : "",
-  "Block" : "RP Foot-sd Fac-Up",
-  "Notes" : "Damage() is wall bonus\nWall Stun\n",
+  "BreakThrow" : "1+2 ",
   "Name" : "Executioner Drop (behind)",
-  "Total" : "Damage() is wall bonus Wall Stun S2 Patch Notes ・Opponent can now ukemi sideways.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "30(15)",
-  "Startup" : "12F"
+  "AfterThrow" : "RP Foot-sd Fac-Up",
+  "Command" : "ub or u1+2b",
+  "Property" : "Th(H)",
+  "Notes" : "Damage() is wall bonus Wall Stun S2 Patch Notes ・Opponent can now ukemi sideways."
 }, {
-  "Command" : "dbf2+4",
-  "Hit" : "-2F",
-  "Block" : "Head-sd Fac-Up",
-  "Notes" : "Floor Break",
+  "BreakThrow" : "2 -2F",
   "Name" : "Tombstone Pile Driver",
-  "Total" : "Floor Break",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "58",
-  "Startup" : "11F"
+  "AfterThrow" : "Head-sd Fac-Up",
+  "Command" : "dbf2+4",
+  "Property" : "Th(H)",
+  "Notes" : "Floor Break"
 }, {
+  "BreakThrow" : "1+2 -6F",
+  "Name" : "Muscle Buster",
+  "Damage" : "50",
+  "AfterThrow" : "RP Head-sd Fac-Up",
   "Command" : "ddbb1+2",
-  "Hit" : "-6F",
-  "Block" : "RP Head-sd Fac-Up",
-  "Notes" : "Disable Preciding Input\nFloor Break\nTo BT",
-  "Name" : "Muscle Buster",
-  "Total" : "Disable Preciding Input Floor Break To BT",
-  "Counter Hit" : "",
   "Property" : "Th(H)",
-  "Damage" : "50",
-  "Startup" : "11F"
+  "Notes" : "Disable Preciding Input Floor Break To BT"
 }, {
-  "Command" : "fbdbddff1",
-  "Hit" : "-13F",
-  "Block" : "RP Foot-sd Fac-Up",
-  "Notes" : "Easy Command<img src=\"../6.bmp\" class=\"c\"><img src=\"../4.bmp\" class=\"c\"><img src=\"../1.bmp\" class=\"c\"><img src=\"../2.bmp\" class=\"c\"><img src=\"../6.bmp\" class=\"c\"><img src=\"../lp.bmp\" class=\"c\">\nEnable input from Full Crouch\nDamage () is when no side quick roll\nDamage 70 when wall hit\n",
+  "BreakThrow" : "1 -13F",
   "Name" : "Giant Swing",
-  "Total" : "Easy Command Enable input from Full Crouch Damage () is when no side quick roll Damage 70 when wall hit S2 Patch Notes ・Input window for ukemi increased by 1F.",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "45(,20)",
-  "Startup" : "10F"
+  "AfterThrow" : "RP Foot-sd Fac-Up",
+  "Command" : "fbdbddff1",
+  "Property" : "Th(H)",
+  "Notes" : "Easy Command Enable input from Full Crouch Damage () is when no side quick roll Damage 70 when wall hit S2 Patch Notes ・Input window for ukemi increased by 1F."
 }, {
-  "Command" : "fbdbddff2",
-  "Hit" : "-6F",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "Easy Command<img src=\"../6.bmp\" class=\"c\"><img src=\"../4.bmp\" class=\"c\"><img src=\"../1.bmp\" class=\"c\"><img src=\"../2.bmp\" class=\"c\"><img src=\"../6.bmp\" class=\"c\"><img src=\"../rp.bmp\" class=\"c\">",
+  "BreakThrow" : "2 -6F",
   "Name" : "Tijuana Twister",
-  "Total" : "Easy Command",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "50",
-  "Startup" : "12F"
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : "fbdbddff2",
+  "Property" : "Th(H)",
+  "Notes" : "Easy Command"
 }, {
-  "Command" : "fff2+4 or Run 2+4",
-  "Hit" : "-5F RP",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "Disable Preciding Input\n",
+  "BreakThrow" : "1+2 -5F RP",
   "Name" : "Tomahawk",
-  "Total" : "Disable Preciding Input",
-  "Counter Hit" : "39",
-  "Property" : "Th(H)",
   "Damage" : "40",
-  "Startup" : "10F"
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : "fff2+4 or Run 2+4",
+  "Property" : "Th(H)",
+  "Notes" : "Disable Preciding Input"
 }, {
-  "Command" : " FC dbddb1+2",
-  "Hit" : "-6F",
-  "Block" : "Left-sd Fac-Up",
-  "Notes" : "Floor Break",
+  "BreakThrow" : "1+2 -6F",
   "Name" : "Clothesline Press",
-  "Total" : "Floor Break",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "45",
-  "Startup" : "12F"
+  "AfterThrow" : "Left-sd Fac-Up",
+  "Command" : " FC dbddb1+2",
+  "Property" : "Th(H)",
+  "Notes" : "Floor Break"
 }, {
-  "Command" : " Approach crouching enemy d1+3",
-  "Hit" : "+五分F",
-  "Block" : "Head-sd Fac-Dwn",
-  "Notes" : "Floor Break",
+  "BreakThrow" : "1 +五分F",
   "Name" : "Iron Lariat",
-  "Total" : "Floor Break",
-  "Counter Hit" : "37",
-  "Property" : "Th(L)",
   "Damage" : "45",
-  "Startup" : "12F"
+  "AfterThrow" : "Head-sd Fac-Dwn",
+  "Command" : " Approach crouching enemy d1+3",
+  "Property" : "Th(L)",
+  "Notes" : "Floor Break"
 }, {
-  "Command" : " Approach crouching enemy d2+4",
-  "Hit" : "+五分F",
-  "Block" : "RP Head-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "2 +五分F",
   "Name" : "V Driver",
-  "Total" : "S2 Patch Notes ・Now causes floor break.",
-  "Counter Hit" : "37",
-  "Property" : "Th(L)",
   "Damage" : "45",
-  "Startup" : "12F"
+  "AfterThrow" : "RP Head-sd Fac-Up",
+  "Command" : " Approach crouching enemy d2+4",
+  "Property" : "Th(L)",
+  "Notes" : "S2 Patch Notes ・Now causes floor break."
 }, {
-  "Command" : "1+32",
-  "Hit" : "disable",
-  "Block" : "RP Head-sd Fac-Up",
-  "Notes" : "<img src=\"../rp.bmp\" class=\"c\">Absorbs (H/M) during 2 to 14F\nDamage 25 + 50% of enemy attack\nFloor Break",
+  "BreakThrow" : "disable ",
   "Name" : "Arm Whip",
-  "Total" : "Absorbs (H/M) during 2 to 14F Damage 25 + 50% of enemy attack Floor Break",
-  "Counter Hit" : "35",
-  "Property" : "Reversal(HM)",
   "Damage" : "25+α",
-  "Startup" : ""
+  "AfterThrow" : "RP Head-sd Fac-Up",
+  "Command" : "1+32",
+  "Property" : "Reversal(HM)",
+  "Notes" : "Absorbs (H/M) during 2 to 14F Damage 25 + 50% of enemy attack Floor Break"
 }, {
-  "Command" : "b2+43",
-  "Hit" : "disable",
-  "Block" : "RP Left-sd Fac-Up",
-  "Notes" : "<img src=\"../lk.bmp\" class=\"c\">Absorbs (H/M) during 2 to 10F\nDamage 25 + 50% of enemy attack",
+  "BreakThrow" : "disable ",
   "Name" : "Spinning Heel Hold",
-  "Total" : "Absorbs (H/M) during 2 to 10F Damage 25 + 50% of enemy attack",
-  "Counter Hit" : "35",
-  "Property" : "Reversal(HM)",
   "Damage" : "25+α",
-  "Startup" : ""
+  "AfterThrow" : "RP Left-sd Fac-Up",
+  "Command" : "b2+43",
+  "Property" : "Reversal(HM)",
+  "Notes" : "Absorbs (H/M) during 2 to 10F Damage 25 + 50% of enemy attack"
 }, {
-  "Command" : "b2+44",
-  "Hit" : "disable",
-  "Block" : "CW Foot-sd Fac-Up",
-  "Notes" : "<img src=\"../rk.bmp\" class=\"c\">Absorbs (H/M) during 2 to 10F\nDamage 25 + 50% of enemy attack",
+  "BreakThrow" : "disable ",
   "Name" : "Leg Screw",
-  "Total" : "Absorbs (H/M) during 2 to 10F Damage 25 + 50% of enemy attack",
-  "Counter Hit" : "35",
-  "Property" : "Reversal(HM)",
   "Damage" : "25+α",
-  "Startup" : ""
+  "AfterThrow" : "CW Foot-sd Fac-Up",
+  "Command" : "b2+44",
+  "Property" : "Reversal(HM)",
+  "Notes" : "Absorbs (H/M) during 2 to 10F Damage 25 + 50% of enemy attack"
 }, {
+  "BreakThrow" : "2 ",
+  "Name" : "Figure Four Leg Lock",
+  "Damage" : "33",
+  "AfterThrow" : "Foot-sd Fac-Up",
   "Command" : " During Leg Screw 3+4",
-  "Hit" : "",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "Break throw just input<img src=\"../k.bmp\" class=\"c\">to Reverse Figure Four Leg Lock (Damage 26 to King)",
-  "Name" : "Figure Four Leg Lock",
-  "Total" : "Break throw just input to Reverse Figure Four Leg Lock (Damage 26 to King)",
-  "Counter Hit" : "",
   "Property" : "-",
-  "Damage" : "33",
-  "Startup" : ""
+  "Notes" : "Break throw just input to Reverse Figure Four Leg Lock (Damage 26 to King)"
 }, {
-  "Command" : "ddff1",
-  "Hit" : "-2F",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "Floor Break",
+  "BreakThrow" : "1 -2F",
   "Name" : "Pile Driver",
-  "Total" : "Floor Break",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "30",
-  "Startup" : "11F"
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : "ddff1",
+  "Property" : "Th(H)",
+  "Notes" : "Floor Break"
 }, {
-  "Command" : " During Pile Driver 1+2, 1+2",
-  "Hit" : "-7F",
-  "Block" : "Head-sd Fac-Dwn",
-  "Notes" : "Floor Break\n",
+  "BreakThrow" : "2 -7F",
   "Name" : "Double Arm Face Buster",
-  "Total" : "Floor Break S2 Patch Notes (Ver.2.10)・ The recovery frames for the throw has been reduced from -19 to -9. (Ver.2.20)・Shortened the recovery animation by 7F.",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "35",
-  "Startup" : ""
+  "AfterThrow" : "Head-sd Fac-Dwn",
+  "Command" : " During Pile Driver 1+21+2",
+  "Property" : "-",
+  "Notes" : "Floor Break S2 Patch Notes (Ver.2.10)・ The recovery frames for the throw has been reduced from -19 to -9. (Ver.2.20)・Shortened the recovery animation by 7F."
 }, {
-  "Command" : " During Pile Driver 1+2, 3, 4, 1+2",
-  "Hit" : "-7F",
-  "Block" : "Right-sd Fac-Dwn",
-  "Notes" : "",
+  "BreakThrow" : "1+2 -7F",
   "Name" : "Boston Crab",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "15",
-  "Startup" : ""
+  "AfterThrow" : "Right-sd Fac-Dwn",
+  "Command" : " During Pile Driver 1+2341+2",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : "b1+2",
-  "Hit" : "-3F CCW",
-  "Block" : "BT ＋9Ｆ",
-  "Notes" : "Damage 5 &amp; Behind Wall stun when wall hit close to\nDamage 3 &amp; face up down by the head when wall hit distant",
+  "BreakThrow" : "1+2 -3F CCW",
   "Name" : "Throw Away",
-  "Total" : "Damage 5 & Behind Wall stun when wall hit close to Damage 3 & face up down by the head when wall hit distant",
-  "Counter Hit" : "39",
-  "Property" : "Th(H)",
   "Damage" : "0",
-  "Startup" : "14F"
+  "AfterThrow" : "BT ＋9Ｆ",
+  "Command" : "b1+2",
+  "Property" : "Th(H)",
+  "Notes" : "Damage 5 & Behind Wall stun when wall hit close to Damage 3 & face up down by the head when wall hit distant"
 }, {
-  "Command" : "b1+2, 1+3",
-  "Hit" : "-3F",
-  "Block" : "+14F",
-  "Notes" : "",
+  "BreakThrow" : "1 -3F",
   "Name" : "Throw Away Feint",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "0",
-  "Startup" : ""
+  "AfterThrow" : "+14F",
+  "Command" : "b1+21+3",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : "b1+2, 2+4",
-  "Hit" : "-3F",
-  "Block" : "RP Foot-sd Fac-Dwn",
-  "Notes" : "",
+  "BreakThrow" : "2 -3F",
   "Name" : "Throw Away Knockdown",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "8",
-  "Startup" : ""
+  "AfterThrow" : "RP Foot-sd Fac-Dwn",
+  "Command" : "b1+22+4",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : "b1+2, 3+4",
-  "Hit" : "-15F RP BT",
-  "Block" : "Head-sd Fac-Up",
-  "Notes" : "Floor Break",
+  "BreakThrow" : "3+4 -15F RPBT",
   "Name" : "Throw and Destroy",
-  "Total" : "Floor Break",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "10",
-  "Startup" : ""
+  "AfterThrow" : "Head-sd Fac-Up",
+  "Command" : "b1+23+4",
+  "Property" : "-",
+  "Notes" : "Floor Break"
 }, {
-  "Command" : "b1+2, 1+2",
-  "Hit" : "disable",
-  "Block" : "BT ＋5Ｆ",
-  "Notes" : "",
+  "BreakThrow" : "disable ",
   "Name" : "Turn Around",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "0",
-  "Startup" : ""
+  "AfterThrow" : "BT ＋5Ｆ",
+  "Command" : "b1+21+2",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " FC 1+2",
-  "Hit" : "-5F CW BT",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "Break Throw<img src=\"../rp.bmp\" class=\"c\">4F\n<img src=\"../p.bmp\" class=\"c\">2F before takedown",
+  "BreakThrow" : "-5F CWBT",
   "Name" : "Ultimate Tackle",
-  "Total" : "Break Throw 4F 2F before takedown",
-  "Counter Hit" : "",
-  "Property" : "Th(M)",
   "Damage" : "5",
-  "Startup" : "26F"
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " FC 1+2",
+  "Property" : "Th(M)",
+  "Notes" : "Break Throw 4F 2F before takedown"
 }, {
-  "Command" : " During tackle 1, 2, 1, 2 or 2, 1, 2, 1",
-  "Hit" : "or To Down",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "1 or 2  To Down",
   "Name" : "Ultimate Punch",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "5,5,5,15",
-  "Startup" : ""
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " During tackle 1212 or 2121",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During tackle or Ultimate Punch (３) 1+2",
-  "Hit" : "-9F",
-  "Block" : "RP Head-sd Fac-Up",
-  "Notes" : "Break throw input<img src=\"../p.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../rp.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../rp.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../rp.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../rp.bmp\" class=\"c\">",
+  "BreakThrow" : "-9F",
   "Name" : "Cross Arm Lock",
-  "Total" : "Break throw input",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "25",
-  "Startup" : ""
+  "AfterThrow" : "RP Head-sd Fac-Up",
+  "Command" : " During tackle or Ultimate Punch (３) 1+2",
+  "Property" : "-",
+  "Notes" : "Break throw input"
 }, {
-  "Command" : " During Cross Arm Lock 1+2",
-  "Hit" : "disable",
-  "Block" : "RP Head-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "disable ",
   "Name" : "Arm Twist",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "10",
-  "Startup" : ""
+  "AfterThrow" : "RP Head-sd Fac-Up",
+  "Command" : " During Cross Arm Lock 1+2",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During tackle or Ultimate Punch (３) 3+4",
-  "Hit" : "±0F",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "Break throw input<img src=\"../p.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../lp.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../lp.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../lp.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../lp.bmp\" class=\"c\">",
+  "BreakThrow" : "±0F",
   "Name" : "Leg Cross Hold",
-  "Total" : "Break throw input",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "20",
-  "Startup" : ""
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " During tackle or Ultimate Punch (３) 3+4",
+  "Property" : "-",
+  "Notes" : "Break throw input"
 }, {
-  "Command" : " During Leg Cross Hold 1+2",
-  "Hit" : "disable",
-  "Block" : "Foot-sd Fac-Dwn",
-  "Notes" : "",
+  "BreakThrow" : "disable ",
   "Name" : "Stretch Combo",
-  "Total" : "【S3 Patch Notes】– Reduced the number of input windows from 2 to 1. – Changed the input window from 1 frame to 3 frames.",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "30",
-  "Startup" : ""
+  "AfterThrow" : "Foot-sd Fac-Dwn",
+  "Command" : " During Leg Cross Hold 1+2",
+  "Property" : "-",
+  "Notes" : "【S3 Patch Notes】– Reduced the number of input windows from 2 to 1. – Changed the input window from 1 frame to 3 frames."
 }, {
-  "Command" : " Enemy on back by the feet db1+3 or db2+4",
-  "Hit" : "or ±0F",
-  "Block" : "RP Foot-sd Fac-Up",
-  "Notes" : "Break throw 7F\nDamage () is when no side quick roll\nDamage 35 when wall hit\n",
+  "BreakThrow" : "1 or 2 ±0F",
   "Name" : "Swing Away",
-  "Total" : "Break throw 7F Damage () is when no side quick roll Damage 35 when wall hit S2 Patch Notes ・Input window for ukemi increased by 1F.",
-  "Counter Hit" : "",
-  "Property" : "Th(Down)",
   "Damage" : "20(,10)",
-  "Startup" : "18F"
+  "AfterThrow" : "RP Foot-sd Fac-Up",
+  "Command" : " Enemy on back by the feet db1+3 or db2+4",
+  "Property" : "Th(Down)",
+  "Notes" : "Break throw 7F Damage () is when no side quick roll Damage 35 when wall hit S2 Patch Notes ・Input window for ukemi increased by 1F."
 }, {
-  "Command" : " Enemy on back by the feet db1+3",
-  "Hit" : "±0F",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "1 ±0F",
   "Name" : "Head Bomber",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th(Down)",
   "Damage" : "25",
-  "Startup" : "18F"
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " Enemy on back by the feet db1+3",
+  "Property" : "Th(Down)",
+  "Notes" : ""
 }, {
-  "Command" : " Enemy on back by the feet db2+4",
-  "Hit" : "±0F",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "2 ±0F",
   "Name" : "Figure Four Leg Lock",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th(Down)",
   "Damage" : "33",
-  "Startup" : "18F"
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " Enemy on back by the feet db2+4",
+  "Property" : "Th(Down)",
+  "Notes" : ""
 }, {
-  "Command" : " Enemy on back by the head db1+3 or db2+4",
-  "Hit" : "or ±0F",
-  "Block" : "Side Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "1 or 2 ±0F",
   "Name" : "Shoulder Cracker",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th(Down)",
   "Damage" : "28",
-  "Startup" : "18F"
+  "AfterThrow" : "Side Fac-Up",
+  "Command" : " Enemy on back by the head db1+3 or db2+4",
+  "Property" : "Th(Down)",
+  "Notes" : ""
 }, {
-  "Command" : " Enemy on back by Enemy's side db1+3 or db2+4",
-  "Hit" : "or ±0F",
-  "Block" : "Side Fac-Dwn",
-  "Notes" : "",
+  "BreakThrow" : "1 or 2 ±0F",
   "Name" : "Turn Over",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th(Down)",
   "Damage" : "0",
-  "Startup" : "18F"
+  "AfterThrow" : "Side Fac-Dwn",
+  "Command" : " Enemy on back by Enemy's side db1+3 or db2+4",
+  "Property" : "Th(Down)",
+  "Notes" : ""
 }, {
-  "Command" : " Enemy face down by the feet db1+3 or db2+4",
-  "Hit" : "or ±0F",
-  "Block" : "Side Fac-Dwn",
-  "Notes" : "",
+  "BreakThrow" : "1 or 2 ±0F",
   "Name" : "Half Boston Crab",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th(Down)",
   "Damage" : "30",
-  "Startup" : "18F"
+  "AfterThrow" : "Side Fac-Dwn",
+  "Command" : " Enemy face down by the feet db1+3 or db2+4",
+  "Property" : "Th(Down)",
+  "Notes" : ""
 }, {
-  "Command" : " Enemy face down by th head db1+3 or db2+4",
-  "Hit" : "or ±0F",
-  "Block" : "Head-sd Fac-Dwn",
-  "Notes" : "",
+  "BreakThrow" : "1 or 2 ±0F",
   "Name" : "Wing Tearer",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th(Down)",
   "Damage" : "32",
-  "Startup" : "18F"
+  "AfterThrow" : "Head-sd Fac-Dwn",
+  "Command" : " Enemy face down by th head db1+3 or db2+4",
+  "Property" : "Th(Down)",
+  "Notes" : ""
 }, {
-  "Command" : " Enemy face down from the left db1+3 or db2+4",
-  "Hit" : "or ±0F",
-  "Block" : "RP Side Fac-Dwn",
-  "Notes" : "",
+  "BreakThrow" : "1 or 2 ±0F",
   "Name" : "Camel Clutch",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th(Down)",
   "Damage" : "35",
-  "Startup" : "18F"
+  "AfterThrow" : "RP Side Fac-Dwn",
+  "Command" : " Enemy face down from the left db1+3 or db2+4",
+  "Property" : "Th(Down)",
+  "Notes" : ""
 }, {
-  "Command" : " Enemy face down from the right db1+3 or db2+4",
-  "Hit" : "or ±0F",
-  "Block" : "Side Fac-Dwn",
-  "Notes" : "",
+  "BreakThrow" : "1 or 2 ±0F",
   "Name" : "Bow & Arrow Stretch Hold",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th(Down)",
   "Damage" : "37",
-  "Startup" : "18F"
+  "AfterThrow" : "Side Fac-Dwn",
+  "Command" : " Enemy face down from the right db1+3 or db2+4",
+  "Property" : "Th(Down)",
+  "Notes" : ""
 }, {
-  "Command" : " Approach mid-air enemy 1+3",
-  "Hit" : "disable",
-  "Block" : "Foot-sd Fac-Dwn",
-  "Notes" : "Long Range Throw",
+  "BreakThrow" : "disable ",
   "Name" : "Mid-Air Leg Cross Hold",
-  "Total" : "Long Range Throw",
-  "Counter Hit" : "",
-  "Property" : "Th(Air)",
   "Damage" : "30",
-  "Startup" : "12F"
+  "AfterThrow" : "Foot-sd Fac-Dwn",
+  "Command" : " Approach mid-air enemy 1+3",
+  "Property" : "Th(Air)",
+  "Notes" : "Long Range Throw"
 }, {
-  "Command" : " Approach mid-air enemy 2+4",
-  "Hit" : "disable",
-  "Block" : "RP Foot-sd Fac-Up",
-  "Notes" : "Long Range Throw",
+  "BreakThrow" : "disable ",
   "Name" : "Mid-Air Leg Screw",
-  "Total" : "Long Range Throw",
-  "Counter Hit" : "",
-  "Property" : "Th(Air)",
   "Damage" : "30",
-  "Startup" : "12F"
+  "AfterThrow" : "RP Foot-sd Fac-Up",
+  "Command" : " Approach mid-air enemy 2+4",
+  "Property" : "Th(Air)",
+  "Notes" : "Long Range Throw"
 }, {
-  "Command" : " Approach mid-air enemy fbdbddff1 or fbdbddff2",
-  "Hit" : "disable",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "Floor Break",
+  "BreakThrow" : "disable ",
   "Name" : "Aerial Jaguar Bomb",
-  "Total" : "Floor Break",
-  "Counter Hit" : "",
-  "Property" : "Th(Air)",
   "Damage" : "55",
-  "Startup" : "10 or 12F"
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " Approach mid-air enemy fbdbddff1 or fbdbddff2",
+  "Property" : "Th(Air)",
+  "Notes" : "Floor Break"
 }, {
-  "Command" : " Approach mid-air enemy fff2+4",
-  "Hit" : "disable",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "Floor Break",
+  "BreakThrow" : "disable ",
   "Name" : "Running Jaguar Bomb",
-  "Total" : "Floor Break",
-  "Counter Hit" : "",
-  "Property" : "Th(Air)",
   "Damage" : "65",
-  "Startup" : "10F"
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " Approach mid-air enemy fff2+4",
+  "Property" : "Th(Air)",
+  "Notes" : "Floor Break"
 }, {
-  "Command" : " Approach mid-air enemy d1+3 or d2+4",
-  "Hit" : "disable",
-  "Block" : "Side Fac-Dwn",
-  "Notes" : "",
+  "BreakThrow" : "disable ",
   "Name" : "Double Heel Hold",
-  "Total" : "",
-  "Counter Hit" : "",
+  "Damage" : "15",
+  "AfterThrow" : "Side Fac-Dwn",
+  "Command" : " Approach mid-air enemy d1+3 or d2+4",
   "Property" : "Th(Air)",
-  "Damage" : "15",
-  "Startup" : "12F"
+  "Notes" : ""
 }, {
-  "Command" : " During Double Heel Hold 1+2, 1+2",
-  "Hit" : "-6F",
-  "Block" : "RP Foot-sd Fac-Dwn",
-  "Notes" : "",
+  "BreakThrow" : "1 -6F",
   "Name" : "Flapjack",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "15",
-  "Startup" : ""
-}, {
-  "Command" : " During Double Heel Hold 2, 1, 3, 4",
-  "Hit" : "-6F",
-  "Block" : "RP Foot-sd Fac-Up",
-  "Notes" : "Damage () is when no side quick roll\nDamage 32 when wall hit (disable damage scaling)",
-  "Name" : "Giant Swing",
-  "Total" : "Damage () is when no side quick roll Damage 32 when wall hit (disable damage scaling)",
-  "Counter Hit" : "",
+  "AfterThrow" : "RP Foot-sd Fac-Dwn",
+  "Command" : " During Double Heel Hold 1+21+2",
   "Property" : "-",
+  "Notes" : ""
+}, {
+  "BreakThrow" : "2 -6F",
+  "Name" : "Giant Swing",
   "Damage" : "12(,13)",
-  "Startup" : ""
+  "AfterThrow" : "RP Foot-sd Fac-Up",
+  "Command" : " During Double Heel Hold 2134",
+  "Property" : "-",
+  "Notes" : "Damage () is when no side quick roll Damage 32 when wall hit (disable damage scaling)"
 }, {
-  "Command" : " During enemy wall stun fbdbdf1 or fff2+4",
-  "Hit" : "disable",
-  "Block" : "Side Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "disable ",
   "Name" : "Shining Torpedo",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th(Wall)",
   "Damage" : "65",
-  "Startup" : "10F"
+  "AfterThrow" : "Side Fac-Up",
+  "Command" : " During enemy wall stun fbdbdf1 or fff2+4",
+  "Property" : "Th(Wall)",
+  "Notes" : ""
 }, {
-  "Command" : "f,n,ddf2+3",
-  "Hit" : "-2F",
-  "Block" : "Side Fac-Dwn",
-  "Notes" : "Advance Input Start-up 24F",
+  "BreakThrow" : "2 -2F",
   "Name" : "Standing Heel Hold",
-  "Total" : "Advance Input Start-up 24F",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "25",
-  "Startup" : "12F"
+  "AfterThrow" : "Side Fac-Dwn",
+  "Command" : "fnddf2+3",
+  "Property" : "Th(H)",
+  "Notes" : "Advance Input Start-up 24F"
 }, {
-  "Command" : " During Standing Heel Hold 1+2, 1, 3, 1+2",
-  "Hit" : "-10F",
-  "Block" : "Foot-sd Fac-Dwn",
-  "Notes" : "Damage 10 to King when break throw",
+  "BreakThrow" : "1+2 -10F",
   "Name" : "Indian Death Lock",
-  "Total" : "Damage 10 to King when break throw",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "25",
-  "Startup" : ""
+  "AfterThrow" : "Foot-sd Fac-Dwn",
+  "Command" : " During Standing Heel Hold 1+2131+2",
+  "Property" : "-",
+  "Notes" : "Damage 10 to King when break throw"
 }, {
-  "Command" : " During Indian Death Lock 1, 3, 4, 1+2, 3+4",
-  "Hit" : "disable",
-  "Block" : "Foot-sd Fac-Dwn",
-  "Notes" : "",
+  "BreakThrow" : "disable ",
   "Name" : "King's Bridge",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "45",
-  "Startup" : ""
+  "AfterThrow" : "Foot-sd Fac-Dwn",
+  "Command" : " During Indian Death Lock 1341+23+4",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During Standing Heel Hold 1, 2, 3, 1+2",
-  "Hit" : "-10F",
-  "Block" : "Side Fac-Dwn",
-  "Notes" : "Damage 10 to King when break throw",
+  "BreakThrow" : "1 -10F",
   "Name" : "S.T.F.",
-  "Total" : "Damage 10 to King when break throw",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "35",
-  "Startup" : ""
+  "AfterThrow" : "Side Fac-Dwn",
+  "Command" : " During Standing Heel Hold 1231+2",
+  "Property" : "-",
+  "Notes" : "Damage 10 to King when break throw"
 }, {
-  "Command" : " During Standing Heel Hold 1+2, 3, 1, 1+3",
-  "Hit" : "-10F",
-  "Block" : "Side Fac-Dwn",
-  "Notes" : "Damage 10 to King when break throw",
+  "BreakThrow" : "2 -10F",
   "Name" : "Scorpion Death Lock",
-  "Total" : "Damage 10 to King when break throw",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "40",
-  "Startup" : ""
+  "AfterThrow" : "Side Fac-Dwn",
+  "Command" : " During Standing Heel Hold 1+2311+3",
+  "Property" : "-",
+  "Notes" : "Damage 10 to King when break throw"
 }, {
-  "Command" : "f,n,ddf1+4",
-  "Hit" : "-2F",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "Advance Input Start-up 24F",
+  "BreakThrow" : "1 -2F",
   "Name" : "Arm Breaker",
-  "Total" : "Advance Input Start-up 24F",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "20",
-  "Startup" : "12F"
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : "fnddf1+4",
+  "Property" : "Th(H)",
+  "Notes" : "Advance Input Start-up 24F"
 }, {
-  "Command" : " During Arm Breaker 1+2, 1+2",
-  "Hit" : "-3F",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "1 -3F",
   "Name" : "Triple Arm Breaker",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "30",
-  "Startup" : ""
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " During Arm Breaker 1+21+2",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During Arm Breaker 1+2, 4, 2+4",
-  "Hit" : "-3F",
-  "Block" : "Side Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "2 -3F",
   "Name" : "Head Jammer",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "20",
-  "Startup" : ""
+  "AfterThrow" : "Side Fac-Up",
+  "Command" : " During Arm Breaker 1+242+4",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During Head Jammer 4, 3, 4, 3+4, 1+2",
-  "Hit" : "disable",
-  "Block" : "Side Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "disable ",
   "Name" : "Struggle Combination",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "25",
-  "Startup" : ""
+  "AfterThrow" : "Side Fac-Up",
+  "Command" : " During Head Jammer 4343+41+2",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During Arm Breaker 2, 1, 1+2+3",
-  "Hit" : "-3F",
-  "Block" : "Foot-sd Fac-Dwn",
-  "Notes" : "",
+  "BreakThrow" : "1+2 -3F",
   "Name" : "Chicken Wing Face Lock",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "20",
-  "Startup" : ""
+  "AfterThrow" : "Foot-sd Fac-Dwn",
+  "Command" : " During Arm Breaker 211+2+3",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During Chicken Wing Face Lock 2, 1, 3, 1+2+4, 1+2+4",
-  "Hit" : "-3F",
-  "Block" : "Head-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "1 -3F",
   "Name" : "Dragon Sleeper Finish",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "30",
-  "Startup" : ""
+  "AfterThrow" : "Head-sd Fac-Up",
+  "Command" : " During Chicken Wing Face Lock 2131+2+41+2+4",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During Chicken Wing Face Lock 1+3, 3+4, 2+4, 1+2, 1+2+3",
-  "Hit" : "-3F",
-  "Block" : "Side Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "2 -3F",
   "Name" : "Rolling Death Cradle",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "70",
-  "Startup" : ""
+  "AfterThrow" : "Side Fac-Up",
+  "Command" : " During Chicken Wing Face Lock 1+33+42+41+21+2+3",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : "df1+3",
-  "Hit" : "-2F",
-  "Block" : "RP Head-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "1 -2F",
   "Name" : "Reverse Arm Slam",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "Th(H)",
   "Damage" : "22",
-  "Startup" : "32F"
+  "AfterThrow" : "RP Head-sd Fac-Up",
+  "Command" : "df1+3",
+  "Property" : "Th(H)",
+  "Notes" : ""
 }, {
-  "Command" : " During Reverse Arm Slam 2, 1, 1+2",
-  "Hit" : "-3F",
-  "Block" : "Head-sd Fac-Up",
-  "Notes" : "King to Down after moving",
+  "BreakThrow" : "1 -3F",
   "Name" : "Backdrop",
-  "Total" : "King to Down after moving",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "15",
-  "Startup" : ""
+  "AfterThrow" : "Head-sd Fac-Up",
+  "Command" : " During Reverse Arm Slam 211+2",
+  "Property" : "-",
+  "Notes" : "King to Down after moving"
 }, {
-  "Command" : " During Backdrop 3+4, 1+2",
-  "Hit" : "-28F",
-  "Block" : "Side Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "1 -28F",
   "Name" : "German Suplex",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "15",
-  "Startup" : ""
+  "AfterThrow" : "Side Fac-Up",
+  "Command" : " During Backdrop 3+41+2",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During German Suplex 1, 2, 3+4",
-  "Hit" : "disable",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "disable ",
   "Name" : "Power Bomb",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "22",
-  "Startup" : ""
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " During German Suplex 123+4",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During Power Bomb 2, 1, 3, 4",
-  "Hit" : "-3F",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "Disable side quick roll\nWall hit damage 31",
+  "BreakThrow" : "1 -3F",
   "Name" : "Giant Swing",
-  "Total" : "Disable side quick roll Wall hit damage 31",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "25",
-  "Startup" : ""
-}, {
-  "Command" : " During Power Bomb 3, 1, 2, 3+4, 1+2+3+4",
-  "Hit" : "-6F",
-  "Block" : "King to BT Head-sd Fac-Up",
-  "Notes" : "",
-  "Name" : "Muscle Buster",
-  "Total" : "",
-  "Counter Hit" : "",
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " During Power Bomb 2134",
   "Property" : "-",
-  "Damage" : "30",
-  "Startup" : ""
+  "Notes" : "Disable side quick roll Wall hit damage 31"
 }, {
-  "Command" : " During Backdrop 2, 2, 1+2",
-  "Hit" : "-3F",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "2 -6F",
+  "Name" : "Muscle Buster",
+  "Damage" : "30",
+  "AfterThrow" : "King to BT Head-sd Fac-Up",
+  "Command" : " During Power Bomb 3123+41+2+3+4",
+  "Property" : "-",
+  "Notes" : ""
+}, {
+  "BreakThrow" : "2 -3F",
   "Name" : "Cannonball Buster",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "15",
-  "Startup" : ""
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " During Backdrop 221+2",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During Cannonball Buster 3+4, 1+2, 1+2+4",
-  "Hit" : "-3F",
-  "Block" : "Head-sd Fac-Dwn",
-  "Notes" : "",
+  "BreakThrow" : "2 -3F",
   "Name" : "Manhattan Drop",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "15",
-  "Startup" : ""
+  "AfterThrow" : "Head-sd Fac-Dwn",
+  "Command" : " During Cannonball Buster 3+41+21+2+4",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During Manhattan Drop 1, 2, 3+4, 1+2",
-  "Hit" : "disable",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "disable ",
   "Name" : "Victory Bomb",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "18",
-  "Startup" : ""
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " During Manhattan Drop 123+41+2",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During Victory Bomb 2, 1, 3, 4",
-  "Hit" : "-3F",
-  "Block" : "RP Foot-sd Fac-Up",
-  "Notes" : "Disable side quick roll\nWall hit damage 31",
+  "BreakThrow" : "1 -3F",
   "Name" : "Giant Swing",
-  "Total" : "Disable side quick roll Wall hit damage 31",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "25",
-  "Startup" : ""
-}, {
-  "Command" : " During Victory Bomb 3, 1, 2, 3+4, 1+2+3+4",
-  "Hit" : "-6F",
-  "Block" : "King to BT Head-sd Fac-Up",
-  "Notes" : "",
-  "Name" : "Muscle Buster",
-  "Total" : "",
-  "Counter Hit" : "",
+  "AfterThrow" : "RP Foot-sd Fac-Up",
+  "Command" : " During Victory Bomb 2134",
   "Property" : "-",
-  "Damage" : "30",
-  "Startup" : ""
+  "Notes" : "Disable side quick roll Wall hit damage 31"
 }, {
-  "Command" : " During Cannonball Buster 1, 2, 3+4",
-  "Hit" : "-3F",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "2 -6F",
+  "Name" : "Muscle Buster",
+  "Damage" : "30",
+  "AfterThrow" : "King to BT Head-sd Fac-Up",
+  "Command" : " During Victory Bomb 3123+41+2+3+4",
+  "Property" : "-",
+  "Notes" : ""
+}, {
+  "BreakThrow" : "1 -3F",
   "Name" : "Power Bomb",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "22",
-  "Startup" : ""
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " During Cannonball Buster 123+4",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During Power Bomb 2, 1, 3, 4",
-  "Hit" : "-3F",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "Disable side quick roll\nWall hit damage 31",
+  "BreakThrow" : "1 -3F",
   "Name" : "Giant Swing",
-  "Total" : "Disable side quick roll Wall hit damage 31",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "25",
-  "Startup" : ""
-}, {
-  "Command" : " During Power Bomb 3, 1, 2, 3+4, 1+2+3+4",
-  "Hit" : "-6F",
-  "Block" : "King to BT Head-sd Fac-Up",
-  "Notes" : "",
-  "Name" : "Muscle Buster",
-  "Total" : "",
-  "Counter Hit" : "",
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " During Power Bomb 2134",
   "Property" : "-",
-  "Damage" : "30",
-  "Startup" : ""
+  "Notes" : "Disable side quick roll Wall hit damage 31"
 }, {
+  "BreakThrow" : "2 -6F",
+  "Name" : "Muscle Buster",
+  "Damage" : "30",
+  "AfterThrow" : "King to BT Head-sd Fac-Up",
+  "Command" : " During Power Bomb 3123+41+2+3+4",
+  "Property" : "-",
+  "Notes" : ""
+}, {
+  "BreakThrow" : "2 -2F",
+  "Name" : "Reverse Special Stretch Bomb",
+  "Damage" : "25",
+  "AfterThrow" : "RP Foot-sd Fac-Up",
   "Command" : "df2+4 or SS 2+4",
-  "Hit" : "-2F",
-  "Block" : "RP Foot-sd Fac-Up",
-  "Notes" : "SS<img src=\"../r.bmp\" class=\"c\">input<img src=\"../4'.bmp\" class=\"c\">to Cancel\n",
-  "Name" : "Reverse Special Stretch Bomb",
-  "Total" : "SS input to Cancel S2 Patch Notes ・Now has crouch status.",
-  "Counter Hit" : "",
   "Property" : "Th(H)",
-  "Damage" : "25",
-  "Startup" : "32 or 38F"
+  "Notes" : "SS input to Cancel S2 Patch Notes ・Now has crouch status."
 }, {
+  "BreakThrow" : "1 or 2 -2F",
+  "Name" : "Reverse Special Stretch Bomb",
+  "Damage" : "25",
+  "AfterThrow" : "RP Foot-sd Fac-Up",
   "Command" : " Aproach crouching enemy dfdf1+3 or dfdf2+4",
-  "Hit" : "or -2F",
-  "Block" : "RP Foot-sd Fac-Up",
-  "Notes" : "",
-  "Name" : "Reverse Special Stretch Bomb",
-  "Total" : "",
-  "Counter Hit" : "",
   "Property" : "Th(L)",
-  "Damage" : "25",
-  "Startup" : "12F"
+  "Notes" : ""
 }, {
-  "Command" : " During Reverse Special Stretch Bomb 2, 2, 1+2",
-  "Hit" : "disable",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "disable ",
   "Name" : "Cannonball Buster",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "15",
-  "Startup" : ""
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " During Reverse Special Stretch Bomb 221+2",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During Cannonball Buster 3+4, 1+2, 1+2+4",
-  "Hit" : "-3F",
-  "Block" : "Head-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "2 -3F",
   "Name" : "Manhattan Drop",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "15",
-  "Startup" : ""
+  "AfterThrow" : "Head-sd Fac-Up",
+  "Command" : " During Cannonball Buster 3+41+21+2+4",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During Manhattan Drop 1, 2, 3+4, 1+2",
-  "Hit" : "disable",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "disable ",
   "Name" : "Victory Bomb",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "18",
-  "Startup" : ""
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " During Manhattan Drop 123+41+2",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During Victory Bomb 2, 1, 3, 4",
-  "Hit" : "-3F",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "Disable side quick roll\nWall hit damage 31",
+  "BreakThrow" : "1 -3F",
   "Name" : "Giant Swing",
-  "Total" : "Disable side quick roll Wall hit damage 31",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "25",
-  "Startup" : ""
-}, {
-  "Command" : " During Victory Bomb 3, 1, 2, 3+4, 1+2+3+4",
-  "Hit" : "-6F",
-  "Block" : "King to BT Head-sd Fac-Up",
-  "Notes" : "",
-  "Name" : "Muscle Buster",
-  "Total" : "",
-  "Counter Hit" : "",
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " During Victory Bomb 2134",
   "Property" : "-",
-  "Damage" : "30",
-  "Startup" : ""
+  "Notes" : "Disable side quick roll Wall hit damage 31"
 }, {
-  "Command" : " During Cannonball Buster 1, 2, 3+4",
-  "Hit" : "-3F",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "2 -6F",
+  "Name" : "Muscle Buster",
+  "Damage" : "30",
+  "AfterThrow" : "King to BT Head-sd Fac-Up",
+  "Command" : " During Victory Bomb 3123+41+2+3+4",
+  "Property" : "-",
+  "Notes" : ""
+}, {
+  "BreakThrow" : "1 -3F",
   "Name" : "Power Bomb",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "22",
-  "Startup" : ""
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " During Cannonball Buster 123+4",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During Power Bomb 2, 1, 3, 4",
-  "Hit" : "-3F",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "Disable side quick roll\nWall hit damage 31",
+  "BreakThrow" : "1 -3F",
   "Name" : "Giant Swing",
-  "Total" : "Disable side quick roll Wall hit damage 31",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "25",
-  "Startup" : ""
-}, {
-  "Command" : " During Power Bomb 3, 1, 2, 3+4, 1+2+3+4",
-  "Hit" : "-6F",
-  "Block" : "King to BT Head-sd Fac-Up",
-  "Notes" : "",
-  "Name" : "Muscle Buster",
-  "Total" : "",
-  "Counter Hit" : "",
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " During Power Bomb 2134",
   "Property" : "-",
-  "Damage" : "30",
-  "Startup" : ""
+  "Notes" : "Disable side quick roll Wall hit damage 31"
 }, {
+  "BreakThrow" : "2 -6F",
+  "Name" : "Muscle Buster",
+  "Damage" : "30",
+  "AfterThrow" : "King to BT Head-sd Fac-Up",
+  "Command" : " During Power Bomb 3123+41+2+3+4",
+  "Property" : "-",
+  "Notes" : ""
+}, {
+  "BreakThrow" : "1 or 2 -3F",
+  "Name" : "Cannonball Buster",
+  "Damage" : "15",
+  "AfterThrow" : "Foot-sd Fac-Up",
   "Command" : " Approach from side or behind SS 2+4",
-  "Hit" : "or -3F",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "SS<img src=\"../r.bmp\" class=\"c\">input<img src=\"../4'.bmp\" class=\"c\">to Cancel\n",
-  "Name" : "Cannonball Buster",
-  "Total" : "SS input to Cancel S2 Patch Notes ・Now has crouch status.",
-  "Counter Hit" : "",
   "Property" : "Th(H)",
-  "Damage" : "15",
-  "Startup" : "38F"
+  "Notes" : "SS input to Cancel S2 Patch Notes ・Now has crouch status."
 }, {
-  "Command" : " During Cannonball Buster 3+4, 1+2, 1+2+4",
-  "Hit" : "-3F",
-  "Block" : "Head-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "2 -3F",
   "Name" : "Manhattan Drop",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "15",
-  "Startup" : ""
+  "AfterThrow" : "Head-sd Fac-Up",
+  "Command" : " During Cannonball Buster 3+41+21+2+4",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During Manhattan Drop 1, 2, 3+4, 1+2",
-  "Hit" : "disable",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "disable ",
   "Name" : "Victory Bomb",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "18",
-  "Startup" : ""
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " During Manhattan Drop 123+41+2",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During Victory Bomb 2, 1, 3, 4",
-  "Hit" : "-3F",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "Disable side quick roll\nWall hit damage 31",
+  "BreakThrow" : "1 -3F",
   "Name" : "Giant Swing",
-  "Total" : "Disable side quick roll Wall hit damage 31",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "25",
-  "Startup" : ""
-}, {
-  "Command" : " During Victory Bomb 3, 1, 2, 3+4, 1+2+3+4",
-  "Hit" : "-6F",
-  "Block" : "King to BT Head-sd Fac-Up",
-  "Notes" : "",
-  "Name" : "Muscle Buster",
-  "Total" : "",
-  "Counter Hit" : "",
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " During Victory Bomb 2134",
   "Property" : "-",
-  "Damage" : "30",
-  "Startup" : ""
+  "Notes" : "Disable side quick roll Wall hit damage 31"
 }, {
-  "Command" : " During Cannonball Buster 1, 2, 3+4",
-  "Hit" : "-3F",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "2 -6F",
+  "Name" : "Muscle Buster",
+  "Damage" : "30",
+  "AfterThrow" : "King to BT Head-sd Fac-Up",
+  "Command" : " During Victory Bomb 3123+41+2+3+4",
+  "Property" : "-",
+  "Notes" : ""
+}, {
+  "BreakThrow" : "1 -3F",
   "Name" : "Power Bomb",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "22",
-  "Startup" : ""
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " During Cannonball Buster 123+4",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During Power Bomb 2, 1, 3, 4",
-  "Hit" : "-3F",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "Disable side quick roll\nWall hit damage 31",
+  "BreakThrow" : "1 -3F",
   "Name" : "Giant Swing",
-  "Total" : "Disable side quick roll Wall hit damage 31",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "25",
-  "Startup" : ""
-}, {
-  "Command" : " During Power Bomb 3, 1, 2, 3+4, 1+2+3+4",
-  "Hit" : "-6F",
-  "Block" : "King to BT Head-sd Fac-Up",
-  "Notes" : "",
-  "Name" : "Muscle Buster",
-  "Total" : "",
-  "Counter Hit" : "",
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " During Power Bomb 2134",
   "Property" : "-",
-  "Damage" : "30",
-  "Startup" : ""
+  "Notes" : "Disable side quick roll Wall hit damage 31"
 }, {
-  "Command" : " JS （ 3+4 ） 1+4 or 2+3",
-  "Hit" : "or -3F RP",
-  "Block" : "RP Foot-sd Fac-Dwn",
-  "Notes" : "Total start-up 36F",
+  "BreakThrow" : "2 -6F",
+  "Name" : "Muscle Buster",
+  "Damage" : "30",
+  "AfterThrow" : "King to BT Head-sd Fac-Up",
+  "Command" : " During Power Bomb 3123+41+2+3+4",
+  "Property" : "-",
+  "Notes" : ""
+}, {
+  "BreakThrow" : "1 or 2 -3F RP",
   "Name" : "Cobra Clutch",
-  "Total" : "Total start-up 36F",
-  "Counter Hit" : "",
+  "Damage" : "20",
+  "AfterThrow" : "RP Foot-sd Fac-Dwn",
+  "Command" : " JS （ 3+4 ） 1+4 or 2+3",
   "Property" : "Th(H)",
-  "Damage" : "20",
-  "Startup" : "12F"
+  "Notes" : "Total start-up 36F"
 }, {
-  "Command" : " During Cobra Clutch 2+4, 1+2, 1+2",
-  "Hit" : "-3F",
-  "Block" : "Head-sd Fac-Dwn",
-  "Notes" : "",
+  "BreakThrow" : "1 -3F",
   "Name" : "Flinging Half Nelson",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "25",
-  "Startup" : ""
+  "AfterThrow" : "Head-sd Fac-Dwn",
+  "Command" : " During Cobra Clutch 2+41+21+2",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During Cobra Clutch 3+4, 3+4, 1+2",
-  "Hit" : "-3F",
-  "Block" : "Foot-sd Fac-Dwn",
-  "Notes" : "",
+  "BreakThrow" : "2 -3F",
   "Name" : "Sleeper",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "15",
-  "Startup" : ""
+  "AfterThrow" : "Foot-sd Fac-Dwn",
+  "Command" : " During Cobra Clutch 3+43+41+2",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During Sleeper 1, 1, 1+2",
-  "Hit" : "±0F King Head-sd Fac-Up",
-  "Block" : "Foot-sd Fac-Dwn",
-  "Notes" : "King to Down after break throw",
+  "BreakThrow" : "1 ±0F KingHead-sdFac-Up",
   "Name" : "Triple Trouble",
-  "Total" : "King to Down after break throw",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "20",
-  "Startup" : ""
+  "AfterThrow" : "Foot-sd Fac-Dwn",
+  "Command" : " During Sleeper 111+2",
+  "Property" : "-",
+  "Notes" : "King to Down after break throw"
 }, {
-  "Command" : " During Sleeper 3, 4, 1+2, 3+4",
-  "Hit" : "±0F King Head-sd Fac-Up",
-  "Block" : "Side Fac-Dwn",
-  "Notes" : "King to Down after break throw",
+  "BreakThrow" : "2 ±0F KingHead-sdFac-Up",
   "Name" : "Human Necktie",
-  "Total" : "King to Down after break throw",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "23",
-  "Startup" : ""
+  "AfterThrow" : "Side Fac-Dwn",
+  "Command" : " During Sleeper 341+23+4",
+  "Property" : "-",
+  "Notes" : "King to Down after break throw"
 }, {
-  "Command" : " During Cobra Clutch 1, 4, 2, 3",
-  "Hit" : "disable",
-  "Block" : "Side Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "disable ",
   "Name" : "Cobra Twist",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "12",
-  "Startup" : ""
+  "AfterThrow" : "Side Fac-Up",
+  "Command" : " During Cobra Clutch 1423",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During Cobra Twist 2, 1, 1+3 or 2+4",
-  "Hit" : "or -6F",
-  "Block" : "Head-sd Fac-Dwn",
-  "Notes" : "",
+  "BreakThrow" : "1 or 2 -6F",
   "Name" : "Reverse DDT",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "13",
-  "Startup" : ""
+  "AfterThrow" : "Head-sd Fac-Dwn",
+  "Command" : " During Cobra Twist 211+3 or 2+4",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During Reverse DDT 2, 3, 1, 1+2",
-  "Hit" : "-6F",
-  "Block" : "Head-sd Fac-Dwn",
-  "Notes" : "",
+  "BreakThrow" : "1+2 -6F",
   "Name" : "Samurai Rock",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "24",
-  "Startup" : ""
+  "AfterThrow" : "Head-sd Fac-Dwn",
+  "Command" : " During Reverse DDT 2311+2",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During Reverse DDT 1+2, 1, 2, 1+2+3 or 1+2+4",
-  "Hit" : "or -6F",
-  "Block" : "Head-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "1 or 2 -6F",
   "Name" : "Reverse Special Stretch Bomb",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "16",
-  "Startup" : ""
+  "AfterThrow" : "Head-sd Fac-Up",
+  "Command" : " During Reverse DDT 1+2121+2+3 or 1+2+4",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During Reverse Special Stretch Bomb 3+4, 1+2",
-  "Hit" : "disable",
-  "Block" : "Head-sd Fac-Dwn King to Down",
-  "Notes" : "",
+  "BreakThrow" : "disable ",
   "Name" : "Backdrop",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "15",
-  "Startup" : ""
+  "AfterThrow" : "Head-sd Fac-Dwn King to Down",
+  "Command" : " During Reverse Special Stretch Bomb 3+41+2",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During Backdrop 1+2, 4, 1+2, 1+2+3",
-  "Hit" : "-3F",
-  "Block" : "Head-sd Fac-Dwn",
-  "Notes" : "",
+  "BreakThrow" : "1+2 -3F",
   "Name" : "Sol Naciente",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "27",
-  "Startup" : ""
+  "AfterThrow" : "Head-sd Fac-Dwn",
+  "Command" : " During Backdrop 1+241+21+2+3",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During Backdrop 1+2, 3, 4, 1+3 or 2+4",
-  "Hit" : "or -3F",
-  "Block" : "Head-sd Fac-Dwn",
-  "Notes" : "",
+  "BreakThrow" : "1 or 2 -3F",
   "Name" : "Burning Hammer",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "18",
-  "Startup" : ""
+  "AfterThrow" : "Head-sd Fac-Dwn",
+  "Command" : " During Backdrop 1+2341+3 or 2+4",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During Burning Hammer 2+4, 3+4, 1+3, 1+2, 1+2+3 or 1+2+4",
-  "Hit" : "or -3F",
-  "Block" : "Head-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "1 or 2 -3F",
   "Name" : "Screwdriver",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "32",
-  "Startup" : ""
+  "AfterThrow" : "Head-sd Fac-Up",
+  "Command" : " During Burning Hammer 2+43+41+31+21+2+3 or 1+2+4",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During Reverse Special Stretch Bomb 2, 2, 1+2",
-  "Hit" : "disable",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "disable ",
   "Name" : "Cannonball Buster",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "15",
-  "Startup" : ""
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " During Reverse Special Stretch Bomb 221+2",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During Cannonball Buster 3+4, 1+2, 1+2+4",
-  "Hit" : "-3F",
-  "Block" : "Head-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "2 -3F",
   "Name" : "Manhattan Drop",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "15",
-  "Startup" : ""
+  "AfterThrow" : "Head-sd Fac-Up",
+  "Command" : " During Cannonball Buster 3+41+21+2+4",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During Manhattan Drop 1, 2, 3+4, 1+2",
-  "Hit" : "disable",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "disable ",
   "Name" : "Victory Bomb",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "18",
-  "Startup" : ""
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " During Manhattan Drop 123+41+2",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During Victory Bomb 2, 1, 3, 4",
-  "Hit" : "-3F",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "Disable side quick roll\nWall hit damage 31",
+  "BreakThrow" : "1 -3F",
   "Name" : "Giant Swing",
-  "Total" : "Disable side quick roll Wall hit damage 31",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "25",
-  "Startup" : ""
-}, {
-  "Command" : " During Victory Bomb 3, 1, 2, 3+4, 1+2+3+4",
-  "Hit" : "-6F",
-  "Block" : "King to BT Head-sd Fac-Up",
-  "Notes" : "",
-  "Name" : "Muscle Buster",
-  "Total" : "",
-  "Counter Hit" : "",
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " During Victory Bomb 2134",
   "Property" : "-",
-  "Damage" : "30",
-  "Startup" : ""
+  "Notes" : "Disable side quick roll Wall hit damage 31"
 }, {
-  "Command" : " During Cannonball Buster 1, 2, 3+4",
-  "Hit" : "-3F",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "",
+  "BreakThrow" : "2 -6F",
+  "Name" : "Muscle Buster",
+  "Damage" : "30",
+  "AfterThrow" : "King to BT Head-sd Fac-Up",
+  "Command" : " During Victory Bomb 3123+41+2+3+4",
+  "Property" : "-",
+  "Notes" : ""
+}, {
+  "BreakThrow" : "1 -3F",
   "Name" : "Power Bomb",
-  "Total" : "",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "22",
-  "Startup" : ""
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " During Cannonball Buster 123+4",
+  "Property" : "-",
+  "Notes" : ""
 }, {
-  "Command" : " During Power Bomb 2, 1, 3, 4",
-  "Hit" : "-3F",
-  "Block" : "Foot-sd Fac-Up",
-  "Notes" : "Disable side quick roll\nWall hit damage 31",
+  "BreakThrow" : "1 -3F",
   "Name" : "Giant Swing",
-  "Total" : "Disable side quick roll Wall hit damage 31",
-  "Counter Hit" : "",
-  "Property" : "-",
   "Damage" : "25",
-  "Startup" : ""
-}, {
-  "Command" : " During Power Bomb 3, 1, 2, 3+4, 1+2+3+4",
-  "Hit" : "-6F",
-  "Block" : "King to BT Head-sd Fac-Up",
-  "Notes" : "",
-  "Name" : "Muscle Buster",
-  "Total" : "",
-  "Counter Hit" : "",
+  "AfterThrow" : "Foot-sd Fac-Up",
+  "Command" : " During Power Bomb 2134",
   "Property" : "-",
+  "Notes" : "Disable side quick roll Wall hit damage 31"
+}, {
+  "BreakThrow" : "2 -6F",
+  "Name" : "Muscle Buster",
   "Damage" : "30",
-  "Startup" : ""
+  "AfterThrow" : "King to BT Head-sd Fac-Up",
+  "Command" : " During Power Bomb 3123+41+2+3+4",
+  "Property" : "-",
+  "Notes" : ""
 } ]
