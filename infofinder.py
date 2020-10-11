@@ -50,6 +50,14 @@ def get_move(character_json, char_move):
         char_move_list = json.loads(char_move_list)
 
     if char_move_list != None:
+        if char_move == "ra":
+            to_return_move = filter_dictionary('Name', 'Rage Art', char_move_list)
+            return to_return_move
+
+        if char_move == "rd":
+            to_return_move = filter_dictionary('Name', 'Rage Drive', char_move_list)
+            return to_return_move
+
         to_return_move = filter_dictionary('Command', char_move, char_move_list)
 
         if to_return_move:
