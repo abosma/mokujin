@@ -10,6 +10,15 @@ import random
 cwd = os.getcwd()
 misc_file = cwd + '/json/character_misc.json'
 
+shortcuts = {
+    'cd' : 'fnddf',
+    'wr' : 'fff',
+    'hcf' : 'bdbddff',
+    'hcb' : 'fdfddbb',
+    'qcf' : 'ddff',
+    'qcb' : 'ddbb'
+}
+
 def get_character(char_name):
     contents = None
 
@@ -58,6 +67,8 @@ def get_move(character_json, char_move):
             to_return_move = filter_dictionary('Name', 'Rage Drive', char_move_list)
             return to_return_move
 
+        char_move = replace_shortcuts(char_move)
+
         to_return_move = filter_dictionary('Command', char_move, char_move_list)
 
         if to_return_move:
@@ -79,22 +90,14 @@ def get_move(character_json, char_move):
             else:
                 return None
 
-def dict_key_to_list(key, dictionary):
-    to_return_list = []
-    for item in dictionary:
-        to_add_item = item[key].lower().strip().replace(' ', '')
-        to_return_list.append(to_add_item)
-
-    return to_return_list
-
 def filter_dictionary(to_compare_key, to_compare_value, dictionary):
     to_return_item = None
-    
+    value_split = to_compare_value.split(' ')
+
     # First check if move is equal to move list item, then if move is contained in move list item
     for item in dictionary:
         item_clean = item[to_compare_key].lower().strip().replace(' ', '')
-        value_split = to_compare_value.split(' ')
-
+        
         if len(value_split) == 1:
             value_clean = to_compare_value.lower().strip().replace(' ', '')
 
@@ -113,7 +116,6 @@ def filter_dictionary(to_compare_key, to_compare_value, dictionary):
     else:
         for item in dictionary:
             item_clean = item[to_compare_key].lower().strip().replace(' ', '')
-            value_split = to_compare_value.split(' ')
 
             if len(value_split) == 1:
                 value_clean = to_compare_value.lower().strip().replace(' ', '')
@@ -129,3 +131,16 @@ def filter_dictionary(to_compare_key, to_compare_value, dictionary):
                     break
         
         return to_return_item
+
+def replace_shortcuts(char_move):
+    for key, item in shortcuts.items():
+        if char_move == key or char_move.__contains__(key):
+            return char_move.replace(key, item)
+
+def dict_key_to_list(key, dictionary):
+    to_return_list = []
+    for item in dictionary:
+        to_add_item = item[key].lower().strip().replace(' ', '')
+        to_return_list.append(to_add_item)
+
+    return to_return_list
