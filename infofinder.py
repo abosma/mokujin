@@ -136,6 +136,7 @@ def replace_shortcuts(char_move):
     for key, item in shortcuts.items():
         if char_move == key or char_move.__contains__(key):
             return char_move.replace(key, item)
+    return char_move
 
 def dict_key_to_list(key, dictionary):
     to_return_list = []
