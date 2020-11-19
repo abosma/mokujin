@@ -196,6 +196,13 @@
         "portrait": "https://www.tshirtvortex.net/wp-content/uploads/2011/10/laserbear_ftw.jpg"
     },
     {
+        "name": "kunimitsu",
+        "proper_name": "Kunimitsu",
+        "local_json": "kunimitsu.json",
+        "online_webpage": "http://rbnorway.org/kunimitsu-t7-frames",
+        "portrait": "https://i.imgur.com/4GIhAHN.png"
+    },
+    {
         "name": "lars",
         "proper_name": "Lars",
         "local_json": "lars.json",
