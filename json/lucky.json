@@ -1386,14 +1386,14 @@
   "Startup" : ""
 }, {
   "Command" : " During Rage df3+4 or FC df3+4 during hit 1+2",
-  "Hit" : "",
-  "Block" : "",
+  "Hit" : "KDN",
+  "Block" : "-11",
   "Notes" : "Damage () is just input.\n",
   "Name" : "Rage Drive",
   "Total" : "",
-  "Counter Hit" : "",
+  "Counter Hit" : "KDN",
   "Property" : "M,MM,H",
-  "Damage" : "12,12,25,62(74)",
+  "Damage" : "12,12,25,62(75)",
   "Startup" : ""
 }, {
   "BreakThrow" : "1 or 2 -3F",
