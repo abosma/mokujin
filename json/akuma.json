@@ -260,7 +260,7 @@
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "M",
-  "Damage" : "23",
+  "Damage" : "20",
   "Startup" : "20F"
 }, {
   "Command" : "db or d1 or FC 1",
@@ -330,12 +330,12 @@
   "Startup" : ""
 }, {
   "Command" : "db or d3 or FC 3",
-  "Hit" : "-2",
-  "Block" : "-11",
+  "Hit" : "-4",
+  "Block" : "-13",
   "Notes" : "TC 6FC \nDamage() is when close hit\nEnable cancel by Special Move",
   "Name" : "Kurubushi Kick",
-  "Total" : "43",
-  "Counter Hit" : "-2",
+  "Total" : "45",
+  "Counter Hit" : "-4",
   "Property" : "L",
   "Damage" : "7(10)",
   "Startup" : "15F"
@@ -370,7 +370,7 @@
   "Total" : "46",
   "Counter Hit" : "KDN",
   "Property" : "H",
-  "Damage" : "15",
+  "Damage" : "12",
   "Startup" : "14F"
 }, {
   "Command" : "b11+2",
@@ -381,7 +381,7 @@
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "H,SP",
-  "Damage" : "15",
+  "Damage" : "12",
   "Startup" : ""
 }, {
   "Command" : "b2",
@@ -392,7 +392,7 @@
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "M",
-  "Damage" : "21",
+  "Damage" : "18",
   "Startup" : "23F"
 }, {
   "Command" : "b4",
@@ -441,7 +441,7 @@
 }, {
   "Command" : "fff1",
   "Hit" : "KDN",
-  "Block" : "+1",
+  "Block" : "+6",
   "Notes" : "",
   "Name" : "Shunjinkaida",
   "Total" : "",
@@ -524,7 +524,7 @@
   "Total" : "41",
   "Counter Hit" : "KDN",
   "Property" : "M",
-  "Damage" : "17",
+  "Damage" : "12",
   "Startup" : "13F"
 }, {
   "Command" : " WS 3",
@@ -535,7 +535,7 @@
   "Total" : "41",
   "Counter Hit" : "KDN",
   "Property" : "M,SP",
-  "Damage" : "17",
+  "Damage" : "12",
   "Startup" : ""
 }, {
   "Command" : " WS 4",
@@ -997,7 +997,7 @@
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "M",
-  "Damage" : "21",
+  "Damage" : "17",
   "Startup" : "14F"
 }, {
   "Command" : " During Hyakkishu 4",
@@ -1032,6 +1032,17 @@
   "Property" : "SM,H*3",
   "Damage" : "13,6,6,6",
   "Startup" : "10F"
+}, {
+  "Command" : "",
+  "Hit" : "",
+  "Block" : "",
+  "Notes" : "",
+  "Name" : "",
+  "Total" : "",
+  "Counter Hit" : "",
+  "Property" : "SM",
+  "Damage" : "10",
+  "Startup" : "13F"
 }, {
   "Command" : " During Jump ddff1 or 2",
   "Hit" : "+4",
@@ -1105,7 +1116,7 @@
   "Notes" : "Super Combo Gauge Cost 1\nInvinciblity 1F",
   "Name" : "EX Goshoryuken",
   "Total" : "",
-  "Counter Hit" : "-",
+  "Counter Hit" : "LNC",
   "Property" : "SM*3",
   "Damage" : "6,6,20",
   "Startup" : "11F"
@@ -1118,19 +1129,52 @@
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "SM,Th",
-  "Damage" : "7,8,9*3",
+  "Damage" : "6,8,9*3",
   "Startup" : ""
+}, {
+  "Command" : "",
+  "Hit" : "-7",
+  "Block" : "-22",
+  "Notes" : "",
+  "Name" : "",
+  "Total" : "",
+  "Counter Hit" : "-7",
+  "Property" : "SM,SM",
+  "Damage" : "10,10",
+  "Startup" : "8F"
 }, {
   "Command" : "ddbb3+4",
   "Hit" : "KDN",
-  "Block" : "-22",
+  "Block" : "-18",
   "Notes" : "TS \nSuper Combo Gauge Cost 1\n",
   "Name" : "EX Tatsumaki Zankukyaku",
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "SM*4",
-  "Damage" : "6,6,6,20",
+  "Damage" : "10,10,10,20",
   "Startup" : "10F"
+}, {
+  "Command" : "",
+  "Hit" : "KDN",
+  "Block" : "±0",
+  "Notes" : "",
+  "Name" : "",
+  "Total" : "",
+  "Counter Hit" : "KDN",
+  "Property" : "SM",
+  "Damage" : "20",
+  "Startup" : "13F"
+}, {
+  "Command" : "",
+  "Hit" : "KDN",
+  "Block" : "+11",
+  "Notes" : "",
+  "Name" : "",
+  "Total" : "",
+  "Counter Hit" : "KDN",
+  "Property" : "SM",
+  "Damage" : "20",
+  "Startup" : ""
 }, {
   "Command" : " During Jump ddff1+2",
   "Hit" : "+39",
@@ -1151,7 +1195,7 @@
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "SM",
-  "Damage" : "10,10",
+  "Damage" : "20,20",
   "Startup" : "13F"
 }, {
   "Command" : "f3+4ddff1+2",
@@ -1167,13 +1211,13 @@
 }, {
   "Command" : "f3+4ddbb3+4",
   "Hit" : "KDN",
-  "Block" : "-35",
+  "Block" : "-28",
   "Notes" : "TS \nSuper Combo Gauge Cost 1\nCombo from 1st NH\nCan be delayed 7F",
   "Name" : "Hisenkyaku to EX AirBorne Tatsumaki Zankukyaku",
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "M,SM*3",
-  "Damage" : "20,6,6,20",
+  "Damage" : "20,10,10,20",
   "Startup" : "22F"
 }, {
   "Command" : "ddffddff1+2",

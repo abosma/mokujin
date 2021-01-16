@@ -41,7 +41,7 @@ async def addalias(ctx, *args):
         await ctx.send(embed=embed, delete_after=15)
         return
     
-    if(aliashandler.addalias(args)):
+    if(aliashandler.add_alias(args)):
         embed = discord.Embed(title="Success", description="Added the alias: %s to character: %s!" % (args[1], args[0]), color=0x2dd280)
         embed.set_author(name='TekkenFrameBot')
     else:
@@ -58,7 +58,7 @@ async def removealias(ctx, *args):
         await ctx.send(embed=embed, delete_after=15)
         return
 
-    if(aliashandler.removealias(args)):
+    if(aliashandler.remove_alias(args)):
         embed = discord.Embed(title="Success", description="Removed the alias: %s from character: %s!" % (args[0], args[1]), color=0x2dd280)
         embed.set_author(name='TekkenFrameBot')
     else:
@@ -87,7 +87,7 @@ async def on_message(message):
         char_name = user_message_list[0].lower()
         char_move = user_message_list[1]
 
-        potential_name = aliashandler.getalias(char_name)
+        potential_name = aliashandler.get_alias(char_name)
         if(potential_name != None):
             char_name = potential_name
 
