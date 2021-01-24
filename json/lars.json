@@ -13,23 +13,23 @@
   "Command" : "11",
   "Hit" : "±0",
   "Block" : "-8",
-  "Notes" : "Combo from 1st NH\n",
+  "Notes" : "Combo from 1st CH.\n",
   "Name" : "Delta Slicer (2)",
   "Total" : "",
   "Counter Hit" : "±0",
   "Property" : "H,M",
-  "Damage" : "7,10",
+  "Damage" : "7,8",
   "Startup" : ""
 }, {
   "Command" : "111",
   "Hit" : "KDN",
   "Block" : "-14",
-  "Notes" : "Combo from 1st CH or 2nd NH.\n",
+  "Notes" : "Combo from 1st CH or 2nd hit.\n",
   "Name" : "Delta Slicer",
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "H,M,M",
-  "Damage" : "7,10,15",
+  "Damage" : "7,8,20",
   "Startup" : ""
 }, {
   "Command" : "12",
@@ -110,12 +110,12 @@
   "Startup" : "15F"
 }, {
   "Command" : "3d",
-  "Hit" : "+5",
-  "Block" : "-12",
-  "Notes" : "Returns to crouching.",
+  "Hit" : "+7",
+  "Block" : "-10",
+  "Notes" : "Returns to crouching.\n",
   "Name" : "Kick Start to Crouching",
   "Total" : "",
-  "Counter Hit" : "+5",
+  "Counter Hit" : "+7",
   "Property" : "H",
   "Damage" : "16",
   "Startup" : ""
@@ -167,10 +167,10 @@
   "Command" : "f123",
   "Hit" : "KDN",
   "Block" : "-9",
-  "Notes" : "Combo from 2nd CH",
+  "Notes" : "Combo from 2nd CH\n",
   "Name" : "Flash Bang to DE",
   "Total" : "",
-  "Counter Hit" : "KDN",
+  "Counter Hit" : "KDN*",
   "Property" : "H,M,M,SP",
   "Damage" : "10,11,20",
   "Startup" : ""
@@ -181,7 +181,7 @@
   "Notes" : "Combo from 2nd CH\n",
   "Name" : "Flash Bang",
   "Total" : "",
-  "Counter Hit" : "KDN",
+  "Counter Hit" : "KDN*",
   "Property" : "H,M,M",
   "Damage" : "10,11,20",
   "Startup" : ""
@@ -200,12 +200,12 @@
   "Command" : "f21",
   "Hit" : "+6",
   "Block" : "-5",
-  "Notes" : "Combo from 1st NH\n",
+  "Notes" : "Combo from 1st hit.\n",
   "Name" : "Charge Factor to SE",
   "Total" : "",
   "Counter Hit" : "+6",
   "Property" : "H,H,SP",
-  "Damage" : "10,12",
+  "Damage" : "10,15",
   "Startup" : ""
 }, {
   "Command" : "f21b",
@@ -216,7 +216,7 @@
   "Total" : "",
   "Counter Hit" : "+5",
   "Property" : "H,H",
-  "Damage" : "10,12",
+  "Damage" : "10,15",
   "Startup" : ""
 }, {
   "Command" : "f24",
@@ -320,12 +320,12 @@
 }, {
   "Command" : "df21",
   "Hit" : "KDN",
-  "Block" : "-7",
-  "Notes" : "TS \nCombo from 1st NH",
+  "Block" : "-14",
+  "Notes" : "TS \nCombo from 1st hit.\n",
   "Name" : "Flashing Strike",
   "Total" : "",
   "Counter Hit" : "KDN",
-  "Property" : "M,H",
+  "Property" : "M,M",
   "Damage" : "15,20",
   "Startup" : ""
 }, {
@@ -484,12 +484,12 @@
   "Startup" : ""
 }, {
   "Command" : "db13d",
-  "Hit" : "-1",
-  "Block" : "-12",
-  "Notes" : "Combo from 1st NH\nReturns to crouching.",
+  "Hit" : "+1",
+  "Block" : "-10",
+  "Notes" : "Combo from 1st hit.\nReturns to crouching.\n",
   "Name" : "Arc Combination to Crouching",
   "Total" : "",
-  "Counter Hit" : "-1",
+  "Counter Hit" : "+1",
   "Property" : "L,H",
   "Damage" : "9,10",
   "Startup" : ""
@@ -563,12 +563,12 @@
   "Command" : "db4",
   "Hit" : "+5C",
   "Block" : "-26",
-  "Notes" : "TC 6F\nReturns to crouching.\nNH force to crouching\n",
+  "Notes" : "TC 6F\nReturns to crouching.\nReturns to standing upon block.\nForced to crouching upon NH.\n",
   "Name" : "Shadow Cutter",
   "Total" : "52",
   "Counter Hit" : "KDN",
   "Property" : "L",
-  "Damage" : "17",
+  "Damage" : "19",
   "Startup" : "21F"
 }, {
   "Command" : "db1+2",
@@ -667,7 +667,7 @@
   "Total" : "47",
   "Counter Hit" : "Th",
   "Property" : "M(,Th)",
-  "Damage" : "23(,23)",
+  "Damage" : "23(,28)",
   "Startup" : "15F"
 }, {
   "Command" : "b1+2",
@@ -837,8 +837,8 @@
 }, {
   "Command" : "ff1+2",
   "Hit" : "KDN",
-  "Block" : "-11",
-  "Notes" : "Advance Input is unavailable\nStart-up 17F in actualy\nMeaty 1F",
+  "Block" : "-9",
+  "Notes" : "Advance Input is unavailable\nStart-up 17F in actualy\nMeaty 1F\n",
   "Name" : "Elbow Corona",
   "Total" : "",
   "Counter Hit" : "KDN*",
@@ -849,7 +849,7 @@
   "Command" : "ff3+4",
   "Hit" : "±0C",
   "Block" : "-16",
-  "Notes" : "TC 20F\nAdvance Input is unavailable\nStart-up 20F in actualy\nHit force to crouching\nMeaty 1F",
+  "Notes" : "TC 20F\nAdvance Input is unavailable\nStart-up 20F in actualy\nForced to crouching upon hit.\nMeaty 1F",
   "Name" : "Double Action",
   "Total" : "",
   "Counter Hit" : "±0C",
@@ -882,7 +882,7 @@
   "Command" : "fff3",
   "Hit" : "KDN",
   "Block" : "+8G",
-  "Notes" : "TJ 3F\nMeaty 6F",
+  "Notes" : "TJ 3F\nMeaty 6F\n",
   "Name" : "Red Sprite",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -992,10 +992,10 @@
   "Command" : " WS 21",
   "Hit" : "+5C",
   "Block" : "-12C",
-  "Notes" : "Combo from 1st NH\nBlock or NH force to crouching\n",
+  "Notes" : "Combo from 1st hit.\nForced to crouching upon block or NH.\n",
   "Name" : "Multiplied Force",
   "Total" : "",
-  "Counter Hit" : "KDN",
+  "Counter Hit" : "LNC",
   "Property" : "M,M",
   "Damage" : "13,17",
   "Startup" : ""
@@ -1179,18 +1179,18 @@
   "Command" : " SE df1",
   "Hit" : "+8C",
   "Block" : "±0C",
-  "Notes" : "Block or Hit force to crouching\n",
+  "Notes" : "Forced to crouching upon block or NH.\n",
   "Name" : "Bolt Smash",
   "Total" : "",
-  "Counter Hit" : "KDN",
+  "Counter Hit" : "LNC",
   "Property" : "M",
   "Damage" : "20",
   "Startup" : "14F"
 }, {
   "Command" : " SE 2",
-  "Hit" : "+5C",
-  "Block" : "-13",
-  "Notes" : "TC 12F\nReturns to crouching.\nNH force to crouching\n",
+  "Hit" : "+6C",
+  "Block" : "-12",
+  "Notes" : "TC 12F\nReturns to crouching.\nForced to crouching upon NH.\n",
   "Name" : "Turbine Hook",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -1220,6 +1220,17 @@
   "Damage" : "27",
   "Startup" : "23F"
 }, {
+  "Command" : " SE 3+4",
+  "Hit" : "+11Sp",
+  "Block" : "-6",
+  "Notes" : "TS TJ 7F\n",
+  "Name" : "Hurricane Axle",
+  "Total" : "",
+  "Counter Hit" : "+11Sp",
+  "Property" : "MM",
+  "Damage" : "6,22",
+  "Startup" : "13F"
+}, {
   "Command" : "f3",
   "Hit" : "",
   "Block" : "",
@@ -1234,7 +1245,7 @@
   "Command" : " DE f",
   "Hit" : "",
   "Block" : "",
-  "Notes" : "",
+  "Notes" : "Cost 19F.\n",
   "Name" : "Dynamic Entry to SE",
   "Total" : "",
   "Counter Hit" : "",
@@ -1288,7 +1299,7 @@
 }, {
   "Command" : " DE 3",
   "Hit" : "KDN",
-  "Block" : "+4",
+  "Block" : "+6",
   "Notes" : "WB \n",
   "Name" : "Spiral Kick",
   "Total" : "",
@@ -1300,7 +1311,7 @@
   "Command" : " DE 43",
   "Hit" : "+3",
   "Block" : "-16",
-  "Notes" : "Equivalent to<img src=\"../6.bmp\" class=\"c\"><img src=\"../6'.bmp\" class=\"c\"><img src=\"../rk.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../lk.bmp\" class=\"c\">\n",
+  "Notes" : "Equivalent to<img src=\"../6.bmp\" class=\"c\"><img src=\"../6'.bmp\" class=\"c\"><img src=\"../rk.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../lk.bmp\" class=\"c\">.\n",
   "Name" : "Double Pulse",
   "Total" : "",
   "Counter Hit" : "+3",
@@ -1344,7 +1355,7 @@
   "Command" : "uf3+44",
   "Hit" : "+8C",
   "Block" : "-8",
-  "Notes" : "NH force to crouching\nDamage () is throw bonus",
+  "Notes" : "Forced to crouching upon NH.\nDamage () is throw bonus",
   "Name" : "Avalanche Stomp",
   "Total" : "",
   "Counter Hit" : "Th",
@@ -1384,6 +1395,17 @@
   "Property" : "UB(M)",
   "Damage" : "30",
   "Startup" : "47F"
+}, {
+  "Command" : " During Rage ＆ DE 3+4",
+  "Hit" : "LNC",
+  "Block" : "-13",
+  "Notes" : "",
+  "Name" : "Rage Drive",
+  "Total" : "",
+  "Counter Hit" : "LNC",
+  "Property" : "L,M",
+  "Damage" : "16,16",
+  "Startup" : "21F"
 }, {
   "BreakThrow" : "1 or 2 -3F",
   "Name" : "Hostile Takedown",

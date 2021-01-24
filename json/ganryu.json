@@ -122,8 +122,8 @@
 }, {
   "Command" : "212",
   "Hit" : "LNC",
-  "Block" : "-11C",
-  "Notes" : "Combo from 2nd CH.\nCan be delayed 10F.\nCombo can be delayed 6F from 2nd CH.\nForced crouching on block.",
+  "Block" : "-13C",
+  "Notes" : "Combo from 2nd CH.\nCan be delayed 10F.\nCombo can be delayed 6F from 2nd CH.\nForced crouching on block.\n",
   "Name" : "Enma Harite",
   "Total" : "",
   "Counter Hit" : "LNC",
@@ -442,12 +442,12 @@
   "Command" : "df2+3",
   "Hit" : "KDN",
   "Block" : "-15",
-  "Notes" : "TC 11F\nReturns to crouching.",
+  "Notes" : "TC 11F\nReturns to crouching.\n",
   "Name" : "Thunder Palm",
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "L",
-  "Damage" : "20",
+  "Damage" : "23",
   "Startup" : "24F"
 }, {
   "Command" : "d1",
@@ -637,6 +637,17 @@
   "Damage" : "16",
   "Startup" : "29F"
 }, {
+  "Command" : "db23+4",
+  "Hit" : "",
+  "Block" : "",
+  "Notes" : "",
+  "Name" : "Sumo Sweep Cancel to Tachiai",
+  "Total" : "52",
+  "Counter Hit" : "",
+  "Property" : "SP",
+  "Damage" : "-",
+  "Startup" : ""
+}, {
   "Command" : "b1",
   "Hit" : "+5",
   "Block" : "-6",
@@ -727,7 +738,7 @@
 }, {
   "Command" : "b2",
   "Hit" : "-7",
-  "Block" : "-18",
+  "Block" : "-14",
   "Notes" : "",
   "Name" : "Jinmaku Harite (1)",
   "Total" : "",
@@ -816,7 +827,7 @@
   "Command" : "ub or u or uf1",
   "Hit" : "+5",
   "Block" : "-6",
-  "Notes" : "TJ 9F\n+12F on crouch hit.",
+  "Notes" : "TJ 9F\n+12F on crouch hit.\n",
   "Name" : "Jamming Palm",
   "Total" : "",
   "Counter Hit" : "+5",
@@ -845,6 +856,17 @@
   "Property" : "M",
   "Damage" : "17",
   "Startup" : "21F"
+}, {
+  "Command" : "uf23+4",
+  "Hit" : "+6",
+  "Block" : "-7",
+  "Notes" : "H \n",
+  "Name" : "Chanko Spin to Tachiai",
+  "Total" : "",
+  "Counter Hit" : "+6",
+  "Property" : "M,SP",
+  "Damage" : "17",
+  "Startup" : ""
 }, {
   "Command" : "uf21+2",
   "Hit" : "KDN",
@@ -904,7 +926,7 @@
   "Command" : "uf1+2",
   "Hit" : "-2",
   "Block" : "-10",
-  "Notes" : "TJ 14F\nInput<img src=\"../2'.bmp\" class=\"c\">to down on hit.\nMeaty 5F.",
+  "Notes" : "TJ 14F\nInput<img src=\"../2'.bmp\" class=\"c\">to down on hit.\nMeaty 5F.\n",
   "Name" : "Flying Press",
   "Total" : "",
   "Counter Hit" : "-2",
@@ -1000,7 +1022,7 @@
   "Damage" : "24",
   "Startup" : "30F"
 }, {
-  "Command" : "bf2",
+  "Command" : "bf2+3",
   "Hit" : "LNC",
   "Block" : "+5",
   "Notes" : "",
@@ -1025,12 +1047,12 @@
   "Command" : "bdbddf2",
   "Hit" : "KDN",
   "Block" : "-6",
-  "Notes" : "WB ",
+  "Notes" : "WB \n",
   "Name" : "Strong Open Palm",
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "M",
-  "Damage" : "45",
+  "Damage" : "35",
   "Startup" : "22F"
 }, {
   "Command" : "fff1+2",
@@ -1100,14 +1122,25 @@
   "Startup" : "13F"
 }, {
   "Command" : " WS 12",
-  "Hit" : "±0C",
-  "Block" : "-13",
-  "Notes" : "Combo from 1st hit.\nCan be delayed 12F.\nCombo can be delayed 7F from 1st hit.",
-  "Name" : "Senryo Nirami",
+  "Hit" : "+6C",
+  "Block" : "-14",
+  "Notes" : "Combo from 1st hit.\n",
+  "Name" : "Tsutsumi Kingin",
   "Total" : "",
-  "Counter Hit" : "±0C",
-  "Property" : "M,L",
-  "Damage" : "12,19",
+  "Counter Hit" : "+6C",
+  "Property" : "M,M",
+  "Damage" : "12,23",
+  "Startup" : ""
+}, {
+  "Command" : " WS 123+4",
+  "Hit" : "+6C",
+  "Block" : "-14",
+  "Notes" : "Combo from 1st hit.\n",
+  "Name" : "Tsutsumi Kingin to Tachiai",
+  "Total" : "",
+  "Counter Hit" : "+6C",
+  "Property" : "M,M,SP",
+  "Damage" : "12,23",
   "Startup" : ""
 }, {
   "Command" : " WS 2",
@@ -1476,13 +1509,13 @@
   "Command" : " Tachiai 1+2 or Shiranui 1+2",
   "Hit" : "Th",
   "Block" : "-12",
-  "Notes" : "PC 8F\nConnect to<a href=\"#66rp\">Kumite Tsukami</a>.",
+  "Notes" : "PC 8F\nConnect to<a href=\"#66rp\">Kumite Tsukami</a>.\n",
   "Name" : "Rough Waves",
   "Total" : "",
   "Counter Hit" : "Th",
   "Property" : "M,SP",
   "Damage" : "15",
-  "Startup" : "26F"
+  "Startup" : "23F"
 }, {
   "Command" : " Tachiai 3+4",
   "Hit" : "",
@@ -1494,6 +1527,17 @@
   "Property" : "SP",
   "Damage" : "-",
   "Startup" : ""
+}, {
+  "Command" : " Tachiai f2",
+  "Hit" : "KDN",
+  "Block" : "-15",
+  "Notes" : "Meaty 1F.\n",
+  "Name" : "Gachinko Elbow",
+  "Total" : "",
+  "Counter Hit" : "KDN",
+  "Property" : "M",
+  "Damage" : "20",
+  "Startup" : "18F"
 }, {
   "Command" : " Tachiai f1+2",
   "Hit" : "KDN",

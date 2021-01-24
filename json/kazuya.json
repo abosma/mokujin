@@ -112,12 +112,12 @@
   "Command" : "31",
   "Hit" : "+7",
   "Block" : "-1",
-  "Notes" : "Combo from 1st NH",
+  "Notes" : "Combo from 1st NH\n",
   "Name" : "Face Kick to Jab",
   "Total" : "",
   "Counter Hit" : "+7",
   "Property" : "H,H",
-  "Damage" : "14,7",
+  "Damage" : "14,10",
   "Startup" : ""
 }, {
   "Command" : "314",
@@ -128,7 +128,7 @@
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "H,H,M",
-  "Damage" : "14,7,17",
+  "Damage" : "14,10,17",
   "Startup" : ""
 }, {
   "Command" : "4",
@@ -155,7 +155,7 @@
 }, {
   "Command" : "1+2",
   "Hit" : "KDN",
-  "Block" : "-14",
+  "Block" : "-13",
   "Notes" : "",
   "Name" : "Acute Pain",
   "Total" : "",
@@ -189,7 +189,7 @@
   "Command" : "f4",
   "Hit" : "+7C",
   "Block" : "+4C",
-  "Notes" : "Block or NH force to crouching\nMeaty 1F\n",
+  "Notes" : "Forced to crouching upon block or NH.\nMeaty 1F\n",
   "Name" : "Right Splits Kick",
   "Total" : "42",
   "Counter Hit" : "KDN",
@@ -222,7 +222,7 @@
   "Command" : "df12",
   "Hit" : "KDN",
   "Block" : "-13C",
-  "Notes" : "Combo from 1st NH\nBlock or Hit force to crouching\n",
+  "Notes" : "Combo from 1st NH\nForced to crouching upon block or hit.\n",
   "Name" : "Slicing Blade",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -231,12 +231,12 @@
   "Startup" : ""
 }, {
   "Command" : "df14",
-  "Hit" : "+17Sp",
-  "Block" : "-4",
-  "Notes" : "TS \nCombo from 1st NH",
+  "Hit" : "+18Sp",
+  "Block" : "-3",
+  "Notes" : "TS \nCombo from 1st NH\n",
   "Name" : "Slaughter High Kick",
   "Total" : "",
-  "Counter Hit" : "+17Sp",
+  "Counter Hit" : "+18Sp",
   "Property" : "M,H",
   "Damage" : "11,20",
   "Startup" : ""
@@ -310,7 +310,7 @@
   "Command" : "df44",
   "Hit" : "-4C",
   "Block" : "-15",
-  "Notes" : "Combo from 1st NH\nCan be delayed 11F\nCombo can be delayed 11F from 1st NH\nHit force to crouching\nMeaty 1F\n",
+  "Notes" : "Combo from 1st NH\nCan be delayed 11F\nCombo can be delayed 11F from 1st NH\nForced to crouching upon hit.\nMeaty 1F\n",
   "Name" : "Tsunami Kick",
   "Total" : "",
   "Counter Hit" : "-4C",
@@ -363,9 +363,9 @@
   "Startup" : "12F"
 }, {
   "Command" : "d1+2",
-  "Hit" : "+1C",
+  "Hit" : "+3C",
   "Block" : "-14",
-  "Notes" : "TC 6F\nReturns to crouching.\nNH force to crouching\nInpput<img src=\"../4'.bmp\" class=\"c\">to Cancel Crouching after moving\n",
+  "Notes" : "TC 6F\nReturns to crouching.\nForced to crouching upon NH.\nInpput<img src=\"../4'.bmp\" class=\"c\">to Cancel Crouching after moving\n",
   "Name" : "Nejiri Uraken",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -376,7 +376,7 @@
   "Command" : "db2",
   "Hit" : "KDN",
   "Block" : "-9C",
-  "Notes" : "Returns to crouching.\nBlock or Hit force to crouching\n",
+  "Notes" : "Returns to crouching.\nForced to crouching upon block or hit.\n",
   "Name" : "Lion Slayer",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -695,7 +695,7 @@
   "Command" : "ff3",
   "Hit" : "KDN",
   "Block" : "-3C",
-  "Notes" : "Advance Input is unavailable\nStart-up 21F in actualy\nBlock force to crouching\n",
+  "Notes" : "Advance Input is unavailable\nStart-up 21F in actualy\nForced to crouching upon block.\n",
   "Name" : "Left Splits Kick",
   "Total" : "50",
   "Counter Hit" : "KDN",
@@ -827,7 +827,7 @@
   "Command" : " WS 44",
   "Hit" : "-4C",
   "Block" : "-15",
-  "Notes" : "Combo from 1st NH\nHit force to crouching\n",
+  "Notes" : "Combo from 1st NH\nForced to crouching upon hit.\n",
   "Name" : "Tsunami Kick",
   "Total" : "",
   "Counter Hit" : "-4C",
@@ -836,20 +836,20 @@
   "Startup" : ""
 }, {
   "Command" : " WS 1+2",
-  "Hit" : "+9",
-  "Block" : "-2",
+  "Hit" : "+14Sp",
+  "Block" : "-9",
   "Notes" : "",
-  "Name" : "Uppercut",
+  "Name" : "Fujin Uraken",
   "Total" : "",
-  "Counter Hit" : "+9",
+  "Counter Hit" : "KDN",
   "Property" : "M",
-  "Damage" : "12",
-  "Startup" : "12F"
+  "Damage" : "25",
+  "Startup" : "13F"
 }, {
   "Command" : " FC df3+4",
   "Hit" : "KDN",
   "Block" : "-11C",
-  "Notes" : "TC TJ 13F\nReturns to crouching.\nBlock force to crouching",
+  "Notes" : "TC TJ 13F\nReturns to crouching.\nForced to crouching upon block.",
   "Name" : "Tombstone Crusher",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -870,8 +870,8 @@
 }, {
   "Command" : " SS 1+2",
   "Hit" : "KDN",
-  "Block" : "-6",
-  "Notes" : "TS ",
+  "Block" : "-3",
+  "Notes" : "TS \n",
   "Name" : "Jaw Breaker",
   "Total" : "41",
   "Counter Hit" : "KDN",
@@ -1036,7 +1036,7 @@
   "Command" : "fnddf4",
   "Hit" : "-3C",
   "Block" : "-23",
-  "Notes" : "NH force to crouching\nDisable 2nd from 1st block\n2nd input force to down\n",
+  "Notes" : "Forced to crouching upon NH.\nDisable 2nd from 1st block\n2nd input force to down\n",
   "Name" : "Spinning Demon (1)",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -1124,7 +1124,7 @@
   "Command" : " While in DT f4",
   "Hit" : "+7C",
   "Block" : "+4C",
-  "Notes" : "Block or NH force to crouching\nCrouch hit +15F\nMeaty 1F",
+  "Notes" : "Forced to crouching upon block or NH.\nCrouch hit +15F\nMeaty 1F",
   "Name" : "Right Splits Kick",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -1272,7 +1272,7 @@
   "Total" : "",
   "Counter Hit" : "LNC",
   "Property" : "M",
-  "Damage" : "45",
+  "Damage" : "41",
   "Startup" : "18F"
 }, {
   "Command" : " During Rage fnddf1+4uf (must hit) ",
@@ -1283,7 +1283,7 @@
   "Total" : "",
   "Counter Hit" : "Th",
   "Property" : "M,Th",
-  "Damage" : "45,12",
+  "Damage" : "41,12",
   "Startup" : ""
 }, {
   "BreakThrow" : "1 or 2 +0 F Kazuya to BT",
@@ -1340,7 +1340,7 @@
   "AfterThrow" : "CW Foot-sd Fac-Dwn",
   "Command" : " FC dfddf1+2",
   "Property" : "Th(H)",
-  "Notes" : "S2 Patch Notes ・Player recovery increased by 3F on hit."
+  "Notes" : "Old Patch Notes ・Player recovery increased by 3F on hit."
 }, {
   "BreakThrow" : "-5F CWKazuya to BT",
   "Name" : "Ultimate Tackle",

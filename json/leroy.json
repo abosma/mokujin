@@ -271,18 +271,18 @@
   "Total" : "",
   "Counter Hit" : "+7",
   "Property" : "M",
-  "Damage" : "17",
+  "Damage" : "14",
   "Startup" : "14F"
 }, {
   "Command" : "f31+2",
-  "Hit" : "±0",
-  "Block" : "-6",
-  "Notes" : "Combo from 1st CH.\nBlock string.",
+  "Hit" : "-6",
+  "Block" : "-12",
+  "Notes" : "Combo from 1st CH.\nBlock string.\n",
   "Name" : "Strike of the Five Precepts (4)",
   "Total" : "",
-  "Counter Hit" : "±0",
+  "Counter Hit" : "-6",
   "Property" : "M,H*3",
-  "Damage" : "17,5*3",
+  "Damage" : "14,5*3",
   "Startup" : ""
 }, {
   "Command" : "f31+24",
@@ -293,7 +293,7 @@
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "M,H*3,M",
-  "Damage" : "17,5*3,20",
+  "Damage" : "14,5*3,20",
   "Startup" : ""
 }, {
   "Command" : "f4",
@@ -508,12 +508,12 @@
   "Command" : "d2",
   "Hit" : "-4",
   "Block" : "-15",
-  "Notes" : "TC 6F\nReturns to crouching.\n",
+  "Notes" : "TC 6F\nReturns to crouching.\nForced to crouching upon CH.\n",
   "Name" : "Falling Fist Sweep (1)",
   "Total" : "",
   "Counter Hit" : "+1C",
   "Property" : "L",
-  "Damage" : "15",
+  "Damage" : "11",
   "Startup" : "15F"
 }, {
   "Command" : "d24",
@@ -524,7 +524,7 @@
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "L,L",
-  "Damage" : "15,11",
+  "Damage" : "11,11",
   "Startup" : ""
 }, {
   "Command" : "d3",
@@ -574,7 +574,7 @@
   "Command" : "d1+2",
   "Hit" : "+6C",
   "Block" : "-4",
-  "Notes" : "",
+  "Notes" : "Forced to crouching upon NH.\n",
   "Name" : "Chanhui Zhang",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -599,7 +599,7 @@
   "Notes" : "Combo from 1st hit.\nCan be delay 14F.\nCombo can be delayed 14F from 1st CH.\n",
   "Name" : "Shadow Raccoon Swing",
   "Total" : "",
-  "Counter Hit" : "+8",
+  "Counter Hit" : "KDN",
   "Property" : "M,H",
   "Damage" : "12,17",
   "Startup" : ""
@@ -645,18 +645,18 @@
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "L,M",
-  "Damage" : "12,29",
+  "Damage" : "12,25",
   "Startup" : ""
 }, {
   "Command" : "db4",
   "Hit" : "-3C",
   "Block" : "-14",
-  "Notes" : "TC 6F\nReturns to crouching.",
+  "Notes" : "TC 6F\nReturns to crouching.\n",
   "Name" : "Fan Sweep",
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "L",
-  "Damage" : "15",
+  "Damage" : "13",
   "Startup" : "17F"
 }, {
   "Command" : "db1+2",
@@ -678,7 +678,7 @@
   "Total" : "36",
   "Counter Hit" : "Th",
   "Property" : "H",
-  "Damage" : "17(,25)",
+  "Damage" : "14(,25)",
   "Startup" : "11F"
 }, {
   "Command" : "b3",
@@ -736,6 +736,17 @@
   "Damage" : "17",
   "Startup" : "16F"
 }, {
+  "Command" : "ub2",
+  "Hit" : "+3",
+  "Block" : "-10",
+  "Notes" : "Punch Absorbs during 4 to 12F.\nAfter Punch absorbs succeeds, damage 20 &amp; knock down.\n",
+  "Name" : "Enter the Dragon",
+  "Total" : "",
+  "Counter Hit" : "+3",
+  "Property" : "M",
+  "Damage" : "20",
+  "Startup" : "20F"
+}, {
   "Command" : "ub or u or uf2",
   "Hit" : "KDN",
   "Block" : "+1",
@@ -785,11 +796,11 @@
   "Block" : "-8",
   "Notes" : "TJ 9F\nMeaty 2F.\n",
   "Name" : "Floating Axe Drop",
-  "Total" : "50",
+  "Total" : "52",
   "Counter Hit" : "KDN",
   "Property" : "M",
   "Damage" : "22",
-  "Startup" : "21F"
+  "Startup" : "23F"
 }, {
   "Command" : "uf3+4",
   "Hit" : "KDN",
@@ -843,7 +854,7 @@
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "M,M",
-  "Damage" : "8,15",
+  "Damage" : "8,13",
   "Startup" : ""
 }, {
   "Command" : "ff3",
@@ -889,6 +900,17 @@
   "Property" : "M",
   "Damage" : "25",
   "Startup" : "17F"
+}, {
+  "Command" : "ddff2",
+  "Hit" : "LNC",
+  "Block" : "-6",
+  "Notes" : "",
+  "Name" : "Chakra Fist",
+  "Total" : "46",
+  "Counter Hit" : "LNC",
+  "Property" : "H",
+  "Damage" : "20",
+  "Startup" : "16F"
 }, {
   "Command" : "fff3",
   "Hit" : "KDN",
@@ -975,18 +997,18 @@
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "M,M,M",
-  "Damage" : "8,3,12",
+  "Damage" : "8,3,10",
   "Startup" : "15F"
 }, {
   "Command" : " WS 3",
   "Hit" : "+7",
   "Block" : "-7",
-  "Notes" : "Equivalent to<img src=\"../6.bmp\" class=\"c\"><img src=\"../lk.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../p.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../rk.bmp\" class=\"c\">",
+  "Notes" : "Equivalent to<img src=\"../6.bmp\" class=\"c\"><img src=\"../lk.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../p.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../rk.bmp\" class=\"c\">\n",
   "Name" : "Strike of the Five Precepts (1)",
   "Total" : "",
   "Counter Hit" : "+7",
   "Property" : "M",
-  "Damage" : "17",
+  "Damage" : "14",
   "Startup" : "14F"
 }, {
   "Command" : " WS 4",
@@ -1003,7 +1025,7 @@
   "Command" : " FC df4",
   "Hit" : "-2",
   "Block" : "-13",
-  "Notes" : "TC ",
+  "Notes" : "TC \n",
   "Name" : "Reverse Cross Kick (1)",
   "Total" : "",
   "Counter Hit" : "+3C",
@@ -1023,14 +1045,14 @@
   "Startup" : ""
 }, {
   "Command" : " SS 4",
-  "Hit" : "+4C",
+  "Hit" : "+4",
   "Block" : "-12",
   "Notes" : "",
   "Name" : "Lone Dragon Slice",
   "Total" : "",
   "Counter Hit" : "+12",
   "Property" : "L",
-  "Damage" : "16",
+  "Damage" : "17",
   "Startup" : "18F"
 }, {
   "Command" : " While enemy is down db2",
@@ -1210,12 +1232,12 @@
   "Startup" : ""
 }, {
   "Command" : " Hermit 34",
-  "Hit" : "±0",
+  "Hit" : "+1",
   "Block" : "-15",
-  "Notes" : "Combo from 1st hit.",
+  "Notes" : "Combo from 1st hit.\n",
   "Name" : "Stampeding Dragon",
   "Total" : "",
-  "Counter Hit" : "±0",
+  "Counter Hit" : "+1",
   "Property" : "L,M",
   "Damage" : "8,16",
   "Startup" : ""
@@ -1267,7 +1289,7 @@
   "Command" : " Hermit f4",
   "Hit" : "KDN",
   "Block" : "±0",
-  "Notes" : "TJ 13F\nMeaty 4F.\n",
+  "Notes" : "TJ 13F\nMeaty 3F.\n",
   "Name" : "Duan Tou Xuan Feng Jiao",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -1289,7 +1311,7 @@
   "Command" : " Hermit b4",
   "Hit" : "+4C",
   "Block" : "-13",
-  "Notes" : "H TC 8F",
+  "Notes" : "H TC 8F\n",
   "Name" : "Razor Sweep",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -1384,13 +1406,13 @@
   "AfterThrow" : "",
   "Command" : "b2 or Hermit b2",
   "Property" : "Parry(HM)",
-  "Notes" : "Parry(H/M) during 3 to 20F. (Ver.3.21)・Increased recovery animation by 5F(total 40F to 45F)."
+  "Notes" : "Parry(H/M) during 3 to 20F. Old Patch Notes (Ver.3.21)・Increased recovery animation by 5F(total 40F to 45F)."
 }, {
   "BreakThrow" : "",
   "Name" : "Chain Punch: Branch",
-  "Damage" : "5,5,5,5,20",
+  "Damage" : "5,5,5,5,10",
   "AfterThrow" : "+7F",
   "Command" : " After Purry succeeds 1 or 2",
   "Property" : "M,H*4",
-  "Notes" : "Cost 7F. Start-up 20F in actualy. -9F on block."
+  "Notes" : "Cost 7F. Start-up 20F in actualy. -9F on block. (Ver.4.00) - Changed the damage from 5,5,5,5,20 to 5,5,5,5,10. - Changed the opponent’s behavior when hit."
 } ]

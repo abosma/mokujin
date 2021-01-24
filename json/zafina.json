@@ -189,7 +189,7 @@
   "Command" : "1+24",
   "Hit" : "+1",
   "Block" : "-10",
-  "Notes" : "Combo from 1st hit.",
+  "Notes" : "Combo from 1st hit.\n",
   "Name" : "Manticore (2)",
   "Total" : "",
   "Counter Hit" : "+6",
@@ -287,8 +287,8 @@
 }, {
   "Command" : "f1+2",
   "Hit" : "KDN",
-  "Block" : "-10",
-  "Notes" : "WB ",
+  "Block" : "-9",
+  "Notes" : "WB \n",
   "Name" : "Gugal-Ana",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -304,7 +304,7 @@
   "Total" : "",
   "Counter Hit" : "+7",
   "Property" : "M",
-  "Damage" : "11",
+  "Damage" : "10",
   "Startup" : "13F"
 }, {
   "Command" : "df12",
@@ -315,7 +315,7 @@
   "Total" : "",
   "Counter Hit" : "+3",
   "Property" : "M,M",
-  "Damage" : "11,16",
+  "Damage" : "10,16",
   "Startup" : ""
 }, {
   "Command" : "df121",
@@ -326,7 +326,7 @@
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "M,M,M",
-  "Damage" : "11,16,20",
+  "Damage" : "10,16,20",
   "Startup" : ""
 }, {
   "Command" : "df14",
@@ -337,7 +337,7 @@
   "Total" : "",
   "Counter Hit" : "+12Sp",
   "Property" : "M,H",
-  "Damage" : "11,18",
+  "Damage" : "10,18",
   "Startup" : ""
 }, {
   "Command" : "df2",
@@ -507,8 +507,8 @@
 }, {
   "Command" : "d243",
   "Hit" : "KDN",
-  "Block" : "-14",
-  "Notes" : "TJ \nCombo from 2nd CH.",
+  "Block" : "-13",
+  "Notes" : "TJ \nCombo from 2nd CH.\nMeaty 3F.\n",
   "Name" : "Poison Rosette",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -519,7 +519,7 @@
   "Command" : "d3",
   "Hit" : "+2C",
   "Block" : "-15",
-  "Notes" : "TC 6F\nReturns to crouching.",
+  "Notes" : "TC 6F\nReturns to crouching.\n",
   "Name" : "Earwig Pincer",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -590,7 +590,7 @@
   "Total" : "",
   "Counter Hit" : "+3",
   "Property" : "L,SP",
-  "Damage" : "15",
+  "Damage" : "13",
   "Startup" : "18F"
 }, {
   "Command" : "db3b",
@@ -601,7 +601,7 @@
   "Total" : "",
   "Counter Hit" : "±0",
   "Property" : "L",
-  "Damage" : "15",
+  "Damage" : "13",
   "Startup" : ""
 }, {
   "Command" : "db4",
@@ -678,7 +678,7 @@
   "Total" : "",
   "Counter Hit" : "Th",
   "Property" : "M,Th",
-  "Damage" : "14,42",
+  "Damage" : "14,36",
   "Startup" : ""
 }, {
   "Command" : "b2",
@@ -739,7 +739,7 @@
   "Command" : "b1+2",
   "Hit" : "-2C",
   "Block" : "-17",
-  "Notes" : "TC 7F",
+  "Notes" : "TC 7F\n",
   "Name" : "Inanna's Fury",
   "Total" : "",
   "Counter Hit" : "-2C",
@@ -777,7 +777,7 @@
   "Total" : "",
   "Counter Hit" : "+9",
   "Property" : "H",
-  "Damage" : "20",
+  "Damage" : "19",
   "Startup" : "19F"
 }, {
   "Command" : "ub or u or uf2",
@@ -860,7 +860,7 @@
   "Command" : "uf1+2",
   "Hit" : "+6",
   "Block" : "-7",
-  "Notes" : "TJ 9F\nMeaty 2F.",
+  "Notes" : "TJ 9F\nMeaty 2F.\n",
   "Name" : "Phyllobates",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -948,12 +948,12 @@
   "Command" : "ff4",
   "Hit" : "KDN",
   "Block" : "-8",
-  "Notes" : "H TS TJ 6F",
+  "Notes" : "H TS TJ 6F\n",
   "Name" : "Roundhouse Kick",
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "M",
-  "Damage" : "22",
+  "Damage" : "20",
   "Startup" : "17F"
 }, {
   "Command" : "ff3+4",
@@ -1261,7 +1261,7 @@
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "L,SP",
-  "Damage" : "11",
+  "Damage" : "13",
   "Startup" : "18F"
 }, {
   "Command" : " TS 2",
@@ -1332,8 +1332,8 @@
 }, {
   "Command" : " TS 43",
   "Hit" : "KDN",
-  "Block" : "-14",
-  "Notes" : "Combo from 1st CH.",
+  "Block" : "-13",
+  "Notes" : "Combo from 1st CH.\nMeaty 3F.\n",
   "Name" : "Tarantula's Bite",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -1384,6 +1384,17 @@
   "Property" : "H,SP",
   "Damage" : "12",
   "Startup" : "10F"
+}, {
+  "Command" : " SCS 14",
+  "Hit" : "+7",
+  "Block" : "-6",
+  "Notes" : "Combo from 1st hit.\n",
+  "Name" : "Scarecrow Nightmare to TS",
+  "Total" : "",
+  "Counter Hit" : "KDN",
+  "Property" : "H,M,SP",
+  "Damage" : "12,18",
+  "Startup" : ""
 }, {
   "Command" : " SCS 2",
   "Hit" : "+7",
@@ -1520,7 +1531,7 @@
   "Command" : " SCS df3",
   "Hit" : "-10C",
   "Block" : "-23",
-  "Notes" : "H TC 6F\nReturns to crouching.",
+  "Notes" : "H TC 6F\nReturns to crouching.\n",
   "Name" : "Abzu Abyss",
   "Total" : "",
   "Counter Hit" : "-10C",
@@ -1531,7 +1542,7 @@
   "Command" : " SCS df3d",
   "Hit" : "-15C",
   "Block" : "-23",
-  "Notes" : "H TC 6F",
+  "Notes" : "H TC 6F\n",
   "Name" : "Abzu Abyss to MS",
   "Total" : "",
   "Counter Hit" : "-15C",
@@ -1751,7 +1762,7 @@
   "Command" : " MS 3",
   "Hit" : "+3C",
   "Block" : "-14",
-  "Notes" : "TC ",
+  "Notes" : "TC \n",
   "Name" : "Lilith (1) to MS",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -1762,7 +1773,7 @@
   "Command" : " MS 34",
   "Hit" : "-1",
   "Block" : "-17",
-  "Notes" : "TC ",
+  "Notes" : "TC \n",
   "Name" : "Lilith (2) to MS",
   "Total" : "",
   "Counter Hit" : "-1",
@@ -1802,6 +1813,17 @@
   "Property" : "L,SP",
   "Damage" : "13",
   "Startup" : "17F"
+}, {
+  "Command" : " MM中 4d",
+  "Hit" : "-4",
+  "Block" : "-20",
+  "Notes" : "TC \n",
+  "Name" : "Neti (1) to MT",
+  "Total" : "",
+  "Counter Hit" : "+6",
+  "Property" : "L,SP",
+  "Damage" : "13",
+  "Startup" : ""
 }, {
   "Command" : " MS 43",
   "Hit" : "LNC",
@@ -1844,7 +1866,7 @@
   "Total" : "",
   "Counter Hit" : "LNC",
   "Property" : "M",
-  "Damage" : "13",
+  "Damage" : "10",
   "Startup" : "19F"
 }, {
   "Command" : " MS df3",
@@ -1868,6 +1890,17 @@
   "Property" : "M,SP",
   "Damage" : "20",
   "Startup" : ""
+}, {
+  "Command" : " MS df4",
+  "Hit" : "+13Sp",
+  "Block" : "-5",
+  "Notes" : "H \n",
+  "Name" : "Mantis Slash to TS",
+  "Total" : "",
+  "Counter Hit" : "+13Sp",
+  "Property" : "M,SP",
+  "Damage" : "18",
+  "Startup" : "17F"
 }, {
   "Command" : " MS d1",
   "Hit" : "±0",
@@ -1948,8 +1981,8 @@
 }, {
   "Command" : " MS uf3",
   "Hit" : "KDN",
-  "Block" : "-10C",
-  "Notes" : "TJ 7F\nReturns to crouching.",
+  "Block" : "-9C",
+  "Notes" : "TJ 7F\nReturns to crouching.\n",
   "Name" : "Enki",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -1959,8 +1992,8 @@
 }, {
   "Command" : " MS uf3d",
   "Hit" : "KDN",
-  "Block" : "-10C",
-  "Notes" : "TJ 7F",
+  "Block" : "-9C",
+  "Notes" : "TJ 7F\n",
   "Name" : "Enki to MS",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -2004,7 +2037,7 @@
   "AfterThrow" : "CW Head-sd Face-Dwn",
   "Command" : "2+4",
   "Property" : "Th(H)",
-  "Notes" : "Long Range Throw. Connect to MS after throw succeeds. 【S3 Patch Notes】・Removed removing Stance."
+  "Notes" : "Long Range Throw. Connect to MS after throw succeeds. Old Patch Notes (S3)・Removed removing Stance."
 }, {
   "BreakThrow" : "1 -3F",
   "Name" : "Labasu",
@@ -2044,13 +2077,13 @@
   "AfterThrow" : "",
   "Command" : "b1+3 or b2+4",
   "Property" : "SP",
-  "Notes" : "PC6-29F 【S3 Patch Notes】・New Move."
+  "Notes" : "PC6-29F Old Patch Notes (S3)・New Move."
 }, {
   "BreakThrow" : "",
   "Name" : "Revenge Hand",
-  "Damage" : "0,30",
+  "Damage" : "5,30",
   "AfterThrow" : "",
   "Command" : " After Power Crush succeeds ",
   "Property" : "M,M",
-  "Notes" : "Start-up 30F. -6F on block. 【S3 Patch Notes】・New Move."
+  "Notes" : "Start-up 30F. -6F on block. Old Patch Notes (S3)・New Move. (Ver.4.00) - Changed the damage from 0, 30 to 5, 30."
 } ]

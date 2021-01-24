@@ -33,23 +33,23 @@
   "Startup" : ""
 }, {
   "Command" : "12",
-  "Hit" : "+3",
-  "Block" : "-8",
-  "Notes" : "Combo from 1st NH.",
+  "Hit" : "+6",
+  "Block" : "-5",
+  "Notes" : "Combo from 1st hit.\n",
   "Name" : "Jab to Hilt Shot",
   "Total" : "",
-  "Counter Hit" : "+3",
+  "Counter Hit" : "+6",
   "Property" : "H,H",
   "Damage" : "7,9",
   "Startup" : ""
 }, {
   "Command" : "12 Hold ",
-  "Hit" : "+3",
-  "Block" : "-8",
-  "Notes" : "Combo from 1st NH.\n",
+  "Hit" : "+6",
+  "Block" : "-5",
+  "Notes" : "Combo from 1st hit.\n",
   "Name" : "Jab to Hilt Shot to Intimidation",
   "Total" : "",
-  "Counter Hit" : "+3",
+  "Counter Hit" : "+6",
   "Property" : "H,H,SP",
   "Damage" : "7,9",
   "Startup" : ""
@@ -88,9 +88,9 @@
   "Startup" : ""
 }, {
   "Command" : "142",
-  "Hit" : "+6C",
-  "Block" : "-5",
-  "Notes" : "Combo from 2nd CH.\nCan be delayed",
+  "Hit" : "+7C",
+  "Block" : "-4",
+  "Notes" : "Combo from 2nd CH.\nCan be delayed\n",
   "Name" : "Triple Head Shot",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -187,9 +187,9 @@
   "Startup" : "12F"
 }, {
   "Command" : "42",
-  "Hit" : "+6C",
-  "Block" : "-5",
-  "Notes" : "Combo from 1st CH.",
+  "Hit" : "+7C",
+  "Block" : "-4",
+  "Notes" : "Combo from 1st CH.\n",
   "Name" : "Double Head Shot",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -266,7 +266,7 @@
   "Command" : "f1+2",
   "Hit" : "LNC",
   "Block" : "-15",
-  "Notes" : "PC 8F",
+  "Notes" : "PC 8F\n",
   "Name" : "Walker Maker",
   "Total" : "",
   "Counter Hit" : "LNC",
@@ -387,11 +387,22 @@
   "Command" : "df312",
   "Hit" : "+4C",
   "Block" : "-11",
-  "Notes" : "Combo from 2nd CH.\nCan be delayed.\nCombo can be delayed 9F from 2nd CH.\nNH forces to crouching.\n",
+  "Notes" : "Combo from 2nd CH.\nCan be delayed.\nCombo can be delayed 9F from 2nd CH.\nForcesd to crouching upon NH.\n",
   "Name" : "Scottish Maiden",
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "M,H,M",
+  "Damage" : "13,12,20",
+  "Startup" : ""
+}, {
+  "Command" : "df312 Hold ",
+  "Hit" : "+4C",
+  "Block" : "-11",
+  "Notes" : "Combo from 2nd CH.\nCan be delayed.\nCombo can be delayed 9F from 2nd CH.\nForcesd to crouching upon NH.\n",
+  "Name" : "Scottish Maiden to Intimidation",
+  "Total" : "",
+  "Counter Hit" : "KDN",
+  "Property" : "M,H,M,SP",
   "Damage" : "13,12,20",
   "Startup" : ""
 }, {
@@ -535,13 +546,13 @@
   "Total" : "",
   "Counter Hit" : "+7Sd",
   "Property" : "L",
-  "Damage" : "15",
+  "Damage" : "16",
   "Startup" : "19F"
 }, {
   "Command" : "db1+2",
   "Hit" : "+11Sp",
   "Block" : "-8",
-  "Notes" : "H TS ",
+  "Notes" : "H TS \n",
   "Name" : "Violent Siege",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -552,7 +563,7 @@
   "Command" : "db1+2 Hold ",
   "Hit" : "+11Sp",
   "Block" : "+11Sp",
-  "Notes" : "H TS ",
+  "Notes" : "H TS \n",
   "Name" : "Violent Siege to Intimidation",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -670,7 +681,7 @@
   "Damage" : "20",
   "Startup" : "25F"
 }, {
-  "Command" : "u or uf2",
+  "Command" : "u2",
   "Hit" : "KDN",
   "Block" : "-9",
   "Notes" : "",
@@ -680,6 +691,28 @@
   "Property" : "H",
   "Damage" : "25",
   "Startup" : "24F"
+}, {
+  "Command" : "uf2",
+  "Hit" : "+7",
+  "Block" : "-11",
+  "Notes" : "Crumble Stun 10F upon CH.\n",
+  "Name" : "Direct Tenderizer",
+  "Total" : "",
+  "Counter Hit" : "KDN",
+  "Property" : "M",
+  "Damage" : "20",
+  "Startup" : "16F"
+}, {
+  "Command" : "uf2 Hold ",
+  "Hit" : "+7",
+  "Block" : "-11",
+  "Notes" : "",
+  "Name" : "Direct Tenderizer to Intimidation",
+  "Total" : "",
+  "Counter Hit" : "KDN",
+  "Property" : "M,SP",
+  "Damage" : "20",
+  "Startup" : ""
 }, {
   "Command" : "ub or u or uf3",
   "Hit" : "KDN",
@@ -695,7 +728,7 @@
   "Command" : "ub or u or uf4",
   "Hit" : "+5",
   "Block" : "-7",
-  "Notes" : "No Jump Status.",
+  "Notes" : "No Jump Status.\n",
   "Name" : "Blunt Force",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -913,12 +946,12 @@
   "Startup" : ""
 }, {
   "Command" : " WS 4",
-  "Hit" : "+5",
-  "Block" : "-6",
+  "Hit" : "+6",
+  "Block" : "-5",
   "Notes" : "",
   "Name" : "Toe Smash",
   "Total" : "",
-  "Counter Hit" : "+5",
+  "Counter Hit" : "+6",
   "Property" : "M",
   "Damage" : "18",
   "Startup" : "11F"
@@ -1100,26 +1133,26 @@
   "Startup" : "20F"
 }, {
   "Command" : " INT 3",
-  "Hit" : "+27G",
-  "Block" : "-7",
+  "Hit" : "+7",
+  "Block" : "-2",
   "Notes" : "",
   "Name" : "Push Kick to Intimidation",
   "Total" : "",
-  "Counter Hit" : "+27G",
+  "Counter Hit" : "+13",
   "Property" : "M,SP",
-  "Damage" : "15",
-  "Startup" : "18F"
+  "Damage" : "19",
+  "Startup" : "17F"
 }, {
   "Command" : " INT 4",
   "Hit" : "KDN",
   "Block" : "-7",
-  "Notes" : "",
+  "Notes" : "Meaty 1F.\n",
   "Name" : "Corpse Kick to Intimidation",
   "Total" : "",
   "Counter Hit" : "KDN*",
   "Property" : "M",
-  "Damage" : "25",
-  "Startup" : "25F"
+  "Damage" : "20",
+  "Startup" : "20F"
 }, {
   "Command" : " INT 1+2",
   "Hit" : "KDN",
@@ -1173,7 +1206,7 @@
   "Total" : "",
   "Counter Hit" : "+13G",
   "Property" : "L",
-  "Damage" : "20",
+  "Damage" : "26",
   "Startup" : "21F"
 }, {
   "Command" : " During Rage d1+2",

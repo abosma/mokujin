@@ -101,7 +101,7 @@
   "Command" : "32",
   "Hit" : "KDN",
   "Block" : "-1C",
-  "Notes" : "Block force to crouching\nCombo from 1st NH\n",
+  "Notes" : "Forced to crouching upon block.\nCombo from 1st NH\n",
   "Name" : "Impaling Knee to Right Chop",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -117,7 +117,7 @@
   "Total" : "39",
   "Counter Hit" : "LNC",
   "Property" : "H",
-  "Damage" : "18",
+  "Damage" : "15",
   "Startup" : "11F"
 }, {
   "Command" : "1+2",
@@ -222,7 +222,7 @@
   "Command" : "df12",
   "Hit" : "KDN",
   "Block" : "-13C",
-  "Notes" : "Block force to crouching\nCombo from 1st NH\nCan be delayed\nCombo can be delayed 5F from 1st NH",
+  "Notes" : "Forced to crouching upon block.\nCombo from 1st NH\nCan be delayed\nCombo can be delayed 5F from 1st NH",
   "Name" : "Crimson Dawn",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -266,10 +266,10 @@
   "Command" : "d1",
   "Hit" : "+2",
   "Block" : "-9",
-  "Notes" : "CH force to crouching &amp; Advance Input is unavailable",
+  "Notes" : "Forced to crouching upon CH..\n",
   "Name" : "Diamond Cleaver (1)",
   "Total" : "",
-  "Counter Hit" : "+3C",
+  "Counter Hit" : "+2C",
   "Property" : "M",
   "Damage" : "15",
   "Startup" : "16F"
@@ -343,7 +343,7 @@
   "Command" : "db2",
   "Hit" : "-3",
   "Block" : "-14",
-  "Notes" : "TC 6F\nReturns to crouching.\nCH force to crouching\n",
+  "Notes" : "TC 6F\nReturns to crouching.\nForced to crouching upon CH.\n",
   "Name" : "Hellfire Spiral (1)",
   "Total" : "",
   "Counter Hit" : "+3C",
@@ -354,7 +354,7 @@
   "Command" : "db23",
   "Hit" : "±0",
   "Block" : "-14",
-  "Notes" : "TC \nReturns to crouching.\nCH force to crouching\nCombo from 1st CH\nInterrupt 8F after 1st block",
+  "Notes" : "TC \nReturns to crouching.\nForced to crouching upon CH.\nCombo from 1st CH\nInterrupt 8F after 1st block",
   "Name" : "Hellfire Spiral (2)",
   "Total" : "",
   "Counter Hit" : "+6C",
@@ -365,7 +365,7 @@
   "Command" : "db234",
   "Hit" : "+5C",
   "Block" : "-14",
-  "Notes" : "TC \nReturns to crouching.\nNH force to crouching\nCombo from 2nd CH\n",
+  "Notes" : "TC \nReturns to crouching.\nForced to crouching upon NH.\nCombo from 2nd CH\n",
   "Name" : "Hellfire Spiral",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -376,12 +376,12 @@
   "Command" : "db3",
   "Hit" : "+2C",
   "Block" : "-14",
-  "Notes" : "Hit force to crouching\n",
+  "Notes" : "Forced to crouching upon hit.\n",
   "Name" : "Foot Breaker",
   "Total" : "",
   "Counter Hit" : "+2C",
   "Property" : "L",
-  "Damage" : "14",
+  "Damage" : "12",
   "Startup" : "17F"
 }, {
   "Command" : "db4",
@@ -390,15 +390,15 @@
   "Notes" : "",
   "Name" : "Rolling Thunder",
   "Total" : "",
-  "Counter Hit" : "+15G",
+  "Counter Hit" : "+4",
   "Property" : "L",
   "Damage" : "17",
   "Startup" : "20F"
 }, {
   "Command" : "db1+2",
-  "Hit" : "KDN",
+  "Hit" : "+7C",
   "Block" : "-4",
-  "Notes" : "",
+  "Notes" : "Forced to crouching upon NH.\n",
   "Name" : "Deadly Crescent",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -529,8 +529,8 @@
 }, {
   "Command" : "uf34",
   "Hit" : "KDN",
-  "Block" : "-7",
-  "Notes" : "TJ \nDisable 2nd after 1st whiff",
+  "Block" : "±0",
+  "Notes" : "TJ \nDisable 2nd after 1st whiff\n",
   "Name" : "Hell Blade",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -541,7 +541,7 @@
   "Command" : "uf341",
   "Hit" : "+4C",
   "Block" : "-11C",
-  "Notes" : "TJ \nReturns to crouching.\nHit force to crouching\n",
+  "Notes" : "TJ \nReturns to crouching.\nForced to crouching upon hit.\n",
   "Name" : "Hell Blade",
   "Total" : "",
   "Counter Hit" : "+4C",
@@ -670,15 +670,26 @@
   "Damage" : "12,9,13(,20)",
   "Startup" : ""
 }, {
+  "Command" : "fff1",
+  "Hit" : "KDN",
+  "Block" : "+7",
+  "Notes" : "Meaty 2F.\n",
+  "Name" : "Lightning Flash",
+  "Total" : "",
+  "Counter Hit" : "KDN",
+  "Property" : "H",
+  "Damage" : "30",
+  "Startup" : "15F"
+}, {
   "Command" : "fff2",
   "Hit" : "KDN",
   "Block" : "-4",
-  "Notes" : "Meaty 1F",
+  "Notes" : "Meaty 1F\n",
   "Name" : "Diamond Flash",
   "Total" : "50",
   "Counter Hit" : "KDN",
   "Property" : "M",
-  "Damage" : "24",
+  "Damage" : "25",
   "Startup" : "15F"
 }, {
   "Command" : " FC 1",
@@ -772,13 +783,13 @@
   "Command" : " WS 3",
   "Hit" : "-8",
   "Block" : "-11",
-  "Notes" : "Damage () is tiger.\n",
+  "Notes" : "Damage () is tiger.\nMeaty 1F.\n",
   "Name" : "Impaling Kick",
   "Total" : "",
   "Counter Hit" : "-8",
   "Property" : "M,SM",
   "Damage" : "15(,20)",
-  "Startup" : "15F"
+  "Startup" : "14F"
 }, {
   "Command" : " WS 3 during hit f",
   "Hit" : "+9",
@@ -937,10 +948,10 @@
   "Command" : " During Fearless Warrior 3",
   "Hit" : "+7C",
   "Block" : "-7",
-  "Notes" : "TJ \n",
+  "Notes" : "TJ \nForced to crouching upon NH..\n",
   "Name" : "Oroshi",
   "Total" : "",
-  "Counter Hit" : "+7C",
+  "Counter Hit" : "KDN",
   "Property" : "M",
   "Damage" : "20",
   "Startup" : "23F"
@@ -948,7 +959,7 @@
   "Command" : " During Fearless Warrior 4",
   "Hit" : "+5C",
   "Block" : "-31",
-  "Notes" : "TJ \nHit force to crouching\n2nd input force to down",
+  "Notes" : "TJ \nForced to crouching upon hit.\n2nd input force to down",
   "Name" : "Hellfire Burst (1)",
   "Total" : "",
   "Counter Hit" : "+5C",
@@ -986,7 +997,7 @@
   "Total" : "",
   "Counter Hit" : "LNC",
   "Property" : "MM",
-  "Damage" : "8,20",
+  "Damage" : "7,20",
   "Startup" : "19F"
 }, {
   "Command" : " During Fearless Warrior f1+2",
@@ -1014,7 +1025,7 @@
   "Command" : " During Rage ff1+2",
   "Hit" : "LNC",
   "Block" : "-12",
-  "Notes" : "Damage 2 on block\nUnblokable damage 5 close to Wall &amp; -6F",
+  "Notes" : "Damage 2 on block\nUnblokable damage 5 close to Wall &amp; -6F\n",
   "Name" : "Rage Drive",
   "Total" : "",
   "Counter Hit" : "LNC",
@@ -1068,15 +1079,15 @@
   "AfterThrow" : "Foot-sd Fac-Up",
   "Command" : "df1+2",
   "Property" : "Th(H)",
-  "Notes" : "Damage () is when wall hit. Wall Stun. S2 Patch Notes ・Timing damage is registered was changed. ・Damage on wall hit changed from 32 to 42."
+  "Notes" : "Damage () is when wall hit. Wall Stun. Old Patch Notes ・Timing damage is registered was changed. ・Damage on wall hit changed from 32 to 42."
 }, {
   "BreakThrow" : "disable ",
   "Name" : "Divine Guardian",
-  "Damage" : "0(,30)",
+  "Damage" : "5(,30)",
   "AfterThrow" : "",
   "Command" : "b1+2",
   "Property" : "Reversal(HM),M(,SM)",
-  "Notes" : "PC6F S2 Patch Notes ・Tiger's attack is now faster when opponent's attack is received. 【S3 Patch Notes】– Reduced the strength of the pushback, and made the move easier to land."
+  "Notes" : "PC6 to 24F Old Patch Notes ・Tiger's attack is now faster when opponent's attack is received. (S3)– Reduced the strength of the pushback, and made the move easier to land. (Ver.4.00)　- Shortened the recovery time by 5F. - Shortened the time when Power Crush ends by 5F. - Changed the damage from 0,30 to 5,30. - Changed the attack startup from frame 30-34, 36-81 to frame 25-34, 31-76."
 }, {
   "BreakThrow" : "disable ",
   "Name" : "Iron Side Strike",
@@ -1084,5 +1095,5 @@
   "AfterThrow" : "+8F",
   "Command" : " During Fearless Warrior b1+2",
   "Property" : "Th(M)",
-  "Notes" : "Wall Stun. S2 Patch Notes ・Command changed from During ・Damage changed from 10 to 15."
+  "Notes" : "Wall Stun. Old Patch Notes ・Command changed from During ・Damage changed from 10 to 15."
 } ]

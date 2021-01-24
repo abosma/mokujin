@@ -90,7 +90,7 @@
   "Command" : "21",
   "Hit" : "+7",
   "Block" : "-1",
-  "Notes" : "Combo from 1st NH\n",
+  "Notes" : "Combo from 1st hit.\n",
   "Name" : "Jab Uppercut",
   "Total" : "",
   "Counter Hit" : "+7",
@@ -130,6 +130,17 @@
   "Property" : "M",
   "Damage" : "18",
   "Startup" : "18F"
+}, {
+  "Command" : "1+21b",
+  "Hit" : "-9",
+  "Block" : "-18",
+  "Notes" : "",
+  "Name" : "Head Spinner (1) to Cancel",
+  "Total" : "",
+  "Counter Hit" : "-7",
+  "Property" : "M,SP",
+  "Damage" : "18",
+  "Startup" : ""
 }, {
   "Command" : "1+21",
   "Hit" : "KDN",
@@ -189,7 +200,7 @@
   "Command" : "f2d1",
   "Hit" : "+2C",
   "Block" : "-13C",
-  "Notes" : "Block or Hit force to crouching\nCan be delayed\n",
+  "Notes" : "Forced to crouching upon block or hit.\nCan be delayed\n",
   "Name" : "Jaguar Smash Combo (2)",
   "Total" : "",
   "Counter Hit" : "+2C",
@@ -200,7 +211,7 @@
   "Command" : "f2d12",
   "Hit" : "LNC",
   "Block" : "-15",
-  "Notes" : "Combo from 2nd NH\nCan be delayed\nCombo can be delayed 13F from 2nd NH",
+  "Notes" : "Combo from 2nd NH\nCan be delayed\nCombo can be delayed 13F from 2nd NH.\nMeaty 1F.\n",
   "Name" : "Jaguar Smash Combo",
   "Total" : "",
   "Counter Hit" : "LNC",
@@ -297,12 +308,12 @@
   "Startup" : "14F"
 }, {
   "Command" : "df12",
-  "Hit" : "+3",
+  "Hit" : "+5",
   "Block" : "-10",
   "Notes" : "Combo from 1st NH\nCan be delayed\nCombo can be delayed 7F from 1st NH\nCombo can be delayed 12F from 2st CH\n",
   "Name" : "Elbow Sting",
   "Total" : "",
-  "Counter Hit" : "+3",
+  "Counter Hit" : "+5",
   "Property" : "M,M",
   "Damage" : "15,15",
   "Startup" : ""
@@ -330,12 +341,12 @@
   "Startup" : ""
 }, {
   "Command" : "df3",
-  "Hit" : "+2",
+  "Hit" : "+6",
   "Block" : "-9",
   "Notes" : "",
   "Name" : "Mid Kick",
   "Total" : "42",
-  "Counter Hit" : "+2",
+  "Counter Hit" : "+6",
   "Property" : "M",
   "Damage" : "17",
   "Startup" : "14F"
@@ -541,7 +552,7 @@
   "Command" : "d2+3",
   "Hit" : "±0C",
   "Block" : "-8C",
-  "Notes" : "TJ 21F\nBlock or Hit force to crouching\nMeaty 5F",
+  "Notes" : "TJ 21F\nForced to crouching upon block or hit.\nMeaty 5F",
   "Name" : "Corporate Elbow",
   "Total" : "",
   "Counter Hit" : "±0C",
@@ -552,7 +563,7 @@
   "Command" : "db2",
   "Hit" : "KDN",
   "Block" : "-5C",
-  "Notes" : "Block force to crouching\n",
+  "Notes" : "Forced to crouching upon block.\n",
   "Name" : "Brain Chop",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -563,7 +574,7 @@
   "Command" : "db3",
   "Hit" : "+2C",
   "Block" : "-16",
-  "Notes" : "TC 10F\nReturns to crouching.\nNH force to crouching\n",
+  "Notes" : "TC 10F\nReturns to crouching.\nForced to crouching upon NH.\n",
   "Name" : "Crouching Low Kick",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -640,7 +651,7 @@
   "Command" : "b21+2",
   "Hit" : "KDN",
   "Block" : "+2C",
-  "Notes" : "Block force to crouching\nCan be delayed\n",
+  "Notes" : "Forced to crouching upon block.\nCan be delayed\n",
   "Name" : "Chupacabra to Head Butt",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -667,8 +678,19 @@
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "H",
-  "Damage" : "31",
+  "Damage" : "23",
   "Startup" : "16F"
+}, {
+  "Command" : "b3 during hit from front 1+2",
+  "Hit" : "Th",
+  "Block" : "",
+  "Notes" : "",
+  "Name" : "Guillotine Drop",
+  "Total" : "",
+  "Counter Hit" : "Th",
+  "Property" : "H,Th",
+  "Damage" : "23(,20)",
+  "Startup" : ""
 }, {
   "Command" : "b4",
   "Hit" : "KDN",
@@ -706,7 +728,7 @@
   "Command" : "ub2",
   "Hit" : "KDN",
   "Block" : "-18C",
-  "Notes" : "TJ 9F\nBlock force to crouching\nTo Down after moving\n",
+  "Notes" : "TJ 9F\nForced to crouching upon block.\nTo Down after moving\n",
   "Name" : "High Elbow Drop",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -717,7 +739,7 @@
   "Command" : "u2",
   "Hit" : "KDN",
   "Block" : "-18C",
-  "Notes" : "TJ 9F\nBlock force to crouching\nTo Down after moving\n",
+  "Notes" : "TJ 9F\nForced to crouching upon block.\nTo Down after moving\n",
   "Name" : "High Elbow Drop",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -728,7 +750,7 @@
   "Command" : "uf2",
   "Hit" : "KDN",
   "Block" : "-18C",
-  "Notes" : "TJ 9F\nBlock force to crouching\nTo Down after moving\n",
+  "Notes" : "TJ 9F\nForced to crouching upon block.\nTo Down after moving\n",
   "Name" : "High Elbow Drop",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -805,7 +827,7 @@
   "Command" : "uf1+2",
   "Hit" : "KDN",
   "Block" : "+2C",
-  "Notes" : "TJ 9F\nBlock force to crouching\n",
+  "Notes" : "TJ 9F\nForced to crouching upon block.\n",
   "Name" : "Capital Punishment",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -849,7 +871,7 @@
   "Command" : "ffn2",
   "Hit" : "+1C",
   "Block" : "-14",
-  "Notes" : "TC 6F\nAdvance Input is unavailable\nStart-up 19F in actualy\nDuring CH to Jaguar Hammer\nDamage () is throw bonus\nNH force to crouching\n",
+  "Notes" : "TC 6F\nAdvance Input is unavailable\nStart-up 19F in actualy\nDuring CH to Jaguar Hammer\nDamage () is throw bonus\nForced to crouching upon NH.\n",
   "Name" : "Stomach Smash",
   "Total" : "",
   "Counter Hit" : "Th",
@@ -882,7 +904,7 @@
   "Command" : "ff2",
   "Hit" : "+4C",
   "Block" : "+2C",
-  "Notes" : "Advance Input is unavailable\nStart-up 20F in actualy\nBlock or Hit force to crouching",
+  "Notes" : "Advance Input is unavailable\nStart-up 20F in actualy\nForced to crouching upon block or hit.",
   "Name" : "Rolling Elbow",
   "Total" : "",
   "Counter Hit" : "+4C",
@@ -948,7 +970,7 @@
   "Command" : "ff2+3",
   "Hit" : "Th",
   "Block" : "-17C",
-  "Notes" : "TJ 12F\nAdvance Input is unavailable\nStart-up 22F in actualy\nDamage () is throw bonus\nBlock force to crouching\nMeaty 4F",
+  "Notes" : "TJ 12F\nAdvance Input is unavailable\nStart-up 22F in actualy\nDamage () is throw bonus\nForced to crouching upon block.\nMeaty 4F",
   "Name" : "Diving Body Press (close)",
   "Total" : "",
   "Counter Hit" : "Th",
@@ -959,7 +981,7 @@
   "Command" : "ff2+3",
   "Hit" : "-15C",
   "Block" : "-12C",
-  "Notes" : "TJ 12F\nBlock or Hit force to crouching\nMeaty 17F in actualy",
+  "Notes" : "TJ 12F\nForced to crouching upon block or hit.\nMeaty 17F in actualy",
   "Name" : "Diving Body Press",
   "Total" : "",
   "Counter Hit" : "-15C",
@@ -992,7 +1014,7 @@
   "Command" : "fff3+4",
   "Hit" : "KDN",
   "Block" : "+17G",
-  "Notes" : "TJ 9F\nMeaty 5F in actualy",
+  "Notes" : "TJ 9F\nMeaty 5F in actualy\n",
   "Name" : "Running Exploder",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -1487,7 +1509,7 @@
   "Command" : " JS 32+3",
   "Hit" : "Th",
   "Block" : "-17C",
-  "Notes" : "TJ \nDamage () is throw bonus\nBlock or Hit force to crouching",
+  "Notes" : "TJ \nDamage () is throw bonus.\nForced to crouching upon block or hit.",
   "Name" : "Jaguar Step to sobat & Press (close)",
   "Total" : "",
   "Counter Hit" : "Th",
@@ -1498,7 +1520,7 @@
   "Command" : " JS 32+3",
   "Hit" : "-15C",
   "Block" : "-12C",
-  "Notes" : "Block or Hit force to crouching",
+  "Notes" : "Forced to crouching upon block or hit.",
   "Name" : "Jaguar Step to sobat & Press",
   "Total" : "",
   "Counter Hit" : "-15C",
@@ -1674,7 +1696,7 @@
   "Command" : " During Rage db1+2",
   "Hit" : "LNC",
   "Block" : "+8C",
-  "Notes" : "Block force to crouching\nSpecial effect when approach mid-air enemy\n",
+  "Notes" : "Forced to crouching upon block.\nSpecial effect when approach mid-air enemy\n",
   "Name" : "Rage Drive",
   "Total" : "",
   "Counter Hit" : "LNC",
@@ -1760,7 +1782,7 @@
   "AfterThrow" : "Foot-sd Fac-Up",
   "Command" : "ub or u1+2",
   "Property" : "Th(H)",
-  "Notes" : "Damage () is wall bonus Wall Stun S2 Patch Notes ・Opponent can now ukemi sideways."
+  "Notes" : "Damage () is wall bonus Wall Stun Old Patch Notes ・Opponent can now ukemi sideways."
 }, {
   "BreakThrow" : "1+2 ",
   "Name" : "Executioner Drop (behind)",
@@ -1768,7 +1790,7 @@
   "AfterThrow" : "RP Foot-sd Fac-Up",
   "Command" : "ub or u1+2b",
   "Property" : "Th(H)",
-  "Notes" : "Damage() is wall bonus Wall Stun S2 Patch Notes ・Opponent can now ukemi sideways."
+  "Notes" : "Damage() is wall bonus Wall Stun Old Patch Notes ・Opponent can now ukemi sideways."
 }, {
   "BreakThrow" : "2 -2F",
   "Name" : "Tombstone Pile Driver",
@@ -1776,7 +1798,7 @@
   "AfterThrow" : "Head-sd Fac-Up",
   "Command" : "dbf2+4",
   "Property" : "Th(H)",
-  "Notes" : "Floor Break"
+  "Notes" : "Floor Break (Ver.4.00) - Increased the move’s tracking."
 }, {
   "BreakThrow" : "1+2 -6F",
   "Name" : "Muscle Buster",
@@ -1784,7 +1806,7 @@
   "AfterThrow" : "RP Head-sd Fac-Up",
   "Command" : "ddbb1+2",
   "Property" : "Th(H)",
-  "Notes" : "Disable Preciding Input Floor Break To BT"
+  "Notes" : "Floor Break To BT (Ver.4.00) - The move input can now be buffered. - Fixed an issue in which the move could not be performed when the input of was delayed."
 }, {
   "BreakThrow" : "1 -13F",
   "Name" : "Giant Swing",
@@ -1792,7 +1814,7 @@
   "AfterThrow" : "RP Foot-sd Fac-Up",
   "Command" : "fbdbddff1",
   "Property" : "Th(H)",
-  "Notes" : "Easy Command Enable input from Full Crouch Damage () is when no side quick roll Damage 70 when wall hit S2 Patch Notes ・Input window for ukemi increased by 1F."
+  "Notes" : "Easy Command Enable input from Full Crouch Damage () is when no side quick roll Damage 70 when wall hit Old Patch Notes ・Input window for ukemi increased by 1F."
 }, {
   "BreakThrow" : "2 -6F",
   "Name" : "Tijuana Twister",
@@ -1800,7 +1822,7 @@
   "AfterThrow" : "Foot-sd Fac-Up",
   "Command" : "fbdbddff2",
   "Property" : "Th(H)",
-  "Notes" : "Easy Command"
+  "Notes" : "Easy Command (Ver.4.00) - Increased the move’s tracking."
 }, {
   "BreakThrow" : "1+2 -5F RP",
   "Name" : "Tomahawk",
@@ -1824,7 +1846,7 @@
   "AfterThrow" : "Head-sd Fac-Dwn",
   "Command" : " Approach crouching enemy d1+3",
   "Property" : "Th(L)",
-  "Notes" : "Floor Break"
+  "Notes" : "Floor Break (Ver.4.00) - Increased the range of the attack. (Ver.4.01) - Fixed an issue where the range of the attack was not as intended."
 }, {
   "BreakThrow" : "2 +五分F",
   "Name" : "V Driver",
@@ -1832,7 +1854,7 @@
   "AfterThrow" : "RP Head-sd Fac-Up",
   "Command" : " Approach crouching enemy d2+4",
   "Property" : "Th(L)",
-  "Notes" : "S2 Patch Notes ・Now causes floor break."
+  "Notes" : "Old Patch Notes ・Now causes floor break. (Ver.4.00) - Increased the range of the attack. (Ver.4.01) - Fixed an issue where the range of the attack was not as intended."
 }, {
   "BreakThrow" : "disable ",
   "Name" : "Arm Whip",
@@ -1880,7 +1902,7 @@
   "AfterThrow" : "Head-sd Fac-Dwn",
   "Command" : " During Pile Driver 1+21+2",
   "Property" : "-",
-  "Notes" : "Floor Break S2 Patch Notes (Ver.2.10)・ The recovery frames for the throw has been reduced from -19 to -9. (Ver.2.20)・Shortened the recovery animation by 7F."
+  "Notes" : "Floor Break Old Patch Notes (Ver.2.10)・ The recovery frames for the throw has been reduced from -19 to -9. (Ver.2.20)・Shortened the recovery animation by 7F."
 }, {
   "BreakThrow" : "1+2 -7F",
   "Name" : "Boston Crab",
@@ -1976,7 +1998,7 @@
   "AfterThrow" : "Foot-sd Fac-Dwn",
   "Command" : " During Leg Cross Hold 1+2",
   "Property" : "-",
-  "Notes" : "【S3 Patch Notes】– Reduced the number of input windows from 2 to 1. – Changed the input window from 1 frame to 3 frames."
+  "Notes" : "Old Patch Notes (S3)– Reduced the number of input windows from 2 to 1. – Changed the input window from 1F to 3F. (Ver.4.00) - Fixed an issue in which input window was not correct when shifting from the 3rd Ultimate Punch to Leg"
 }, {
   "BreakThrow" : "1 or 2 ±0F",
   "Name" : "Swing Away",
@@ -1984,7 +2006,7 @@
   "AfterThrow" : "RP Foot-sd Fac-Up",
   "Command" : " Enemy on back by the feet db1+3 or db2+4",
   "Property" : "Th(Down)",
-  "Notes" : "Break throw 7F Damage () is when no side quick roll Damage 35 when wall hit S2 Patch Notes ・Input window for ukemi increased by 1F."
+  "Notes" : "Break throw 7F Damage () is when no side quick roll Damage 35 when wall hit Old Patch Notes ・Input window for ukemi increased by 1F."
 }, {
   "BreakThrow" : "1 ±0F",
   "Name" : "Head Bomber",
@@ -1996,11 +2018,11 @@
 }, {
   "BreakThrow" : "2 ±0F",
   "Name" : "Figure Four Leg Lock",
-  "Damage" : "33",
+  "Damage" : "28",
   "AfterThrow" : "Foot-sd Fac-Up",
   "Command" : " Enemy on back by the feet db2+4",
   "Property" : "Th(Down)",
-  "Notes" : ""
+  "Notes" : "(Ver.4.00) - Changed the damage from 33 to 28."
 }, {
   "BreakThrow" : "1 or 2 ±0F",
   "Name" : "Shoulder Cracker",
@@ -2328,7 +2350,7 @@
   "AfterThrow" : "RP Foot-sd Fac-Up",
   "Command" : "df2+4 or SS 2+4",
   "Property" : "Th(H)",
-  "Notes" : "SS input to Cancel S2 Patch Notes ・Now has crouch status."
+  "Notes" : "SS input to Cancel Old Patch Notes ・Now has crouch status."
 }, {
   "BreakThrow" : "1 or 2 -2F",
   "Name" : "Reverse Special Stretch Bomb",
@@ -2336,7 +2358,7 @@
   "AfterThrow" : "RP Foot-sd Fac-Up",
   "Command" : " Aproach crouching enemy dfdf1+3 or dfdf2+4",
   "Property" : "Th(L)",
-  "Notes" : ""
+  "Notes" : "(Ver.4.00) - Increased the range of the attack. (Ver.4.01) - Fixed an issue where the range of the attack was not as intended."
 }, {
   "BreakThrow" : "disable ",
   "Name" : "Cannonball Buster",
@@ -2408,7 +2430,7 @@
   "AfterThrow" : "Foot-sd Fac-Up",
   "Command" : " Approach from side or behind SS 2+4",
   "Property" : "Th(H)",
-  "Notes" : "SS input to Cancel S2 Patch Notes ・Now has crouch status."
+  "Notes" : "SS input to Cancel Old Patch Notes ・Now has crouch status."
 }, {
   "BreakThrow" : "2 -3F",
   "Name" : "Manhattan Drop",

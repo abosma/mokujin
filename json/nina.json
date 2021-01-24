@@ -277,7 +277,7 @@
   "Command" : "3343",
   "Hit" : "+5C",
   "Block" : "+2C",
-  "Notes" : "Block or NH force to crouching",
+  "Notes" : "Forced to crouching upon block or NH.",
   "Name" : "Spike Combo to Easy Prey",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -376,7 +376,7 @@
   "Command" : "4343",
   "Hit" : "+5C",
   "Block" : "+2C",
-  "Notes" : "Block or NH force to crouching\nMeaty 1F",
+  "Notes" : "Forced to crouching upon block or NH.\nMeaty 1F",
   "Name" : "Blonde to Easy Prey",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -387,7 +387,7 @@
   "Command" : "1+4",
   "Hit" : "+4C",
   "Block" : "-5",
-  "Notes" : "Hit force to Crouching.\n2nd CH on 1st CH.\nMeaty 1F.",
+  "Notes" : "Forced to crouching upon hit..\n2nd CH on 1st CH.\nMeaty 1F.\n",
   "Name" : "Ivory Cutter",
   "Total" : "",
   "Counter Hit" : "+6C",
@@ -420,7 +420,7 @@
   "Command" : "f212",
   "Hit" : "+4C",
   "Block" : "-12C",
-  "Notes" : "Launch from 2nd hit.\nCan be delayed.\nBlock or NH force to crouching.",
+  "Notes" : "Launch from 2nd hit.\nCan be delayed.\nForced to crouching upon block or NH..",
   "Name" : "Dead Drop",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -442,7 +442,7 @@
   "Command" : "f3",
   "Hit" : "KDN",
   "Block" : "+6",
-  "Notes" : "TS \nCombo from 1st NH.\nMeaty 1F.\n-27F on 1st block &amp; 2nd whiff.",
+  "Notes" : "TS \nCombo from 1st hit.\nMeaty 1F.\n-27F on 1st block &amp; 2nd whiff.\n",
   "Name" : "Siren's Kiss",
   "Total" : "",
   "Counter Hit" : "KDN*",
@@ -508,7 +508,7 @@
   "Command" : "df1",
   "Hit" : "+5",
   "Block" : "-1",
-  "Notes" : "",
+  "Notes" : "Meaty 1F.\n",
   "Name" : "Quick Uppercut",
   "Total" : "",
   "Counter Hit" : "+5",
@@ -616,9 +616,9 @@
   "Startup" : ""
 }, {
   "Command" : "df32",
-  "Hit" : "+2",
+  "Hit" : "+5",
   "Block" : "+1",
-  "Notes" : "Combo from 1st NH\nCan be delayed 10F\nCombo can be delayed 10F",
+  "Notes" : "Combo from 1st hit.\nCan be delayed 10F.\nCombo can be delayed 10F.\n",
   "Name" : "Creeping Snake (2)",
   "Total" : "",
   "Counter Hit" : "+12",
@@ -627,7 +627,7 @@
   "Startup" : ""
 }, {
   "Command" : "df32df",
-  "Hit" : "±0",
+  "Hit" : "+3",
   "Block" : "-1",
   "Notes" : "Advance Input is available druing Rolling Step.\nWhen input<img src=\"../3'.bmp\" class=\"c\">+ any button, connect to WS moves.\nWhen input<img src=\"../3'.bmp\" class=\"c\"><img src=\"../6'.bmp\" class=\"c\">+ any button, connect to Rolling Dash Combinations.\n",
   "Name" : "Creeping Step",
@@ -739,7 +739,7 @@
   "Command" : "df32d343",
   "Hit" : "+5C",
   "Block" : "+2C",
-  "Notes" : "Block or NH force to crouching\nMeaty 1F",
+  "Notes" : "Forced to crouching upon block or NH.\nMeaty 1F",
   "Name" : "Creeping Snake to Easy Prey",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -843,7 +843,7 @@
   "Total" : "",
   "Counter Hit" : "+20Sp",
   "Property" : "MM",
-  "Damage" : "5,10",
+  "Damage" : "5,14",
   "Startup" : "16F"
 }, {
   "Command" : "db or d1",
@@ -948,7 +948,7 @@
   "Command" : "d3 or FC 343",
   "Hit" : "+5C",
   "Block" : "+2C",
-  "Notes" : "Block or NH force to crouching\nMeaty 1F",
+  "Notes" : "Forced to crouching upon block or NH.\nMeaty 1F",
   "Name" : "Easy Prey",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -1003,7 +1003,7 @@
   "Command" : "db3",
   "Hit" : "+4C",
   "Block" : "-13",
-  "Notes" : "NH force to crouching\n",
+  "Notes" : "Forced to crouching upon NH.\n",
   "Name" : "Stiletto Heel",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -1067,15 +1067,26 @@
   "Startup" : "19F"
 }, {
   "Command" : "b1",
-  "Hit" : "KDN",
-  "Block" : "-16",
+  "Hit" : "+4",
+  "Block" : "-7",
   "Notes" : "",
-  "Name" : "Left Backhand body Blow",
+  "Name" : "Throat Slasher",
+  "Total" : "",
+  "Counter Hit" : "+4",
+  "Property" : "H",
+  "Damage" : "10",
+  "Startup" : "12F"
+}, {
+  "Command" : "b14",
+  "Hit" : "+9",
+  "Block" : "-14",
+  "Notes" : "Combo from 1st hit.\n",
+  "Name" : "Throat Slasher to Bad Habit",
   "Total" : "",
   "Counter Hit" : "KDN",
-  "Property" : "M",
-  "Damage" : "15",
-  "Startup" : "20F"
+  "Property" : "H,M",
+  "Damage" : "10,22",
+  "Startup" : ""
 }, {
   "Command" : "b2",
   "Hit" : "-3",
@@ -1091,10 +1102,10 @@
   "Command" : "b22",
   "Hit" : "+5",
   "Block" : "-6",
-  "Notes" : "Combo from 1st NH\n",
+  "Notes" : "Combo from 1st hit.\n",
   "Name" : "Backhand Combo (2)",
   "Total" : "",
-  "Counter Hit" : "+2",
+  "Counter Hit" : "+5",
   "Property" : "H,H",
   "Damage" : "12,16",
   "Startup" : ""
@@ -1124,7 +1135,7 @@
   "Command" : "b3",
   "Hit" : "+6C",
   "Block" : "-6",
-  "Notes" : "Hit force to Crouching.\n",
+  "Notes" : "Forced to crouching upon hit..\n",
   "Name" : "Stinger Heel Kick",
   "Total" : "",
   "Counter Hit" : "+6C",
@@ -1146,7 +1157,7 @@
   "Command" : "b4",
   "Hit" : "+11",
   "Block" : "-7",
-  "Notes" : "When NH and enemy input<img src=\"../2'.bmp\" class=\"c\">, to go down.",
+  "Notes" : "When NH and enemy input<img src=\"../2'.bmp\" class=\"c\">, to go down.\n",
   "Name" : "Spear Kick",
   "Total" : "40",
   "Counter Hit" : "+18",
@@ -1176,7 +1187,18 @@
   "Damage" : "4,14",
   "Startup" : "16F"
 }, {
-  "Command" : "ub or u1",
+  "Command" : "ub1",
+  "Hit" : "KDN",
+  "Block" : "-16",
+  "Notes" : "",
+  "Name" : "Left Backhand body Blow",
+  "Total" : "",
+  "Counter Hit" : "KDN",
+  "Property" : "M",
+  "Damage" : "15",
+  "Startup" : "20F"
+}, {
+  "Command" : "u1",
   "Hit" : "-1",
   "Block" : "-12",
   "Notes" : "TJ 9F",
@@ -1266,8 +1288,8 @@
 }, {
   "Command" : "ub4",
   "Hit" : "+3C",
-  "Block" : "-9",
-  "Notes" : "TJ 7F\nNH force to crouching",
+  "Block" : "-7C",
+  "Notes" : "TJ 7F\nForced to crouching upon block or NH.\nMeaty 5F.\n",
   "Name" : "Leaping Axe Kick",
   "Total" : "58",
   "Counter Hit" : "KDN",
@@ -1276,11 +1298,11 @@
   "Startup" : "23F"
 }, {
   "Command" : "u4",
-  "Hit" : "+3C",
-  "Block" : "-6",
-  "Notes" : "TJ 7F\nNH force to crouching",
+  "Hit" : "+5C",
+  "Block" : "±0C",
+  "Notes" : "TJ 7F\nForced to crouching upon block or NH.\nMeaty 5F.",
   "Name" : "Leaping Axe Kick",
-  "Total" : "53",
+  "Total" : "51",
   "Counter Hit" : "KDN",
   "Property" : "M",
   "Damage" : "21",
@@ -1330,7 +1352,7 @@
   "Damage" : "23,10",
   "Startup" : ""
 }, {
-  "Command" : "uf3+4 or fff3",
+  "Command" : "uf3+4",
   "Hit" : "Th",
   "Block" : "-23",
   "Notes" : "TJ 3F\nClose hit connect to Heel Hold (throw).\nDamage () is throw bonus.\nBreak Throw is input<img src=\"../rp.bmp\" class=\"c\">during 2 to 13F ＆ damage 8.",
@@ -1341,7 +1363,7 @@
   "Damage" : "20(,18)",
   "Startup" : "23F"
 }, {
-  "Command" : "uf3+4 or fff3",
+  "Command" : "uf3+4",
   "Hit" : "KDN",
   "Block" : "-22",
   "Notes" : "TJ 3F\nMeaty 5F in actualy.",
@@ -1353,11 +1375,11 @@
   "Startup" : "24F"
 }, {
   "Command" : "uf4",
-  "Hit" : "+3C",
-  "Block" : "-6",
-  "Notes" : "TJ 9F\nNH force to crouching",
+  "Hit" : "+5C",
+  "Block" : "±0C",
+  "Notes" : "TJ 9F\nForced to crouching upon block or NH.\nMeaty 5F.\n",
   "Name" : "Leaping Axe Kick",
-  "Total" : "53",
+  "Total" : "51",
   "Counter Hit" : "KDN",
   "Property" : "M",
   "Damage" : "21",
@@ -1410,7 +1432,7 @@
   "Command" : "ufnd343",
   "Hit" : "+5C",
   "Block" : "+2C",
-  "Notes" : "Block or NH force to crouching\nMeaty 1F",
+  "Notes" : "Forced to crouching upon block or NH.\nMeaty 1F",
   "Name" : "Hopping Low Kick to Easy Prey",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -1454,7 +1476,7 @@
   "Command" : "ff4",
   "Hit" : "+9C",
   "Block" : "+16G",
-  "Notes" : "TJ 4F\nAdvance Input is unavailable.\nStart-up 29F in actualy.\nSelf-harm damage 5 after whiff.\nNH force to crouching.",
+  "Notes" : "TJ 4F\nAdvance Input is unavailable.\nStart-up 29F in actualy.\nSelf-harm damage 5 after whiff.\nForced to crouching upon NH..",
   "Name" : "Kneel Kick",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -1520,7 +1542,7 @@
   "Command" : "ddf4",
   "Hit" : "KDN",
   "Block" : "-37",
-  "Notes" : "TC 1F\nStart-up 20F is delay input.\nStart-up 28F on fast input.\nReturns to crouching.\nTo Standing on block.",
+  "Notes" : "TC 1F\nStart-up 20F is delay input.\nStart-up 28F on fast input.\nReturns to crouching.\nTo Standing on block.\n",
   "Name" : "Wipe the Floor",
   "Total" : "",
   "Counter Hit" : "KDN*",
@@ -1573,12 +1595,12 @@
   "Startup" : "20F"
 }, {
   "Command" : "fff34",
-  "Hit" : "LNC",
-  "Block" : "-15",
+  "Hit" : "KDN",
+  "Block" : "-13",
   "Notes" : "Combo from 1st hit.\n",
   "Name" : "Stingray",
   "Total" : "",
-  "Counter Hit" : "LNC",
+  "Counter Hit" : "KDN",
   "Property" : "M,M",
   "Damage" : "12,21",
   "Startup" : ""
@@ -1663,7 +1685,7 @@
   "Command" : " WS 14",
   "Hit" : "KDN",
   "Block" : "-3C",
-  "Notes" : "Block force to crouching",
+  "Notes" : "Forced to crouching upon block.",
   "Name" : "Diving Hornet",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -1817,7 +1839,7 @@
   "Command" : " SS 4",
   "Hit" : "+6C",
   "Block" : "-14",
-  "Notes" : "TC 6F\nNH force to crouching\n",
+  "Notes" : "TC 6F\nForced to crouching upon NH.\n",
   "Name" : "Heel Slicer",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -1839,7 +1861,7 @@
   "Command" : " While enemy is down d3+4",
   "Hit" : "-8C",
   "Block" : "-17",
-  "Notes" : "Hit force to Crouching.\n-8F on down hit.",
+  "Notes" : "Forced to crouching upon hit..\n-8F on down hit.",
   "Name" : "Twisted Mind",
   "Total" : "",
   "Counter Hit" : "-8C",
@@ -1905,7 +1927,7 @@
   "Command" : "ddff",
   "Hit" : "",
   "Block" : "",
-  "Notes" : "<img src=\"../2.bmp\" class=\"c\"><img src=\"../3.bmp\" class=\"c\"><img src=\"../6.bmp\" class=\"c\">☆ connect to WS moves.\nAdvance Input is unavailable.\nCost 2F.",
+  "Notes" : "<img src=\"../2.bmp\" class=\"c\"><img src=\"../3.bmp\" class=\"c\"><img src=\"../6.bmp\" class=\"c\">☆ connect to WS moves.\nAdvance Input is unavailable.\nCost 2F.\n",
   "Name" : "Rolling Dash",
   "Total" : "",
   "Counter Hit" : "",
@@ -1927,18 +1949,18 @@
   "Command" : "ddff2",
   "Hit" : "KDN",
   "Block" : "-8",
-  "Notes" : "Advance Input is unavailable.\nStart-up 22F in actualy.",
+  "Notes" : "Advance Input is unavailable.\nStart-up 19F in actualy.\nMeaty 1F.\n",
   "Name" : "Shut Up",
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "M",
   "Damage" : "25",
-  "Startup" : "20F"
+  "Startup" : "17F"
 }, {
   "Command" : "ddff3",
   "Hit" : "±0C",
   "Block" : "-20",
-  "Notes" : "TC 10F\nAdvance Input is unavailable.\nStart-up 21F in actualy.\nNH force to crouching.\nMeaty 7F.\n",
+  "Notes" : "TC 10F\nAdvance Input is unavailable.\nStart-up 21F in actualy.\nForced to crouching upon NH..\nMeaty 9F.\n",
   "Name" : "Sideslip",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -2120,7 +2142,7 @@
   "AfterThrow" : "CW Foot-sd Fac-Up",
   "Command" : "dfdf1",
   "Property" : "Th(H)",
-  "Notes" : "Floor Break 【S3 Patch Notes】– Increased the lower range of the attack."
+  "Notes" : "Floor Break Old Patch Notes (S3)– Increased the lower range of the attack."
 }, {
   "BreakThrow" : "-6F",
   "Name" : "Attack Reversal",
@@ -2136,7 +2158,7 @@
   "AfterThrow" : "±0F",
   "Command" : "ddff1+2",
   "Property" : "Th(H)",
-  "Notes" : "Disable Preciding Input Start-up 13F in actualy. S2 Patch Notes ・Hitbox expanded downward."
+  "Notes" : "Disable Preciding Input Start-up 13F in actualy. Old Patch Notes ・Hitbox expanded downward."
 }, {
   "BreakThrow" : "1+2 -4F",
   "Name" : "Seoi Gyaku Juji-gatame",
@@ -2232,7 +2254,7 @@
   "AfterThrow" : "Foot-sd Fac-Up",
   "Command" : "ddff3+4",
   "Property" : "Th(H)",
-  "Notes" : "Start-up 13F in actualy. S2 Patch Notes ・Hitbox expanded downward."
+  "Notes" : "Start-up 13F in actualy. Old Patch Notes ・Hitbox expanded downward."
 }, {
   "BreakThrow" : "1 ±0F",
   "Name" : "Commando Arm Lock",
@@ -2240,7 +2262,7 @@
   "AfterThrow" : "Head-sd Fac-Up",
   "Command" : " During Crab Hold 3+4341+2",
   "Property" : "-",
-  "Notes" : "When Break throw, revenge damage 8. S2 Patch Notes (Ver.2.20)・Decreased the recovery animation when thrown by 11 frames."
+  "Notes" : "When Break throw, revenge damage 8. Old Patch Notes (Ver.2.20)・Decreased the recovery animation when thrown by 11 frames."
 }, {
   "BreakThrow" : "2 ±0F",
   "Name" : "Heel Hold",
@@ -2248,7 +2270,7 @@
   "AfterThrow" : "Foot-sd Fac-Up",
   "Command" : " During Crab Hold 3+4421+2",
   "Property" : "-",
-  "Notes" : "Connect from Leaping Heel Hold（）. When Break throw, revenge damage 8. S2 Patch Notes (Ver.2.20)・Decreased the recovery animation when thrown by 11 frames."
+  "Notes" : "Connect from Leaping Heel Hold（）. When Break throw, revenge damage 8. Old Patch Notes (Ver.2.20)・Decreased the recovery animation when thrown by 11 frames."
 }, {
   "BreakThrow" : "1 -9F",
   "Name" : "Double Snap",

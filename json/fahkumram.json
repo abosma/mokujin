@@ -33,12 +33,12 @@
   "Startup" : ""
 }, {
   "Command" : "121",
-  "Hit" : "+7",
-  "Block" : "-6",
-  "Notes" : "Combo from 2nd CH.\nCan be delayed 12F.\nCombo can be delayed 8F from 2nd CH.",
+  "Hit" : "+3",
+  "Block" : "-10",
+  "Notes" : "Combo from 2nd CH.\nCan be delayed 12F.\nCombo can be delayed 8F from 2nd CH.\n",
   "Name" : "Ban Chiang Combination (3)",
   "Total" : "",
-  "Counter Hit" : "+7",
+  "Counter Hit" : "+3",
   "Property" : "H,H,M",
   "Damage" : "7,8,15",
   "Startup" : ""
@@ -46,7 +46,7 @@
   "Command" : "1214",
   "Hit" : "KDN",
   "Block" : "-11",
-  "Notes" : "Combo from 3rd hit.\nCan be delayed 14F.\nCombo can be delayed 12F fron 3rd hit.",
+  "Notes" : "Combo from 3rd hit.\nCan be delayed 14F.\nCombo can be delayed 11F fron 3rd hit.",
   "Name" : "Ban Chiang Combination",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -88,12 +88,12 @@
   "Startup" : ""
 }, {
   "Command" : "124 34",
-  "Hit" : "KDN",
+  "Hit" : "+11G",
   "Block" : "-5",
   "Notes" : "",
   "Name" : "Left Right Combo to Erupting Knee",
   "Total" : "",
-  "Counter Hit" : "KDN",
+  "Counter Hit" : "+11G",
   "Property" : "H,H,H,M",
   "Damage" : "7,8,16,20",
   "Startup" : ""
@@ -176,12 +176,12 @@
   "Startup" : ""
 }, {
   "Command" : "24 34",
-  "Hit" : "KDN",
+  "Hit" : "+11G",
   "Block" : "-5",
   "Notes" : "",
   "Name" : "Straight Punch to Erupting Knee",
   "Total" : "",
-  "Counter Hit" : "KDN",
+  "Counter Hit" : "+11G",
   "Property" : "H,H,M",
   "Damage" : "8,16,20",
   "Startup" : ""
@@ -230,6 +230,17 @@
   "Damage" : "11,12",
   "Startup" : ""
 }, {
+  "Command" : "312",
+  "Hit" : "+8",
+  "Block" : "±0",
+  "Notes" : "Combo from 2nd CH.\nCan be delayed.\n",
+  "Name" : "Teep to Lightning Straight",
+  "Total" : "",
+  "Counter Hit" : "+8",
+  "Property" : "M,H,H",
+  "Damage" : "11,12,20",
+  "Startup" : ""
+}, {
   "Command" : "314",
   "Hit" : "+3",
   "Block" : "-13",
@@ -255,12 +266,12 @@
   "Command" : "31d4",
   "Hit" : "-5",
   "Block" : "-16",
-  "Notes" : "Combo from 2nd CH.",
+  "Notes" : "Combo from 2nd CH.\n",
   "Name" : "Rumbling Thunder Teep",
   "Total" : "",
   "Counter Hit" : "+10G",
   "Property" : "M,H,L",
-  "Damage" : "11,12,18",
+  "Damage" : "11,12,15",
   "Startup" : ""
 }, {
   "Command" : "34",
@@ -275,12 +286,12 @@
   "Startup" : ""
 }, {
   "Command" : "3 43",
-  "Hit" : "KDN",
+  "Hit" : "+4",
   "Block" : "-7",
   "Notes" : "",
   "Name" : "Teep to Tornado Kick",
   "Total" : "",
-  "Counter Hit" : "KDN*",
+  "Counter Hit" : "KDN",
   "Property" : "M,M",
   "Damage" : "11,25",
   "Startup" : ""
@@ -341,12 +352,12 @@
   "Startup" : ""
 }, {
   "Command" : "4 34",
-  "Hit" : "KDN",
+  "Hit" : "+11G",
   "Block" : "-5",
   "Notes" : "",
   "Name" : "High Kick to Erupting Knee",
   "Total" : "",
-  "Counter Hit" : "KDN",
+  "Counter Hit" : "+11G",
   "Property" : "H,M",
   "Damage" : "14,20",
   "Startup" : ""
@@ -407,12 +418,12 @@
   "Startup" : ""
 }, {
   "Command" : "f3",
-  "Hit" : "+7A",
-  "Block" : "-4",
+  "Hit" : "+4",
+  "Block" : "-7",
   "Notes" : "Half Launch on hit.\n",
   "Name" : "Berserker Combination (1)",
   "Total" : "",
-  "Counter Hit" : "+7A",
+  "Counter Hit" : "+4A",
   "Property" : "M",
   "Damage" : "18",
   "Startup" : "17F"
@@ -451,12 +462,12 @@
   "Startup" : ""
 }, {
   "Command" : "f32 43",
-  "Hit" : "KDN",
+  "Hit" : "+4",
   "Block" : "-7",
   "Notes" : "",
   "Name" : "Berserker Combination to Tornado Kick",
   "Total" : "",
-  "Counter Hit" : "KDN*",
+  "Counter Hit" : "KDN",
   "Property" : "M,M,M",
   "Damage" : "18,16,25",
   "Startup" : ""
@@ -486,12 +497,12 @@
   "Command" : "f1+2",
   "Hit" : "KDN",
   "Block" : "-7",
-  "Notes" : "WB ",
+  "Notes" : "WB \n",
   "Name" : "Horizon Dash",
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "M",
-  "Damage" : "26",
+  "Damage" : "21",
   "Startup" : "21F"
 }, {
   "Command" : "f3+4",
@@ -506,12 +517,12 @@
   "Startup" : "25F"
 }, {
   "Command" : "df1",
-  "Hit" : "+8",
+  "Hit" : "+6",
   "Block" : "-3",
   "Notes" : "",
   "Name" : "Rising Thunder",
   "Total" : "",
-  "Counter Hit" : "+8",
+  "Counter Hit" : "+6",
   "Property" : "M",
   "Damage" : "10",
   "Startup" : "13F"
@@ -519,10 +530,10 @@
   "Command" : "df12",
   "Hit" : "+6",
   "Block" : "-3",
-  "Notes" : "Combo from 1st hit.",
+  "Notes" : "Combo from 1st hit.\n",
   "Name" : "Rising Thunder to Elbow Slash",
   "Total" : "",
-  "Counter Hit" : "KDN",
+  "Counter Hit" : "+6",
   "Property" : "M,H",
   "Damage" : "10,17",
   "Startup" : ""
@@ -551,8 +562,8 @@
 }, {
   "Command" : "df1 41",
   "Hit" : "+7C",
-  "Block" : "±0C",
-  "Notes" : "Forced to crouching on block or NH.",
+  "Block" : "-3C",
+  "Notes" : "Forced to crouching on block or NH.\n",
   "Name" : "Rising Thunder to Barbaric Elbow",
   "Total" : "",
   "Counter Hit" : "LNC",
@@ -579,7 +590,7 @@
   "Total" : "",
   "Counter Hit" : "LNC",
   "Property" : "M,L,M",
-  "Damage" : "10,15,25",
+  "Damage" : "10,15,23",
   "Startup" : ""
 }, {
   "Command" : "df2",
@@ -726,12 +737,12 @@
   "Startup" : ""
 }, {
   "Command" : "d34 34",
-  "Hit" : "KDN",
+  "Hit" : "+11G",
   "Block" : "-5",
   "Notes" : "",
   "Name" : "Left Low Kick to Erupting Knee",
   "Total" : "",
-  "Counter Hit" : "KDN",
+  "Counter Hit" : "+11G",
   "Property" : "L,H,M",
   "Damage" : "11,16,20",
   "Startup" : ""
@@ -770,12 +781,12 @@
   "Startup" : "14F"
 }, {
   "Command" : "d3+4",
-  "Hit" : "KDN",
+  "Hit" : "+1C",
   "Block" : "-13",
   "Notes" : "Punch Absorbs(H/M) during 3 to 10F.\nAir-mid status 11F.\nMeaty 4F.\n",
   "Name" : "Maelstorm",
   "Total" : "",
-  "Counter Hit" : "KDN",
+  "Counter Hit" : "+1C",
   "Property" : "AbsorbsPunch(HM),H",
   "Damage" : "20",
   "Startup" : "18F"
@@ -847,12 +858,12 @@
   "Startup" : "14F"
 }, {
   "Command" : "b2",
-  "Hit" : "-4",
+  "Hit" : "-6",
   "Block" : "-15",
   "Notes" : "",
   "Name" : "Backhand Blow",
   "Total" : "",
-  "Counter Hit" : "-4",
+  "Counter Hit" : "-6",
   "Property" : "H",
   "Damage" : "15",
   "Startup" : "14F"
@@ -896,7 +907,7 @@
   "Notes" : "H TS \n",
   "Name" : "Thundershock Kick",
   "Total" : "51",
-  "Counter Hit" : "KDN*",
+  "Counter Hit" : "KDN",
   "Property" : "H",
   "Damage" : "27",
   "Startup" : "16F"
@@ -913,12 +924,12 @@
   "Startup" : "14F"
 }, {
   "Command" : "b43",
-  "Hit" : "+2",
-  "Block" : "-9",
-  "Notes" : "Combo from 1st hit.",
+  "Hit" : "+1",
+  "Block" : "-10",
+  "Notes" : "Combo from 1st hit.\n",
   "Name" : "Triple Crush (2)",
   "Total" : "",
-  "Counter Hit" : "+2",
+  "Counter Hit" : "+1",
   "Property" : "M,M",
   "Damage" : "14,14",
   "Startup" : ""
@@ -959,7 +970,7 @@
   "Command" : "u or uf1",
   "Hit" : "LNC",
   "Block" : "-5",
-  "Notes" : "TJ 9F",
+  "Notes" : "TJ 9F\n",
   "Name" : "Thundercloud",
   "Total" : "58",
   "Counter Hit" : "LNC",
@@ -967,7 +978,7 @@
   "Damage" : "20",
   "Startup" : "28F"
 }, {
-  "Command" : "ub or u or uf2",
+  "Command" : "ub or u2",
   "Hit" : "+9",
   "Block" : "-12",
   "Notes" : "",
@@ -977,6 +988,17 @@
   "Property" : "H",
   "Damage" : "17",
   "Startup" : "15F"
+}, {
+  "Command" : "uf2",
+  "Hit" : "+10Sp",
+  "Block" : "-8",
+  "Notes" : "PC 8F\nMeaty 1F.\n",
+  "Name" : "Reverse Elbow",
+  "Total" : "",
+  "Counter Hit" : "+10Sp",
+  "Property" : "H",
+  "Damage" : "20",
+  "Startup" : "18F"
 }, {
   "Command" : "ub3",
   "Hit" : "KDN",
@@ -992,7 +1014,7 @@
   "Command" : "u or uf3",
   "Hit" : "KDN",
   "Block" : "-8",
-  "Notes" : "TJ 9F",
+  "Notes" : "TJ 9F\n",
   "Name" : "Flying Teep",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -1068,8 +1090,8 @@
 }, {
   "Command" : "ff 41",
   "Hit" : "+7C",
-  "Block" : "±0C",
-  "Notes" : "Start-up 21F after<img src=\"../6.bmp\" class=\"c\"><img src=\"../6'.bmp\" class=\"c\"><img src=\"../rk.bmp\" class=\"c\">18F.\nStart-up 40F in actualy.\nForced to crouching on block or NH.",
+  "Block" : "-3C",
+  "Notes" : "Start-up 21F after<img src=\"../6.bmp\" class=\"c\"><img src=\"../6'.bmp\" class=\"c\"><img src=\"../rk.bmp\" class=\"c\">18F.\nStart-up 40F in actualy.\nForced to crouching on block or NH.\n",
   "Name" : "Barbaric Elbow",
   "Total" : "",
   "Counter Hit" : "LNC",
@@ -1096,7 +1118,7 @@
   "Total" : "",
   "Counter Hit" : "LNC",
   "Property" : "L,M",
-  "Damage" : "15,25",
+  "Damage" : "15,23",
   "Startup" : ""
 }, {
   "Command" : "ff1+2",
@@ -1177,12 +1199,12 @@
   "Startup" : "12F"
 }, {
   "Command" : " WS 1",
-  "Hit" : "+7",
+  "Hit" : "+4",
   "Block" : "-4",
   "Notes" : "",
   "Name" : "Quick Elbow",
   "Total" : "36",
-  "Counter Hit" : "+7",
+  "Counter Hit" : "+4",
   "Property" : "M",
   "Damage" : "12",
   "Startup" : "13F"
@@ -1190,7 +1212,7 @@
   "Command" : " WS 12",
   "Hit" : "KDN",
   "Block" : "-9",
-  "Notes" : "Combo from 1st hit.\nCan be delayed 13F.\nCombo can be delayed 12F from 1st hit.",
+  "Notes" : "Combo from 1st hit.\nCan be delayed 13F.\nCombo can be delayed 9F from 1st hit.",
   "Name" : "Quick Elbow to Side Step Elbow",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -1221,12 +1243,12 @@
   "Startup" : ""
 }, {
   "Command" : "WS 2 43",
-  "Hit" : "KDN",
+  "Hit" : "+4",
   "Block" : "-7",
   "Notes" : "",
   "Name" : "Demon Horns to Tornado Kick",
   "Total" : "",
-  "Counter Hit" : "KDN*",
+  "Counter Hit" : "KDN",
   "Property" : "M,M",
   "Damage" : "13,25",
   "Startup" : ""
@@ -1294,13 +1316,13 @@
   "Total" : "",
   "Counter Hit" : "LNC",
   "Property" : "L,M",
-  "Damage" : "15,25",
+  "Damage" : "15,23",
   "Startup" : ""
 }, {
   "Command" : " SS 4",
   "Hit" : "LNC",
   "Block" : "-13",
-  "Notes" : "TJ 9F",
+  "Notes" : "TJ 9F\n",
   "Name" : "Sky Needle",
   "Total" : "",
   "Counter Hit" : "LNC",
@@ -1519,7 +1541,7 @@
   "AfterThrow" : "Head-sd. Face-up",
   "Command" : "df1+2",
   "Property" : "Th(H)",
-  "Notes" : "Wall Stun. (Ver.3.31)・Fixed an issue in which the input window for escaping throws was different than other characters."
+  "Notes" : "Wall Stun. Old Patch Notes (Ver.3.31)・Fixed an issue in which the input window for escaping throws was different than other characters."
 }, {
   "BreakThrow" : "",
   "Name" : "Triple Vengeance",

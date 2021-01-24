@@ -46,12 +46,12 @@
   "Command" : "21",
   "Hit" : "+7",
   "Block" : "-1",
-  "Notes" : "Combo from 1st NH.\n",
+  "Notes" : "Combo from 1st hit.\n",
   "Name" : "Jab Uppercut",
   "Total" : "",
   "Counter Hit" : "+7",
   "Property" : "H,M",
-  "Damage" : "10,12",
+  "Damage" : "10,15",
   "Startup" : ""
 }, {
   "Command" : "3",
@@ -123,12 +123,12 @@
   "Command" : "3+4",
   "Hit" : "+3",
   "Block" : "-7",
-  "Notes" : "TJ 11F\nMeaty 7F",
+  "Notes" : "TJ 11F\nMeaty 7F.\n",
   "Name" : "Round Out Kick",
   "Total" : "",
   "Counter Hit" : "+3",
   "Property" : "M",
-  "Damage" : "10",
+  "Damage" : "14",
   "Startup" : "25F"
 }, {
   "Command" : "3+41",
@@ -139,18 +139,18 @@
   "Total" : "",
   "Counter Hit" : "Th",
   "Property" : "M,M,Th",
-  "Damage" : "10,25(,5)",
+  "Damage" : "14,25(,5)",
   "Startup" : ""
 }, {
   "Command" : "3+41",
   "Hit" : "+2C",
   "Block" : "±0",
-  "Notes" : "TJ \nHit force to Crouching.\nMeaty 9F in actualy.",
+  "Notes" : "TJ \nForced to crouching upon hit..\nMeaty 9F in actualy.",
   "Name" : "Round Out Body Press",
   "Total" : "",
   "Counter Hit" : "+2C",
   "Property" : "M,M",
-  "Damage" : "10,25",
+  "Damage" : "14,25",
   "Startup" : ""
 }, {
   "Command" : "3+42",
@@ -161,7 +161,7 @@
   "Total" : "",
   "Counter Hit" : "KDN*",
   "Property" : "M,M",
-  "Damage" : "10,25",
+  "Damage" : "14,25",
   "Startup" : ""
 }, {
   "Command" : "1+4",
@@ -194,7 +194,7 @@
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "M,H",
-  "Damage" : "12,20",
+  "Damage" : "12,25",
   "Startup" : ""
 }, {
   "Command" : "f3",
@@ -244,7 +244,7 @@
   "Command" : "f4",
   "Hit" : "+7C",
   "Block" : "+2C",
-  "Notes" : "Block or NH force to Crouching.\nMeaty 5F.\n",
+  "Notes" : "Forced to crouching upon block or NH..\nMeaty 5F.\n",
   "Name" : "Wind-Up Stomp",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -286,9 +286,9 @@
   "Startup" : "13F"
 }, {
   "Command" : "df2",
-  "Hit" : "-1",
+  "Hit" : "+4",
   "Block" : "-12",
-  "Notes" : "10 Hit Combo start.\nWhen input<img src=\"../lp.bmp\" class=\"c\">, Not Knock Down from CH.",
+  "Notes" : "10 Hit Combo start.\nWhen input<img src=\"../lp.bmp\" class=\"c\">, Not Knock Down from CH.\n",
   "Name" : "Concussion Hook",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -299,7 +299,7 @@
   "Command" : "df21",
   "Hit" : "-1",
   "Block" : "-12G",
-  "Notes" : "Combo from 1st NH.\nAdvance Input is unavailable after moving.",
+  "Notes" : "Combo from 1st hit.\nAdvance Input is unavailable after moving.",
   "Name" : "10 Hit Combo (2)",
   "Total" : "",
   "Counter Hit" : "-1",
@@ -494,10 +494,21 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
+  "Command" : " During Shadow Step 1",
+  "Hit" : "+8",
+  "Block" : "+1",
+  "Notes" : "",
+  "Name" : "Shadow Needle",
+  "Total" : "",
+  "Counter Hit" : "KDN",
+  "Property" : "H",
+  "Damage" : "13",
+  "Startup" : "11F"
+}, {
   "Command" : " During Shadow Step 2",
   "Hit" : "+5C",
   "Block" : "-13",
-  "Notes" : "TC \nReturns to crouching.\n",
+  "Notes" : "TS TC \nReturns to crouching.\n",
   "Name" : "Shadow Sweep",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -508,7 +519,7 @@
   "Command" : " During Shadow Step 1+2",
   "Hit" : "Th",
   "Block" : "-19C",
-  "Notes" : "TC \nDamage () is throw bonus.\nBlock force to Crouching.",
+  "Notes" : "TC \nDamage () is throw bonus.\nForced to crouching upon block..",
   "Name" : "Shadow Press",
   "Total" : "",
   "Counter Hit" : "Th",
@@ -541,7 +552,7 @@
   "Command" : "db24",
   "Hit" : "+13Sp",
   "Block" : "-9",
-  "Notes" : "TS \nCombo from 1st NH.\n",
+  "Notes" : "TS \nCombo from 1st hit.\n",
   "Name" : "Dark PK Combo",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -552,12 +563,12 @@
   "Command" : "db3",
   "Hit" : "+5",
   "Block" : "-26",
-  "Notes" : "TC 8F\nReturns to crouching.\nMeaty 2F.",
+  "Notes" : "H TC 8F\nReturns to crouching.\nMeaty 2F.\n",
   "Name" : "Foot Sweep",
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "L",
-  "Damage" : "20",
+  "Damage" : "23",
   "Startup" : "23F"
 }, {
   "Command" : "db4",
@@ -612,7 +623,7 @@
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "H,M",
-  "Damage" : "12,15",
+  "Damage" : "12,17",
   "Startup" : ""
 }, {
   "Command" : "b2",
@@ -660,12 +671,12 @@
   "Startup" : "16F"
 }, {
   "Command" : "b4",
-  "Hit" : "±0",
-  "Block" : "-11",
+  "Hit" : "+2",
+  "Block" : "-9",
   "Notes" : "",
   "Name" : "Toe Kick",
   "Total" : "",
-  "Counter Hit" : "±0",
+  "Counter Hit" : "+2",
   "Property" : "M",
   "Damage" : "15",
   "Startup" : "15F"
@@ -728,7 +739,7 @@
   "Command" : "u or uf1",
   "Hit" : "-1",
   "Block" : "-12",
-  "Notes" : "TJ 9F",
+  "Notes" : "TJ 9F\n",
   "Name" : "Jumping Knuckle",
   "Total" : "",
   "Counter Hit" : "-1",
@@ -794,7 +805,7 @@
   "Command" : "uf4",
   "Hit" : "LNC",
   "Block" : "-13",
-  "Notes" : "TJ 9F",
+  "Notes" : "TJ 9F\n",
   "Name" : "Rising Toe Kick",
   "Total" : "",
   "Counter Hit" : "LNC",
@@ -903,8 +914,8 @@
 }, {
   "Command" : "ff2",
   "Hit" : "KDN",
-  "Block" : "-11",
-  "Notes" : "Advance Input is unavailable\nStart-up 17F in actualy",
+  "Block" : "-8",
+  "Notes" : "Advance Input is unavailable\nStart-up 17F in actualy\n",
   "Name" : "Solar Plexus Punch",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -925,8 +936,8 @@
 }, {
   "Command" : "ff3",
   "Hit" : "KDN",
-  "Block" : "±0",
-  "Notes" : "H TS \nAdvance Input is unavailable\nStart-up 18F in actualy",
+  "Block" : "+2",
+  "Notes" : "H TS \nAdvance Input is unavailable\nStart-up 18F in actualy\n",
   "Name" : "Comeback Kick",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -981,7 +992,7 @@
   "Command" : "fff3",
   "Hit" : "KDN",
   "Block" : "+10G",
-  "Notes" : "TJ 3F\nMeaty 2F",
+  "Notes" : "TJ 3F\nMeaty 2F\n",
   "Name" : "Flying Brawler Kick",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -1067,9 +1078,9 @@
   "Startup" : "16F"
 }, {
   "Command" : " WS 2",
-  "Hit" : "+2",
-  "Block" : "-10",
-  "Notes" : "Input<img src=\"../8'.bmp\" class=\"c\">after CH to Charging.",
+  "Hit" : "+3",
+  "Block" : "-9",
+  "Notes" : "Input<img src=\"../8'.bmp\" class=\"c\">after CH to Charging.\n",
   "Name" : "Jugular Thrust",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -1458,7 +1469,7 @@
   "AfterThrow" : "Head-sd Fac-Up",
   "Command" : "dbf2+4",
   "Property" : "Th(H)",
-  "Notes" : "Floor Break."
+  "Notes" : "Floor Break. (Ver.4.00) - Increased the move’s tracking."
 }, {
   "BreakThrow" : "1+2 -6F",
   "Name" : "DDT",
@@ -1474,7 +1485,7 @@
   "AfterThrow" : "Head-sd Fac-Up",
   "Command" : "ddbb1+2",
   "Property" : "Th(H)",
-  "Notes" : "Disable Preciding Input"
+  "Notes" : "(Ver.4.00) - Input buffering can now be performed. - Fixed an issue in which the move could not be performed when the input of was delayed."
 }, {
   "BreakThrow" : "1 -7F CCW",
   "Name" : "Double Arm Swing",
@@ -1482,7 +1493,7 @@
   "AfterThrow" : "RP Foot-sd Fac-Dwn",
   "Command" : "fbdbddff1",
   "Property" : "Th(H)",
-  "Notes" : "Easy Command Ukemi Input 3F. Damage () is bonus after fail Ukemi., Wall Damage 70."
+  "Notes" : "Easy Command Ukemi Input 3F. Damage () is bonus after fail Ukemi., Wall Damage 70. (Ver.4.00) - Increased the move’s tracking."
 }, {
   "BreakThrow" : "1+2 -5F",
   "Name" : "Brilliant Brawler Kick",
@@ -1538,7 +1549,7 @@
   "AfterThrow" : "",
   "Command" : " During Catch 2",
   "Property" : "SP,M",
-  "Notes" : "Block -10F. NH +2F. CH Knock Down. S2 Patch Notes ・New Move."
+  "Notes" : "Block -10F. NH +2F. CH Knock Down. Old Patch Notes ・New Move."
 }, {
   "BreakThrow" : "2 or 1+2 -5F",
   "Name" : "Ultimate Tackle",
@@ -1554,7 +1565,7 @@
   "AfterThrow" : "Left-sd Fac-Up",
   "Command" : "3+4 Hold ",
   "Property" : "M,Th(H)",
-  "Notes" : "S2 Patch Notes ・New Move."
+  "Notes" : "Old Patch Notes ・New Move."
 }, {
   "BreakThrow" : "disable ",
   "Name" : "Wall Jump Attack",
@@ -1562,7 +1573,7 @@
   "AfterThrow" : "Left-sd Fac-Up",
   "Command" : "bbub with back against wall ",
   "Property" : "Th(H)",
-  "Notes" : "Disable Preciding Input S2 Patch Notes ・New Move."
+  "Notes" : "Disable Preciding Input Old Patch Notes ・New Move."
 }, {
   "BreakThrow" : "1 ±0F",
   "Name" : "Stand Up",
@@ -1578,7 +1589,7 @@
   "AfterThrow" : "RP Foot-sd Fac-Dwn",
   "Command" : " Enemy on back by the feet db1+3",
   "Property" : "Th(H)",
-  "Notes" : "Throw break 7F. Wall Damage 45. S2 Patch Notes (Ver.2.20)・Shortened the recovery animation by 7F."
+  "Notes" : "Throw break 7F. Wall Damage 45. Old Patch Notes (Ver.2.20)・Shortened the recovery animation by 7F."
 }, {
   "BreakThrow" : "2 +1F",
   "Name" : "Enzui Knee",

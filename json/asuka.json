@@ -79,7 +79,7 @@
   "Command" : "14",
   "Hit" : "±0",
   "Block" : "-11",
-  "Notes" : "TC \nConnect to Leg Cutter （<img src=\"../1.bmp\" class=\"c\"><img src=\"../lk.bmp\" class=\"c\">）\nCombo from 1st NH\n",
+  "Notes" : "TC \nConnect to Leg Cutter （<img src=\"../1.bmp\" class=\"c\"><img src=\"../rk.bmp\" class=\"c\">）\nCombo from 1st NH\n",
   "Name" : "Jab Leg Cutter",
   "Total" : "",
   "Counter Hit" : "+3",
@@ -112,7 +112,7 @@
   "Command" : "21",
   "Hit" : "+8",
   "Block" : "-3",
-  "Notes" : "Combo from 1st NH",
+  "Notes" : "Combo from 1st hit.\n",
   "Name" : "Basho's Dance(2)",
   "Total" : "",
   "Counter Hit" : "+8",
@@ -122,8 +122,8 @@
 }, {
   "Command" : "211+2",
   "Hit" : "KDN",
-  "Block" : "-9",
-  "Notes" : "TS \nCombo from 2nd CH.",
+  "Block" : "-6",
+  "Notes" : "TS \nCombo from 2nd CH.\n",
   "Name" : "Basho's Dance",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -316,7 +316,7 @@
   "Counter Hit" : "KDN",
   "Property" : "AbsorbsPunch(HM),H",
   "Damage" : "21",
-  "Startup" : "28F"
+  "Startup" : "23F"
 }, {
   "Command" : "f2",
   "Hit" : "LNC",
@@ -409,12 +409,12 @@
   "Command" : "df12",
   "Hit" : "Th",
   "Block" : "-1",
-  "Notes" : "Damage () is Throw\nCombo from 1st CH\nCan be delayed 7F",
+  "Notes" : "Damage () is Throw\nCombo from 1st CH\nCan be delayed 7F\n",
   "Name" : "Falling Tower",
   "Total" : "",
   "Counter Hit" : "Th",
   "Property" : "M,H(,Th)",
-  "Damage" : "10,13(,20)",
+  "Damage" : "10,13(,25)",
   "Startup" : ""
 }, {
   "Command" : "df14",
@@ -475,7 +475,7 @@
   "Command" : "d2",
   "Hit" : "+9C",
   "Block" : "-4C",
-  "Notes" : "Block or NH force to crouching",
+  "Notes" : "Forced to crouching upon block or NH.",
   "Name" : "Heaven's Hammer",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -528,12 +528,12 @@
   "Startup" : "14F"
 }, {
   "Command" : "db1",
-  "Hit" : "+4",
+  "Hit" : "+7",
   "Block" : "-9",
   "Notes" : "TC 6F\n",
   "Name" : "Swallow Slice",
   "Total" : "",
-  "Counter Hit" : "+9",
+  "Counter Hit" : "+7",
   "Property" : "M",
   "Damage" : "13",
   "Startup" : "14F"
@@ -541,7 +541,7 @@
   "Command" : "db12",
   "Hit" : "KDN",
   "Block" : "-9",
-  "Notes" : "TS \nCombo from 1st hit.\n",
+  "Notes" : "TS \nCombo from 1st hit.\nCan be delayed 9F.\nCombo can be delayed 9F from 1st hit.\n",
   "Name" : "",
   "Total" : "",
   "Counter Hit" : "KDN*",
@@ -558,12 +558,12 @@
   "Counter Hit" : "LNC",
   "Property" : "M",
   "Damage" : "22",
-  "Startup" : "23F"
+  "Startup" : "20F"
 }, {
   "Command" : "db3",
   "Hit" : "+4C",
   "Block" : "-12",
-  "Notes" : "Hit force to crouching\n",
+  "Notes" : "Forced to crouching upon hit.\n",
   "Name" : "Enchanted Circle",
   "Total" : "",
   "Counter Hit" : "+14G",
@@ -582,10 +582,21 @@
   "Damage" : "17(,22)",
   "Startup" : "29F"
 }, {
+  "Command" : "",
+  "Hit" : "",
+  "Block" : "",
+  "Notes" : "TC 6F\nReturns to crouching.\n",
+  "Name" : "",
+  "Total" : "39",
+  "Counter Hit" : "",
+  "Property" : "SP",
+  "Damage" : "-",
+  "Startup" : ""
+}, {
   "Command" : "b2",
   "Hit" : "+1C",
   "Block" : "-4C",
-  "Notes" : "Block or hit force to crouching",
+  "Notes" : "Forced to crouching upon block or hit.",
   "Name" : "Swallow Mallet",
   "Total" : "",
   "Counter Hit" : "+１C",
@@ -651,7 +662,7 @@
   "Command" : "b21+24",
   "Hit" : "KDN",
   "Block" : "-13",
-  "Notes" : "TS \nCombo from 2nd CH",
+  "Notes" : "TS \nCombo from 2nd CH\n",
   "Name" : "Swallow Mallet Combo",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -716,7 +727,7 @@
 }, {
   "Command" : "b4",
   "Hit" : "+8",
-  "Block" : "-8",
+  "Block" : "-7",
   "Notes" : "",
   "Name" : "Heart Stopper",
   "Total" : "45",
@@ -728,7 +739,7 @@
   "Command" : "b42",
   "Hit" : "+4C",
   "Block" : "-12",
-  "Notes" : "NH force to crouching\nCan be delayed 15F",
+  "Notes" : "Forced to crouching upon NH.\nCan be delayed 15F",
   "Name" : "Tsuwabuki",
   "Total" : "",
   "Counter Hit" : "+4C",
@@ -780,6 +791,17 @@
   "Damage" : "15,8,23",
   "Startup" : ""
 }, {
+  "Command" : "b2+3",
+  "Hit" : "+6",
+  "Block" : "-9",
+  "Notes" : "Kick Absorbs (H/M) during 4 to 15F.\n",
+  "Name" : "Azalea",
+  "Total" : "",
+  "Counter Hit" : "+6",
+  "Property" : "M",
+  "Damage" : "23",
+  "Startup" : "24F"
+}, {
   "Command" : "ub or u or uf1",
   "Hit" : "-1",
   "Block" : "-12",
@@ -805,12 +827,12 @@
   "Command" : "uf2",
   "Hit" : "Th",
   "Block" : "-7",
-  "Notes" : "Damage () is Throw",
+  "Notes" : "Damage () is Throw\n",
   "Name" : "Rangetsu",
   "Total" : "42",
   "Counter Hit" : "Th",
   "Property" : "H(,Th)",
-  "Damage" : "20(,20)",
+  "Damage" : "20(,25)",
   "Startup" : "14F"
 }, {
   "Command" : "ub or u or uf3",
@@ -959,7 +981,7 @@
   "Command" : "fff3",
   "Hit" : "KDN",
   "Block" : "±0",
-  "Notes" : "TJ 3F\nMeaty 4F",
+  "Notes" : "TJ 3F\nMeaty 4F\n",
   "Name" : "Spinning Jump Kick",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -1014,7 +1036,7 @@
   "Command" : " FC 3+4",
   "Hit" : "+5C",
   "Block" : "-6",
-  "Notes" : "TJ 13F\nHit force to crouching",
+  "Notes" : "TJ 13F\nForced to crouching upon hit.",
   "Name" : "Twin Cloud Kicks(2)",
   "Total" : "",
   "Counter Hit" : "+5C",
@@ -1025,7 +1047,7 @@
   "Command" : " FC 3+4d",
   "Hit" : "+5C",
   "Block" : "-6",
-  "Notes" : "TJ 13F\nReturns to crouching.\nHit force to crouching",
+  "Notes" : "TJ 13F\nReturns to crouching.\nForced to crouching upon hit.",
   "Name" : "Twin Cloud Kicks(2) to Crouching",
   "Total" : "",
   "Counter Hit" : "+5C",
@@ -1036,7 +1058,7 @@
   "Command" : " FC 3+43",
   "Hit" : "KDN",
   "Block" : "±0C",
-  "Notes" : "TJ \nBlock force to crouching\nInterruption 11F after 2nd block",
+  "Notes" : "TJ \nForced to crouching upon block.\nInterruption 11F after 2nd block",
   "Name" : "Twin Cloud Kicks",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -1047,7 +1069,7 @@
   "Command" : " FC 3+43d",
   "Hit" : "KDN",
   "Block" : "±0C",
-  "Notes" : "TJ \nReturns to crouching.\nBlock force to crouching",
+  "Notes" : "TJ \nReturns to crouching.\nForced to crouching upon block.",
   "Name" : "Twin Cloud Kicks to Crouching",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -1068,8 +1090,8 @@
 }, {
   "Command" : " WS 14",
   "Hit" : "KDN",
-  "Block" : "-12",
-  "Notes" : "Combo from 1st NH",
+  "Block" : "-8",
+  "Notes" : "Combo from 1st hit.\nCan be delayed 7F.\n",
   "Name" : "Shikeitai",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -1421,7 +1443,7 @@
   "Command" : " During Rage ff1+2",
   "Hit" : "LNC",
   "Block" : "+11G",
-  "Notes" : "Special effect when approach mid-air enemy\nBlock force to crouching\n",
+  "Notes" : "Special effect when approach mid-air enemy\nForced to crouching upon block.\n",
   "Name" : "Rage Drive",
   "Total" : "",
   "Counter Hit" : "LNC",
@@ -1531,7 +1553,7 @@
   "AfterThrow" : "RP Foot-sd Fac-Up",
   "Command" : "b1+3 or b2+4",
   "Property" : "Reversal(HM)",
-  "Notes" : "Reversal against attack(H/M) during 3 to 12F Damage 25 + 50% of enemy attack Reversal to Reversal command or during 7F damage 15"
+  "Notes" : "Reversal against attack(H/M) during 3 to 12F Damage 25 + 50% of enemy attack Reversal to Reversal command or during 7F damage 15 (Ver.4.00) - Shortened the recovery time by 5F."
 }, {
   "BreakThrow" : "-6F",
   "Name" : "Attack Reversal (Hold)",
@@ -1539,5 +1561,5 @@
   "AfterThrow" : "RP Foot-sd Fac-Up",
   "Command" : "b1+3 or b2+4 Hold ",
   "Property" : "Reversal(HM)",
-  "Notes" : "Reversal against attack(H/M) during 3 to 54F Damage 25 + 50% of enemy atack Reversal to Reversal command or during 7F damage 15"
+  "Notes" : "Reversal against attack(H/M) during 3 to 54F Damage 25 + 50% of enemy atack Reversal to Reversal command or during 7F damage 15 (Ver.4.00) - Shortened the recovery time by 5F."
 } ]

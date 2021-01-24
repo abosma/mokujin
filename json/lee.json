@@ -110,12 +110,12 @@
   "Startup" : ""
 }, {
   "Command" : "133(:)",
-  "Hit" : "+1",
-  "Block" : "-10",
-  "Notes" : "Combo from 1st NH",
+  "Hit" : "±0",
+  "Block" : "-11",
+  "Notes" : "Combo from 1st hit.\n",
   "Name" : "Acid Rain Kick Combination (3)",
   "Total" : "",
-  "Counter Hit" : "+1",
+  "Counter Hit" : "±0",
   "Property" : "H,H,M",
   "Damage" : "7,5,4",
   "Startup" : ""
@@ -277,12 +277,12 @@
   "Command" : "33 (when hit or guarded) 4",
   "Hit" : "Th",
   "Block" : "上投",
-  "Notes" : "Input timing is 1F after hit.\nEnable on mid-air hit.\nDamage () is throw bonus.",
+  "Notes" : "Input timing is 1F after hit.\nEnable on mid-air hit.\nDamage () is throw bonus.\n",
   "Name" : "Mist Trap Throw",
   "Total" : "",
   "Counter Hit" : "Th",
   "Property" : "H,Th(H)",
-  "Damage" : "18(,15,5)",
+  "Damage" : "18(,15,10)",
   "Startup" : ""
 }, {
   "Command" : "4",
@@ -310,7 +310,7 @@
   "Command" : "433",
   "Hit" : "KDN",
   "Block" : "-13",
-  "Notes" : "NH force to crouching\nCombo from 2nd CH\nCan be delayed 11F\nCombo can be delayed 11F\nMeaty 1F in actualy\n",
+  "Notes" : "Forced to crouching upon NH.\nCombo from 2nd CH\nCan be delayed 11F\nCombo can be delayed 11F\nMeaty 1F in actualy\n",
   "Name" : "Spinning Hammer Kick",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -409,7 +409,7 @@
   "Command" : "f21",
   "Hit" : "KDN",
   "Block" : "-10",
-  "Notes" : "Combo from 1st NH\nCan be delayed 13F\nCombo can be delayed 11F",
+  "Notes" : "Combo from 1st hit.\nCan be delayed 13F.\nCombo can be delayed 11F.\n",
   "Name" : "Double Signal",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -519,7 +519,7 @@
   "Command" : "f43",
   "Hit" : "+6C",
   "Block" : "-8",
-  "Notes" : "NH force to crouching\nCombo from 1st CH\nCan be delayed 16F\nCounter Combo can be delayed 9F\nMeaty 2F",
+  "Notes" : "Forced to crouching upon NH.\nCombo from 1st CH\nCan be delayed 16F\nCounter Combo can be delayed 9F\nMeaty 2F",
   "Name" : "Deadly Arc",
   "Total" : "",
   "Counter Hit" : "LNC",
@@ -530,7 +530,7 @@
   "Command" : "f433+4",
   "Hit" : "+6C",
   "Block" : "-4",
-  "Notes" : "NH force to crouching\nCombo from 1st CH\nCan be delayed 16F\nCounter Combo can be delayed 9F",
+  "Notes" : "Forced to crouching upon NH.\nCombo from 1st CH\nCan be delayed 16F\nCounter Combo can be delayed 9F",
   "Name" : "Deadly Arc to Hitman",
   "Total" : "",
   "Counter Hit" : "LNC",
@@ -541,18 +541,18 @@
   "Command" : "f1+2",
   "Hit" : "KDN",
   "Block" : "-13",
-  "Notes" : "Combo from 1st NH\n",
+  "Notes" : "Combo from 1st hit.\n",
   "Name" : "Aggressive One-Two",
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "HH",
-  "Damage" : "10,24",
+  "Damage" : "10,20",
   "Startup" : "13F"
 }, {
   "Command" : "f3+4",
   "Hit" : "+8C",
   "Block" : "+4C",
-  "Notes" : "TJ 14F\nBlock or Hit force to crouching.\nReturns to crouching.\nMeaty 1F in actualy.",
+  "Notes" : "TJ 14F\nForced to crouching upon block or hit..\nReturns to crouching.\nMeaty 1F in actualy.",
   "Name" : "Feather Landing",
   "Total" : "",
   "Counter Hit" : "+8C",
@@ -628,8 +628,8 @@
 }, {
   "Command" : "df323",
   "Hit" : "LNC",
-  "Block" : "-16",
-  "Notes" : "Combo from 2nd CH\nCan be delayed 11F\nCounter Combo can be delayed 8F",
+  "Block" : "-14",
+  "Notes" : "Combo from 2nd CH.\nCan be delayed 11F.\nCounter Combo can be delayed 8F.\n",
   "Name" : "Mercury Drive",
   "Total" : "",
   "Counter Hit" : "LNC",
@@ -709,9 +709,9 @@
   "Notes" : "",
   "Name" : "Gut Polisher",
   "Total" : "",
-  "Counter Hit" : "+8",
+  "Counter Hit" : "KDN",
   "Property" : "M",
-  "Damage" : "18",
+  "Damage" : "17",
   "Startup" : "18F"
 }, {
   "Command" : "d3",
@@ -1080,23 +1080,23 @@
   "Command" : "b4",
   "Hit" : "+7C",
   "Block" : "-3",
-  "Notes" : "NH force to crouching.\nKnock Down on crouch hit.\nMeaty 2F in actualy.\n",
+  "Notes" : "Forced to crouching upon NH..\nKnock Down on crouch hit.\nMeaty 2F in actualy.\n",
   "Name" : "Silver Heel",
   "Total" : "42",
   "Counter Hit" : "LNC",
   "Property" : "M",
-  "Damage" : "22",
+  "Damage" : "20",
   "Startup" : "20F"
 }, {
   "Command" : "b43",
   "Hit" : "+8C",
   "Block" : "-2",
-  "Notes" : "NH force to crouching.\nKnock Down on crouch hit.\nMeaty 2F in actualy.",
+  "Notes" : "Forced to crouching upon NH..\nKnock Down on crouch hit.\nMeaty 2F in actualy.",
   "Name" : "Silver Heel to Hitman",
   "Total" : "",
   "Counter Hit" : "LNC",
   "Property" : "M,SP",
-  "Damage" : "22",
+  "Damage" : "20",
   "Startup" : "20F"
 }, {
   "Command" : "b3+4",
@@ -1107,7 +1107,7 @@
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "M",
-  "Damage" : "25",
+  "Damage" : "20",
   "Startup" : "20F"
 }, {
   "Command" : "ub or u or uf1",
@@ -1179,7 +1179,7 @@
   "Command" : "uf3",
   "Hit" : "+2",
   "Block" : "-9",
-  "Notes" : "TJ 12F",
+  "Notes" : "TJ 12F\n",
   "Name" : "Brilliant Rosé (1)",
   "Total" : "",
   "Counter Hit" : "+2",
@@ -1441,15 +1441,37 @@
   "Startup" : "12F"
 }, {
   "Command" : " WS 1",
-  "Hit" : "+9",
+  "Hit" : "+7",
   "Block" : "-2",
   "Notes" : "",
-  "Name" : "Uppercut",
+  "Name" : "Wonderful Combo (1)",
   "Total" : "",
-  "Counter Hit" : "+9",
+  "Counter Hit" : "+7",
   "Property" : "M",
-  "Damage" : "12",
-  "Startup" : "12F"
+  "Damage" : "13",
+  "Startup" : "13F"
+}, {
+  "Command" : " WS 14",
+  "Hit" : "+4",
+  "Block" : "-5",
+  "Notes" : "Combo from 1st hit.\n",
+  "Name" : "Wonderful Combo",
+  "Total" : "",
+  "Counter Hit" : "+4",
+  "Property" : "M,H",
+  "Damage" : "13,17",
+  "Startup" : ""
+}, {
+  "Command" : " WS 143",
+  "Hit" : "+1",
+  "Block" : "-8",
+  "Notes" : "Combo from 1st hit.\n",
+  "Name" : "Wonderful Combo to Hitman",
+  "Total" : "",
+  "Counter Hit" : "+1",
+  "Property" : "M,H,SP",
+  "Damage" : "13,17",
+  "Startup" : ""
 }, {
   "Command" : " WS 2",
   "Hit" : "+3",
@@ -1498,7 +1520,7 @@
   "Command" : " WS 33",
   "Hit" : "-4C",
   "Block" : "-15",
-  "Notes" : "Combo from 1st NH.\nHit force to crouching.\nMeaty 2F.\n",
+  "Notes" : "Combo from 1st NH.\nForced to crouching upon hit..\nMeaty 2F.\n",
   "Name" : "Infinite Kick Chain 1 (2)",
   "Total" : "",
   "Counter Hit" : "-4C",
@@ -1597,7 +1619,7 @@
   "Command" : " WS 334",
   "Hit" : "-4C",
   "Block" : "-15",
-  "Notes" : "Combo from 1st NH.\nHit force to crouching.\nMeaty 2F.\n",
+  "Notes" : "Combo from 1st NH.\nForced to crouching upon hit..\nMeaty 2F.\n",
   "Name" : "Infinite Kick Chain 1 (2) to Hitman",
   "Total" : "",
   "Counter Hit" : "-4C",
@@ -1750,8 +1772,8 @@
 }, {
   "Command" : " SS (right) 3+4",
   "Hit" : "KDN",
-  "Block" : "-11",
-  "Notes" : "TS ",
+  "Block" : "-9",
+  "Notes" : "TS \n",
   "Name" : "Lee Screw Left",
   "Total" : "",
   "Counter Hit" : "KDN*",
@@ -1761,8 +1783,8 @@
 }, {
   "Command" : " SS (right) 3+44",
   "Hit" : "KDN",
-  "Block" : "-14",
-  "Notes" : "TS ",
+  "Block" : "-12",
+  "Notes" : "TS \n",
   "Name" : "Lee Screw Left to Hitman",
   "Total" : "",
   "Counter Hit" : "KDN*",
@@ -1947,9 +1969,9 @@
   "Startup" : ""
 }, {
   "Command" : " During Hitman 14",
-  "Hit" : "±0",
+  "Hit" : "+2",
   "Block" : "-8",
-  "Notes" : "Combo from 1st NH\n",
+  "Notes" : "Combo from 1st hit.\nCan be delayed 10F.\nCombo can be delayed 10F from 1st hit.\n",
   "Name" : "Excellent Combo",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -1958,9 +1980,9 @@
   "Startup" : ""
 }, {
   "Command" : " During Hitman 143",
-  "Hit" : "±0",
+  "Hit" : "+2",
   "Block" : "-8",
-  "Notes" : "Combo from 1st NH",
+  "Notes" : "Combo from 1st NH\n",
   "Name" : "Excellent Combo to Hitman",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -2037,7 +2059,7 @@
   "Command" : " During Hitman uf4",
   "Hit" : "KDN",
   "Block" : "-8C",
-  "Notes" : "TJ 16F\nDisable Jump Cancel.\nBlock force to crouching.\nMeaty 2F in actualy.",
+  "Notes" : "TJ 16F\nDisable Jump Cancel.\nForced to crouching upon block..\nMeaty 2F in actualy.",
   "Name" : "Silver Circle",
   "Total" : "",
   "Counter Hit" : "LNC",
@@ -2111,7 +2133,7 @@
   "Damage" : "18",
   "Startup" : "21F"
 }, {
-  "Command" : " During Rage d1+2",
+  "Command" : " During Rage d1+2 or During Rage ＆ Hitman d1+2",
   "Hit" : "Th",
   "Block" : "-22",
   "Notes" : "Guard Point 8F\n",
@@ -2190,7 +2212,7 @@
   "AfterThrow" : "Foot-sd Fac-Up",
   "Command" : "ff3+4",
   "Property" : "Th(H)",
-  "Notes" : "Damage () is wall bonus. Wall Stun. S2 Patch Notes (Ver.2.20)・Fixed an issue in which the move could not be input in advance."
+  "Notes" : "Damage () is wall bonus. Wall Stun. Old Patch Notes (Ver.2.20)・Fixed an issue in which the move could not be input in advance."
 }, {
   "BreakThrow" : "disable ",
   "Name" : "Mist Illusion",
@@ -2198,7 +2220,7 @@
   "AfterThrow" : "RP +7BF",
   "Command" : "b1+2 or FC b1+2 or During Hitman b1+2",
   "Property" : "AbsorbsPunch(HM)",
-  "Notes" : "Absorbs Punch(H/M) during 2 to 10F. 【S3 Patch Notes】– The move can now be performed from a crouching position."
+  "Notes" : "Absorbs Punch(H/M) during 2 to 10F. Old Patch Notes (S3)– The move can now be performed from a crouching position."
 }, {
   "BreakThrow" : "",
   "Name" : "Combination Attack",
@@ -2206,5 +2228,5 @@
   "AfterThrow" : "",
   "Command" : " After Mist Illusion succeeds 4",
   "Property" : "M",
-  "Notes" : "Tail Spin on CH or air-mid hit. 【S3 Patch Notes】– Changed the attack from a high attack to a mid attack. (Ver.3.01) Fixed an issue where the behavior of opponent that was counter hit while crouching was not as intended. (Ver.3.30)・Changed the move to send the opponent spinning when it hits them midair."
+  "Notes" : "Tail Spin on CH or air-mid hit. Old Patch Notes (S3)– Changed the attack from a high attack to a mid attack. (Ver.3.01) Fixed an issue where the behavior of opponent that was counter hit while crouching was not as intended. (Ver.3.30)・Changed the move to send the opponent spinning when it hits them midair."
 } ]

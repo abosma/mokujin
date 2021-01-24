@@ -55,20 +55,31 @@
   "Startup" : ""
 }, {
   "Command" : "1231+2",
-  "Hit" : "+4C",
-  "Block" : "±0C",
-  "Notes" : "Combo from 3rd NH\nCan be delayed\nBlock or Hit force to Crouching.",
+  "Hit" : "+8C",
+  "Block" : "+4C",
+  "Notes" : "Combo from 3rd hit.\nCan be delayed.\nForced to crouching upon block or hit..\n",
   "Name" : "Left Right To Gut Check",
   "Total" : "",
-  "Counter Hit" : "+4C",
+  "Counter Hit" : "+8C",
   "Property" : "H,H,M,H",
+  "Damage" : "7,12,12,28",
+  "Startup" : ""
+}, {
+  "Command" : "1231+23+4",
+  "Hit" : "+7C",
+  "Block" : "+3C",
+  "Notes" : "Combo from 3rd hit.\nCan be delayed.\nForced to crouching upon block or hit..\n",
+  "Name" : "Left Right To Gut Check to Ready Position",
+  "Total" : "",
+  "Counter Hit" : "+7C",
+  "Property" : "H,H,M,H,SP",
   "Damage" : "7,12,12,28",
   "Startup" : ""
 }, {
   "Command" : "12f1",
   "Hit" : "+6",
   "Block" : "+4",
-  "Notes" : "Can be delayed",
+  "Notes" : "Can be delayed\n",
   "Name" : "Left Right to Power Elbow Combo",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -178,7 +189,7 @@
   "Command" : "f2d1",
   "Hit" : "+2C",
   "Block" : "-13C",
-  "Notes" : "Can be delayed\nBlock or Hit force to Crouching.",
+  "Notes" : "Can be delayed\nForced to crouching upon block or hit..",
   "Name" : "Hook Smash Combo (2)",
   "Total" : "",
   "Counter Hit" : "+2C",
@@ -211,7 +222,7 @@
   "Command" : "f32",
   "Hit" : "LNC",
   "Block" : "-11C",
-  "Notes" : "Combo from 1st NH\nCan be delayed\nHit force to Crouching.\n",
+  "Notes" : "Combo from 1st NH\nCan be delayed\nForced to crouching upon hit..\n",
   "Name" : "Mammoth Charge",
   "Total" : "",
   "Counter Hit" : "LNC",
@@ -222,7 +233,7 @@
   "Command" : "f4",
   "Hit" : "+2C",
   "Block" : "-8C",
-  "Notes" : "Block or Hit force to Crouching.\n",
+  "Notes" : "Forced to crouching upon block or hit..\n",
   "Name" : "Stampede",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -374,14 +385,25 @@
   "Startup" : ""
 }, {
   "Command" : "df31231+2",
-  "Hit" : "+4C",
-  "Block" : "±0C",
-  "Notes" : "Combo from 4th NH.\nCan be delayed\nBlock or Hit force to Crouching.",
+  "Hit" : "+8C",
+  "Block" : "+4C",
+  "Notes" : "Combo from 4th hit.\nCan be delayed\nForced to crouching upon block or hit..\n",
   "Name" : "Raging Beast Headbutt",
   "Total" : "",
-  "Counter Hit" : "+4C",
+  "Counter Hit" : "+8C",
   "Property" : "M,H,H,M,H",
-  "Damage" : "13,7,10,12",
+  "Damage" : "13,7,10,12,28",
+  "Startup" : ""
+}, {
+  "Command" : "df31231+23+4",
+  "Hit" : "+7C",
+  "Block" : "+3C",
+  "Notes" : "Combo from 4th hit.\nCan be delayed\nForced to crouching upon block or hit..\n",
+  "Name" : "Raging Beast Headbutt to Ready Position",
+  "Total" : "",
+  "Counter Hit" : "+7C",
+  "Property" : "M,H,H,M,H,SP",
+  "Damage" : "13,7,10,12,28",
   "Startup" : ""
 }, {
   "Command" : "df312f1",
@@ -392,7 +414,7 @@
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "M,H,H,H",
-  "Damage" : "13,7,10,12,28",
+  "Damage" : "13,7,10,12,21",
   "Startup" : ""
 }, {
   "Command" : "df31d2",
@@ -407,13 +429,24 @@
   "Startup" : ""
 }, {
   "Command" : "df31+2",
-  "Hit" : "+4C",
-  "Block" : "±0C",
-  "Notes" : "Combo from 1st NH.\nCan be delayed\nBlock or Hit force to Crouching.",
+  "Hit" : "+8C",
+  "Block" : "+4C",
+  "Notes" : "Combo from 1st hit.\nCan be delayed.\nForced to crouching upon block or hit..\n",
   "Name" : "Gut Kick Combo",
   "Total" : "",
-  "Counter Hit" : "+4C",
+  "Counter Hit" : "+8C",
   "Property" : "M,H",
+  "Damage" : "13,28",
+  "Startup" : ""
+}, {
+  "Command" : "df31+23+4",
+  "Hit" : "+7C",
+  "Block" : "+3C",
+  "Notes" : "Combo from 1st hit.\nCan be delayed.\nForced to crouching upon block or hit..\n",
+  "Name" : "Gut Kick Combo to Ready Position",
+  "Total" : "",
+  "Counter Hit" : "+7C",
+  "Property" : "M,H,SP",
   "Damage" : "13,28",
   "Startup" : ""
 }, {
@@ -431,7 +464,7 @@
   "Command" : "df3df12",
   "Hit" : "KDN",
   "Block" : "-7",
-  "Notes" : "Can be delayed\nBlock force to Crouching.\n",
+  "Notes" : "Can be delayed\nForced to crouching upon block..\n",
   "Name" : "Gorilla Blitz",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -452,7 +485,7 @@
 }, {
   "Command" : "df4",
   "Hit" : "+2",
-  "Block" : "-9",
+  "Block" : "-4",
   "Notes" : "Meaty 1F in actualy\n",
   "Name" : "Compressor Swing (1)",
   "Total" : "41",
@@ -464,7 +497,7 @@
   "Command" : "df42",
   "Hit" : "+12Sp",
   "Block" : "-5",
-  "Notes" : "TS \nCombo from 1st NH.\nCan be delayed\n",
+  "Notes" : "TS \nCombo from 1st hit.\nCan be delayed.\n",
   "Name" : "Compressor Swing",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -475,7 +508,7 @@
   "Command" : "df1+2",
   "Hit" : "+3C",
   "Block" : "-11",
-  "Notes" : "TC 6F\nHit force to crouching.\nMeaty 1F",
+  "Notes" : "TC 6F\nForced to crouching upon hit..\nMeaty 1F",
   "Name" : "Cannonball",
   "Total" : "",
   "Counter Hit" : "+3C",
@@ -486,7 +519,7 @@
   "Command" : "d1",
   "Hit" : "+5C",
   "Block" : "±0C",
-  "Notes" : "Block or NH force to Crouching.",
+  "Notes" : "Forced to crouching upon block or NH..\n",
   "Name" : "Dunk Elbow",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -497,7 +530,7 @@
   "Command" : "d2",
   "Hit" : "+7C",
   "Block" : "-7C",
-  "Notes" : "Block or Hit force to Crouching.",
+  "Notes" : "Forced to crouching upon block or hit..",
   "Name" : "Alligator Combo (1)",
   "Total" : "",
   "Counter Hit" : "+7C",
@@ -673,7 +706,7 @@
   "Command" : "b1",
   "Hit" : "+2C",
   "Block" : "-8C",
-  "Notes" : "Block or NH force to Crouching",
+  "Notes" : "Forced to crouching upon block or NH.",
   "Name" : "Fist Hammer",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -684,7 +717,7 @@
   "Command" : "b12",
   "Hit" : "KDN",
   "Block" : "-14C",
-  "Notes" : "Block force to Crouching\n",
+  "Notes" : "Forced to crouching upon block.\n",
   "Name" : "Double Fist Hammer",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -693,9 +726,9 @@
   "Startup" : ""
 }, {
   "Command" : "b2",
-  "Hit" : "+1",
+  "Hit" : "+4",
   "Block" : "-9",
-  "Notes" : "H ",
+  "Notes" : "H \n",
   "Name" : "Spinning Backfist",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -769,6 +802,28 @@
   "Damage" : "12",
   "Startup" : "18F"
 }, {
+  "Command" : "uf1",
+  "Hit" : "+5",
+  "Block" : "-5",
+  "Notes" : "",
+  "Name" : "Quick Gorilla Rush (1)",
+  "Total" : "",
+  "Counter Hit" : "+5",
+  "Property" : "H",
+  "Damage" : "14",
+  "Startup" : "12F"
+}, {
+  "Command" : "uf12",
+  "Hit" : "+6C",
+  "Block" : "-2C",
+  "Notes" : "Combo from 1st hit.\n",
+  "Name" : "Quick Gorilla Rush",
+  "Total" : "",
+  "Counter Hit" : "KDN",
+  "Property" : "H,H",
+  "Damage" : "14,20",
+  "Startup" : ""
+}, {
   "Command" : "ub or u or uf2",
   "Hit" : "+9",
   "Block" : "-12",
@@ -816,7 +871,7 @@
   "Command" : "ub1+2",
   "Hit" : "KDN",
   "Block" : "-6C",
-  "Notes" : "Block force to Crouching.\nTo crouching after move.\n",
+  "Notes" : "Forced to crouching upon block..\nTo crouching after move.\n",
   "Name" : "Earthquake",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -827,7 +882,7 @@
   "Command" : "ub1+23+4",
   "Hit" : "KDN",
   "Block" : "-7C",
-  "Notes" : "Advance Input is available Ready Position Move.\nAdvance Input is unavailable FC or WS Move.\nBlock force to Crouching.\n",
+  "Notes" : "Advance Input is available Ready Position Move.\nAdvance Input is unavailable FC or WS Move.\nForced to crouching upon block..\n",
   "Name" : "Earthquake to Ready Position",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -838,7 +893,7 @@
   "Command" : "ub1+23+43+4",
   "Hit" : "KDN",
   "Block" : "-6C",
-  "Notes" : "Block force to Crouching.",
+  "Notes" : "Forced to crouching upon block..",
   "Name" : "Earthquake to Ready Position Cancel",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -860,7 +915,7 @@
   "Command" : "ub or u or uf3+4",
   "Hit" : "+7C",
   "Block" : "-3C",
-  "Notes" : "TJ 6F\nBlock or NH force to Crouching.",
+  "Notes" : "TJ 6F\nForced to crouching upon block or NH..",
   "Name" : "Foot Stomp",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -923,7 +978,7 @@
   "Damage" : "26",
   "Startup" : "18F"
 }, {
-  "Command" : "bf1+2",
+  "Command" : "ddff1+2",
   "Hit" : "+4",
   "Block" : "-12",
   "Notes" : "",
@@ -934,7 +989,7 @@
   "Damage" : "14,16",
   "Startup" : "15F"
 }, {
-  "Command" : "bf1+22",
+  "Command" : "ddff1+22",
   "Hit" : "KDN",
   "Block" : "-15",
   "Notes" : "Combo from 2nd CH.\nCan be delayed 13F\nCombo can be delayed 12F from 2nd CH",
@@ -1046,8 +1101,8 @@
 }, {
   "Command" : " FC 1+2",
   "Hit" : "Th",
-  "Block" : "-4",
-  "Notes" : "Disable during Ready Position.\nConnect to throw from close hit.\nDamage () is throw bonus.\nHit +7F from distant hit.\nMeaty 1F in actualy.",
+  "Block" : "-7",
+  "Notes" : "Disable during Ready Position.\nConnect to throw from close hit.\nDamage () is throw bonus.\nHit +7F from distant hit.\nMeaty 1F in actualy.\n",
   "Name" : "Bull-charge",
   "Total" : "",
   "Counter Hit" : "Th",
@@ -1168,7 +1223,7 @@
   "Command" : " SS 2",
   "Hit" : "±0C",
   "Block" : "-3",
-  "Notes" : "Hit force to Crouching.",
+  "Notes" : "Forced to crouching upon hit..",
   "Name" : "Spinning Hammer",
   "Total" : "",
   "Counter Hit" : "±0C",
@@ -1179,7 +1234,7 @@
   "Command" : " SS 23+4",
   "Hit" : "+5C",
   "Block" : "+2",
-  "Notes" : "Advance Input is available Ready Position, FC or WS Move.\nHit force to Crouching.",
+  "Notes" : "Advance Input is available Ready Position, FC or WS Move.\nForced to crouching upon hit..",
   "Name" : "Spinning Hammer to Ready Position",
   "Total" : "",
   "Counter Hit" : "+5C",
@@ -1190,7 +1245,7 @@
   "Command" : " SS 23+43+4",
   "Hit" : "+4C",
   "Block" : "+1",
-  "Notes" : "Hit force to Crouching.",
+  "Notes" : "Forced to crouching upon hit..",
   "Name" : "Spinning Hammer to Ready Position Cancel",
   "Total" : "",
   "Counter Hit" : "+4C",
@@ -1377,7 +1432,7 @@
   "Command" : " During Ready Position f12",
   "Hit" : "KDN",
   "Block" : "-13C",
-  "Notes" : "Combo from 1st NH.\nBlock or NH force to Crouching.\n",
+  "Notes" : "Combo from 1st NH.\nForced to crouching upon block or NH..\n",
   "Name" : "Power Bump",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -1387,8 +1442,8 @@
 }, {
   "Command" : " During Ready Position f14",
   "Hit" : "KDN",
-  "Block" : "-10",
-  "Notes" : "TS \nCombo from 1st NH.\n",
+  "Block" : "-9",
+  "Notes" : "TS \nCombo from 1st hit.\n",
   "Name" : "Power Hurricane",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -1516,7 +1571,7 @@
   "AfterThrow" : "RP Head-sd Fac-Up",
   "Command" : "ff1+2",
   "Property" : "Th(H)",
-  "Notes" : "【S3 Patch Notes】・入力受付時間を17F→30Fに変更。"
+  "Notes" : "Old Patch Notes (S3)– Changed the input window from 17 frames to 30 frames."
 }, {
   "BreakThrow" : "1 -2F",
   "Name" : "Northern Light Suplex",
@@ -1564,7 +1619,7 @@
   "AfterThrow" : "RP Right-sd Fac-Up",
   "Command" : "fbdbddff1",
   "Property" : "Th(H)",
-  "Notes" : "Enable input during FC. Easy command Floor Break."
+  "Notes" : "Enable input during FC. Easy command Floor Break. (Ver.4.00) - Increased the move’s tracking."
 }, {
   "BreakThrow" : "1 -2F",
   "Name" : "Power Bomb",
@@ -1588,7 +1643,7 @@
   "AfterThrow" : "",
   "Command" : "b1+3 or b2+4",
   "Property" : "Reversal(HM)",
-  "Notes" : "Reversal (H/M) during 3 to 8F. Damage 8 & Connect to Mount after Trap success."
+  "Notes" : "Reversal (H/M) during 3 to 8F. Damage 8 & Connect to Mount after Trap success. (Ver.4.00) - Fixed an issue in which the damage dealt to the opponent in a specific situations was not correct."
 }, {
   "BreakThrow" : "1 or 1+2 -8F",
   "Name" : "Double Leg Take Down to Mount",
@@ -1620,7 +1675,7 @@
   "AfterThrow" : "",
   "Command" : " During Ready Position 1+2",
   "Property" : "SM",
-  "Notes" : "Block -22F. Hit -3F & force to Crouching. S2 Patch Notes (Ver.2.20)・Fixed an issue in which the move could be parried using Jin's Parry."
+  "Notes" : "Block -22F. Hit -3F & force to Crouching. Old Patch Notes (Ver.2.20)・Fixed an issue in which the move could be parried using Jin's Parry."
 }, {
   "BreakThrow" : "",
   "Name" : "Side Shift",
@@ -1704,11 +1759,11 @@
 }, {
   "BreakThrow" : "2 ±0F",
   "Name" : "Reversi Throw",
-  "Damage" : "40",
+  "Damage" : "35",
   "AfterThrow" : "",
   "Command" : " While enemy is down by the feet db2+4",
   "Property" : "Th(H)",
-  "Notes" : "Throw break 7F."
+  "Notes" : "Throw break 7F. (Ver.4.00) - Changed the damage from 40 to 35."
 }, {
   "BreakThrow" : "2 +1F",
   "Name" : "Alarm Knee",

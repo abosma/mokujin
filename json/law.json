@@ -90,10 +90,10 @@
   "Command" : "1222",
   "Hit" : "+4",
   "Block" : "-9",
-  "Notes" : "Combo from 3rd NH\nCan be delayed 18F\nCounter Combo can be delayed 17F",
+  "Notes" : "Combo from 3rd NH\nCan be delayed 18F\nCounter Combo can be delayed 17F\n",
   "Name" : "Left Right Dragon Fist Combo",
   "Total" : "",
-  "Counter Hit" : "+4",
+  "Counter Hit" : "KDN",
   "Property" : "H,H,M,H",
   "Damage" : "7,8,10,10",
   "Startup" : ""
@@ -101,10 +101,10 @@
   "Command" : "1222bf",
   "Hit" : "+9",
   "Block" : "-4",
-  "Notes" : "Advance Input is unavailable after connect to DC",
+  "Notes" : "Advance Input is unavailable after connect to DC\n",
   "Name" : "Left Right Dragon Fist Combo to DC",
   "Total" : "",
-  "Counter Hit" : "+9",
+  "Counter Hit" : "KDN",
   "Property" : "H,H,M,H,SP",
   "Damage" : "7,8,10,10",
   "Startup" : ""
@@ -112,7 +112,7 @@
   "Command" : "1221+2",
   "Hit" : "KDN",
   "Block" : "-13",
-  "Notes" : "Combo from 3rd CH\nCan be delayed 18F\nCounter Combo can be delayed 11F",
+  "Notes" : "WB \nCombo from 3rd CH\nCan be delayed 18F\nCounter Combo can be delayed 11F\n",
   "Name" : "Left Right Blazing Fist Combo",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -178,10 +178,10 @@
   "Command" : "222",
   "Hit" : "+4",
   "Block" : "-9",
-  "Notes" : "Combo from 2nd NH\nCan be delayed 18F\nCounter Combo can be delayed 17F",
+  "Notes" : "Combo from 2nd NH\nCan be delayed 18F\nCounter Combo can be delayed 17F\n",
   "Name" : "Rave War Combo",
   "Total" : "",
-  "Counter Hit" : "+4",
+  "Counter Hit" : "KDN",
   "Property" : "H,M,H",
   "Damage" : "8,10,10",
   "Startup" : ""
@@ -189,10 +189,10 @@
   "Command" : "222bf",
   "Hit" : "+9",
   "Block" : "-4",
-  "Notes" : "Advance Input is unavailable after connect to DC.",
+  "Notes" : "Advance Input is unavailable after connect to DC.\n",
   "Name" : "Rave War Combo to DC",
   "Total" : "",
-  "Counter Hit" : "+9",
+  "Counter Hit" : "KDN",
   "Property" : "H,M,H,SP",
   "Damage" : "8,10,10",
   "Startup" : ""
@@ -200,7 +200,7 @@
   "Command" : "221+2",
   "Hit" : "KDN",
   "Block" : "-13",
-  "Notes" : "Combo from 2nd CH\nCan be delayed 18F\nCounter Combo can be delayed 11F",
+  "Notes" : "WB \nCombo from 2nd CH\nCan be delayed 18F\nCounter Combo can be delayed 11F\n",
   "Name" : "Blazing Fist Combo",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -386,7 +386,7 @@
 }, {
   "Command" : "3+4",
   "Hit" : "KDN",
-  "Block" : "-12",
+  "Block" : "-14",
   "Notes" : "",
   "Name" : "Pressing Kick",
   "Total" : "",
@@ -453,7 +453,7 @@
   "Command" : "f1+2",
   "Hit" : "+8C",
   "Block" : "+3C",
-  "Notes" : "Block or NH force to crouching",
+  "Notes" : "Forced to crouching upon block or NH.",
   "Name" : "Dragon Hammer",
   "Total" : "",
   "Counter Hit" : "LNC",
@@ -464,7 +464,7 @@
   "Command" : "f1+2d",
   "Hit" : "+8C",
   "Block" : "+3C",
-  "Notes" : "Returns to crouching.\nBlock or NH force to crouching",
+  "Notes" : "Returns to crouching.\nForcee to crouching upon block or NH.",
   "Name" : "Dragon Hammer to Crouching",
   "Total" : "",
   "Counter Hit" : "LNC",
@@ -475,7 +475,7 @@
   "Command" : "f3+4",
   "Hit" : "+7C",
   "Block" : "-2",
-  "Notes" : "TJ 11F\nNH force to crouching",
+  "Notes" : "TJ 11F\nForced to crouching upon NH.",
   "Name" : "Dragon Killer",
   "Total" : "",
   "Counter Hit" : "LNC",
@@ -629,7 +629,7 @@
   "Command" : "df3+4",
   "Hit" : "+4C",
   "Block" : "-15",
-  "Notes" : "TC 6F\nReturns to crouching.\nNH force to crouching\n",
+  "Notes" : "TC 6F\nReturns to crouching.\nForced to crouching upon NH.\n",
   "Name" : "Banana Peel",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -640,7 +640,7 @@
   "Command" : "d1",
   "Hit" : "+2C",
   "Block" : "-12",
-  "Notes" : "TC 6F\nReturns to crouching.\nHit force to crouching.\n",
+  "Notes" : "TC 6F\nReturns to crouching.\nForced to crouching upon hit.\n",
   "Name" : "Low Backhand",
   "Total" : "",
   "Counter Hit" : "+2C",
@@ -651,7 +651,7 @@
   "Command" : "d13",
   "Hit" : "KDN",
   "Block" : "-9",
-  "Notes" : "TS \nCombo from 1st CH\n",
+  "Notes" : "TS \nCombo from 1st CH.\nCan be delayed 9F.\nCombo can be delayed 9F on 1st CH.\n",
   "Name" : "Low Backhand to High Kick",
   "Total" : "",
   "Counter Hit" : "KDN*",
@@ -808,7 +808,7 @@
   "Notes" : "",
   "Name" : "Shin Crusher",
   "Total" : "",
-  "Counter Hit" : "KDN",
+  "Counter Hit" : "+14G",
   "Property" : "L",
   "Damage" : "15",
   "Startup" : "17F"
@@ -858,26 +858,15 @@
   "Startup" : ""
 }, {
   "Command" : "db3+4",
-  "Hit" : "+2C",
-  "Block" : "-9",
-  "Notes" : "TJ 9F\nFrame datas are aagainst 2nd attack.\n1st hit to launch.\n-41F after 1st block and 2nd whiff.\nMeaty 2F.",
-  "Name" : "Frogman",
+  "Hit" : "KDN",
+  "Block" : "-13",
+  "Notes" : "TC 6F\nReturns to crouching.\n",
+  "Name" : "Dragon Lance",
   "Total" : "",
-  "Counter Hit" : "+2C",
-  "Property" : "M,M",
-  "Damage" : "25,25",
-  "Startup" : "19F"
-}, {
-  "Command" : "db3+4",
-  "Hit" : "LNC",
-  "Block" : "-27",
-  "Notes" : "TJ 9F",
-  "Name" : "Frogman to Down",
-  "Total" : "",
-  "Counter Hit" : "LNC",
+  "Counter Hit" : "KDN",
   "Property" : "M",
-  "Damage" : "25",
-  "Startup" : ""
+  "Damage" : "23",
+  "Startup" : "21F"
 }, {
   "Command" : "b1",
   "Hit" : "+2",
@@ -959,10 +948,10 @@
   "Command" : "b22",
   "Hit" : "+4",
   "Block" : "-9",
-  "Notes" : "Combo from 1st NH\nCan be delayed\nCombo can be delayed 11F",
+  "Notes" : "Combo from 1st NH\nCan be delayed\nCombo can be delayed 11F\n",
   "Name" : "Knuckle Rush",
   "Total" : "",
-  "Counter Hit" : "+4",
+  "Counter Hit" : "KDN",
   "Property" : "M,H",
   "Damage" : "12,10",
   "Startup" : ""
@@ -970,10 +959,10 @@
   "Command" : "b22bf",
   "Hit" : "+9",
   "Block" : "-4",
-  "Notes" : "Advance Input is unavailable after connect to DC",
+  "Notes" : "Advance Input is unavailable after connect to DC\n",
   "Name" : "Knuckle Rush to DC",
   "Total" : "",
-  "Counter Hit" : "+9",
+  "Counter Hit" : "KDN",
   "Property" : "M,H,SP",
   "Damage" : "12,10",
   "Startup" : ""
@@ -1267,7 +1256,7 @@
   "Command" : "uf3+4",
   "Hit" : "+5",
   "Block" : "-24",
-  "Notes" : "TJ 8F\n",
+  "Notes" : "TJ 8F\nMeaty 1F.\n",
   "Name" : "Dragon's Descent",
   "Total" : "",
   "Counter Hit" : "+5",
@@ -1349,7 +1338,7 @@
   "Total" : "",
   "Counter Hit" : "-2A",
   "Property" : "M",
-  "Damage" : "12",
+  "Damage" : "17",
   "Startup" : "16F"
 }, {
   "Command" : "ff43",
@@ -1360,7 +1349,7 @@
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "M,M",
-  "Damage" : "12,17",
+  "Damage" : "17,23",
   "Startup" : ""
 }, {
   "Command" : "ddff1",
@@ -1410,7 +1399,7 @@
   "Command" : "fff3",
   "Hit" : "KDN",
   "Block" : "+7G",
-  "Notes" : "TJ 3F\nMeaty 6F in actualy",
+  "Notes" : "TJ 3F\nMeaty 6F in actualy\n",
   "Name" : "Running Side Kick",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -1514,7 +1503,7 @@
   "Total" : "",
   "Counter Hit" : "+4",
   "Property" : "M",
-  "Damage" : "13",
+  "Damage" : "10",
   "Startup" : "13F"
 }, {
   "Command" : " WS 1bf",
@@ -1525,7 +1514,7 @@
   "Total" : "",
   "Counter Hit" : "+6",
   "Property" : "M,SP",
-  "Damage" : "13",
+  "Damage" : "10",
   "Startup" : ""
 }, {
   "Command" : " WS 12",
@@ -1536,7 +1525,7 @@
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "M,H",
-  "Damage" : "13,25",
+  "Damage" : "10,25",
   "Startup" : ""
 }, {
   "Command" : " WS 12bf",
@@ -1547,7 +1536,7 @@
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "M,H,SP",
-  "Damage" : "13,25",
+  "Damage" : "10,25",
   "Startup" : ""
 }, {
   "Command" : " WS 2",
@@ -1892,9 +1881,9 @@
   "Startup" : "19F"
 }, {
   "Command" : " DC 4",
-  "Hit" : "+5C",
-  "Block" : "-14",
-  "Notes" : "",
+  "Hit" : "+6C",
+  "Block" : "-13",
+  "Notes" : "Forced to crouching upon NH.\n",
   "Name" : "Dragon Charge Kick",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -2004,7 +1993,7 @@
   "Command" : " After Fake Step succeeds 4",
   "Hit" : "KDN",
   "Block" : "",
-  "Notes" : "CH forced to crouching.",
+  "Notes" : "Forced to crouching upon CH.",
   "Name" : "Tricky Low Kick",
   "Total" : "",
   "Counter Hit" : "+19C",
@@ -2068,8 +2057,8 @@
   "Startup" : "19F"
 }, {
   "Command" : " FS 4",
-  "Hit" : "+5C",
-  "Block" : "-14",
+  "Hit" : "+6C",
+  "Block" : "-13",
   "Notes" : "",
   "Name" : "Dragon Charge Kick",
   "Total" : "",
@@ -2379,7 +2368,7 @@
   "AfterThrow" : "Launch",
   "Command" : "ff3+4",
   "Property" : "Th(H)",
-  "Notes" : "【S3 Patch Notes】– Fixed an issue in which following up with certain moves would cause the opponent to become turned around."
+  "Notes" : "Old Patch Notes (S3)– Fixed an issue in which following up with certain moves would cause the opponent to become turned around."
 }, {
   "BreakThrow" : "1 or 2 -3F",
   "Name" : "Dragon's Fire",

@@ -43,7 +43,7 @@
   "Damage" : "7,9,18",
   "Startup" : ""
 }, {
-  "Command" : "",
+  "Command" : "123df",
   "Hit" : "+10",
   "Block" : "-1",
   "Notes" : "",
@@ -54,7 +54,7 @@
   "Damage" : "7,9,18",
   "Startup" : ""
 }, {
-  "Command" : "",
+  "Command" : "123dfdb",
   "Hit" : "+9",
   "Block" : "-2",
   "Notes" : "",
@@ -98,7 +98,7 @@
   "Damage" : "10,7",
   "Startup" : ""
 }, {
-  "Command" : "",
+  "Command" : "23",
   "Hit" : "+3",
   "Block" : "-8",
   "Notes" : "",
@@ -109,7 +109,7 @@
   "Damage" : "10,18",
   "Startup" : ""
 }, {
-  "Command" : "",
+  "Command" : "23df",
   "Hit" : "+10",
   "Block" : "-1",
   "Notes" : "",
@@ -120,7 +120,7 @@
   "Damage" : "10,18",
   "Startup" : ""
 }, {
-  "Command" : "",
+  "Command" : "23dfdb",
   "Hit" : "+9",
   "Block" : "-2",
   "Notes" : "",
@@ -139,7 +139,7 @@
   "Total" : "",
   "Counter Hit" : "+3",
   "Property" : "H",
-  "Damage" : "20",
+  "Damage" : "18",
   "Startup" : "14F"
 }, {
   "Command" : "3df",
@@ -277,13 +277,13 @@
   "Command" : "f3",
   "Hit" : "+6",
   "Block" : "-5",
-  "Notes" : "H TJ 13F\n",
+  "Notes" : "H TJ 13F\nMeaty 1F.\n",
   "Name" : "Crescent Moon",
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "M",
   "Damage" : "17",
-  "Startup" : "21F"
+  "Startup" : "20F"
 }, {
   "Command" : "f4",
   "Hit" : "KDN",
@@ -293,13 +293,13 @@
   "Total" : "43",
   "Counter Hit" : "KDN",
   "Property" : "H",
-  "Damage" : "17",
+  "Damage" : "21",
   "Startup" : "15F"
 }, {
   "Command" : "f3+4",
   "Hit" : "+5C",
   "Block" : "-7",
-  "Notes" : "TJ 11F\nHit force to Crouching.\n",
+  "Notes" : "TJ 11F\nForced to crouching upon hit..\n",
   "Name" : "Skyline",
   "Total" : "",
   "Counter Hit" : "+5C",
@@ -310,7 +310,7 @@
   "Command" : "f3+4df",
   "Hit" : "+13C",
   "Block" : "+1",
-  "Notes" : "Returns to crouching.\nHit force to Crouching.\n",
+  "Notes" : "Returns to crouching.\nForced to crouching upon hit..\n",
   "Name" : "Skyline to Stealth Step",
   "Total" : "",
   "Counter Hit" : "+13C",
@@ -321,7 +321,7 @@
   "Command" : "f3+4dfdb",
   "Hit" : "+12C",
   "Block" : "±0",
-  "Notes" : "Returns to crouching.\nHit force to Crouching.\n",
+  "Notes" : "Returns to crouching.\nForced to crouching upon hit..\n",
   "Name" : "Skyline to Stealth Step Cancel",
   "Total" : "",
   "Counter Hit" : "+12C",
@@ -403,7 +403,7 @@
   "Total" : "",
   "Counter Hit" : "±0",
   "Property" : "L",
-  "Damage" : "14",
+  "Damage" : "12",
   "Startup" : "16F"
 }, {
   "Command" : "d3df",
@@ -414,7 +414,7 @@
   "Total" : "",
   "Counter Hit" : "+4",
   "Property" : "L,SP",
-  "Damage" : "14",
+  "Damage" : "12",
   "Startup" : ""
 }, {
   "Command" : "d3dfdb",
@@ -425,7 +425,7 @@
   "Total" : "",
   "Counter Hit" : "±0",
   "Property" : "L,SP",
-  "Damage" : "14",
+  "Damage" : "12",
   "Startup" : ""
 }, {
   "Command" : "d4",
@@ -529,8 +529,8 @@
 }, {
   "Command" : "b1",
   "Hit" : "+8C",
-  "Block" : "+1C",
-  "Notes" : "Block or hit force to crouching.\nMeaty 1F.\n",
+  "Block" : "+2C",
+  "Notes" : "Forced to crouching upon block or hit..\nMeaty 1F.\n",
   "Name" : "Achernar",
   "Total" : "",
   "Counter Hit" : "+8C",
@@ -541,7 +541,7 @@
   "Command" : "b1d",
   "Hit" : "+8C",
   "Block" : "+1C",
-  "Notes" : "Block or hit force to crouching.\nMeaty 1F.\n",
+  "Notes" : "Forced to crouching upon block or hit..\nMeaty 1F.\n",
   "Name" : "Achernar to Crouch",
   "Total" : "",
   "Counter Hit" : "+8C",
@@ -549,10 +549,32 @@
   "Damage" : "20",
   "Startup" : ""
 }, {
+  "Command" : "b2",
+  "Hit" : "+4",
+  "Block" : "-9",
+  "Notes" : "Meaty 1F.\n",
+  "Name" : "Shamshir",
+  "Total" : "",
+  "Counter Hit" : "",
+  "Property" : "M",
+  "Damage" : "17",
+  "Startup" : "15F"
+}, {
+  "Command" : " During CH b2",
+  "Hit" : "",
+  "Block" : "",
+  "Notes" : "",
+  "Name" : "Dust Storm",
+  "Total" : "",
+  "Counter Hit" : "Th",
+  "Property" : "M,Th",
+  "Damage" : "17(,32)",
+  "Startup" : ""
+}, {
   "Command" : "b3",
   "Hit" : "+3C",
   "Block" : "±0C",
-  "Notes" : "Block or NH force to crouching\nMeaty 1F\n",
+  "Notes" : "Forced to crouching upon block or NH.\nMeaty 1F\n",
   "Name" : "Heel Strike",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -561,7 +583,7 @@
   "Startup" : "18F"
 }, {
   "Command" : "b4",
-  "Hit" : "+2",
+  "Hit" : "+4",
   "Block" : "-15",
   "Notes" : "",
   "Name" : "Broken Mirage",
@@ -766,7 +788,7 @@
   "Total" : "",
   "Counter Hit" : "±0",
   "Property" : "M",
-  "Damage" : "16",
+  "Damage" : "14",
   "Startup" : "13F"
 }, {
   "Command" : " WS 33",
@@ -777,7 +799,7 @@
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "M,M",
-  "Damage" : "16,20",
+  "Damage" : "14,20",
   "Startup" : ""
 }, {
   "Command" : " WS 4",
@@ -909,7 +931,7 @@
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "M",
-  "Damage" : "20",
+  "Damage" : "17",
   "Startup" : "15F"
 }, {
   "Command" : " During Stealth Step 3",
@@ -1087,7 +1109,7 @@
   "AfterThrow" : "RP +7BF",
   "Command" : "b1+2",
   "Property" : "AbsorbsPunch(HM)",
-  "Notes" : "Absorbs Punch(H/M) during 2 to 12F. S2 Patch Notes ・Couldn't do move while crouched. Now fixed."
+  "Notes" : "Absorbs Punch(H/M) during 2 to 12F. Old Patch Notes ・Couldn't do move while crouched. Now fixed."
 }, {
   "BreakThrow" : "",
   "Name" : "Conbination attack",
@@ -1095,7 +1117,7 @@
   "AfterThrow" : "",
   "Command" : " After Falcon Shield succeeds 1",
   "Property" : "-",
-  "Notes" : "-7F on blcok."
+  "Notes" : "-1F upon blcok. (Ver.4.00) - Changed the frame advantage when blocked from -6F to -1F."
 }, {
   "BreakThrow" : "2 -5F CW",
   "Name" : "Assault Tackl;e",

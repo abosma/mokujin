@@ -56,8 +56,8 @@
 }, {
   "Command" : "23",
   "Hit" : "KDN",
-  "Block" : "-12",
-  "Notes" : "Combo from 1st CH",
+  "Block" : "-9",
+  "Notes" : "Combo from 1st CH\n",
   "Name" : "Jab Roundhouse",
   "Total" : "",
   "Counter Hit" : "KDN*",
@@ -178,7 +178,7 @@
   "Command" : "f1+2",
   "Hit" : "+8C",
   "Block" : "+3C",
-  "Notes" : "Block or NH force to crouching\nMeaty 1F\n",
+  "Notes" : "Forced to crouching upon block or NH.\nMeaty 1F\n",
   "Name" : "Hammer of the Gods",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -194,8 +194,19 @@
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "M",
-  "Damage" : "21",
+  "Damage" : "25",
   "Startup" : "21F"
+}, {
+  "Command" : "f2+3",
+  "Hit" : "KDN",
+  "Block" : "-14",
+  "Notes" : "PC 8F\nMeaty 1F.\n",
+  "Name" : "Chain Breaker",
+  "Total" : "",
+  "Counter Hit" : "KDN",
+  "Property" : "M",
+  "Damage" : "21",
+  "Startup" : "20F"
 }, {
   "Command" : "df1",
   "Hit" : "+4",
@@ -255,7 +266,7 @@
   "Command" : "df2",
   "Hit" : "LNC",
   "Block" : "-8",
-  "Notes" : "+3F on Crouch hit.",
+  "Notes" : "+3F on Crouch NH.",
   "Name" : "Uppercut",
   "Total" : "42",
   "Counter Hit" : "LNC",
@@ -310,7 +321,7 @@
   "Command" : "d1",
   "Hit" : "+2",
   "Block" : "-9",
-  "Notes" : "CH force to Crouching.",
+  "Notes" : "Forcee to crouching. upon CH.",
   "Name" : "Hammer Punch",
   "Total" : "42",
   "Counter Hit" : "+3C",
@@ -321,7 +332,7 @@
   "Command" : "d1d",
   "Hit" : "+2",
   "Block" : "-9",
-  "Notes" : "Returns to crouching.\nCH force to Crouching.",
+  "Notes" : "Returns to crouching.\nForce to crouching upon CH.",
   "Name" : "Hammer Punch to Crouch",
   "Total" : "42",
   "Counter Hit" : "+3C",
@@ -519,7 +530,7 @@
   "Command" : "b2",
   "Hit" : "+4C",
   "Block" : "-5C",
-  "Notes" : "Hit or Block force to crouching.",
+  "Notes" : "Force to crouching upon block or hit.",
   "Name" : "Crushing Wind (1)",
   "Total" : "",
   "Counter Hit" : "+4C",
@@ -530,7 +541,7 @@
   "Command" : "b21",
   "Hit" : "±0C",
   "Block" : "-12",
-  "Notes" : "Combo from 1st CH.\nNH force to crouching.\n",
+  "Notes" : "Combo from 1st CH.\nForced to crouching upon NH.\n",
   "Name" : "Crushing Wind",
   "Total" : "",
   "Counter Hit" : "LNC",
@@ -541,7 +552,7 @@
   "Command" : "b21 Hold ",
   "Hit" : "+8C",
   "Block" : "+8",
-  "Notes" : "NH force to crouching.",
+  "Notes" : "Forcee to crouching upon NH.",
   "Name" : "Crushing Wind (Hold)",
   "Total" : "",
   "Counter Hit" : "LNC",
@@ -566,7 +577,7 @@
   "Notes" : "",
   "Name" : "Leg Sweep",
   "Total" : "",
-  "Counter Hit" : "+3",
+  "Counter Hit" : "+16G",
   "Property" : "L",
   "Damage" : "14",
   "Startup" : "20F"
@@ -926,7 +937,7 @@
   "Command" : " WS 2",
   "Hit" : "LNC",
   "Block" : "-14",
-  "Notes" : "Meaty 1F.\n",
+  "Notes" : "",
   "Name" : "Thunder Palm",
   "Total" : "",
   "Counter Hit" : "LNC",
@@ -1025,7 +1036,7 @@
   "Command" : "dnu3+4",
   "Hit" : "",
   "Block" : "",
-  "Notes" : "Self-harm damage 10.\nHit force to Crouching.",
+  "Notes" : "Self-harm damage 10.\nForced to crouching upon hit.",
   "Name" : "Incomplete Somersault (Dropping)",
   "Total" : "",
   "Counter Hit" : "",
@@ -1050,9 +1061,9 @@
   "Notes" : "",
   "Name" : "Turn Thruster",
   "Total" : "50",
-  "Counter Hit" : "KDN*",
+  "Counter Hit" : "KDN",
   "Property" : "H",
-  "Damage" : "23",
+  "Damage" : "21",
   "Startup" : "20F"
 }, {
   "Command" : " SS 3",
@@ -1063,7 +1074,7 @@
   "Total" : "",
   "Counter Hit" : "+12",
   "Property" : "L",
-  "Damage" : "18",
+  "Damage" : "17",
   "Startup" : "19F"
 }, {
   "Command" : " While enemy is down d2",
@@ -1201,7 +1212,7 @@
   "Command" : "ddbb1",
   "Hit" : "KDN",
   "Block" : "±0C",
-  "Notes" : "Advance Input is unavailable.\nStart-up 23F in actualy.\nBlock force to crouching.",
+  "Notes" : "Advance Input is unavailable.\nStart-up 23F in actualy.\nBlock force to crouching.\n",
   "Name" : "God Hammer Punch",
   "Total" : "",
   "Counter Hit" : "LNC",
@@ -1272,7 +1283,7 @@
   "Total" : "42",
   "Counter Hit" : "KDN*",
   "Property" : "H",
-  "Damage" : "28",
+  "Damage" : "23",
   "Startup" : "15F"
 }, {
   "Command" : "ddbb1+2",
@@ -1305,7 +1316,7 @@
   "Total" : "",
   "Counter Hit" : "LNC",
   "Property" : "M",
-  "Damage" : "20",
+  "Damage" : "15",
   "Startup" : "20F"
 }, {
   "Command" : " During Rage ddff1+2",
@@ -1397,7 +1408,7 @@
   "AfterThrow" : "Head-sd Fac-Dwn",
   "Command" : "df1+3ddff2",
   "Property" : "-",
-  "Notes" : "Wall Stun. S2 Patch Notes ・Hits are now connected."
+  "Notes" : "Wall Stun. Old Patch Notes ・Hits are now connected."
 }, {
   "BreakThrow" : "disable ",
   "Name" : "Kongo Blash (Just)",
@@ -1405,7 +1416,7 @@
   "AfterThrow" : "Head-sd Fac-Dwn",
   "Command" : "df1+3ddff2(:)",
   "Property" : "-",
-  "Notes" : "Wall Stun. S2 Patch Notes ・Just frame input damage increased from 15 to 20."
+  "Notes" : "Wall Stun. Old Patch Notes ・Just frame input damage increased from 15 to 20."
 }, {
   "BreakThrow" : "1 -2F",
   "Name" : "Foot Launch",
@@ -1421,7 +1432,7 @@
   "AfterThrow" : "Foot-sd Fac-Up",
   "Command" : "ff1+2",
   "Property" : "Th(H)",
-  "Notes" : "Damage () is wall bonus. Wall Stun. When Break Throw & wall hit, revenge damage 10. S2 Patch Notes ・Recovery decreased for both characters by 10F on hit for faster pace."
+  "Notes" : "Damage () is wall bonus. Wall Stun. When Break Throw & wall hit, revenge damage 10. Old Patch Notes ・Recovery decreased for both characters by 10F on hit for faster pace. (Ver.4.00) - Changed the behavior when Paul performs a throw escape and hits the wall."
 }, {
   "BreakThrow" : "-5F CWTo BT",
   "Name" : "Ultimate Tackle",

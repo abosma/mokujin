@@ -13,12 +13,12 @@
   "Command" : "12",
   "Hit" : "KDN",
   "Block" : "-17",
-  "Notes" : "Combo from 1st NH\n",
+  "Notes" : "Combo from 1st hit.\n",
   "Name" : "Iron Breaker",
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "H,H",
-  "Damage" : "7,24",
+  "Damage" : "7,28",
   "Startup" : ""
 }, {
   "Command" : "2",
@@ -66,7 +66,7 @@
   "Startup" : "14F"
 }, {
   "Command" : "4",
-  "Hit" : "+2",
+  "Hit" : "+4",
   "Block" : "-9",
   "Notes" : "",
   "Name" : "Right Wrench Kick",
@@ -123,7 +123,7 @@
   "Command" : "f2d1",
   "Hit" : "+2C",
   "Block" : "-13C",
-  "Notes" : "Block or NH force to crouching\nCan be delayed",
+  "Notes" : "Forced to crouching upon block or NH.\nCan be delayed",
   "Name" : "Monster Axe",
   "Total" : "",
   "Counter Hit" : "+2C",
@@ -134,7 +134,7 @@
   "Command" : "f2d13+4",
   "Hit" : "+13C",
   "Block" : "-2C",
-  "Notes" : "TC \nBlock force to crouching\n",
+  "Notes" : "TC \nForced to crouching upon block.\n",
   "Name" : "Monster Axe to GSU",
   "Total" : "",
   "Counter Hit" : "+13C",
@@ -287,8 +287,8 @@
 }, {
   "Command" : "f1+2",
   "Hit" : "+6C",
-  "Block" : "-9",
-  "Notes" : "NH force to crouching\nTo Bulldozer Charge from CH\n",
+  "Block" : "-5",
+  "Notes" : "Forced to crouching upon NH.\nTo Bulldozer Charge from CH\n",
   "Name" : "Quick Head-Butt",
   "Total" : "41",
   "Counter Hit" : "Th",
@@ -398,18 +398,29 @@
   "Command" : "df41+2",
   "Hit" : "+5C",
   "Block" : "+1C",
-  "Notes" : "Combo from 1st CH.\nBlock or Hit force to crouching.\nInterruption 11F after 1st block.\nMeaty 1F.\n",
+  "Notes" : "Combo from 1st CH.\nForced to crouching upon block or hit..\nInterruption 11F after 1st block.\nMeaty 1F.\n",
   "Name" : "Nail Gun",
   "Total" : "",
-  "Counter Hit" : "+5C",
+  "Counter Hit" : "LNC",
   "Property" : "M,M",
+  "Damage" : "12,30",
+  "Startup" : ""
+}, {
+  "Command" : "df41+23+4",
+  "Hit" : "+7C",
+  "Block" : "+3C",
+  "Notes" : "Combo from 1st CH.\nForced to crouching upon block or hit..\nInterruption 11F after 1st block.\nMeaty 1F.\n",
+  "Name" : "Nail Gun to GSU",
+  "Total" : "",
+  "Counter Hit" : "LNC",
+  "Property" : "M,M,SP",
   "Damage" : "12,30",
   "Startup" : ""
 }, {
   "Command" : "df1+2",
   "Hit" : "-9C",
   "Block" : "-20",
-  "Notes" : "NH force to crouching",
+  "Notes" : "Forced to crouching upon NH.",
   "Name" : "Excavator (1)",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -420,12 +431,12 @@
   "Command" : "df1+21+2",
   "Hit" : "KDN",
   "Block" : "-18C",
-  "Notes" : "Block force to crouching\nCan be delayed",
+  "Notes" : "Forced to crouching upon block.\nCan be delayed\n",
   "Name" : "Excavator",
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "MM,M",
-  "Damage" : "13,13,20",
+  "Damage" : "13,13,17",
   "Startup" : ""
 }, {
   "Command" : "d1",
@@ -464,7 +475,7 @@
   "Command" : "d32",
   "Hit" : "±0C",
   "Block" : "-12C",
-  "Notes" : "Block or NH force to crouching\nCombo from 1st CH\nCan be delayed\nCombo can be delayed 6F from 1st CH\n",
+  "Notes" : "Forced to crouching upon block or NH.\nCombo from 1st CH\nCan be delayed\nCombo can be delayed 6F from 1st CH\n",
   "Name" : "Ignition Coil",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -497,7 +508,7 @@
   "Command" : "d3+4",
   "Hit" : "",
   "Block" : "",
-  "Notes" : "PC 6 to 59F\nDamage 50% cut during PC\nTotal frame 45F during 6 to 30F PC\nContinuation PC while neutral block after 30F\nRecovery frame 15F during 31 to 59F PC",
+  "Notes" : "PC 6 to 59F\nDamage 50% cut during PC.\nTotal frame 45F during 6 to 30F PC.\nContinuation PC while neutral block after 30F.\nRecovery frame 15F during 31 to 59F PC.\n",
   "Name" : "Enraged Howl",
   "Total" : "30",
   "Counter Hit" : "",
@@ -513,7 +524,7 @@
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "L",
-  "Damage" : "20",
+  "Damage" : "23",
   "Startup" : "23F"
 }, {
   "Command" : "db3",
@@ -651,7 +662,7 @@
   "Command" : "b4",
   "Hit" : "+1C",
   "Block" : "-9C",
-  "Notes" : "Block or NH force to crouching\nSpecial effect after down hit",
+  "Notes" : "Forced to crouching upon block or NH.\nSpecial effect after down hit",
   "Name" : "Heavy Stomp",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -662,13 +673,24 @@
   "Command" : "b1+2",
   "Hit" : "+5C",
   "Block" : "+4C",
-  "Notes" : "Block or Hit force to crouching\nMeaty 1F\n",
+  "Notes" : "Forced to crouching upon block or hit.\nMeaty 1F\n",
   "Name" : "Rusty Nail",
   "Total" : "",
-  "Counter Hit" : "+5C",
+  "Counter Hit" : "LNC",
   "Property" : "M",
   "Damage" : "30",
   "Startup" : "25F"
+}, {
+  "Command" : "b1+23+4",
+  "Hit" : "+7C",
+  "Block" : "+6C",
+  "Notes" : "Forced to crouching upon block or hit.\nMeaty 1F\n",
+  "Name" : "Rusty Nail to GSU",
+  "Total" : "",
+  "Counter Hit" : "LNC",
+  "Property" : "M,SP",
+  "Damage" : "30",
+  "Startup" : ""
 }, {
   "Command" : "ub or u1",
   "Hit" : "-1",
@@ -684,7 +706,7 @@
   "Command" : "uf1",
   "Hit" : "KDN",
   "Block" : "-9C",
-  "Notes" : "TJ 9F\nBlock or NH force to crouching",
+  "Notes" : "TJ 9F\nForced to crouching upon block or NH.",
   "Name" : "Jumping Elbow",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -783,7 +805,7 @@
   "Command" : "uf3+4",
   "Hit" : "+7C",
   "Block" : "-3C",
-  "Notes" : "TJ 6F\nBlock or NH force to crouching\nMeaty 2F in actualy",
+  "Notes" : "TJ 6F\nForced to crouching upon block or NH.\nMeaty 2F in actualy",
   "Name" : "Crushing Stomp",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -1080,7 +1102,7 @@
   "Command" : " While down (face down) 2",
   "Hit" : "+1",
   "Block" : "-16",
-  "Notes" : "Meaty 1F in actualy",
+  "Notes" : "Meaty 1F in actualy\n",
   "Name" : "Ground Sweeper",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -1173,7 +1195,7 @@
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "M",
-  "Damage" : "20",
+  "Damage" : "25",
   "Startup" : "26F"
 }, {
   "Command" : " During Goliath (Two steps) 2",
@@ -1201,18 +1223,18 @@
   "Command" : " During Goliath (Three steps) 1",
   "Hit" : "KDN",
   "Block" : "-2",
-  "Notes" : "",
+  "Notes" : "Start-up 26F.\n",
   "Name" : "Metal Crusher",
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "M",
-  "Damage" : "35",
+  "Damage" : "40",
   "Startup" : "26F"
 }, {
   "Command" : " During Goliath (Three steps) 2",
   "Hit" : "KDN",
   "Block" : "KDN",
-  "Notes" : "No longer reversal\n",
+  "Notes" : "Start-up 24F.\nNo longer reversal\n",
   "Name" : "Hell Crusher",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -1263,6 +1285,28 @@
   "Property" : "M",
   "Damage" : "30",
   "Startup" : "20F"
+}, {
+  "Command" : " During GSU 4",
+  "Hit" : "±0",
+  "Block" : "-16",
+  "Notes" : "",
+  "Name" : "Left Unchained Upper Combo (1)",
+  "Total" : "",
+  "Counter Hit" : "±0",
+  "Property" : "L",
+  "Damage" : "14",
+  "Startup" : "20F"
+}, {
+  "Command" : " During GSU 41",
+  "Hit" : "KDN",
+  "Block" : "-1",
+  "Notes" : "TS \nCombo from 1st CH.\nCan be delayed 7F.\n",
+  "Name" : "Left Unchained Upper Combo",
+  "Total" : "",
+  "Counter Hit" : "KDN*",
+  "Property" : "L,H",
+  "Damage" : "14,20",
+  "Startup" : ""
 }, {
   "Command" : " During GSU ub",
   "Hit" : "",
@@ -1316,7 +1360,7 @@
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "M",
-  "Damage" : "25",
+  "Damage" : "30",
   "Startup" : "26F"
 }, {
   "Command" : " Rage Drive (Two steps) 2",
@@ -1415,7 +1459,7 @@
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "M",
-  "Damage" : "40",
+  "Damage" : "45",
   "Startup" : "26F"
 }, {
   "Command" : " Rage Drive (Three steps) 2",
@@ -1512,7 +1556,7 @@
   "AfterThrow" : "Foot-sd Fac-Up",
   "Command" : "1+3",
   "Property" : "Th(H)",
-  "Notes" : "Long Range Throw"
+  "Notes" : "Long Range Throw (Ver.4.00) - Increased the distance which allows the move to shift to a throw."
 }, {
   "BreakThrow" : "1 or 2 -3F RP",
   "Name" : "Trash Compactor",
@@ -1520,7 +1564,7 @@
   "AfterThrow" : "RP Head-sd Fac-Up",
   "Command" : "2+4",
   "Property" : "Th(H)",
-  "Notes" : "Long Range Throw"
+  "Notes" : "Long Range Throw (Ver.4.00) - Increased the distance which allows the move to shift to a throw."
 }, {
   "BreakThrow" : "1 -3F",
   "Name" : "Outrage",
@@ -1552,7 +1596,7 @@
   "AfterThrow" : "Foot-sd Fac-Up",
   "Command" : "fdfddbbf1+2 or During GSU 1+2",
   "Property" : "Th(H)",
-  "Notes" : "Easy Command . Damage () is wall bonus. 【S3 Patch Notes】– The move can now also be performed with “During Golem Set Up ”."
+  "Notes" : "Easy Command . Damage () is wall bonus. Old Patch Notes (S3)– The move can now also be performed with “During Golem Set Up ”. (Ver.4.00) - Increased the distance which allows the move to shift to a throw."
 }, {
   "BreakThrow" : "disable ",
   "Name" : "Claw Hammer",

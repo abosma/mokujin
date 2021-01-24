@@ -373,6 +373,17 @@
   "Damage" : "13",
   "Startup" : "15F"
 }, {
+  "Command" : "f41d",
+  "Hit" : "-2",
+  "Block" : "-15",
+  "Notes" : "Returns to crouching.\n",
+  "Name" : "Departing Spirit (1) to Cancel",
+  "Total" : "",
+  "Counter Hit" : "-2",
+  "Property" : "M,SP",
+  "Damage" : "13",
+  "Startup" : ""
+}, {
   "Command" : "f41",
   "Hit" : "KDN",
   "Block" : "-14",
@@ -772,7 +783,7 @@
   "Command" : "b3",
   "Hit" : "+4C",
   "Block" : "-13",
-  "Notes" : "TC 6F\nReturns to crouching.",
+  "Notes" : "TC 6F\nReturns to crouching.\n",
   "Name" : "Double Sweep (1)",
   "Total" : "59",
   "Counter Hit" : "KDN",
@@ -793,8 +804,8 @@
 }, {
   "Command" : "b4",
   "Hit" : "KDN",
-  "Block" : "+1",
-  "Notes" : "H TS ",
+  "Block" : "-2",
+  "Notes" : "H TS \n",
   "Name" : "Heaven Shatter Kick",
   "Total" : "43",
   "Counter Hit" : "KDN",
@@ -804,7 +815,7 @@
 }, {
   "Command" : "b1+2",
   "Hit" : "KDN",
-  "Block" : "-13",
+  "Block" : "-14",
   "Notes" : "",
   "Name" : "Twin Arrow",
   "Total" : "",
@@ -1000,15 +1011,26 @@
   "Damage" : "21",
   "Startup" : "12F"
 }, {
+  "Command" : "ff4",
+  "Hit" : "KDN",
+  "Block" : "+2",
+  "Notes" : "TS TJ 11F\n",
+  "Name" : "Storm Chaser",
+  "Total" : "",
+  "Counter Hit" : "KDN",
+  "Property" : "H",
+  "Damage" : "25",
+  "Startup" : "20F"
+}, {
   "Command" : "ff1+2",
   "Hit" : "KDN",
-  "Block" : "-7",
-  "Notes" : "WB \nAdvance Input is unavailable.\nStart-up 14F in actualy.",
+  "Block" : "-9",
+  "Notes" : "WB \nAdvance Input is unavailable.\nStart-up 14F in actualy.\n",
   "Name" : "Double Palm Push",
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "M",
-  "Damage" : "27",
+  "Damage" : "23",
   "Startup" : "13F"
 }, {
   "Command" : "ddf1",
@@ -1047,7 +1069,7 @@
   "Command" : "ddf12",
   "Hit" : "KDN",
   "Block" : "-14",
-  "Notes" : "Combo from 1st CH.\nCan be delayed.",
+  "Notes" : "Combo from 1st CH.\nCan be delayed.\n",
   "Name" : "Lightning Bolt",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -1091,7 +1113,7 @@
   "Command" : "fff21",
   "Hit" : "KDN",
   "Block" : "-13",
-  "Notes" : "Combo from 1st NH.\nCan be delayed 11F.\n",
+  "Notes" : "Combo from 1st hit.\nCan be delayed 11F.\n",
   "Name" : "Dream Catcher",
   "Total" : "",
   "Counter Hit" : "KDN",
@@ -1288,13 +1310,13 @@
 }, {
   "Command" : " WS 4",
   "Hit" : "KDN",
-  "Block" : "-15",
+  "Block" : "-12",
   "Notes" : "",
   "Name" : "Skyscraper Kick",
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "M",
-  "Damage" : "21",
+  "Damage" : "17",
   "Startup" : "11F"
 }, {
   "Command" : " FC df2",
@@ -1322,12 +1344,12 @@
   "Command" : " FC df43",
   "Hit" : "KDN",
   "Block" : "-17",
-  "Notes" : "TJ \nCombo from 1st NH.",
+  "Notes" : "TJ \nCombo from 1st hit.\n",
   "Name" : "Spinning Sweep Combo",
   "Total" : "",
   "Counter Hit" : "KDN",
   "Property" : "L,M",
-  "Damage" : "9,23",
+  "Damage" : "9,20",
   "Startup" : ""
 }, {
   "Command" : " SS 2",
@@ -1353,7 +1375,7 @@
   "Startup" : "20F"
 }, {
   "Command" : " SS 4",
-  "Hit" : "+3",
+  "Hit" : "±0",
   "Block" : "-13",
   "Notes" : "TC 6F\n",
   "Name" : "Clean Sweep",
@@ -1366,7 +1388,7 @@
   "Command" : " SS 3+4",
   "Hit" : "LNC",
   "Block" : "-21",
-  "Notes" : "No Crouch Status.",
+  "Notes" : "No Crouch Status.\n",
   "Name" : "Handstand Kick",
   "Total" : "72",
   "Counter Hit" : "LNC",
@@ -1655,7 +1677,7 @@
   "AfterThrow" : "RP Foot-sd. Fac-Up.",
   "Command" : "1+3",
   "Property" : "Th(H)",
-  "Notes" : "Floor break. S2 Patch Notes (ver.2.30)・Corrected name on Move List."
+  "Notes" : "Floor break. Old Patch Notes (ver.2.30)・Corrected name on Move List."
 }, {
   "BreakThrow" : "1 or 2 -3F",
   "Name" : "Side Slam",
@@ -1663,7 +1685,7 @@
   "AfterThrow" : "CCW Foot-sd. Fac-Up.",
   "Command" : "2+4",
   "Property" : "Th(H)",
-  "Notes" : "S2 Patch Notes (ver.2.30)・Corrected name on Move List."
+  "Notes" : "Old Patch Notes (ver.2.30)・Corrected name on Move List."
 }, {
   "BreakThrow" : "1 -3F",
   "Name" : "Headlock Back Crusher",
@@ -1671,7 +1693,7 @@
   "AfterThrow" : "Head-sd. Fac-Dwn.",
   "Command" : " Approach from left side ",
   "Property" : "Th(H)",
-  "Notes" : "S2 Patch Notes (ver.2.30)・Corrected name on Move List."
+  "Notes" : "Old Patch Notes (ver.2.30)・Corrected name on Move List."
 }, {
   "BreakThrow" : "2 -3F",
   "Name" : "Twisted Sister",
@@ -1679,7 +1701,7 @@
   "AfterThrow" : "Head-sd. Fac-Up.",
   "Command" : " Approach from right side ",
   "Property" : "Th(H)",
-  "Notes" : "S2 Patch Notes (ver.2.30)・Corrected name on Move List."
+  "Notes" : "Old Patch Notes (ver.2.30)・Corrected name on Move List."
 }, {
   "BreakThrow" : "disable ",
   "Name" : "German Suplex",
@@ -1687,7 +1709,7 @@
   "AfterThrow" : "Head-sd. Fac-Dwn.",
   "Command" : " Approach from behind 1+3",
   "Property" : "Th(H)",
-  "Notes" : "S2 Patch Notes ・Remove Floor Break."
+  "Notes" : "Old Patch Notes ・Remove Floor Break."
 }, {
   "BreakThrow" : "disable ",
   "Name" : "Calf Branding",
@@ -1703,7 +1725,7 @@
   "AfterThrow" : "RP Head-sd. Fac-Up.",
   "Command" : "df1+3",
   "Property" : "Th(H)",
-  "Notes" : "Floor break. S2 Patch Notes (Ver.2.30)Changed Move(from Fisherman's Suplex to Waist Suplex)."
+  "Notes" : "Floor break. Old Patch Notes (Ver.2.30)Changed Move(from Fisherman's Suplex to Waist Suplex)."
 }, {
   "BreakThrow" : "2 -2F",
   "Name" : "Seesaw Toss",
@@ -1711,7 +1733,7 @@
   "AfterThrow" : "RP BT ±0F",
   "Command" : "b2+4",
   "Property" : "Th(H)",
-  "Notes" : "Wall bonus 5 damage & BT stun. S2 Patch Notes ・Change Command."
+  "Notes" : "Wall bonus 5 damage & BT stun. Old Patch Notes ・Change Command."
 }, {
   "BreakThrow" : "1+2 -6F",
   "Name" : "Arm Lock Suplex",
@@ -1719,7 +1741,7 @@
   "AfterThrow" : "RP Head-sd. Fac-Up.",
   "Command" : "uf1+2",
   "Property" : "Th(H)",
-  "Notes" : "S2 Patch Notes ・Change Command."
+  "Notes" : "Old Patch Notes ・Change Command."
 }, {
   "BreakThrow" : "1+2 -4F",
   "Name" : "Mad Axes",
@@ -1727,7 +1749,7 @@
   "AfterThrow" : "CW Foot-sd. Fac-Up.",
   "Command" : "ddbbf2",
   "Property" : "Th(H)",
-  "Notes" : "Disable Preciding Input Input & . S2 Patch Notes ・Start Up from 11F to 10F."
+  "Notes" : "Disable Preciding Input Input & . Old Patch Notes ・Start Up from 11F to 10F."
 }, {
   "BreakThrow" : "1+2 -6F",
   "Name" : "Cross Arm Suplex",
@@ -1759,13 +1781,13 @@
   "AfterThrow" : "RP Head-sd. Fac-Up.",
   "Command" : " During Swift Step 1+2",
   "Property" : "Th(H)",
-  "Notes" : "Start up 15 + 16F. Floor break. 【S3 Patch Notes】– New move. (Ver.3.01) Fixed an issue where damage did not increase when throwing during rage mode."
+  "Notes" : "Start up 15 + 16F. Floor break. Old Patch Notes (S3)– New move. (Ver.3.01) Fixed an issue where damage did not increase when throwing during rage mode."
 }, {
   "BreakThrow" : "disable ",
   "Name" : "Aerial Bomb",
-  "Damage" : "30",
+  "Damage" : "35",
   "AfterThrow" : "Head-sd. Fac-Dwn.",
   "Command" : " Approach mid-air enemy & During Swift Step 1+2",
   "Property" : "Th(H)",
-  "Notes" : "Start up 15 + 16F. Floor break. 【S3 Patch Notes】– New move."
+  "Notes" : "Start up 15 + 16F. Floor break. Old Patch Notes (S3)– New move. (Ver.4.00) - Changed the damage from 30 to 35."
 } ]
