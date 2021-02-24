@@ -153,7 +153,7 @@
   "Damage" : "17,12",
   "Startup" : ""
 }, {
-  "Command" : "34",
+  "Command" : "3~4",
   "Hit" : "KDN",
   "Block" : "-9",
   "Notes" : "TJ 17-31F\n2nd meaty 2F in actual.y\n",
@@ -164,7 +164,7 @@
   "Damage" : "13,15",
   "Startup" : "25F"
 }, {
-  "Command" : "34 f",
+  "Command" : "3~4 f",
   "Hit" : "KDN",
   "Block" : "-39",
   "Notes" : "TJ 17-31F\n2nd meaty 2F in actual.y",
@@ -175,7 +175,7 @@
   "Damage" : "13,15",
   "Startup" : ""
 }, {
-  "Command" : "43",
+  "Command" : "4~3",
   "Hit" : "LNC",
   "Block" : "-16",
   "Notes" : "TJ 14F\nAdvance Input is unavailable.\nStart-up 17F in actualy.\nMeaty 1F in actualy.\n",
@@ -186,7 +186,7 @@
   "Damage" : "8,10",
   "Startup" : "16F"
 }, {
-  "Command" : "43 1",
+  "Command" : "4~3 1",
   "Hit" : "+4",
   "Block" : "-13",
   "Notes" : "TC \nCan be delayed\nDamage () is on Advance Input.\nReturns to crouching.\n",
@@ -197,7 +197,7 @@
   "Damage" : "8,10,12",
   "Startup" : ""
 }, {
-  "Command" : "43 3",
+  "Command" : "4~3 3",
   "Hit" : "KDN",
   "Block" : "-3",
   "Notes" : "TS \nCan be delayed.\nDamage () is on Advance Input.\n",
@@ -208,7 +208,7 @@
   "Damage" : "8,10,23",
   "Startup" : ""
 }, {
-  "Command" : "43 4",
+  "Command" : "4~3 4",
   "Hit" : "KDN",
   "Block" : "-14",
   "Notes" : "Can be delayed.\nDamage () is on Advance Input.\n",
@@ -648,7 +648,7 @@
   "Damage" : "11,24",
   "Startup" : ""
 }, {
-  "Command" : "b4 b43",
+  "Command" : "b4 b4~3",
   "Hit" : "±0",
   "Block" : "-11",
   "Notes" : "TC ",
@@ -659,7 +659,7 @@
   "Damage" : "11,11",
   "Startup" : ""
 }, {
-  "Command" : "b4 b43 f4u",
+  "Command" : "b4 b4~3 f4u",
   "Hit" : "-47",
   "Block" : "-58",
   "Notes" : "",
@@ -670,7 +670,7 @@
   "Damage" : "11,11",
   "Startup" : ""
 }, {
-  "Command" : "b4 b43 4",
+  "Command" : "b4 b4~3 4",
   "Hit" : "±0",
   "Block" : "-11",
   "Notes" : "TC \nCombo from 2nd NH",
@@ -681,7 +681,7 @@
   "Damage" : "11,11,9",
   "Startup" : ""
 }, {
-  "Command" : "b4 b43 42",
+  "Command" : "b4 b4~3 42",
   "Hit" : "KDN",
   "Block" : "-13",
   "Notes" : "",
@@ -692,7 +692,7 @@
   "Damage" : "11,11,9,21",
   "Startup" : ""
 }, {
-  "Command" : "b4 b43 f4",
+  "Command" : "b4 b4~3 f4",
   "Hit" : "±0",
   "Block" : "-11",
   "Notes" : "TC ",
@@ -703,7 +703,7 @@
   "Damage" : "11,11,12",
   "Startup" : ""
 }, {
-  "Command" : "b4 b43 f42",
+  "Command" : "b4 b4~3 f42",
   "Hit" : "KDN",
   "Block" : "-13",
   "Notes" : "",
@@ -714,7 +714,7 @@
   "Damage" : "11,11,12,21",
   "Startup" : ""
 }, {
-  "Command" : "b4 b43 or f43",
+  "Command" : "b4 b4~3 or f4~3",
   "Hit" : "KDN",
   "Block" : "-6",
   "Notes" : "TJ ",
@@ -725,7 +725,7 @@
   "Damage" : "11,11,22",
   "Startup" : ""
 }, {
-  "Command" : "b4 b43 3+4",
+  "Command" : "b4 b4~3 3+4",
   "Hit" : "KDN",
   "Block" : "-25",
   "Notes" : "Combo from 2nd NH.",
@@ -1011,7 +1011,7 @@
   "Damage" : "20,12,21",
   "Startup" : ""
 }, {
-  "Command" : "uf3+4 f43",
+  "Command" : "uf3+4 f4~3",
   "Hit" : "KDN",
   "Block" : "-6",
   "Notes" : "TJ ",
@@ -1913,7 +1913,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "ddff 21",
+  "Command" : "ddff 2~1",
   "Hit" : "KDN",
   "Block" : "-12",
   "Notes" : "WB \nStart-up after input<img src=\"../rp.bmp\" class=\"c\">.\n",

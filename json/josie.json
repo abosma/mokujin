@@ -439,7 +439,7 @@
   "Damage" : "14,12,21",
   "Startup" : ""
 }, {
-  "Command" : "df1 44",
+  "Command" : "df1 4~4",
   "Hit" : "KDN",
   "Block" : "-7",
   "Notes" : "",
@@ -791,7 +791,7 @@
   "Damage" : "14,14,12",
   "Startup" : ""
 }, {
-  "Command" : "b43 d44",
+  "Command" : "b43 d4~4",
   "Hit" : "KDN",
   "Block" : "-7",
   "Notes" : "",

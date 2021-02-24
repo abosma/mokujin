@@ -120,7 +120,7 @@
   "Damage" : "15",
   "Startup" : "11F"
 }, {
-  "Command" : "43",
+  "Command" : "4~3",
   "Hit" : "+3C",
   "Block" : "-1C",
   "Notes" : "TJ 10F\nStart-up 23F from input completed.\nStart-up 24F on Advance Input.\nReturns to crouching.\nForced to crouching upon block or NH..\nMeaty 1F in actualy.",
@@ -131,7 +131,7 @@
   "Damage" : "23",
   "Startup" : "23F"
 }, {
-  "Command" : "43 d1+2",
+  "Command" : "4~3 d1+2",
   "Hit" : "+4C",
   "Block" : "±0C",
   "Notes" : "TJ 10F\nTo Phoenix Stance(<img src=\"../2.bmp\" class=\"c\"><img src=\"../p.bmp\" class=\"c\">).\nForced to crouching upon block or NH..",
@@ -307,7 +307,7 @@
   "Damage" : "15",
   "Startup" : "15F"
 }, {
-  "Command" : "df21",
+  "Command" : "df2~1",
   "Hit" : "LNC",
   "Block" : "-13",
   "Notes" : "Advance Input is available.\n",
@@ -1847,7 +1847,7 @@
   "Damage" : "14",
   "Startup" : "12F"
 }, {
-  "Command" : "During Phoenix 43",
+  "Command" : "During Phoenix 4~3",
   "Hit" : "KDN",
   "Block" : "-27",
   "Notes" : "TC \nAir status after moving.",
@@ -2144,7 +2144,7 @@
   "Damage" : "55",
   "Startup" : "20F"
 }, {
-  "Command" : "Rage ＆BT d33+4",
+  "Command" : "Rage ＆BT d33+~4",
   "Hit" : "KDN",
   "Block" : "-4",
   "Notes" : "TS \nShifts to Phoenix Stance （<img src=\"../2.bmp\" class=\"c\"><img src=\"../p.bmp\" class=\"c\">）.",

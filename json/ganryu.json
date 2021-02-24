@@ -263,7 +263,7 @@
   "Damage" : "14",
   "Startup" : "14F"
 }, {
-  "Command" : "f21 or ff21 or bdbddf21",
+  "Command" : "f2~1 or ff2~1 or bdbddf2~1",
   "Hit" : "+12",
   "Block" : "+4",
   "Notes" : "Disable advanced input.\nStart-up 17F in actualy.",
@@ -692,7 +692,7 @@
   "Damage" : "18,15,20",
   "Startup" : ""
 }, {
-  "Command" : "b12",
+  "Command" : "b1~2",
   "Hit" : "KDN",
   "Block" : "-14",
   "Notes" : "",
@@ -703,7 +703,7 @@
   "Damage" : "2,2,2,21",
   "Startup" : "14F"
 }, {
-  "Command" : "b12 1:",
+  "Command" : "b1~2 1:",
   "Hit" : "KDN",
   "Block" : "-14",
   "Notes" : "Enable input<img src=\"../rp.bmp\" class=\"c\">.",
@@ -714,7 +714,7 @@
   "Damage" : "2*5,21",
   "Startup" : ""
 }, {
-  "Command" : "b12 1:1:",
+  "Command" : "b1~2 1:1:",
   "Hit" : "KDN",
   "Block" : "-14",
   "Notes" : "Enable input<img src=\"../rp.bmp\" class=\"c\">.",
@@ -725,7 +725,7 @@
   "Damage" : "2*7,21",
   "Startup" : ""
 }, {
-  "Command" : "b12 1:1:1:",
+  "Command" : "b1~2 1:1:1:",
   "Hit" : "KDN",
   "Block" : "-14",
   "Notes" : "Enable input<img src=\"../rp.bmp\" class=\"c\">.",

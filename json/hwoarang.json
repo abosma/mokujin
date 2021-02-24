@@ -219,7 +219,7 @@
   "Damage" : "15,12,23",
   "Startup" : ""
 }, {
-  "Command" : "34",
+  "Command" : "3~4",
   "Hit" : "KDN",
   "Block" : "-3",
   "Notes" : "TJ 16F\nStart-up frame is from input start timing\nAdvance Input is unavailable\n",
@@ -362,7 +362,7 @@
   "Damage" : "15",
   "Startup" : "16F"
 }, {
-  "Command" : "f3n3",
+  "Command" : "f3n~3",
   "Hit" : "KDN",
   "Block" : "-16",
   "Notes" : "Start-up frame is from input start timing",
@@ -1440,7 +1440,7 @@
   "Damage" : "13,16",
   "Startup" : ""
 }, {
-  "Command" : "RS 34",
+  "Command" : "RS 3~4",
   "Hit" : "KDN",
   "Block" : "+4",
   "Notes" : "H TS PC 8F\nStart-up frame is from input start timing\nMeaty 1F in actualy",
@@ -1495,7 +1495,7 @@
   "Damage" : "12,23",
   "Startup" : ""
 }, {
-  "Command" : "RS f44",
+  "Command" : "RS f4~4",
   "Hit" : "LNC",
   "Block" : "-13",
   "Notes" : "Start-up frame is from input start timing\nMeaty 1F in actualy\n",
@@ -2383,7 +2383,7 @@
   "Name" : "Human Cannonball",
   "Damage" : "40",
   "AfterThrow" : "CW Head-sd Fac-Up",
-  "Command" : "f2+3 or f32 or LF f2+3 or RS f2+3",
+  "Command" : "f2+3 or f3~2 or LF f2+3 or RS f2+3",
   "Property" : "Th(H)",
   "Notes" : "Enable motion cancel from input 【】 Floor Break Old Patch Notes ・Startup changed from 14F to 12F."
 }, {

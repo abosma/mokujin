@@ -1,11 +1,8 @@
 #!/usr/bin/env python3
 import os
 import json
-import collections
-import re
 import difflib
-import embedhandler
-import random
+from typing import Dict, List
 
 cwd = os.getcwd()
 misc_file = cwd + '/json/character_misc.json'
@@ -19,7 +16,7 @@ shortcuts = {
     'qcb' : 'ddbb'
 }
 
-def get_character(char_name):
+def get_character(char_name : str):
     contents = None
 
     with open(misc_file) as char_misc_file:
@@ -50,7 +47,7 @@ def get_character(char_name):
 
     return None
 
-def get_move(character_json, char_move):
+def get_move(character_json : str, char_move : str) -> Dict[str, str]:
     char_move_list = None
     char_json = cwd + '/json/' + character_json
     
@@ -90,8 +87,8 @@ def get_move(character_json, char_move):
             else:
                 return None
 
-def filter_dictionary(to_compare_key, to_compare_value, dictionary):
-    to_return_item = None
+def filter_dictionary(to_compare_key : str, to_compare_value : str, dictionary : List[dict]) -> Dict[str, str]:
+    to_return_item : dict = None
     value_split = to_compare_value.split(' ')
 
     # First check if move is equal to move list item, then if move is contained in move list item
@@ -132,13 +129,13 @@ def filter_dictionary(to_compare_key, to_compare_value, dictionary):
         
         return to_return_item
 
-def replace_shortcuts(char_move):
+def replace_shortcuts(char_move : str) -> str:
     for key, item in shortcuts.items():
         if char_move == key or char_move.__contains__(key):
             return char_move.replace(key, item)
     return char_move
 
-def dict_key_to_list(key, dictionary):
+def dict_key_to_list(key : str, dictionary : Dict[str, str]) -> List[str]:
     to_return_list = []
     for item in dictionary:
         to_add_item = item[key].lower().strip().replace(' ', '')

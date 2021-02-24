@@ -285,7 +285,7 @@
   "Damage" : "11,14",
   "Startup" : ""
 }, {
-  "Command" : "df3 42",
+  "Command" : "df3 4~2",
   "Hit" : "KDN",
   "Block" : "+2",
   "Notes" : "WB \n",
@@ -296,7 +296,7 @@
   "Damage" : "11,25",
   "Startup" : ""
 }, {
-  "Command" : "df3 43",
+  "Command" : "df3 4~3",
   "Hit" : "+20Sp",
   "Block" : "+1",
   "Notes" : "",
@@ -307,7 +307,7 @@
   "Damage" : "11,15",
   "Startup" : ""
 }, {
-  "Command" : "df3 43 1+2",
+  "Command" : "df3 4~3 1+2",
   "Hit" : "+24Sp",
   "Block" : "+5",
   "Notes" : "Power Gauge Cost 1.\nDisable from whiff.",

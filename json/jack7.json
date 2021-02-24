@@ -285,7 +285,7 @@
   "Damage" : "23",
   "Startup" : "17F"
 }, {
-  "Command" : "f41",
+  "Command" : "f4~1",
   "Hit" : "KDN",
   "Block" : "KDN",
   "Notes" : "Advance Input is unavailable\nStart-up 66F in actualy\n",
@@ -296,7 +296,7 @@
   "Damage" : "80",
   "Startup" : "65F"
 }, {
-  "Command" : "f41 2",
+  "Command" : "f4~1 2",
   "Hit" : "KDN",
   "Block" : "+8",
   "Notes" : "",

@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
-import os, sys
+import os
 import datetime
-import asyncio
-import json
 
 import discord
 from discord.ext import commands
+from discord.message import Message
 
 import infofinder
 import config
@@ -33,7 +32,7 @@ async def on_ready():
     print('------')
 
 @bot.command()
-async def addalias(ctx, *args):
+async def addalias(ctx : commands.Context, *args):
     embed = None
     
     if len(args) != 2:
@@ -50,7 +49,7 @@ async def addalias(ctx, *args):
     await ctx.send(embed=embed, delete_after=15)
 
 @bot.command()
-async def removealias(ctx, *args):
+async def removealias(ctx : commands.Context, *args):
     embed = None
     
     if len(args) != 2:
@@ -67,13 +66,13 @@ async def removealias(ctx, *args):
     await ctx.send(embed=embed, delete_after=15)
 
 @bot.command()
-async def info(ctx):
+async def info(ctx : commands.Context):
     embed = embedhandler.info_embed()
 
     await ctx.send(embed=embed, delete_after=60)
 
 @bot.event
-async def on_message(message):
+async def on_message(message : Message):
     channel = message.channel
     
     if message.content.startswith('!') and ((isinstance(channel, discord.channel.DMChannel)) or (channel.name in config.CHANNELS)):

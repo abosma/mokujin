@@ -76,7 +76,7 @@
   "Damage" : "7,14,20",
   "Startup" : ""
 }, {
-  "Command" : "13 21+2",
+  "Command" : "13 21+~2",
   "Hit" : "Th",
   "Block" : "",
   "Notes" : "Break Throw<img src=\"../p.bmp\" class=\"c\">(14F)\n+5F after break Throw\nDisable break throw during Charging\n",
@@ -87,7 +87,7 @@
   "Damage" : "7,14,35",
   "Startup" : ""
 }, {
-  "Command" : "13 21+2 b",
+  "Command" : "13 21+~2 b",
   "Hit" : "-24",
   "Block" : "-32",
   "Notes" : "",
@@ -637,7 +637,7 @@
   "Damage" : "14",
   "Startup" : "27F"
 }, {
-  "Command" : "db31+2",
+  "Command" : "db31+~2",
   "Hit" : "Th",
   "Block" : "",
   "Notes" : "Break Throw<img src=\"../p.bmp\" class=\"c\">(14F)\n+5F after break Throw\nDisable break throw during Charging",
@@ -648,7 +648,7 @@
   "Damage" : "45",
   "Startup" : "40F"
 }, {
-  "Command" : "db31+2 d",
+  "Command" : "db31+~2 d",
   "Hit" : "",
   "Block" : "",
   "Notes" : "Returns to crouching.",
@@ -736,7 +736,7 @@
   "Damage" : "14,11,16",
   "Startup" : ""
 }, {
-  "Command" : "b21 31+2",
+  "Command" : "b21 31+~2",
   "Hit" : "Th",
   "Block" : "",
   "Notes" : "TC \nBreak Throw<img src=\"../p.bmp\" class=\"c\">(14F)\n+5F after break Throw\nDisable break throw during Charging",
@@ -747,7 +747,7 @@
   "Damage" : "14,11,45",
   "Startup" : ""
 }, {
-  "Command" : "b21 31+2 d",
+  "Command" : "b21 31+~2 d",
   "Hit" : "",
   "Block" : "",
   "Notes" : "TC ",
@@ -1011,7 +1011,7 @@
   "Damage" : "20",
   "Startup" : "15F"
 }, {
-  "Command" : "ff21+2",
+  "Command" : "ff21+~2",
   "Hit" : "Th",
   "Block" : "",
   "Notes" : "Break Throw<img src=\"../p.bmp\" class=\"c\">(14F)\n+5F after break Throw\nDisable break throw during Charging",
@@ -1022,7 +1022,7 @@
   "Damage" : "35",
   "Startup" : ""
 }, {
-  "Command" : "ff21+2 b",
+  "Command" : "ff21+~2 b",
   "Hit" : "",
   "Block" : "",
   "Notes" : "",
@@ -1636,7 +1636,7 @@
   "Name" : "Feint & Catch",
   "Damage" : "40",
   "AfterThrow" : "Head-sd Fac-Up",
-  "Command" : "ff21+2 or 2 . 1+2",
+  "Command" : "ff21+~2 or 2 . 1+~2",
   "Property" : "Th(H)",
   "Notes" : "Break Throw 14F Disable break throw during Charging Old Patch Notes (S3)– Increased the range of the attack. (Ver.4.00) - Changed the damage from 35 to 40."
 }, {
@@ -1644,7 +1644,7 @@
   "Name" : "Clipping Heel Hook",
   "Damage" : "45",
   "AfterThrow" : "RP Foot-sd Fac-Up",
-  "Command" : "db31+2 or 31+2",
+  "Command" : "db31+~2 or 31+~2",
   "Property" : "Th(L)",
   "Notes" : "Input to cancel Break Throw 14F Disable break throw during Charging"
 }, {

@@ -670,7 +670,7 @@
   "Damage" : "10",
   "Startup" : ""
 }, {
-  "Command" : "d1+22",
+  "Command" : "d1+2~2",
   "Hit" : "LNC",
   "Block" : "+7",
   "Notes" : "",
@@ -780,7 +780,7 @@
   "Damage" : "18,17",
   "Startup" : ""
 }, {
-  "Command" : "b2f1",
+  "Command" : "b2f~1",
   "Hit" : "KDN",
   "Block" : "±0",
   "Notes" : "",

@@ -186,7 +186,7 @@
   "Damage" : "18",
   "Startup" : "11F"
 }, {
-  "Command" : "34",
+  "Command" : "3~4",
   "Hit" : "KDN",
   "Block" : "-26",
   "Notes" : "H TC 6F\nAdvance Input is unavailable\nStart-up 27F in actualy\nReturns to crouching.\nInput<img src=\"../1'.bmp\" class=\"c\">Cancel　(total 39F)\n",

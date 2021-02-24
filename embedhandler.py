@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 import discord
+from discord.embeds import Embed
 
-def move_embed(character, move):
+def move_embed(character : dict, move : dict) -> Embed:
     '''Returns the embed message for character and move'''
     embed = discord.Embed(title=character['proper_name'],
             colour=0x00EAFF,
@@ -21,7 +22,7 @@ def move_embed(character, move):
 
     return embed
 
-def throw_embed(character, throw):
+def throw_embed(character : dict, throw : dict) -> Embed:
     '''Returns the embed message for character and throw'''
     embed = discord.Embed(title=character['proper_name'],
             colour=0x00EAFF,
@@ -38,7 +39,7 @@ def throw_embed(character, throw):
 
     return embed
 
-def info_embed():
+def info_embed() -> Embed:
     embed = discord.Embed(title="Extra Information",
             colour=0x00EAFF,
             description="Extra information explaining the move data")
@@ -60,13 +61,13 @@ def info_embed():
 
     return embed
 
-def guess_embed(guess_message):
+def guess_embed(guess_message : str) -> Embed:
     embed = discord.Embed(title="Guess", description="")
     embed.add_field(name="Guessed Character", value=guess_message)
 
     return embed
 
-def error_embed(error_message):
+def error_embed(error_message : str) -> Embed:
     embed = discord.Embed(title='Error', colour=0x0000FF)
     embed.set_author(name='TekkenFrameBot')
     embed.add_field(name="\n\u200b", value=error_message)

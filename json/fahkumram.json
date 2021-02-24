@@ -76,7 +76,7 @@
   "Damage" : "7,8,16,16",
   "Startup" : ""
 }, {
-  "Command" : "124 31",
+  "Command" : "124 3~1",
   "Hit" : "KDN",
   "Block" : "-4Sd",
   "Notes" : "TS ",
@@ -87,7 +87,7 @@
   "Damage" : "7,8,16,20",
   "Startup" : ""
 }, {
-  "Command" : "124 34",
+  "Command" : "124 3~4",
   "Hit" : "+11G",
   "Block" : "-5",
   "Notes" : "",
@@ -98,7 +98,7 @@
   "Damage" : "7,8,16,20",
   "Startup" : ""
 }, {
-  "Command" : "124 34 hold",
+  "Command" : "124 3~4 hold",
   "Hit" : "LNC",
   "Block" : "+14G",
   "Notes" : "Unblokable damage 1 &amp; Wall Stun on block close to Wall.",
@@ -164,7 +164,7 @@
   "Damage" : "8,16,16",
   "Startup" : ""
 }, {
-  "Command" : "24 31",
+  "Command" : "24 3~1",
   "Hit" : "KDN",
   "Block" : "-4Sd",
   "Notes" : "TS ",
@@ -175,7 +175,7 @@
   "Damage" : "8,16,20",
   "Startup" : ""
 }, {
-  "Command" : "24 34",
+  "Command" : "24 3~4",
   "Hit" : "+11G",
   "Block" : "-5",
   "Notes" : "",
@@ -186,7 +186,7 @@
   "Damage" : "8,16,20",
   "Startup" : ""
 }, {
-  "Command" : "24 34 hold",
+  "Command" : "24 3~4 hold",
   "Hit" : "LNC",
   "Block" : "+14G",
   "Notes" : "Unblokable damage 1 &amp; Wall Stun on block close to Wall.",
@@ -285,7 +285,7 @@
   "Damage" : "11,20",
   "Startup" : ""
 }, {
-  "Command" : "3 43",
+  "Command" : "3 4~3",
   "Hit" : "+4",
   "Block" : "-7",
   "Notes" : "",
@@ -296,7 +296,7 @@
   "Damage" : "11,25",
   "Startup" : ""
 }, {
-  "Command" : "3 43 hold",
+  "Command" : "3 4~3 hold",
   "Hit" : "KDN",
   "Block" : "+14",
   "Notes" : "Wall Stun on block close to Wall.",
@@ -307,7 +307,7 @@
   "Damage" : "11,25",
   "Startup" : ""
 }, {
-  "Command" : "3 44",
+  "Command" : "3 4~4",
   "Hit" : "KDN",
   "Block" : "+6",
   "Notes" : "H TS ",
@@ -340,7 +340,7 @@
   "Damage" : "14,16",
   "Startup" : ""
 }, {
-  "Command" : "4 31",
+  "Command" : "4 3~1",
   "Hit" : "KDN",
   "Block" : "-4Sd",
   "Notes" : "TS ",
@@ -351,7 +351,7 @@
   "Damage" : "14,20",
   "Startup" : ""
 }, {
-  "Command" : "4 34",
+  "Command" : "4 3~4",
   "Hit" : "+11G",
   "Block" : "-5",
   "Notes" : "",
@@ -362,7 +362,7 @@
   "Damage" : "14,20",
   "Startup" : ""
 }, {
-  "Command" : "4 34 hold",
+  "Command" : "4 3~4 hold",
   "Hit" : "LNC",
   "Block" : "+14G",
   "Notes" : "Unblokable damage 1 &amp; Wall Stun on block close to Wall.",
@@ -461,7 +461,7 @@
   "Damage" : "18,16,20",
   "Startup" : ""
 }, {
-  "Command" : "f32 43",
+  "Command" : "f32 4~3",
   "Hit" : "+4",
   "Block" : "-7",
   "Notes" : "",
@@ -472,7 +472,7 @@
   "Damage" : "18,16,25",
   "Startup" : ""
 }, {
-  "Command" : "f32 43 hold",
+  "Command" : "f32 4~3 hold",
   "Hit" : "KDN",
   "Block" : "+14",
   "Notes" : "Wall Stun on block close to Wall.",
@@ -483,7 +483,7 @@
   "Damage" : "18,16,25",
   "Startup" : ""
 }, {
-  "Command" : "f32 44",
+  "Command" : "f32 4~4",
   "Hit" : "KDN",
   "Block" : "+6",
   "Notes" : "H TS ",
@@ -538,7 +538,7 @@
   "Damage" : "10,17",
   "Startup" : ""
 }, {
-  "Command" : "df1 21",
+  "Command" : "df1 2~1",
   "Hit" : "KDN",
   "Block" : "-3",
   "Notes" : "",
@@ -560,7 +560,7 @@
   "Damage" : "10,23",
   "Startup" : ""
 }, {
-  "Command" : "df1 41",
+  "Command" : "df1 4~1",
   "Hit" : "+7C",
   "Block" : "-3C",
   "Notes" : "Forced to crouching on block or NH.\n",
@@ -571,7 +571,7 @@
   "Damage" : "10,20",
   "Startup" : ""
 }, {
-  "Command" : "df1 43",
+  "Command" : "df1 4~3",
   "Hit" : "-4",
   "Block" : "-23",
   "Notes" : "Disable connecting to 3rd on block.\nWhen input 3rd, knock down on 2nd hit.",
@@ -582,7 +582,7 @@
   "Damage" : "10,15",
   "Startup" : ""
 }, {
-  "Command" : "df1 43 2",
+  "Command" : "df1 4~3 2",
   "Hit" : "LNC",
   "Block" : "-16",
   "Notes" : "",
@@ -659,7 +659,7 @@
   "Damage" : "15,20",
   "Startup" : ""
 }, {
-  "Command" : "df4 33",
+  "Command" : "df4 3~3",
   "Hit" : "KDN",
   "Block" : "+1C",
   "Notes" : "Forced to crouching on block.",
@@ -725,7 +725,7 @@
   "Damage" : "11,16,16",
   "Startup" : ""
 }, {
-  "Command" : "d34 31",
+  "Command" : "d34 3~1",
   "Hit" : "KDN",
   "Block" : "-4Sd",
   "Notes" : "TS ",
@@ -736,7 +736,7 @@
   "Damage" : "11,16,20",
   "Startup" : ""
 }, {
-  "Command" : "d34 34",
+  "Command" : "d34 3~4",
   "Hit" : "+11G",
   "Block" : "-5",
   "Notes" : "",
@@ -747,7 +747,7 @@
   "Damage" : "11,16,20",
   "Startup" : ""
 }, {
-  "Command" : "d34 34 hold",
+  "Command" : "d34 3~4 hold",
   "Hit" : "LNC",
   "Block" : "+14G",
   "Notes" : "Unblokable damage 1 &amp; Wall Stun on block close to Wall.",
@@ -1088,7 +1088,7 @@
   "Damage" : "25",
   "Startup" : "22F"
 }, {
-  "Command" : "ff 41",
+  "Command" : "ff 4~1",
   "Hit" : "+7C",
   "Block" : "-3C",
   "Notes" : "Start-up 21F after<img src=\"../6.bmp\" class=\"c\"><img src=\"../6'.bmp\" class=\"c\"><img src=\"../rk.bmp\" class=\"c\">18F.\nStart-up 40F in actualy.\nForced to crouching on block or NH.\n",
@@ -1099,7 +1099,7 @@
   "Damage" : "20",
   "Startup" : "39F"
 }, {
-  "Command" : "ff 43",
+  "Command" : "ff 4~3",
   "Hit" : "-4",
   "Block" : "-23",
   "Notes" : "Start-up 19F after<img src=\"../6.bmp\" class=\"c\"><img src=\"../6'.bmp\" class=\"c\"><img src=\"../rk.bmp\" class=\"c\">18F.\nStart-up 38F in actualy.\nDisable connecting to 2nd on block.\nWhen input 2nd, knock down on 1st hit.",
@@ -1110,7 +1110,7 @@
   "Damage" : "15",
   "Startup" : "37F"
 }, {
-  "Command" : "ff 43 2",
+  "Command" : "ff 4~3 2",
   "Hit" : "LNC",
   "Block" : "-16",
   "Notes" : "",
@@ -1242,7 +1242,7 @@
   "Damage" : "13,20",
   "Startup" : ""
 }, {
-  "Command" : "WS 2 43",
+  "Command" : "WS 2 4~3",
   "Hit" : "+4",
   "Block" : "-7",
   "Notes" : "",
@@ -1253,7 +1253,7 @@
   "Damage" : "13,25",
   "Startup" : ""
 }, {
-  "Command" : "WS 2 43 hold",
+  "Command" : "WS 2 4~3 hold",
   "Hit" : "KDN",
   "Block" : "+14",
   "Notes" : "Wall Stun on block close to Wall.",
@@ -1264,7 +1264,7 @@
   "Damage" : "13,25",
   "Startup" : ""
 }, {
-  "Command" : "WS 2 44",
+  "Command" : "WS 2 4~4",
   "Hit" : "KDN",
   "Block" : "+6",
   "Notes" : "H TS ",
@@ -1407,7 +1407,7 @@
   "Damage" : "55",
   "Startup" : "20F"
 }, {
-  "Command" : "During Rage 3 43+4",
+  "Command" : "During Rage 3 43+~4",
   "Hit" : "KDN",
   "Block" : "-12",
   "Notes" : "TS \nBlock Strings.",
@@ -1418,7 +1418,7 @@
   "Damage" : "12,10,10",
   "Startup" : "13F"
 }, {
-  "Command" : "During Rage f32 43+4",
+  "Command" : "During Rage f32 43+~4",
   "Hit" : "KDN",
   "Block" : "-12",
   "Notes" : "TS \nBlock Strings.",
@@ -1429,7 +1429,7 @@
   "Damage" : "19,17,10,10",
   "Startup" : "17F"
 }, {
-  "Command" : "During Rage & WS 2 43+4",
+  "Command" : "During Rage & WS 2 43+~4",
   "Hit" : "KDN",
   "Block" : "-12",
   "Notes" : "TS \nBlock Strings.",
@@ -1440,7 +1440,7 @@
   "Damage" : "14,10,10",
   "Startup" : "16F"
 }, {
-  "Command" : "During Rage 124 33+4",
+  "Command" : "During Rage 124 33+~4",
   "Hit" : "KDN",
   "Block" : "-12",
   "Notes" : "TS \nBlock Strings.",
@@ -1451,7 +1451,7 @@
   "Damage" : "7,8,17,10,10",
   "Startup" : "10F"
 }, {
-  "Command" : "During Rage 24 33+4",
+  "Command" : "During Rage 24 33+~4",
   "Hit" : "KDN",
   "Block" : "-12",
   "Notes" : "TS \nBlock Strings.",
@@ -1462,7 +1462,7 @@
   "Damage" : "8,17,10,10",
   "Startup" : "12F"
 }, {
-  "Command" : "During Rage 4 33+4",
+  "Command" : "During Rage 4 33+~4",
   "Hit" : "KDN",
   "Block" : "-12",
   "Notes" : "TS \nBlock Strings.",
@@ -1473,7 +1473,7 @@
   "Damage" : "15,10,10",
   "Startup" : "12F"
 }, {
-  "Command" : "During Rage d34 33+4",
+  "Command" : "During Rage d34 33+~4",
   "Hit" : "KDN",
   "Block" : "-12",
   "Notes" : "TS \nBlock Strings.",

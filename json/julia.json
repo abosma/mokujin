@@ -175,7 +175,7 @@
   "Damage" : "15,12,21",
   "Startup" : ""
 }, {
-  "Command" : "44 12",
+  "Command" : "44 1~2",
   "Hit" : "KDN",
   "Block" : "-9",
   "Notes" : "",
@@ -208,7 +208,7 @@
   "Damage" : "15,12,10",
   "Startup" : ""
 }, {
-  "Command" : "42",
+  "Command" : "4~2",
   "Hit" : "-4",
   "Block" : "-12",
   "Notes" : "Advance Input is unavailable\nStart-up 16F in actualy\n-1F from 1st CH &amp; 2nd whiff.",
@@ -219,7 +219,7 @@
   "Damage" : "7,5",
   "Startup" : "15F"
 }, {
-  "Command" : "42 1",
+  "Command" : "4~2 1",
   "Hit" : "KDN",
   "Block" : "-16",
   "Notes" : "Combo from 2nd whiff or 1st CH.\n",
@@ -626,7 +626,7 @@
   "Damage" : "12,21",
   "Startup" : ""
 }, {
-  "Command" : "d4 12",
+  "Command" : "d4 1~2",
   "Hit" : "KDN",
   "Block" : "-9",
   "Notes" : "",
@@ -1187,7 +1187,7 @@
   "Damage" : "15",
   "Startup" : "15F"
 }, {
-  "Command" : "WS 12",
+  "Command" : "WS 1~2",
   "Hit" : "KDN",
   "Block" : "-9",
   "Notes" : "",
@@ -1594,7 +1594,7 @@
   "Damage" : "-",
   "Startup" : ""
 }, {
-  "Command" : "f31",
+  "Command" : "f3~1",
   "Hit" : "KDN",
   "Block" : "-3",
   "Notes" : "TJ 18F\nMeaty 7F.",

@@ -142,7 +142,7 @@
   "Damage" : "18",
   "Startup" : "12F"
 }, {
-  "Command" : "43 or uf43",
+  "Command" : "4~3 or uf4~3",
   "Hit" : "KDN",
   "Block" : "-10",
   "Notes" : "TJ 10F\nAdvance Input is unavailable\n【<img src=\"../9.bmp\" class=\"c\"><img src=\"../rk.bmp\" class=\"c\"><img src=\"../c.bmp\" class=\"c\"><img src=\"../lk.bmp\" class=\"c\">】　Start-up 31F",

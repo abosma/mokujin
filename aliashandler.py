@@ -5,7 +5,7 @@ import json
 cwd = os.getcwd()
 alias_file = cwd + '/json/character_alias.json'
 
-def add_alias(*args):
+def add_alias(*args) -> bool:
     character_alias = args[0]
     character_name = character_alias[0]
     to_add_alias = character_alias[1]
@@ -25,7 +25,7 @@ def add_alias(*args):
 
     return True
 
-def remove_alias(*args):
+def remove_alias(*args) -> bool:
     character_alias = args[0]
     to_remove_alias = character_alias[0]
     character_name = character_alias[1]
@@ -45,7 +45,7 @@ def remove_alias(*args):
 
     return True
 
-def get_alias(potential_alias):
+def get_alias(potential_alias : str) -> str:
     char_name = None
 
     character_aliases = []
